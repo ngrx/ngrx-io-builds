@@ -235,6 +235,24 @@
     <loc>https://angular.io/api/store/StoreFeatureModule</loc>
   </url>
   <url>
+    <loc>https://angular.io/api/store/testing</loc>
+  </url>
+  <url>
+    <loc>https://angular.io/api/store/testing/MockStoreConfig</loc>
+  </url>
+  <url>
+    <loc>https://angular.io/api/store/testing/provideMockStore</loc>
+  </url>
+  <url>
+    <loc>https://angular.io/api/store/testing/MockReducerManager</loc>
+  </url>
+  <url>
+    <loc>https://angular.io/api/store/testing/MockState</loc>
+  </url>
+  <url>
+    <loc>https://angular.io/api/store/testing/MockStore</loc>
+  </url>
+  <url>
     <loc>https://angular.io/api/store-devtools</loc>
   </url>
   <url>

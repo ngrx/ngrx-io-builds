@@ -304,7 +304,7 @@
         "name": "storefeaturemodule",
         "title": "StoreFeatureModule",
         "path": "api/store/StoreFeatureModule",
-        "docType": "class",
+        "docType": "ngmodule",
         "stability": "stable",
         "securityRisk": false
       },
@@ -312,7 +312,7 @@
         "name": "storemodule",
         "title": "StoreModule",
         "path": "api/store/StoreModule",
-        "docType": "class",
+        "docType": "ngmodule",
         "stability": "stable",
         "securityRisk": false
       },
@@ -320,7 +320,7 @@
         "name": "storerootmodule",
         "title": "StoreRootModule",
         "path": "api/store/StoreRootModule",
-        "docType": "class",
+        "docType": "ngmodule",
         "stability": "stable",
         "securityRisk": false
       },
@@ -329,6 +329,53 @@
         "title": "UPDATE",
         "path": "api/store/UPDATE",
         "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      }
+    ]
+  },
+  {
+    "name": "store/testing",
+    "title": "store/testing",
+    "path": "api/store/testing",
+    "items": [
+      {
+        "name": "mockreducermanager",
+        "title": "MockReducerManager",
+        "path": "api/store/testing/MockReducerManager",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "mockstate",
+        "title": "MockState",
+        "path": "api/store/testing/MockState",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "mockstore",
+        "title": "MockStore",
+        "path": "api/store/testing/MockStore",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "mockstoreconfig",
+        "title": "MockStoreConfig",
+        "path": "api/store/testing/MockStoreConfig",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "providemockstore",
+        "title": "provideMockStore",
+        "path": "api/store/testing/provideMockStore",
+        "docType": "function",
         "stability": "stable",
         "securityRisk": false
       }
@@ -375,7 +422,7 @@
         "name": "storedevtoolsmodule",
         "title": "StoreDevtoolsModule",
         "path": "api/store-devtools/StoreDevtoolsModule",
-        "docType": "class",
+        "docType": "ngmodule",
         "stability": "stable",
         "securityRisk": false
       },
@@ -430,7 +477,7 @@
         "name": "effectsmodule",
         "title": "EffectsModule",
         "path": "api/effects/EffectsModule",
-        "docType": "class",
+        "docType": "ngmodule",
         "stability": "stable",
         "securityRisk": false
       },
@@ -787,7 +834,7 @@
         "name": "storerouterconnectingmodule",
         "title": "StoreRouterConnectingModule",
         "path": "api/router-store/StoreRouterConnectingModule",
-        "docType": "class",
+        "docType": "ngmodule",
         "stability": "stable",
         "securityRisk": false
       }

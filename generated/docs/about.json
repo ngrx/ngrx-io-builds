@@ -1,5 +1,5 @@
 {
   "id": "about",
   "title": "NgRx Contributors",
-  "contents": "\n\n\n<div class=\"content\">\n<h1 class=\"title center no-toc\" id=\"ngrx-contributors\">NgRx Contributors<a title=\"Link to this heading\" class=\"header-link\" aria-hidden=\"true\" href=\"about#ngrx-contributors\"><i class=\"material-icons\">link</i></a></h1>\n<p><aio-contributor-list></aio-contributor-list></p>\n\n</div>\n\n<!-- links to this doc:\n-->\n<!-- links from this doc:\n - about#ngrx-contributors\n-->"
+  "contents": "\n\n\n\n<div class=\"content\">\n<h1 class=\"title center no-toc\" id=\"ngrx-contributors\">NgRx Contributors<a title=\"Link to this heading\" class=\"header-link\" aria-hidden=\"true\" href=\"about#ngrx-contributors\"><i class=\"material-icons\">link</i></a></h1>\n<p><aio-contributor-list></aio-contributor-list></p>\n\n</div>\n\n<!-- links to this doc:\n-->\n<!-- links from this doc:\n - about#ngrx-contributors\n-->"
 }
