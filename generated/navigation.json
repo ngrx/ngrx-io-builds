@@ -183,10 +183,6 @@
       ]
     },
     {
-      "title": "Style Guide",
-      "url": "guide/style-guide"
-    },
-    {
       "url": "api",
       "title": "API",
       "tooltip": "API Reference"
@@ -259,7 +255,20 @@
       ]
     }
   ],
-  "docVersions": [],
+  "docVersions": [
+    {
+      "title": "v6",
+      "url": "https://github.com/ngrx/platform/tree/6.1.0/docs"
+    },
+    {
+      "title": "v5",
+      "url": "https://github.com/ngrx/platform/tree/v5.2.0/docs"
+    },
+    {
+      "title": "v4",
+      "url": "https://github.com/ngrx/platform/tree/v4.1.1/docs"
+    }
+  ],
   "__versionInfo": {
     "raw": "6.1.0",
     "major": 6,
@@ -268,12 +277,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.5de5d7a",
+    "build": "sha.7b4d698",
     "version": "6.1.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "6.1.1-local+sha.5de5d7a",
+    "full": "6.1.1-local+sha.7b4d698",
     "branch": "master",
-    "commitSHA": "5de5d7ae3c6981a9896e3a562947b413e36101d8"
+    "commitSHA": "7b4d6983b668eceab242d227cd027f24b304cdc2"
   }
 }
