@@ -186,6 +186,15 @@
       "url": "api",
       "title": "API",
       "tooltip": "API Reference"
+    },
+    {
+      "title": "Migrations",
+      "children": [
+        {
+          "title": "V7",
+          "url": "guide/migration/v7"
+        }
+      ]
     }
   ],
   "Footer": [
@@ -277,12 +286,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.7b4d698",
+    "build": "sha.a9bc070",
     "version": "6.1.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "6.1.1-local+sha.7b4d698",
+    "full": "6.1.1-local+sha.a9bc070",
     "branch": "master",
-    "commitSHA": "7b4d6983b668eceab242d227cd027f24b304cdc2"
+    "commitSHA": "a9bc070da903f842afea59fb058aef95001340ba"
   }
 }
