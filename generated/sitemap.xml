@@ -343,6 +343,12 @@
     <loc>https://angular.io/api/entity/Update</loc>
   </url>
   <url>
+    <loc>https://angular.io/api/entity/EntityMap</loc>
+  </url>
+  <url>
+    <loc>https://angular.io/api/entity/Predicate</loc>
+  </url>
+  <url>
     <loc>https://angular.io/api/router-store</loc>
   </url>
   <url>
