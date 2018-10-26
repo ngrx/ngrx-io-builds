@@ -1,0 +1,796 @@
+[
+  {
+    "name": "store",
+    "title": "store",
+    "path": "api/store",
+    "items": [
+      {
+        "name": "action",
+        "title": "Action",
+        "path": "api/store/Action",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "actionreducer",
+        "title": "ActionReducer",
+        "path": "api/store/ActionReducer",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "actionreducerfactory",
+        "title": "ActionReducerFactory",
+        "path": "api/store/ActionReducerFactory",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "actionreducermap",
+        "title": "ActionReducerMap",
+        "path": "api/store/ActionReducerMap",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "actionssubject",
+        "title": "ActionsSubject",
+        "path": "api/store/ActionsSubject",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "combinereducers",
+        "title": "combineReducers",
+        "path": "api/store/combineReducers",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "compose",
+        "title": "compose",
+        "path": "api/store/compose",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "createfeatureselector",
+        "title": "createFeatureSelector",
+        "path": "api/store/createFeatureSelector",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "createreducerfactory",
+        "title": "createReducerFactory",
+        "path": "api/store/createReducerFactory",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "createselector",
+        "title": "createSelector",
+        "path": "api/store/createSelector",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "createselectorfactory",
+        "title": "createSelectorFactory",
+        "path": "api/store/createSelectorFactory",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "defaultmemoize",
+        "title": "defaultMemoize",
+        "path": "api/store/defaultMemoize",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "defaultstatefn",
+        "title": "defaultStateFn",
+        "path": "api/store/defaultStateFn",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "feature_reducers",
+        "title": "FEATURE_REDUCERS",
+        "path": "api/store/FEATURE_REDUCERS",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "init",
+        "title": "INIT",
+        "path": "api/store/INIT",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "initial_reducers",
+        "title": "INITIAL_REDUCERS",
+        "path": "api/store/INITIAL_REDUCERS",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "initial_state",
+        "title": "INITIAL_STATE",
+        "path": "api/store/INITIAL_STATE",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "memoizedprojection",
+        "title": "MemoizedProjection",
+        "path": "api/store/MemoizedProjection",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "memoizedselector",
+        "title": "MemoizedSelector",
+        "path": "api/store/MemoizedSelector",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "memoizedselectorwithprops",
+        "title": "MemoizedSelectorWithProps",
+        "path": "api/store/MemoizedSelectorWithProps",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "memoizefn",
+        "title": "MemoizeFn",
+        "path": "api/store/MemoizeFn",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "meta_reducers",
+        "title": "META_REDUCERS",
+        "path": "api/store/META_REDUCERS",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "metareducer",
+        "title": "MetaReducer",
+        "path": "api/store/MetaReducer",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "reducer_factory",
+        "title": "REDUCER_FACTORY",
+        "path": "api/store/REDUCER_FACTORY",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "reducermanager",
+        "title": "ReducerManager",
+        "path": "api/store/ReducerManager",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "reducermanagerdispatcher",
+        "title": "ReducerManagerDispatcher",
+        "path": "api/store/ReducerManagerDispatcher",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "reducerobservable",
+        "title": "ReducerObservable",
+        "path": "api/store/ReducerObservable",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "reducestate",
+        "title": "reduceState",
+        "path": "api/store/reduceState",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "resultmemoize",
+        "title": "resultMemoize",
+        "path": "api/store/resultMemoize",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "scannedactionssubject",
+        "title": "ScannedActionsSubject",
+        "path": "api/store/ScannedActionsSubject",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "select",
+        "title": "select",
+        "path": "api/store/select",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "selector",
+        "title": "Selector",
+        "path": "api/store/Selector",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "selectorwithprops",
+        "title": "SelectorWithProps",
+        "path": "api/store/SelectorWithProps",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "state",
+        "title": "State",
+        "path": "api/store/State",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "stateobservable",
+        "title": "StateObservable",
+        "path": "api/store/StateObservable",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "store",
+        "title": "Store",
+        "path": "api/store/Store",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "store_features",
+        "title": "STORE_FEATURES",
+        "path": "api/store/STORE_FEATURES",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "storefeaturemodule",
+        "title": "StoreFeatureModule",
+        "path": "api/store/StoreFeatureModule",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "storemodule",
+        "title": "StoreModule",
+        "path": "api/store/StoreModule",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "storerootmodule",
+        "title": "StoreRootModule",
+        "path": "api/store/StoreRootModule",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "update",
+        "title": "UPDATE",
+        "path": "api/store/UPDATE",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      }
+    ]
+  },
+  {
+    "name": "store-devtools",
+    "title": "store-devtools",
+    "path": "api/store-devtools",
+    "items": [
+      {
+        "name": "liftedstate",
+        "title": "LiftedState",
+        "path": "api/store-devtools/LiftedState",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "recompute",
+        "title": "RECOMPUTE",
+        "path": "api/store-devtools/RECOMPUTE",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "storedevtools",
+        "title": "StoreDevtools",
+        "path": "api/store-devtools/StoreDevtools",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "storedevtoolsconfig",
+        "title": "StoreDevtoolsConfig",
+        "path": "api/store-devtools/StoreDevtoolsConfig",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "storedevtoolsmodule",
+        "title": "StoreDevtoolsModule",
+        "path": "api/store-devtools/StoreDevtoolsModule",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "storedevtoolsoptions",
+        "title": "StoreDevtoolsOptions",
+        "path": "api/store-devtools/StoreDevtoolsOptions",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      }
+    ]
+  },
+  {
+    "name": "effects",
+    "title": "effects",
+    "path": "api/effects",
+    "items": [
+      {
+        "name": "actions",
+        "title": "Actions",
+        "path": "api/effects/Actions",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "effect",
+        "title": "Effect",
+        "path": "api/effects/Effect",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "effectnotification",
+        "title": "EffectNotification",
+        "path": "api/effects/EffectNotification",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "effectsmetadata",
+        "title": "EffectsMetadata",
+        "path": "api/effects/EffectsMetadata",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "effectsmodule",
+        "title": "EffectsModule",
+        "path": "api/effects/EffectsModule",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "effectsources",
+        "title": "EffectSources",
+        "path": "api/effects/EffectSources",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "geteffectsmetadata",
+        "title": "getEffectsMetadata",
+        "path": "api/effects/getEffectsMetadata",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "mergeeffects",
+        "title": "mergeEffects",
+        "path": "api/effects/mergeEffects",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "oftype",
+        "title": "ofType",
+        "path": "api/effects/ofType",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "onruneffects",
+        "title": "OnRunEffects",
+        "path": "api/effects/OnRunEffects",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "root_effects_init",
+        "title": "ROOT_EFFECTS_INIT",
+        "path": "api/effects/ROOT_EFFECTS_INIT",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "update_effects",
+        "title": "UPDATE_EFFECTS",
+        "path": "api/effects/UPDATE_EFFECTS",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "updateeffects",
+        "title": "UpdateEffects",
+        "path": "api/effects/UpdateEffects",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      }
+    ]
+  },
+  {
+    "name": "effects/testing",
+    "title": "effects/testing",
+    "path": "api/effects/testing",
+    "items": [
+      {
+        "name": "providemockactions",
+        "title": "provideMockActions",
+        "path": "api/effects/testing/provideMockActions",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      }
+    ]
+  },
+  {
+    "name": "entity",
+    "title": "entity",
+    "path": "api/entity",
+    "items": [
+      {
+        "name": "createentityadapter",
+        "title": "createEntityAdapter",
+        "path": "api/entity/createEntityAdapter",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "dictionary",
+        "title": "Dictionary",
+        "path": "api/entity/Dictionary",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityadapter",
+        "title": "EntityAdapter",
+        "path": "api/entity/EntityAdapter",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitystate",
+        "title": "EntityState",
+        "path": "api/entity/EntityState",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "update",
+        "title": "Update",
+        "path": "api/entity/Update",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      }
+    ]
+  },
+  {
+    "name": "router-store",
+    "title": "router-store",
+    "path": "api/router-store",
+    "items": [
+      {
+        "name": "baserouterstorestate",
+        "title": "BaseRouterStoreState",
+        "path": "api/router-store/BaseRouterStoreState",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "default_router_featurename",
+        "title": "DEFAULT_ROUTER_FEATURENAME",
+        "path": "api/router-store/DEFAULT_ROUTER_FEATURENAME",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "defaultrouterstateserializer",
+        "title": "DefaultRouterStateSerializer",
+        "path": "api/router-store/DefaultRouterStateSerializer",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "navigationactiontiming",
+        "title": "NavigationActionTiming",
+        "path": "api/router-store/NavigationActionTiming",
+        "docType": "enum",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "router_cancel",
+        "title": "ROUTER_CANCEL",
+        "path": "api/router-store/ROUTER_CANCEL",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "router_config",
+        "title": "ROUTER_CONFIG",
+        "path": "api/router-store/ROUTER_CONFIG",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "router_error",
+        "title": "ROUTER_ERROR",
+        "path": "api/router-store/ROUTER_ERROR",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "router_navigated",
+        "title": "ROUTER_NAVIGATED",
+        "path": "api/router-store/ROUTER_NAVIGATED",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "router_navigation",
+        "title": "ROUTER_NAVIGATION",
+        "path": "api/router-store/ROUTER_NAVIGATION",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "router_request",
+        "title": "ROUTER_REQUEST",
+        "path": "api/router-store/ROUTER_REQUEST",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routeraction",
+        "title": "RouterAction",
+        "path": "api/router-store/RouterAction",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routercancelaction",
+        "title": "RouterCancelAction",
+        "path": "api/router-store/RouterCancelAction",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routercancelpayload",
+        "title": "RouterCancelPayload",
+        "path": "api/router-store/RouterCancelPayload",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routererroraction",
+        "title": "RouterErrorAction",
+        "path": "api/router-store/RouterErrorAction",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routererrorpayload",
+        "title": "RouterErrorPayload",
+        "path": "api/router-store/RouterErrorPayload",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routernavigatedaction",
+        "title": "RouterNavigatedAction",
+        "path": "api/router-store/RouterNavigatedAction",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routernavigatedpayload",
+        "title": "RouterNavigatedPayload",
+        "path": "api/router-store/RouterNavigatedPayload",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routernavigationaction",
+        "title": "RouterNavigationAction",
+        "path": "api/router-store/RouterNavigationAction",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routernavigationpayload",
+        "title": "RouterNavigationPayload",
+        "path": "api/router-store/RouterNavigationPayload",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routerreducer",
+        "title": "routerReducer",
+        "path": "api/router-store/routerReducer",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routerreducerstate",
+        "title": "RouterReducerState",
+        "path": "api/router-store/RouterReducerState",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routerrequestaction",
+        "title": "RouterRequestAction",
+        "path": "api/router-store/RouterRequestAction",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routerrequestpayload",
+        "title": "RouterRequestPayload",
+        "path": "api/router-store/RouterRequestPayload",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routerstateserializer",
+        "title": "RouterStateSerializer",
+        "path": "api/router-store/RouterStateSerializer",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "serializedrouterstatesnapshot",
+        "title": "SerializedRouterStateSnapshot",
+        "path": "api/router-store/SerializedRouterStateSnapshot",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "statekeyorselector",
+        "title": "StateKeyOrSelector",
+        "path": "api/router-store/StateKeyOrSelector",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "storerouterconfig",
+        "title": "StoreRouterConfig",
+        "path": "api/router-store/StoreRouterConfig",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "storerouterconnectingmodule",
+        "title": "StoreRouterConnectingModule",
+        "path": "api/router-store/StoreRouterConnectingModule",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      }
+    ]
+  }
+]
