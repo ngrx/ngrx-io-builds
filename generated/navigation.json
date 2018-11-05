@@ -14,12 +14,30 @@
     },
     {
       "url": "https://opencollective.com/ngrx",
-      "title": "Donate"
+      "title": "Sponsor"
     }
   ],
   "TopBarNarrow": [
     {
-      "title": "About NgRx"
+      "title": "About NgRx",
+      "children": [
+        {
+          "url": "guide/store",
+          "title": "Getting Started"
+        },
+        {
+          "url": "docs",
+          "title": "Docs"
+        },
+        {
+          "url": "https://github.com/ngrx/platform",
+          "title": "GitHub"
+        },
+        {
+          "url": "https://opencollective.com/ngrx",
+          "title": "Sponsor"
+        }
+      ]
     }
   ],
   "SideNav": [
@@ -183,11 +201,6 @@
       ]
     },
     {
-      "url": "api",
-      "title": "API",
-      "tooltip": "API Reference"
-    },
-    {
       "title": "Migrations",
       "children": [
         {
@@ -195,6 +208,11 @@
           "url": "guide/migration/v7"
         }
       ]
+    },
+    {
+      "url": "api",
+      "title": "API",
+      "tooltip": "API Reference"
     }
   ],
   "Footer": [
@@ -237,7 +255,7 @@
           "tooltip": "Chat about NgRx with other members of the community."
         },
         {
-          "url": "https://github.com/ngrx/platform/issues",
+          "url": "https://github.com/ngrx/platform/issues/new/choose",
           "title": "Report Issues",
           "tooltip": "Post issues and suggestions on GitHub."
         }
@@ -267,7 +285,7 @@
   "docVersions": [
     {
       "title": "v6",
-      "url": "https://github.com/ngrx/platform/tree/6.1.0/docs"
+      "url": "https://github.com/ngrx/platform/tree/6.1.2/docs"
     },
     {
       "title": "v5",
@@ -286,12 +304,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.bcf12b6",
+    "build": "sha.82c8ee8",
     "version": "7.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.0.0-local+sha.bcf12b6",
+    "full": "7.0.0-local+sha.82c8ee8",
     "branch": "master",
-    "commitSHA": "bcf12b613ad0c7f92d339514db9988f97e66eb0c"
+    "commitSHA": "82c8ee8102247cdb4ef3eedcd815f1233f2ba82b"
   }
 }
