@@ -45,12 +45,12 @@
       "title": "Store",
       "children": [
         {
-          "title": "Basics",
+          "title": "Getting Started",
+          "url": "guide/store"
+        },
+        {
+          "title": "Architecture",
           "children": [
-            {
-              "title": "Overview",
-              "url": "guide/store"
-            },
             {
               "title": "Actions",
               "url": "guide/store/actions"
@@ -304,12 +304,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.fb7f124",
+    "build": "sha.000aae2",
     "version": "7.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.0.0-local+sha.fb7f124",
+    "full": "7.0.0-local+sha.000aae2",
     "branch": "master",
-    "commitSHA": "fb7f1242445e2d62be4e4202529a270781b93e78"
+    "commitSHA": "000aae21cabb65efc7461b2153fe540f27340379"
   }
 }
