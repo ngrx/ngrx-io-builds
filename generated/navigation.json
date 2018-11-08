@@ -308,12 +308,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.ccc99e9",
+    "build": "sha.cd8f1c0",
     "version": "7.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.0.0-local+sha.ccc99e9",
+    "full": "7.0.0-local+sha.cd8f1c0",
     "branch": "master",
-    "commitSHA": "ccc99e9f7818ff10829876224af38e9ee5874270"
+    "commitSHA": "cd8f1c0048a74635df400af889f7e40bf67f3574"
   }
 }
