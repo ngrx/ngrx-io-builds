@@ -129,6 +129,10 @@
         {
           "title": "Actions",
           "url": "guide/router-store/actions"
+        },
+        {
+          "title": "Configuration",
+          "url": "guide/router-store/configuration"
         }
       ]
     },
@@ -304,12 +308,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.000aae2",
+    "build": "sha.ccc99e9",
     "version": "7.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.0.0-local+sha.000aae2",
+    "full": "7.0.0-local+sha.ccc99e9",
     "branch": "master",
-    "commitSHA": "000aae21cabb65efc7461b2153fe540f27340379"
+    "commitSHA": "ccc99e9f7818ff10829876224af38e9ee5874270"
   }
 }
