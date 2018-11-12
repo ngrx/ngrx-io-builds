@@ -210,6 +210,10 @@
         {
           "title": "V7",
           "url": "guide/migration/v7"
+        },
+        {
+          "title": "V4",
+          "url": "guide/migration/v4"
         }
       ]
     },
@@ -308,12 +312,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.cd8f1c0",
+    "build": "sha.958f3b6",
     "version": "7.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.0.0-local+sha.cd8f1c0",
+    "full": "7.0.0-local+sha.958f3b6",
     "branch": "master",
-    "commitSHA": "cd8f1c0048a74635df400af889f7e40bf67f3574"
+    "commitSHA": "958f3b64dc46f03c0fe55b563fb94875a62fb3cd"
   }
 }
