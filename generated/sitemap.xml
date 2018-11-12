@@ -1,444 +1,444 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://angular.io/guide/effects</loc>
+    <loc>https://ngrx.io/guide/effects</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/effects/testing</loc>
+    <loc>https://ngrx.io/guide/effects/testing</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/entity/adapter</loc>
+    <loc>https://ngrx.io/guide/entity/adapter</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/entity</loc>
+    <loc>https://ngrx.io/guide/entity</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/entity/interfaces</loc>
+    <loc>https://ngrx.io/guide/entity/interfaces</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/migration/v4</loc>
+    <loc>https://ngrx.io/guide/migration/v4</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/migration/v7</loc>
+    <loc>https://ngrx.io/guide/migration/v7</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/nightlies</loc>
+    <loc>https://ngrx.io/guide/nightlies</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/router-store/actions</loc>
+    <loc>https://ngrx.io/guide/router-store/actions</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/router-store/configuration</loc>
+    <loc>https://ngrx.io/guide/router-store/configuration</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/router-store</loc>
+    <loc>https://ngrx.io/guide/router-store</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/schematics/action</loc>
+    <loc>https://ngrx.io/guide/schematics/action</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/schematics/container</loc>
+    <loc>https://ngrx.io/guide/schematics/container</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/schematics/effect</loc>
+    <loc>https://ngrx.io/guide/schematics/effect</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/schematics/entity</loc>
+    <loc>https://ngrx.io/guide/schematics/entity</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/schematics/feature</loc>
+    <loc>https://ngrx.io/guide/schematics/feature</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/schematics</loc>
+    <loc>https://ngrx.io/guide/schematics</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/schematics/reducer</loc>
+    <loc>https://ngrx.io/guide/schematics/reducer</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/schematics/store</loc>
+    <loc>https://ngrx.io/guide/schematics/store</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/store-devtools/config</loc>
+    <loc>https://ngrx.io/guide/store-devtools/config</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/store-devtools</loc>
+    <loc>https://ngrx.io/guide/store-devtools</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/store/actions</loc>
+    <loc>https://ngrx.io/guide/store/actions</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/store/architecture</loc>
+    <loc>https://ngrx.io/guide/store/architecture</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/store</loc>
+    <loc>https://ngrx.io/guide/store</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/store/metareducers</loc>
+    <loc>https://ngrx.io/guide/store/metareducers</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/store/recipes/downgrade</loc>
+    <loc>https://ngrx.io/guide/store/recipes/downgrade</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/store/recipes/injecting</loc>
+    <loc>https://ngrx.io/guide/store/recipes/injecting</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/store/reducers</loc>
+    <loc>https://ngrx.io/guide/store/reducers</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/store/selectors</loc>
+    <loc>https://ngrx.io/guide/store/selectors</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/store/testing</loc>
+    <loc>https://ngrx.io/guide/store/testing</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/style-guide</loc>
+    <loc>https://ngrx.io/guide/style-guide</loc>
   </url>
   <url>
-    <loc>https://angular.io/about</loc>
+    <loc>https://ngrx.io/about</loc>
   </url>
   <url>
-    <loc>https://angular.io/api</loc>
+    <loc>https://ngrx.io/api</loc>
   </url>
   <url>
-    <loc>https://angular.io/docs</loc>
+    <loc>https://ngrx.io/docs</loc>
   </url>
   <url>
-    <loc>https://angular.io/events</loc>
+    <loc>https://ngrx.io/events</loc>
   </url>
   <url>
-    <loc>https://angular.io/</loc>
+    <loc>https://ngrx.io/</loc>
   </url>
   <url>
-    <loc>https://angular.io/resources</loc>
+    <loc>https://ngrx.io/resources</loc>
   </url>
   <url>
-    <loc>https://angular.io/license</loc>
+    <loc>https://ngrx.io/license</loc>
   </url>
   <url>
-    <loc>https://angular.io/announcements</loc>
+    <loc>https://ngrx.io/announcements</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store</loc>
+    <loc>https://ngrx.io/api/store</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/Action</loc>
+    <loc>https://ngrx.io/api/store/Action</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/ActionReducer</loc>
+    <loc>https://ngrx.io/api/store/ActionReducer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/ActionReducerMap</loc>
+    <loc>https://ngrx.io/api/store/ActionReducerMap</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/ActionReducerFactory</loc>
+    <loc>https://ngrx.io/api/store/ActionReducerFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/MetaReducer</loc>
+    <loc>https://ngrx.io/api/store/MetaReducer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/Selector</loc>
+    <loc>https://ngrx.io/api/store/Selector</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/SelectorWithProps</loc>
+    <loc>https://ngrx.io/api/store/SelectorWithProps</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/Store</loc>
+    <loc>https://ngrx.io/api/store/Store</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/select</loc>
+    <loc>https://ngrx.io/api/store/select</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/combineReducers</loc>
+    <loc>https://ngrx.io/api/store/combineReducers</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/compose</loc>
+    <loc>https://ngrx.io/api/store/compose</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/createReducerFactory</loc>
+    <loc>https://ngrx.io/api/store/createReducerFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/ActionsSubject</loc>
+    <loc>https://ngrx.io/api/store/ActionsSubject</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/INIT</loc>
+    <loc>https://ngrx.io/api/store/INIT</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/ReducerManager</loc>
+    <loc>https://ngrx.io/api/store/ReducerManager</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/ReducerObservable</loc>
+    <loc>https://ngrx.io/api/store/ReducerObservable</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/ReducerManagerDispatcher</loc>
+    <loc>https://ngrx.io/api/store/ReducerManagerDispatcher</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/UPDATE</loc>
+    <loc>https://ngrx.io/api/store/UPDATE</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/ScannedActionsSubject</loc>
+    <loc>https://ngrx.io/api/store/ScannedActionsSubject</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/createSelector</loc>
+    <loc>https://ngrx.io/api/store/createSelector</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/createSelectorFactory</loc>
+    <loc>https://ngrx.io/api/store/createSelectorFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/createFeatureSelector</loc>
+    <loc>https://ngrx.io/api/store/createFeatureSelector</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/defaultMemoize</loc>
+    <loc>https://ngrx.io/api/store/defaultMemoize</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/defaultStateFn</loc>
+    <loc>https://ngrx.io/api/store/defaultStateFn</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/MemoizeFn</loc>
+    <loc>https://ngrx.io/api/store/MemoizeFn</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/MemoizedProjection</loc>
+    <loc>https://ngrx.io/api/store/MemoizedProjection</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/MemoizedSelector</loc>
+    <loc>https://ngrx.io/api/store/MemoizedSelector</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/MemoizedSelectorWithProps</loc>
+    <loc>https://ngrx.io/api/store/MemoizedSelectorWithProps</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/resultMemoize</loc>
+    <loc>https://ngrx.io/api/store/resultMemoize</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/State</loc>
+    <loc>https://ngrx.io/api/store/State</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/StateObservable</loc>
+    <loc>https://ngrx.io/api/store/StateObservable</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/reduceState</loc>
+    <loc>https://ngrx.io/api/store/reduceState</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/INITIAL_STATE</loc>
+    <loc>https://ngrx.io/api/store/INITIAL_STATE</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/REDUCER_FACTORY</loc>
+    <loc>https://ngrx.io/api/store/REDUCER_FACTORY</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/INITIAL_REDUCERS</loc>
+    <loc>https://ngrx.io/api/store/INITIAL_REDUCERS</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/STORE_FEATURES</loc>
+    <loc>https://ngrx.io/api/store/STORE_FEATURES</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/META_REDUCERS</loc>
+    <loc>https://ngrx.io/api/store/META_REDUCERS</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/FEATURE_REDUCERS</loc>
+    <loc>https://ngrx.io/api/store/FEATURE_REDUCERS</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/StoreModule</loc>
+    <loc>https://ngrx.io/api/store/StoreModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/StoreRootModule</loc>
+    <loc>https://ngrx.io/api/store/StoreRootModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/StoreFeatureModule</loc>
+    <loc>https://ngrx.io/api/store/StoreFeatureModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/testing</loc>
+    <loc>https://ngrx.io/api/store/testing</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/testing/MockStoreConfig</loc>
+    <loc>https://ngrx.io/api/store/testing/MockStoreConfig</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/testing/provideMockStore</loc>
+    <loc>https://ngrx.io/api/store/testing/provideMockStore</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/testing/MockReducerManager</loc>
+    <loc>https://ngrx.io/api/store/testing/MockReducerManager</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/testing/MockState</loc>
+    <loc>https://ngrx.io/api/store/testing/MockState</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store/testing/MockStore</loc>
+    <loc>https://ngrx.io/api/store/testing/MockStore</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store-devtools</loc>
+    <loc>https://ngrx.io/api/store-devtools</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store-devtools/StoreDevtoolsModule</loc>
+    <loc>https://ngrx.io/api/store-devtools/StoreDevtoolsModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store-devtools/LiftedState</loc>
+    <loc>https://ngrx.io/api/store-devtools/LiftedState</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store-devtools/RECOMPUTE</loc>
+    <loc>https://ngrx.io/api/store-devtools/RECOMPUTE</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store-devtools/StoreDevtools</loc>
+    <loc>https://ngrx.io/api/store-devtools/StoreDevtools</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store-devtools/StoreDevtoolsConfig</loc>
+    <loc>https://ngrx.io/api/store-devtools/StoreDevtoolsConfig</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/store-devtools/StoreDevtoolsOptions</loc>
+    <loc>https://ngrx.io/api/store-devtools/StoreDevtoolsOptions</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects</loc>
+    <loc>https://ngrx.io/api/effects</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects/Effect</loc>
+    <loc>https://ngrx.io/api/effects/Effect</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects/EffectsMetadata</loc>
+    <loc>https://ngrx.io/api/effects/EffectsMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects/getEffectsMetadata</loc>
+    <loc>https://ngrx.io/api/effects/getEffectsMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects/mergeEffects</loc>
+    <loc>https://ngrx.io/api/effects/mergeEffects</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects/Actions</loc>
+    <loc>https://ngrx.io/api/effects/Actions</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects/ofType</loc>
+    <loc>https://ngrx.io/api/effects/ofType</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects/EffectsModule</loc>
+    <loc>https://ngrx.io/api/effects/EffectsModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects/EffectSources</loc>
+    <loc>https://ngrx.io/api/effects/EffectSources</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects/OnRunEffects</loc>
+    <loc>https://ngrx.io/api/effects/OnRunEffects</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects/EffectNotification</loc>
+    <loc>https://ngrx.io/api/effects/EffectNotification</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects/ROOT_EFFECTS_INIT</loc>
+    <loc>https://ngrx.io/api/effects/ROOT_EFFECTS_INIT</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects/UPDATE_EFFECTS</loc>
+    <loc>https://ngrx.io/api/effects/UPDATE_EFFECTS</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects/UpdateEffects</loc>
+    <loc>https://ngrx.io/api/effects/UpdateEffects</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects/testing</loc>
+    <loc>https://ngrx.io/api/effects/testing</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/effects/testing/provideMockActions</loc>
+    <loc>https://ngrx.io/api/effects/testing/provideMockActions</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/entity</loc>
+    <loc>https://ngrx.io/api/entity</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/entity/createEntityAdapter</loc>
+    <loc>https://ngrx.io/api/entity/createEntityAdapter</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/entity/Dictionary</loc>
+    <loc>https://ngrx.io/api/entity/Dictionary</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/entity/EntityState</loc>
+    <loc>https://ngrx.io/api/entity/EntityState</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/entity/EntityAdapter</loc>
+    <loc>https://ngrx.io/api/entity/EntityAdapter</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/entity/Update</loc>
+    <loc>https://ngrx.io/api/entity/Update</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/entity/EntityMap</loc>
+    <loc>https://ngrx.io/api/entity/EntityMap</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/entity/Predicate</loc>
+    <loc>https://ngrx.io/api/entity/Predicate</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store</loc>
+    <loc>https://ngrx.io/api/router-store</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/ROUTER_ERROR</loc>
+    <loc>https://ngrx.io/api/router-store/ROUTER_ERROR</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/ROUTER_CANCEL</loc>
+    <loc>https://ngrx.io/api/router-store/ROUTER_CANCEL</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/ROUTER_NAVIGATION</loc>
+    <loc>https://ngrx.io/api/router-store/ROUTER_NAVIGATION</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/ROUTER_NAVIGATED</loc>
+    <loc>https://ngrx.io/api/router-store/ROUTER_NAVIGATED</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/ROUTER_REQUEST</loc>
+    <loc>https://ngrx.io/api/router-store/ROUTER_REQUEST</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/RouterAction</loc>
+    <loc>https://ngrx.io/api/router-store/RouterAction</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/RouterCancelAction</loc>
+    <loc>https://ngrx.io/api/router-store/RouterCancelAction</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/RouterCancelPayload</loc>
+    <loc>https://ngrx.io/api/router-store/RouterCancelPayload</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/RouterErrorAction</loc>
+    <loc>https://ngrx.io/api/router-store/RouterErrorAction</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/RouterErrorPayload</loc>
+    <loc>https://ngrx.io/api/router-store/RouterErrorPayload</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/RouterNavigatedAction</loc>
+    <loc>https://ngrx.io/api/router-store/RouterNavigatedAction</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/RouterNavigatedPayload</loc>
+    <loc>https://ngrx.io/api/router-store/RouterNavigatedPayload</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/RouterNavigationAction</loc>
+    <loc>https://ngrx.io/api/router-store/RouterNavigationAction</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/RouterNavigationPayload</loc>
+    <loc>https://ngrx.io/api/router-store/RouterNavigationPayload</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/RouterRequestAction</loc>
+    <loc>https://ngrx.io/api/router-store/RouterRequestAction</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/RouterRequestPayload</loc>
+    <loc>https://ngrx.io/api/router-store/RouterRequestPayload</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/routerReducer</loc>
+    <loc>https://ngrx.io/api/router-store/routerReducer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/RouterReducerState</loc>
+    <loc>https://ngrx.io/api/router-store/RouterReducerState</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/StateKeyOrSelector</loc>
+    <loc>https://ngrx.io/api/router-store/StateKeyOrSelector</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/StoreRouterConnectingModule</loc>
+    <loc>https://ngrx.io/api/router-store/StoreRouterConnectingModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/StoreRouterConfig</loc>
+    <loc>https://ngrx.io/api/router-store/StoreRouterConfig</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/NavigationActionTiming</loc>
+    <loc>https://ngrx.io/api/router-store/NavigationActionTiming</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/ROUTER_CONFIG</loc>
+    <loc>https://ngrx.io/api/router-store/ROUTER_CONFIG</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/DEFAULT_ROUTER_FEATURENAME</loc>
+    <loc>https://ngrx.io/api/router-store/DEFAULT_ROUTER_FEATURENAME</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/RouterStateSerializer</loc>
+    <loc>https://ngrx.io/api/router-store/RouterStateSerializer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/DefaultRouterStateSerializer</loc>
+    <loc>https://ngrx.io/api/router-store/DefaultRouterStateSerializer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/SerializedRouterStateSnapshot</loc>
+    <loc>https://ngrx.io/api/router-store/SerializedRouterStateSnapshot</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router-store/BaseRouterStoreState</loc>
+    <loc>https://ngrx.io/api/router-store/BaseRouterStoreState</loc>
   </url>
 </urlset>
