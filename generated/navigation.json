@@ -320,12 +320,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.514265a",
+    "build": "sha.cba4bb3",
     "version": "7.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.0.0-local+sha.514265a",
+    "full": "7.0.0-local+sha.cba4bb3",
     "branch": "master",
-    "commitSHA": "514265ab5a894e8cacd39eeb652c36d1e819ca88"
+    "commitSHA": "cba4bb3502547be618088207310503f05e207689"
   }
 }
