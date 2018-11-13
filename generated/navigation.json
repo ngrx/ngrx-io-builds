@@ -320,12 +320,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.1d23fe8",
+    "build": "sha.e0056d3",
     "version": "7.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.0.0-local+sha.1d23fe8",
+    "full": "7.0.0-local+sha.e0056d3",
     "branch": "master",
-    "commitSHA": "1d23fe8f19e1a888fca72e19decda1f07e1c4b7b"
+    "commitSHA": "e0056d39decdcb22f85fc06d811d43840bd4afb6"
   }
 }
