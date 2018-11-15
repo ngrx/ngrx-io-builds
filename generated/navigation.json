@@ -50,6 +50,11 @@
   ],
   "SideNav": [
     {
+      "url": "docs",
+      "title": "Docs",
+      "hidden": true
+    },
+    {
       "title": "Store",
       "children": [
         {
@@ -320,12 +325,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.6dc3465",
+    "build": "sha.f1d67f2",
     "version": "7.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.0.0-local+sha.6dc3465",
+    "full": "7.0.0-local+sha.f1d67f2",
     "branch": "master",
-    "commitSHA": "6dc3465bb700cc772e82c7949248505123750f4a"
+    "commitSHA": "f1d67f2c558b236ecdc66aa53a104aaeb08a36b3"
   }
 }
