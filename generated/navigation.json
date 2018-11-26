@@ -325,12 +325,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.ccd163d",
+    "build": "sha.80e3338",
     "version": "7.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.0.0-local+sha.ccd163d",
+    "full": "7.0.0-local+sha.80e3338",
     "branch": "master",
-    "commitSHA": "ccd163d9ddaf836833d5ad88917823012944ad9e"
+    "commitSHA": "80e33388708c454820706e6a638479bec571859c"
   }
 }
