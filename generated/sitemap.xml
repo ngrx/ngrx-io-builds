@@ -4,6 +4,9 @@
     <loc>https://ngrx.io/guide/effects</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/effects/lifecycle</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/effects/testing</loc>
   </url>
   <url>
@@ -310,19 +313,19 @@
     <loc>https://ngrx.io/api/effects/EffectSources</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/effects/OnRunEffects</loc>
-  </url>
-  <url>
     <loc>https://ngrx.io/api/effects/EffectNotification</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/effects/ROOT_EFFECTS_INIT</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/effects/UPDATE_EFFECTS</loc>
+    <loc>https://ngrx.io/api/effects/OnIdentifyEffects</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/effects/UpdateEffects</loc>
+    <loc>https://ngrx.io/api/effects/OnRunEffects</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/effects/OnInitEffects</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/effects/testing</loc>

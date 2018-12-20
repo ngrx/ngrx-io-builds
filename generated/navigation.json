@@ -13,6 +13,10 @@
       "title": "Resources"
     },
     {
+      "url": "events",
+      "title": "Events"
+    },
+    {
       "url": "https://github.com/ngrx/platform",
       "title": "GitHub"
     },
@@ -36,6 +40,10 @@
         {
           "url": "resources",
           "title": "Resources"
+        },
+        {
+          "url": "events",
+          "title": "Events"
         },
         {
           "url": "https://github.com/ngrx/platform",
@@ -129,6 +137,10 @@
         {
           "title": "Testing",
           "url": "guide/effects/testing"
+        },
+        {
+          "title": "Lifecycle",
+          "url": "guide/effects/lifecycle"
         }
       ]
     },
@@ -241,11 +253,6 @@
       "title": "Resources",
       "children": [
         {
-          "url": "events",
-          "title": "Events",
-          "tooltip": "Events where we'll be presenting."
-        },
-        {
           "url": "about",
           "title": "About",
           "tooltip": "NgRx contributors."
@@ -318,19 +325,19 @@
     }
   ],
   "__versionInfo": {
-    "raw": "7.0.0-beta.0",
+    "raw": "7.0.0",
     "major": 7,
     "minor": 0,
-    "patch": 0,
+    "patch": 1,
     "prerelease": [
       "local"
     ],
-    "build": "sha.6a754aa",
-    "version": "7.0.0-local",
+    "build": "sha.083be40",
+    "version": "7.0.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.0.0-local+sha.6a754aa",
+    "full": "7.0.1-local+sha.083be40",
     "branch": "master",
-    "commitSHA": "6a754aa9bd7da50c47b7793efc79a5b286fe571d"
+    "commitSHA": "083be40ef82fce27b8dc5d4f454eef78fea3f6db"
   }
 }

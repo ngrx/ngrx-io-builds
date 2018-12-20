@@ -514,6 +514,22 @@
         "securityRisk": false
       },
       {
+        "name": "onidentifyeffects",
+        "title": "OnIdentifyEffects",
+        "path": "api/effects/OnIdentifyEffects",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "oniniteffects",
+        "title": "OnInitEffects",
+        "path": "api/effects/OnInitEffects",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "onruneffects",
         "title": "OnRunEffects",
         "path": "api/effects/OnRunEffects",
@@ -526,22 +542,6 @@
         "title": "ROOT_EFFECTS_INIT",
         "path": "api/effects/ROOT_EFFECTS_INIT",
         "docType": "const",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
-        "name": "update_effects",
-        "title": "UPDATE_EFFECTS",
-        "path": "api/effects/UPDATE_EFFECTS",
-        "docType": "const",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
-        "name": "updateeffects",
-        "title": "UpdateEffects",
-        "path": "api/effects/UpdateEffects",
-        "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
       }
