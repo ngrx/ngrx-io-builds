@@ -70,6 +70,10 @@
           "url": "guide/store"
         },
         {
+          "title": "Installation",
+          "url": "guide/store/install"
+        },
+        {
           "title": "Architecture",
           "children": [
             {
@@ -122,6 +126,10 @@
           "url": "guide/store-devtools"
         },
         {
+          "title": "Installation",
+          "url": "guide/store-devtools/install"
+        },
+        {
           "title": "Instrumentation",
           "url": "guide/store-devtools/config"
         }
@@ -133,6 +141,10 @@
         {
           "title": "Overview",
           "url": "guide/effects"
+        },
+        {
+          "title": "Installation",
+          "url": "guide/effects/install"
         },
         {
           "title": "Testing",
@@ -152,6 +164,10 @@
           "url": "guide/router-store"
         },
         {
+          "title": "Installation",
+          "url": "guide/router-store/install"
+        },
+        {
           "title": "Actions",
           "url": "guide/router-store/actions"
         },
@@ -169,6 +185,10 @@
           "url": "guide/entity"
         },
         {
+          "title": "Installation",
+          "url": "guide/entity/install"
+        },
+        {
           "title": "Entity Interfaces",
           "url": "guide/entity/interfaces"
         },
@@ -184,6 +204,10 @@
         {
           "title": "Overview",
           "url": "guide/schematics"
+        },
+        {
+          "title": "Installation",
+          "url": "guide/schematics/install"
         },
         {
           "title": "Schematics",
@@ -332,12 +356,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.e1d617c",
+    "build": "sha.d6cc83c",
     "version": "7.1.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.1.1-local+sha.e1d617c",
+    "full": "7.1.1-local+sha.d6cc83c",
     "branch": "master",
-    "commitSHA": "e1d617c7198266d70d50cbcc5d0a5a27c5333891"
+    "commitSHA": "d6cc83c64c88d76766ef7b1a7336acad2ecff0bc"
   }
 }

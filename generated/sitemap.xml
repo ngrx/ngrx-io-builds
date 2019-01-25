@@ -4,6 +4,9 @@
     <loc>https://ngrx.io/guide/effects</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/effects/install</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/effects/lifecycle</loc>
   </url>
   <url>
@@ -14,6 +17,9 @@
   </url>
   <url>
     <loc>https://ngrx.io/guide/entity</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/guide/entity/install</loc>
   </url>
   <url>
     <loc>https://ngrx.io/guide/entity/interfaces</loc>
@@ -37,6 +43,9 @@
     <loc>https://ngrx.io/guide/router-store</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/router-store/install</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/schematics/action</loc>
   </url>
   <url>
@@ -55,6 +64,9 @@
     <loc>https://ngrx.io/guide/schematics</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/schematics/install</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/schematics/reducer</loc>
   </url>
   <url>
@@ -67,6 +79,9 @@
     <loc>https://ngrx.io/guide/store-devtools</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/store-devtools/install</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/store/actions</loc>
   </url>
   <url>
@@ -74,6 +89,9 @@
   </url>
   <url>
     <loc>https://ngrx.io/guide/store</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/guide/store/install</loc>
   </url>
   <url>
     <loc>https://ngrx.io/guide/store/metareducers</loc>
