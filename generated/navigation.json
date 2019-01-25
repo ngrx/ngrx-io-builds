@@ -332,12 +332,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.7465af9",
+    "build": "sha.a71aa71",
     "version": "7.1.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.1.1-local+sha.7465af9",
+    "full": "7.1.1-local+sha.a71aa71",
     "branch": "master",
-    "commitSHA": "7465af9f54c58d1276f69ba746b652660bd4052e"
+    "commitSHA": "a71aa712e8dfb51cf763cbaf656ac4398803c66a"
   }
 }
