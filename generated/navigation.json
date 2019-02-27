@@ -349,19 +349,19 @@
     }
   ],
   "__versionInfo": {
-    "raw": "7.2.0",
+    "raw": "7.3.0",
     "major": 7,
-    "minor": 2,
+    "minor": 3,
     "patch": 1,
     "prerelease": [
       "local"
     ],
-    "build": "sha.6c1ce74",
-    "version": "7.2.1-local",
+    "build": "sha.1613f50",
+    "version": "7.3.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.2.1-local+sha.6c1ce74",
+    "full": "7.3.1-local+sha.1613f50",
     "branch": "master",
-    "commitSHA": "6c1ce7416a7d69b292ce6e2243647113d10ebfa2"
+    "commitSHA": "1613f503491d98f390ae576bfec81c72fc679c63"
   }
 }
