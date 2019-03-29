@@ -148,6 +148,9 @@
     <loc>https://ngrx.io/api/store/Action</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/ActionCreator</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/ActionReducer</loc>
   </url>
   <url>
@@ -157,6 +160,9 @@
     <loc>https://ngrx.io/api/store/ActionReducerFactory</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/Creator</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/MetaReducer</loc>
   </url>
   <url>
@@ -164,6 +170,15 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/store/SelectorWithProps</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/store/createAction</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/store/props</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/store/union</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/store/Store</loc>

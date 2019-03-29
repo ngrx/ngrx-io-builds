@@ -13,6 +13,14 @@
         "securityRisk": false
       },
       {
+        "name": "actioncreator",
+        "title": "ActionCreator",
+        "path": "api/store/ActionCreator",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "actionreducer",
         "title": "ActionReducer",
         "path": "api/store/ActionReducer",
@@ -61,6 +69,14 @@
         "securityRisk": false
       },
       {
+        "name": "createaction",
+        "title": "createAction",
+        "path": "api/store/createAction",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "createfeatureselector",
         "title": "createFeatureSelector",
         "path": "api/store/createFeatureSelector",
@@ -89,6 +105,14 @@
         "title": "createSelectorFactory",
         "path": "api/store/createSelectorFactory",
         "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "creator",
+        "title": "Creator",
+        "path": "api/store/Creator",
+        "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
       },
@@ -185,6 +209,14 @@
         "title": "MetaReducer",
         "path": "api/store/MetaReducer",
         "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "props",
+        "title": "props",
+        "path": "api/store/props",
+        "docType": "function",
         "stability": "stable",
         "securityRisk": false
       },
@@ -321,6 +353,14 @@
         "title": "StoreRootModule",
         "path": "api/store/StoreRootModule",
         "docType": "ngmodule",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "union",
+        "title": "union",
+        "path": "api/store/union",
+        "docType": "function",
         "stability": "stable",
         "securityRisk": false
       },
