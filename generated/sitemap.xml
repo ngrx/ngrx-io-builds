@@ -274,6 +274,9 @@
     <loc>https://ngrx.io/api/store/FEATURE_REDUCERS</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/USER_PROVIDED_META_REDUCERS</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/StoreModule</loc>
   </url>
   <url>
@@ -325,10 +328,10 @@
     <loc>https://ngrx.io/api/effects</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/effects/Effect</loc>
+    <loc>https://ngrx.io/api/effects/createEffect</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/effects/EffectsMetadata</loc>
+    <loc>https://ngrx.io/api/effects/Effect</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/effects/getEffectsMetadata</loc>

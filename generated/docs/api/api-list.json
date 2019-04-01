@@ -371,6 +371,14 @@
         "docType": "const",
         "stability": "stable",
         "securityRisk": false
+      },
+      {
+        "name": "user_provided_meta_reducers",
+        "title": "USER_PROVIDED_META_REDUCERS",
+        "path": "api/store/USER_PROVIDED_META_REDUCERS",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
       }
     ]
   },
@@ -490,6 +498,14 @@
         "securityRisk": false
       },
       {
+        "name": "createeffect",
+        "title": "createEffect",
+        "path": "api/effects/createEffect",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "effect",
         "title": "Effect",
         "path": "api/effects/Effect",
@@ -502,14 +518,6 @@
         "title": "EffectNotification",
         "path": "api/effects/EffectNotification",
         "docType": "interface",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
-        "name": "effectsmetadata",
-        "title": "EffectsMetadata",
-        "path": "api/effects/EffectsMetadata",
-        "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
       },
