@@ -522,6 +522,14 @@
         "securityRisk": false
       },
       {
+        "name": "effectsmetadata",
+        "title": "EffectsMetadata",
+        "path": "api/effects/EffectsMetadata",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "effectsmodule",
         "title": "EffectsModule",
         "path": "api/effects/EffectsModule",
