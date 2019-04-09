@@ -59,44 +59,29 @@ export class AppModule {}
 /*
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
-*/"><input type="hidden" name="files[src/app/counter.actions.ts]" value="import { Action } from '@ngrx/store';
+*/"><input type="hidden" name="files[src/app/counter.actions.ts]" value="import { createAction } from '@ngrx/store';
 
-export enum ActionTypes {
-  Increment = '[Counter Component] Increment',
-  Decrement = '[Counter Component] Decrement',
-  Reset = '[Counter Component] Reset',
-}
-
-export class Increment implements Action {
-  readonly type = ActionTypes.Increment;
-}
-
-export class Decrement implements Action {
-  readonly type = ActionTypes.Decrement;
-}
-
-export class Reset implements Action {
-  readonly type = ActionTypes.Reset;
-}
-
+export const increment = createAction('[Counter Component] Increment');
+export const decrement = createAction('[Counter Component] Decrement');
+export const reset = createAction('[Counter Component] Reset');
 
 /*
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
 */"><input type="hidden" name="files[src/app/counter.reducer.ts]" value="import { Action } from '@ngrx/store';
-import { ActionTypes } from './counter.actions';
+import { increment, decrement, reset } from './counter.actions';
 
 export const initialState = 0;
 
 export function counterReducer(state = initialState, action: Action) {
   switch (action.type) {
-    case ActionTypes.Increment:
+    case increment.type:
       return state + 1;
 
-    case ActionTypes.Decrement:
+    case decrement.type:
       return state - 1;
 
-    case ActionTypes.Reset:
+    case reset.type:
       return 0;
 
     default:
@@ -111,7 +96,7 @@ can be found in the LICENSE file at https://github.com/ngrx/platform
 */"><input type="hidden" name="files[src/app/my-counter/my-counter.component.ts]" value="import { Component } from '@angular/core';
 import { Store, select } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { Increment, Decrement, Reset } from '../counter.actions';
+import { increment, decrement, reset } from '../counter.actions';
 
 @Component({
   selector: 'app-my-counter',
@@ -126,15 +111,15 @@ export class MyCounterComponent {
   }
 
   increment() {
-    this.store.dispatch(new Increment());
+    this.store.dispatch(increment());
   }
 
   decrement() {
-    this.store.dispatch(new Decrement());
+    this.store.dispatch(decrement());
   }
 
   reset() {
-    this.store.dispatch(new Reset());
+    this.store.dispatch(reset());
   }
 }
 
