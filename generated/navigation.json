@@ -356,12 +356,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.7811f29",
+    "build": "sha.634a082",
     "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.0-local+sha.7811f29",
+    "full": "8.0.0-local+sha.634a082",
     "branch": "master",
-    "commitSHA": "7811f2950bc4aef4dd82661cac9752992d2c4f8f"
+    "commitSHA": "634a082c3ab6a9d4e93049ca81f9061deec12f58"
   }
 }
