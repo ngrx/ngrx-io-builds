@@ -356,12 +356,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.db5c141",
+    "build": "sha.861b0cb",
     "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.0-local+sha.db5c141",
+    "full": "8.0.0-local+sha.861b0cb",
     "branch": "master",
-    "commitSHA": "db5c14155c54b5429117aa0b358b027e771f480a"
+    "commitSHA": "861b0cbf26d5cf6fe64acb01caf5bdd6bd985a05"
   }
 }
