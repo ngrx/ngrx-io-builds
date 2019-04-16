@@ -113,6 +113,15 @@
           ]
         },
         {
+          "title": "Configuration",
+          "children": [
+            {
+              "title": "Runtime checks",
+              "url": "guide/store/configuration/runtime-checks"
+            }
+          ]
+        },
+        {
           "title": "Testing",
           "url": "guide/store/testing"
         }
@@ -356,12 +365,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.ff2b5e9",
+    "build": "sha.040f9c1",
     "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.0-local+sha.ff2b5e9",
+    "full": "8.0.0-local+sha.040f9c1",
     "branch": "master",
-    "commitSHA": "ff2b5e9b7a64410a56bf9baea2cbeef30869c1ea"
+    "commitSHA": "040f9c1ff10a3e70e43f473a9e3c58bc061b4c0e"
   }
 }

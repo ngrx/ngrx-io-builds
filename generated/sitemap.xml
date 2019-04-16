@@ -88,6 +88,9 @@
     <loc>https://ngrx.io/guide/store/architecture</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/store/configuration/runtime-checks</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/store</loc>
   </url>
   <url>
