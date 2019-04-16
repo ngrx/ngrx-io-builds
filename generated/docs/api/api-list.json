@@ -624,6 +624,14 @@
     "path": "api/entity",
     "items": [
       {
+        "name": "comparer",
+        "title": "Comparer",
+        "path": "api/entity/Comparer",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "createentityadapter",
         "title": "createEntityAdapter",
         "path": "api/entity/createEntityAdapter",
@@ -660,6 +668,14 @@
         "title": "EntityState",
         "path": "api/entity/EntityState",
         "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "idselector",
+        "title": "IdSelector",
+        "path": "api/entity/IdSelector",
+        "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
       },

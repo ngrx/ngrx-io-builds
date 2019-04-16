@@ -403,6 +403,12 @@
     <loc>https://ngrx.io/api/entity/Predicate</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/entity/IdSelector</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/entity/Comparer</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/router-store</loc>
   </url>
   <url>
