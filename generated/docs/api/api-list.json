@@ -943,5 +943,1060 @@
         "securityRisk": false
       }
     ]
+  },
+  {
+    "name": "data",
+    "title": "data",
+    "path": "api/data",
+    "items": [
+      {
+        "name": "changeset",
+        "title": "ChangeSet",
+        "path": "api/data/ChangeSet",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "changesetadd",
+        "title": "ChangeSetAdd",
+        "path": "api/data/ChangeSetAdd",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "changesetdelete",
+        "title": "ChangeSetDelete",
+        "path": "api/data/ChangeSetDelete",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "changesetitem",
+        "title": "ChangeSetItem",
+        "path": "api/data/ChangeSetItem",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "changesetitemfactory",
+        "title": "ChangeSetItemFactory",
+        "path": "api/data/ChangeSetItemFactory",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "changesetitemfactory",
+        "title": "changeSetItemFactory",
+        "path": "api/data/changeSetItemFactory",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "changesetoperation",
+        "title": "ChangeSetOperation",
+        "path": "api/data/ChangeSetOperation",
+        "docType": "enum",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "changesetupdate",
+        "title": "ChangeSetUpdate",
+        "path": "api/data/ChangeSetUpdate",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "changesetupsert",
+        "title": "ChangeSetUpsert",
+        "path": "api/data/ChangeSetUpsert",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "changestate",
+        "title": "ChangeState",
+        "path": "api/data/ChangeState",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "changestatemap",
+        "title": "ChangeStateMap",
+        "path": "api/data/ChangeStateMap",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "changetype",
+        "title": "ChangeType",
+        "path": "api/data/ChangeType",
+        "docType": "enum",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "clearcollections",
+        "title": "ClearCollections",
+        "path": "api/data/ClearCollections",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "collectionselectors",
+        "title": "CollectionSelectors",
+        "path": "api/data/CollectionSelectors",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "correlationidgenerator",
+        "title": "CorrelationIdGenerator",
+        "path": "api/data/CorrelationIdGenerator",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "createemptyentitycollection",
+        "title": "createEmptyEntityCollection",
+        "path": "api/data/createEmptyEntityCollection",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "createentitycacheselector",
+        "title": "createEntityCacheSelector",
+        "path": "api/data/createEntityCacheSelector",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "createentitydefinition",
+        "title": "createEntityDefinition",
+        "path": "api/data/createEntityDefinition",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "dataserviceerror",
+        "title": "DataServiceError",
+        "path": "api/data/DataServiceError",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "defaultdataservice",
+        "title": "DefaultDataService",
+        "path": "api/data/DefaultDataService",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "defaultdataserviceconfig",
+        "title": "DefaultDataServiceConfig",
+        "path": "api/data/DefaultDataServiceConfig",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "defaultdataservicefactory",
+        "title": "DefaultDataServiceFactory",
+        "path": "api/data/DefaultDataServiceFactory",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "defaulthttpurlgenerator",
+        "title": "DefaultHttpUrlGenerator",
+        "path": "api/data/DefaultHttpUrlGenerator",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "defaultlogger",
+        "title": "DefaultLogger",
+        "path": "api/data/DefaultLogger",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "defaultpersistenceresulthandler",
+        "title": "DefaultPersistenceResultHandler",
+        "path": "api/data/DefaultPersistenceResultHandler",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "defaultpluralizer",
+        "title": "DefaultPluralizer",
+        "path": "api/data/DefaultPluralizer",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "defaultselectid",
+        "title": "defaultSelectId",
+        "path": "api/data/defaultSelectId",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entity_cache_meta_reducers",
+        "title": "ENTITY_CACHE_META_REDUCERS",
+        "path": "api/data/ENTITY_CACHE_META_REDUCERS",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entity_cache_name",
+        "title": "ENTITY_CACHE_NAME",
+        "path": "api/data/ENTITY_CACHE_NAME",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entity_cache_name_token",
+        "title": "ENTITY_CACHE_NAME_TOKEN",
+        "path": "api/data/ENTITY_CACHE_NAME_TOKEN",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entity_cache_selector_token",
+        "title": "ENTITY_CACHE_SELECTOR_TOKEN",
+        "path": "api/data/ENTITY_CACHE_SELECTOR_TOKEN",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entity_collection_meta_reducers",
+        "title": "ENTITY_COLLECTION_META_REDUCERS",
+        "path": "api/data/ENTITY_COLLECTION_META_REDUCERS",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entity_metadata_token",
+        "title": "ENTITY_METADATA_TOKEN",
+        "path": "api/data/ENTITY_METADATA_TOKEN",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityaction",
+        "title": "EntityAction",
+        "path": "api/data/EntityAction",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityactiondataserviceerror",
+        "title": "EntityActionDataServiceError",
+        "path": "api/data/EntityActionDataServiceError",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityactionfactory",
+        "title": "EntityActionFactory",
+        "path": "api/data/EntityActionFactory",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityactionguard",
+        "title": "EntityActionGuard",
+        "path": "api/data/EntityActionGuard",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityactionoptions",
+        "title": "EntityActionOptions",
+        "path": "api/data/EntityActionOptions",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityactionpayload",
+        "title": "EntityActionPayload",
+        "path": "api/data/EntityActionPayload",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycache",
+        "title": "EntityCache",
+        "path": "api/data/EntityCache",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycacheaction",
+        "title": "EntityCacheAction",
+        "path": "api/data/EntityCacheAction",
+        "docType": "enum",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycachecommands",
+        "title": "EntityCacheCommands",
+        "path": "api/data/EntityCacheCommands",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycachedataservice",
+        "title": "EntityCacheDataService",
+        "path": "api/data/EntityCacheDataService",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycachedispatcher",
+        "title": "EntityCacheDispatcher",
+        "path": "api/data/EntityCacheDispatcher",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycacheeffects",
+        "title": "EntityCacheEffects",
+        "path": "api/data/EntityCacheEffects",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycachequeryset",
+        "title": "EntityCacheQuerySet",
+        "path": "api/data/EntityCacheQuerySet",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycachereducerfactory",
+        "title": "EntityCacheReducerFactory",
+        "path": "api/data/EntityCacheReducerFactory",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycacheselector",
+        "title": "EntityCacheSelector",
+        "path": "api/data/EntityCacheSelector",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycacheselectorprovider",
+        "title": "entityCacheSelectorProvider",
+        "path": "api/data/entityCacheSelectorProvider",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitychangetracker",
+        "title": "EntityChangeTracker",
+        "path": "api/data/EntityChangeTracker",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitychangetrackerbase",
+        "title": "EntityChangeTrackerBase",
+        "path": "api/data/EntityChangeTrackerBase",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollection",
+        "title": "EntityCollection",
+        "path": "api/data/EntityCollection",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollectioncreator",
+        "title": "EntityCollectionCreator",
+        "path": "api/data/EntityCollectionCreator",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollectiondataservice",
+        "title": "EntityCollectionDataService",
+        "path": "api/data/EntityCollectionDataService",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollectionreducer",
+        "title": "EntityCollectionReducer",
+        "path": "api/data/EntityCollectionReducer",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollectionreducerfactory",
+        "title": "EntityCollectionReducerFactory",
+        "path": "api/data/EntityCollectionReducerFactory",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollectionreducermethodmap",
+        "title": "EntityCollectionReducerMethodMap",
+        "path": "api/data/EntityCollectionReducerMethodMap",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollectionreducermethods",
+        "title": "EntityCollectionReducerMethods",
+        "path": "api/data/EntityCollectionReducerMethods",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollectionreducermethodsfactory",
+        "title": "EntityCollectionReducerMethodsFactory",
+        "path": "api/data/EntityCollectionReducerMethodsFactory",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollectionreducerregistry",
+        "title": "EntityCollectionReducerRegistry",
+        "path": "api/data/EntityCollectionReducerRegistry",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollectionreducers",
+        "title": "EntityCollectionReducers",
+        "path": "api/data/EntityCollectionReducers",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollectionservice",
+        "title": "EntityCollectionService",
+        "path": "api/data/EntityCollectionService",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollectionservicebase",
+        "title": "EntityCollectionServiceBase",
+        "path": "api/data/EntityCollectionServiceBase",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollectionserviceelements",
+        "title": "EntityCollectionServiceElements",
+        "path": "api/data/EntityCollectionServiceElements",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollectionserviceelementsfactory",
+        "title": "EntityCollectionServiceElementsFactory",
+        "path": "api/data/EntityCollectionServiceElementsFactory",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollectionservicefactory",
+        "title": "EntityCollectionServiceFactory",
+        "path": "api/data/EntityCollectionServiceFactory",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycollectionservicemap",
+        "title": "EntityCollectionServiceMap",
+        "path": "api/data/EntityCollectionServiceMap",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycommands",
+        "title": "EntityCommands",
+        "path": "api/data/EntityCommands",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitydataservice",
+        "title": "EntityDataService",
+        "path": "api/data/EntityDataService",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitydefinition",
+        "title": "EntityDefinition",
+        "path": "api/data/EntityDefinition",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitydefinitions",
+        "title": "EntityDefinitions",
+        "path": "api/data/EntityDefinitions",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitydefinitionservice",
+        "title": "EntityDefinitionService",
+        "path": "api/data/EntityDefinitionService",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitydispatcher",
+        "title": "EntityDispatcher",
+        "path": "api/data/EntityDispatcher",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitydispatcherbase",
+        "title": "EntityDispatcherBase",
+        "path": "api/data/EntityDispatcherBase",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitydispatcherdefaultoptions",
+        "title": "EntityDispatcherDefaultOptions",
+        "path": "api/data/EntityDispatcherDefaultOptions",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitydispatcherfactory",
+        "title": "EntityDispatcherFactory",
+        "path": "api/data/EntityDispatcherFactory",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityeffects",
+        "title": "EntityEffects",
+        "path": "api/data/EntityEffects",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityfilterfn",
+        "title": "EntityFilterFn",
+        "path": "api/data/EntityFilterFn",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityhttpresourceurls",
+        "title": "EntityHttpResourceUrls",
+        "path": "api/data/EntityHttpResourceUrls",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitymetadata",
+        "title": "EntityMetadata",
+        "path": "api/data/EntityMetadata",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitymetadatamap",
+        "title": "EntityMetadataMap",
+        "path": "api/data/EntityMetadataMap",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityop",
+        "title": "EntityOp",
+        "path": "api/data/EntityOp",
+        "docType": "enum",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitypluralnames",
+        "title": "EntityPluralNames",
+        "path": "api/data/EntityPluralNames",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityselectors",
+        "title": "EntitySelectors",
+        "path": "api/data/EntitySelectors",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityselectors$",
+        "title": "EntitySelectors$",
+        "path": "api/data/EntitySelectors$",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityselectors$factory",
+        "title": "EntitySelectors$Factory",
+        "path": "api/data/EntitySelectors$Factory",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityselectorsfactory",
+        "title": "EntitySelectorsFactory",
+        "path": "api/data/EntitySelectorsFactory",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityservercommands",
+        "title": "EntityServerCommands",
+        "path": "api/data/EntityServerCommands",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityservices",
+        "title": "EntityServices",
+        "path": "api/data/EntityServices",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityservicesbase",
+        "title": "EntityServicesBase",
+        "path": "api/data/EntityServicesBase",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityserviceselements",
+        "title": "EntityServicesElements",
+        "path": "api/data/EntityServicesElements",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "excludeemptychangesetitems",
+        "title": "excludeEmptyChangeSetItems",
+        "path": "api/data/excludeEmptyChangeSetItems",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "flattenargs",
+        "title": "flattenArgs",
+        "path": "api/data/flattenArgs",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "getguid",
+        "title": "getGuid",
+        "path": "api/data/getGuid",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "getguidcomb",
+        "title": "getGuidComb",
+        "path": "api/data/getGuidComb",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "getuuid",
+        "title": "getUuid",
+        "path": "api/data/getUuid",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "guidcomparer",
+        "title": "guidComparer",
+        "path": "api/data/guidComparer",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "httpmethods",
+        "title": "HttpMethods",
+        "path": "api/data/HttpMethods",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "httpresourceurls",
+        "title": "HttpResourceUrls",
+        "path": "api/data/HttpResourceUrls",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "httpurlgenerator",
+        "title": "HttpUrlGenerator",
+        "path": "api/data/HttpUrlGenerator",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "initial_entity_cache_state",
+        "title": "INITIAL_ENTITY_CACHE_STATE",
+        "path": "api/data/INITIAL_ENTITY_CACHE_STATE",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "loadcollections",
+        "title": "LoadCollections",
+        "path": "api/data/LoadCollections",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "logger",
+        "title": "Logger",
+        "path": "api/data/Logger",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "makeerrorop",
+        "title": "makeErrorOp",
+        "path": "api/data/makeErrorOp",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "makesuccessop",
+        "title": "makeSuccessOp",
+        "path": "api/data/makeSuccessOp",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "mergequeryset",
+        "title": "MergeQuerySet",
+        "path": "api/data/MergeQuerySet",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "mergestrategy",
+        "title": "MergeStrategy",
+        "path": "api/data/MergeStrategy",
+        "docType": "enum",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "ngrxdatamodule",
+        "title": "NgrxDataModule",
+        "path": "api/data/NgrxDataModule",
+        "docType": "ngmodule",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "ngrxdatamoduleconfig",
+        "title": "NgrxDataModuleConfig",
+        "path": "api/data/NgrxDataModuleConfig",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "ngrxdatamodulewithouteffects",
+        "title": "NgrxDataModuleWithoutEffects",
+        "path": "api/data/NgrxDataModuleWithoutEffects",
+        "docType": "ngmodule",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "normalizeroot",
+        "title": "normalizeRoot",
+        "path": "api/data/normalizeRoot",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "ofentityop",
+        "title": "ofEntityOp",
+        "path": "api/data/ofEntityOp",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "ofentitytype",
+        "title": "ofEntityType",
+        "path": "api/data/ofEntityType",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "op_error",
+        "title": "OP_ERROR",
+        "path": "api/data/OP_ERROR",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "op_success",
+        "title": "OP_SUCCESS",
+        "path": "api/data/OP_SUCCESS",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "persistancecanceled",
+        "title": "PersistanceCanceled",
+        "path": "api/data/PersistanceCanceled",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "persistenceresulthandler",
+        "title": "PersistenceResultHandler",
+        "path": "api/data/PersistenceResultHandler",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "persistops",
+        "title": "persistOps",
+        "path": "api/data/persistOps",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "plural_names_token",
+        "title": "PLURAL_NAMES_TOKEN",
+        "path": "api/data/PLURAL_NAMES_TOKEN",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "pluralizer",
+        "title": "Pluralizer",
+        "path": "api/data/Pluralizer",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "propsfilterfnfactory",
+        "title": "PropsFilterFnFactory",
+        "path": "api/data/PropsFilterFnFactory",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "queryparams",
+        "title": "QueryParams",
+        "path": "api/data/QueryParams",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "requestdata",
+        "title": "RequestData",
+        "path": "api/data/RequestData",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "saveentities",
+        "title": "SaveEntities",
+        "path": "api/data/SaveEntities",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "saveentitiescancel",
+        "title": "SaveEntitiesCancel",
+        "path": "api/data/SaveEntitiesCancel",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "saveentitiescanceled",
+        "title": "SaveEntitiesCanceled",
+        "path": "api/data/SaveEntitiesCanceled",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "saveentitieserror",
+        "title": "SaveEntitiesError",
+        "path": "api/data/SaveEntitiesError",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "saveentitiessuccess",
+        "title": "SaveEntitiesSuccess",
+        "path": "api/data/SaveEntitiesSuccess",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "setentitycache",
+        "title": "SetEntityCache",
+        "path": "api/data/SetEntityCache",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "toupdatefactory",
+        "title": "toUpdateFactory",
+        "path": "api/data/toUpdateFactory",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "updateresponsedata",
+        "title": "UpdateResponseData",
+        "path": "api/data/UpdateResponseData",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      }
+    ]
   }
 ]
