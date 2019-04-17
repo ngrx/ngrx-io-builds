@@ -85,6 +85,14 @@
         "securityRisk": false
       },
       {
+        "name": "createreducer",
+        "title": "createReducer",
+        "path": "api/store/createReducer",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "createreducerfactory",
         "title": "createReducerFactory",
         "path": "api/store/createReducerFactory",
@@ -209,6 +217,14 @@
         "title": "MetaReducer",
         "path": "api/store/MetaReducer",
         "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "on",
+        "title": "on",
+        "path": "api/store/on",
+        "docType": "function",
         "stability": "stable",
         "securityRisk": false
       },
