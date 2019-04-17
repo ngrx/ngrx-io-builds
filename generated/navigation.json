@@ -266,6 +266,10 @@
       "title": "Migrations",
       "children": [
         {
+          "title": "V8",
+          "url": "guide/migration/v8"
+        },
+        {
           "title": "V7",
           "url": "guide/migration/v7"
         },
@@ -365,12 +369,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.876f80a",
+    "build": "sha.fad9d24",
     "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.0-local+sha.876f80a",
+    "full": "8.0.0-local+sha.fad9d24",
     "branch": "master",
-    "commitSHA": "876f80a88847af779aafe487ddb9ade49ff83229"
+    "commitSHA": "fad9d241827c6ec555b914aa6b8ffb16c0f17890"
   }
 }
