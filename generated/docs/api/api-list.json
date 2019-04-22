@@ -983,17 +983,17 @@
       },
       {
         "name": "changesetitemfactory",
-        "title": "ChangeSetItemFactory",
-        "path": "api/data/ChangeSetItemFactory",
-        "docType": "class",
+        "title": "changeSetItemFactory",
+        "path": "api/data/changeSetItemFactory",
+        "docType": "const",
         "stability": "stable",
         "securityRisk": false
       },
       {
         "name": "changesetitemfactory",
-        "title": "changeSetItemFactory",
-        "path": "api/data/changeSetItemFactory",
-        "docType": "const",
+        "title": "ChangeSetItemFactory",
+        "path": "api/data/ChangeSetItemFactory",
+        "docType": "class",
         "stability": "stable",
         "securityRisk": false
       },
@@ -1494,6 +1494,30 @@
         "securityRisk": false
       },
       {
+        "name": "entitydatamodule",
+        "title": "EntityDataModule",
+        "path": "api/data/EntityDataModule",
+        "docType": "ngmodule",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitydatamoduleconfig",
+        "title": "EntityDataModuleConfig",
+        "path": "api/data/EntityDataModuleConfig",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitydatamodulewithouteffects",
+        "title": "EntityDataModuleWithoutEffects",
+        "path": "api/data/EntityDataModuleWithoutEffects",
+        "docType": "ngmodule",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "entitydataservice",
         "title": "EntityDataService",
         "path": "api/data/EntityDataService",
@@ -1802,30 +1826,6 @@
         "title": "MergeStrategy",
         "path": "api/data/MergeStrategy",
         "docType": "enum",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
-        "name": "ngrxdatamodule",
-        "title": "NgrxDataModule",
-        "path": "api/data/NgrxDataModule",
-        "docType": "ngmodule",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
-        "name": "ngrxdatamoduleconfig",
-        "title": "NgrxDataModuleConfig",
-        "path": "api/data/NgrxDataModuleConfig",
-        "docType": "interface",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
-        "name": "ngrxdatamodulewithouteffects",
-        "title": "NgrxDataModuleWithoutEffects",
-        "path": "api/data/NgrxDataModuleWithoutEffects",
-        "docType": "ngmodule",
         "stability": "stable",
         "securityRisk": false
       },

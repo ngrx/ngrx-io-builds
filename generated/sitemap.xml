@@ -511,13 +511,13 @@
     <loc>https://ngrx.io/api/data</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/data/NgrxDataModule</loc>
+    <loc>https://ngrx.io/api/data/EntityDataModule</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/data/NgrxDataModuleWithoutEffects</loc>
+    <loc>https://ngrx.io/api/data/EntityDataModuleWithoutEffects</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/data/NgrxDataModuleConfig</loc>
+    <loc>https://ngrx.io/api/data/EntityDataModuleConfig</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/data/EntityActionFactory</loc>
