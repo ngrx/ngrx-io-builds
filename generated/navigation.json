@@ -213,6 +213,10 @@
         {
           "title": "Overview",
           "url": "guide/data"
+        },
+        {
+          "title": "Installation",
+          "url": "guide/data/install"
         }
       ]
     },
@@ -378,12 +382,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.be106c9",
+    "build": "sha.8a0a049",
     "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.0-local+sha.be106c9",
+    "full": "8.0.0-local+sha.8a0a049",
     "branch": "master",
-    "commitSHA": "be106c905dd2bd134d7e291dfd01af9e00053335"
+    "commitSHA": "8a0a049670967bc35353e2f541140560869a44f5"
   }
 }
