@@ -9,6 +9,10 @@
       "title": "Docs"
     },
     {
+      "url": "https://blog.ngrx.io",
+      "title": "Blog"
+    },
+    {
       "url": "resources",
       "title": "Resources"
     },
@@ -36,6 +40,10 @@
         {
           "url": "docs",
           "title": "Docs"
+        },
+        {
+          "url": "https://blog.ngrx.io",
+          "title": "Blog"
         },
         {
           "url": "resources",
@@ -313,7 +321,7 @@
           "tooltip": "Sponsor NgRx Development"
         },
         {
-          "url": "https://medium.com/@ngrx",
+          "url": "https://blog.ngrx.io",
           "title": "Blog",
           "tooltip": "NgRx Blog"
         }
@@ -382,12 +390,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.703b351",
+    "build": "sha.220caaf",
     "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.0-local+sha.703b351",
+    "full": "8.0.0-local+sha.220caaf",
     "branch": "master",
-    "commitSHA": "703b351afa8bf00dfc03468bc8a6da16beeaeb4d"
+    "commitSHA": "220caaf54309158e516a0b4e755ff5971a5a37fb"
   }
 }
