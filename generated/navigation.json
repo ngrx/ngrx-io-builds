@@ -390,12 +390,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.e1fae9e",
+    "build": "sha.6bb3f39",
     "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.0-local+sha.e1fae9e",
+    "full": "8.0.0-local+sha.6bb3f39",
     "branch": "master",
-    "commitSHA": "e1fae9e92ea000586a6d82244a11fbcb1e934774"
+    "commitSHA": "6bb3f39b7fb911e766068daf055594f53afc70ca"
   }
 }
