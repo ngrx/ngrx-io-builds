@@ -313,7 +313,7 @@
         {
           "url": "about",
           "title": "About",
-          "tooltip": "NgRx contributors."
+          "tooltip": "NgRx Team"
         },
         {
           "url": "https://opencollective.com/ngrx",
@@ -390,12 +390,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.1fbd59c",
+    "build": "sha.709c2cb",
     "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.0-local+sha.1fbd59c",
+    "full": "8.0.0-local+sha.709c2cb",
     "branch": "master",
-    "commitSHA": "1fbd59cc265fce3e29642a683cbaf7810fbcdfff"
+    "commitSHA": "709c2cb0f595ac1fcdb9608ae749665aa3ac1d4c"
   }
 }
