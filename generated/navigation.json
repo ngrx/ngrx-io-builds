@@ -225,6 +225,72 @@
         {
           "title": "Installation",
           "url": "guide/data/install"
+        },
+        {
+          "title": "Architecture",
+          "children": [
+            {
+              "title": "Overview",
+              "url": "guide/data/architecture-overview"
+            },
+            {
+              "title": "Entity Metadata",
+              "url": "guide/data/entity-metadata"
+            },
+            {
+              "title": "Entity Actions",
+              "url": "guide/data/entity-actions"
+            },
+            {
+              "title": "Entity Collection",
+              "url": "guide/data/entity-collection"
+            },
+            {
+              "title": "Entity Collection Service",
+              "url": "guide/data/entity-collection-service"
+            },
+            {
+              "title": "Entity Dataservice",
+              "url": "guide/data/entity-dataservice"
+            },
+            {
+              "title": "Entity Effects",
+              "url": "guide/data/entity-effects"
+            },
+            {
+              "title": "Entity Reducer",
+              "url": "guide/data/entity-reducer"
+            },
+            {
+              "title": "Entity Services",
+              "url": "guide/data/entity-services"
+            }
+          ]
+        },
+        {
+          "title": "Advanced",
+          "children": [
+            {
+              "title": "Save Multiple Entities",
+              "url": "guide/data/save-entities"
+            },
+            {
+              "title": "Entity Change Tracking",
+              "url": "guide/data/entity-change-tracker"
+            },
+            {
+              "title": "Extension Points",
+              "url": "guide/data/extension-points"
+            }
+          ]
+        },
+        {
+          "title": "FAQ",
+          "url": "guide/data/faq"
+        },
+        {
+          "title": "Limitations",
+          "url": "guide/data/limitations"
         }
       ]
     },
@@ -390,12 +456,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.709c2cb",
+    "build": "sha.4b883af",
     "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.0-local+sha.709c2cb",
+    "full": "8.0.0-local+sha.4b883af",
     "branch": "master",
-    "commitSHA": "709c2cb0f595ac1fcdb9608ae749665aa3ac1d4c"
+    "commitSHA": "4b883af778617052f741fb0f9ede6a3a2b72450f"
   }
 }
