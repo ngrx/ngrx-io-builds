@@ -412,6 +412,14 @@
         "securityRisk": false
       },
       {
+        "name": "mockselector",
+        "title": "MockSelector",
+        "path": "api/store/testing/MockSelector",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "mockstate",
         "title": "MockState",
         "path": "api/store/testing/MockState",

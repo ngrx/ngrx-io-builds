@@ -367,6 +367,9 @@
     <loc>https://ngrx.io/api/store/testing/MockStore</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/testing/MockSelector</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store-devtools</loc>
   </url>
   <url>
