@@ -61,6 +61,9 @@
     <loc>https://ngrx.io/guide/effects/lifecycle</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/effects/operators</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/effects/testing</loc>
   </url>
   <url>
@@ -425,6 +428,9 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/effects/ROOT_EFFECTS_INIT</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/effects/mapToAction</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/effects/OnIdentifyEffects</loc>

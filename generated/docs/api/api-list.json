@@ -578,6 +578,14 @@
         "securityRisk": false
       },
       {
+        "name": "maptoaction",
+        "title": "mapToAction",
+        "path": "api/effects/mapToAction",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "mergeeffects",
         "title": "mergeEffects",
         "path": "api/effects/mergeEffects",

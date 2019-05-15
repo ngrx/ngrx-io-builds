@@ -170,6 +170,10 @@
         {
           "title": "Lifecycle",
           "url": "guide/effects/lifecycle"
+        },
+        {
+          "title": "Operators",
+          "url": "guide/effects/operators"
         }
       ]
     },
@@ -456,12 +460,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.873bc36",
+    "build": "sha.1ff986f",
     "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.0-local+sha.873bc36",
+    "full": "8.0.0-local+sha.1ff986f",
     "branch": "master",
-    "commitSHA": "873bc367cc63c7dbc327f8033914fcb68970ce2b"
+    "commitSHA": "1ff986fbbd3ea8e7d3c9cc21d1a06c99b241e8e6"
   }
 }
