@@ -759,6 +759,30 @@
         "securityRisk": false
       },
       {
+        "name": "minimalactivatedroutesnapshot",
+        "title": "MinimalActivatedRouteSnapshot",
+        "path": "api/router-store/MinimalActivatedRouteSnapshot",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "minimalrouterstateserializer",
+        "title": "MinimalRouterStateSerializer",
+        "path": "api/router-store/MinimalRouterStateSerializer",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "minimalrouterstatesnapshot",
+        "title": "MinimalRouterStateSnapshot",
+        "path": "api/router-store/MinimalRouterStateSnapshot",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "navigationactiontiming",
         "title": "NavigationActionTiming",
         "path": "api/router-store/NavigationActionTiming",
@@ -915,6 +939,14 @@
         "title": "RouterRequestPayload",
         "path": "api/router-store/RouterRequestPayload",
         "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routerstate",
+        "title": "RouterState",
+        "path": "api/router-store/RouterState",
+        "docType": "enum",
         "stability": "stable",
         "securityRisk": false
       },

@@ -553,6 +553,9 @@
     <loc>https://ngrx.io/api/router-store/DEFAULT_ROUTER_FEATURENAME</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/router-store/RouterState</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/router-store/RouterStateSerializer</loc>
   </url>
   <url>
@@ -563,6 +566,15 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/router-store/BaseRouterStoreState</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/router-store/MinimalActivatedRouteSnapshot</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/router-store/MinimalRouterStateSnapshot</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/router-store/MinimalRouterStateSerializer</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/data</loc>
