@@ -285,6 +285,14 @@
         "securityRisk": false
       },
       {
+        "name": "runtimechecks",
+        "title": "RuntimeChecks",
+        "path": "api/store/RuntimeChecks",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "scannedactionssubject",
         "title": "ScannedActionsSubject",
         "path": "api/store/ScannedActionsSubject",

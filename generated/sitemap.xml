@@ -232,6 +232,9 @@
     <loc>https://ngrx.io/api/store/SelectorWithProps</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/RuntimeChecks</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/createAction</loc>
   </url>
   <url>
