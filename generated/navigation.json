@@ -193,6 +193,10 @@
           "url": "guide/router-store/actions"
         },
         {
+          "title": "Selectors",
+          "url": "guide/router-store/selectors"
+        },
+        {
           "title": "Configuration",
           "url": "guide/router-store/configuration"
         }
@@ -460,12 +464,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.d5e3c0c",
+    "build": "sha.21c67cc",
     "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.0-local+sha.d5e3c0c",
+    "full": "8.0.0-local+sha.21c67cc",
     "branch": "master",
-    "commitSHA": "d5e3c0c0216c50b89cd2525e2881cc30c57d014b"
+    "commitSHA": "21c67ccce5ce2d87885c3691286f9e0ef621d098"
   }
 }

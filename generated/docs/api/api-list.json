@@ -767,6 +767,14 @@
         "securityRisk": false
       },
       {
+        "name": "getselectors",
+        "title": "getSelectors",
+        "path": "api/router-store/getSelectors",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "minimalactivatedroutesnapshot",
         "title": "MinimalActivatedRouteSnapshot",
         "path": "api/router-store/MinimalActivatedRouteSnapshot",
