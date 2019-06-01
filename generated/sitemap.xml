@@ -565,13 +565,13 @@
     <loc>https://ngrx.io/api/router-store/RouterStateSerializer</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/router-store/BaseRouterStoreState</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/router-store/DefaultRouterStateSerializer</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/router-store/SerializedRouterStateSnapshot</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/router-store/BaseRouterStoreState</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/router-store/MinimalActivatedRouteSnapshot</loc>
