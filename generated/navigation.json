@@ -378,6 +378,11 @@
       "url": "api",
       "title": "API",
       "tooltip": "API Reference"
+    },
+    {
+      "url": "contributing",
+      "title": "Contributing",
+      "tooltip": "Contributing"
     }
   ],
   "Footer": [
@@ -435,7 +440,7 @@
           "tooltip": "GitHub"
         },
         {
-          "url": "https://github.com/ngrx/platform/tree/master/CONTRIBUTING.md",
+          "url": "contributing",
           "title": "Contribute",
           "tooltip": "Contribute to NgRx"
         }
@@ -464,12 +469,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.4146650",
+    "build": "sha.c3b481b",
     "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.0-local+sha.4146650",
+    "full": "8.0.0-local+sha.c3b481b",
     "branch": "master",
-    "commitSHA": "4146650b1a24ead2a8dcd0e68500393f537fd5b1"
+    "commitSHA": "c3b481b28e99294a4856b59c8444240a5bd54eae"
   }
 }
