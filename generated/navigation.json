@@ -220,6 +220,15 @@
         {
           "title": "Entity Adapter",
           "url": "guide/entity/adapter"
+        },
+        {
+          "title": "Recipes",
+          "children": [
+            {
+              "title": "Additional State Properties",
+              "url": "guide/entity/recipes/additional-state-properties"
+            }
+          ]
         }
       ]
     },
@@ -469,12 +478,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.11418a5",
+    "build": "sha.81eca76",
     "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.0-local+sha.11418a5",
+    "full": "8.0.0-local+sha.81eca76",
     "branch": "master",
-    "commitSHA": "11418a54d98a0ffc8b08de2d6a30dd1682c97257"
+    "commitSHA": "81eca766c8c9fd63331923597130be9663d8f4ec"
   }
 }
