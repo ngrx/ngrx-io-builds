@@ -442,7 +442,7 @@
     <loc>https://ngrx.io/api/effects/ROOT_EFFECTS_INIT</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/effects/mapToAction</loc>
+    <loc>https://ngrx.io/api/effects/act</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/effects/OnIdentifyEffects</loc>

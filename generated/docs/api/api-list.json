@@ -522,6 +522,14 @@
     "path": "api/effects",
     "items": [
       {
+        "name": "act",
+        "title": "act",
+        "path": "api/effects/act",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "actions",
         "title": "Actions",
         "path": "api/effects/Actions",
@@ -581,14 +589,6 @@
         "name": "geteffectsmetadata",
         "title": "getEffectsMetadata",
         "path": "api/effects/getEffectsMetadata",
-        "docType": "function",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
-        "name": "maptoaction",
-        "title": "mapToAction",
-        "path": "api/effects/mapToAction",
         "docType": "function",
         "stability": "stable",
         "securityRisk": false
