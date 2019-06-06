@@ -67,8 +67,7 @@
   "SideNav": [
     {
       "url": "docs",
-      "title": "Docs",
-      "hidden": true
+      "title": "Introduction"
     },
     {
       "title": "@ngrx/store",
@@ -478,12 +477,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.bb9add7",
+    "build": "sha.5fcdd3b",
     "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.0-local+sha.bb9add7",
+    "full": "8.0.0-local+sha.5fcdd3b",
     "branch": "master",
-    "commitSHA": "bb9add7604d0dddddfb29e042cd0e2bf60171b37"
+    "commitSHA": "5fcdd3bf877a84d75d4457fe8d2251895ce9dd4d"
   }
 }
