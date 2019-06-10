@@ -457,6 +457,10 @@
   ],
   "docVersions": [
     {
+      "title": "v7",
+      "url": "https://v7.ngrx.io"
+    },
+    {
       "title": "v6",
       "url": "https://github.com/ngrx/platform/tree/6.1.2/docs"
     },
@@ -470,19 +474,19 @@
     }
   ],
   "__versionInfo": {
-    "raw": "8.0.0",
+    "raw": "8.0.1",
     "major": 8,
     "minor": 0,
-    "patch": 1,
+    "patch": 2,
     "prerelease": [
       "local"
     ],
-    "build": "sha.82dfea6",
-    "version": "8.0.1-local",
+    "build": "sha.7f5ac5a",
+    "version": "8.0.2-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.1-local+sha.82dfea6",
+    "full": "8.0.2-local+sha.7f5ac5a",
     "branch": "master",
-    "commitSHA": "82dfea6c787248b98bf35b9c2a2b7dc05a0b0b9a"
+    "commitSHA": "7f5ac5af9cf088256c80667a8ec1b8c46e89d6f5"
   }
 }
