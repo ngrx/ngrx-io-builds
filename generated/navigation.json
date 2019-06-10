@@ -477,12 +477,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.b59edc5",
+    "build": "sha.878d31c",
     "version": "8.0.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.1-local+sha.b59edc5",
+    "full": "8.0.1-local+sha.878d31c",
     "branch": "master",
-    "commitSHA": "b59edc547a2982bbf6c0afe861ea4f9b025cc028"
+    "commitSHA": "878d31c49b8325b2791808bbd224c095f8197a62"
   }
 }
