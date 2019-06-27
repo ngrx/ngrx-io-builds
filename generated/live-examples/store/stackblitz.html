@@ -269,13 +269,14 @@ can be found in the LICENSE file at https://github.com/ngrx/platform
 <!-- 
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
--->"><input type="hidden" name="files[src/app/my-counter/my-counter.component.html]" value="<button (click)=&quot;increment()&quot;>Increment</button>
- 
+-->"><input type="hidden" name="files[src/app/my-counter/my-counter.component.html]" value="<button id=&quot;increment&quot; (click)=&quot;increment()&quot;>Increment</button>
+
 <div>Current Count: {{ count$ | async }}</div>
 
-<button (click)=&quot;decrement()&quot;>Decrement</button>
+<button id=&quot;decrement&quot; (click)=&quot;decrement()&quot;>Decrement</button>
 
-<button (click)=&quot;reset()&quot;>Reset Counter</button>
+<button id=&quot;reset&quot; (click)=&quot;reset()&quot;>Reset Counter</button>
+
 
 <!-- 
 Use of this source code is governed by an MIT-style license that
