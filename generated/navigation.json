@@ -481,12 +481,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.fe7e6a0",
+    "build": "sha.30ce2c6",
     "version": "8.0.2-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.2-local+sha.fe7e6a0",
+    "full": "8.0.2-local+sha.30ce2c6",
     "branch": "master",
-    "commitSHA": "fe7e6a0e049a3dae4a21f778fecdd09fa88e8e90"
+    "commitSHA": "30ce2c62d51827a06d67c200558dc424cc0748b9"
   }
 }
