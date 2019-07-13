@@ -358,6 +358,12 @@
     <loc>https://ngrx.io/api/store/StoreFeatureModule</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/RootStoreConfig</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/store/StoreConfig</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/on</loc>
   </url>
   <url>

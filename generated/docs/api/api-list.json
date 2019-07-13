@@ -285,6 +285,14 @@
         "securityRisk": false
       },
       {
+        "name": "rootstoreconfig",
+        "title": "RootStoreConfig",
+        "path": "api/store/RootStoreConfig",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "runtimechecks",
         "title": "RuntimeChecks",
         "path": "api/store/RuntimeChecks",
@@ -353,6 +361,14 @@
         "title": "STORE_FEATURES",
         "path": "api/store/STORE_FEATURES",
         "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "storeconfig",
+        "title": "StoreConfig",
+        "path": "api/store/StoreConfig",
+        "docType": "interface",
         "stability": "stable",
         "securityRisk": false
       },
