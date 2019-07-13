@@ -349,6 +349,9 @@
     <loc>https://ngrx.io/api/store/USER_PROVIDED_META_REDUCERS</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/USER_RUNTIME_CHECKS</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/StoreModule</loc>
   </url>
   <url>

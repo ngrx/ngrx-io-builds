@@ -419,6 +419,14 @@
         "docType": "const",
         "stability": "stable",
         "securityRisk": false
+      },
+      {
+        "name": "user_runtime_checks",
+        "title": "USER_RUNTIME_CHECKS",
+        "path": "api/store/USER_RUNTIME_CHECKS",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
       }
     ]
   },
