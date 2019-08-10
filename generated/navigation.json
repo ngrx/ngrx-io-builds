@@ -481,12 +481,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.fabbfec",
+    "build": "sha.b84ff9d",
     "version": "8.2.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.2.1-local+sha.fabbfec",
+    "full": "8.2.1-local+sha.b84ff9d",
     "branch": "master",
-    "commitSHA": "fabbfecfdf3d6de8f5d93e29b0f252f8fb746b73"
+    "commitSHA": "b84ff9d5353bb2d1856771438a20e22c14c26dd8"
   }
 }
