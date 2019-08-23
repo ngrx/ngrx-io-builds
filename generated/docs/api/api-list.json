@@ -53,6 +53,14 @@
         "securityRisk": false
       },
       {
+        "name": "actiontype",
+        "title": "ActionType",
+        "path": "api/store/ActionType",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "combinereducers",
         "title": "combineReducers",
         "path": "api/store/combineReducers",
