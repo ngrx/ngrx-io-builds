@@ -325,6 +325,9 @@
     <loc>https://ngrx.io/api/store/resultMemoize</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/DefaultProjectorFn</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/State</loc>
   </url>
   <url>
