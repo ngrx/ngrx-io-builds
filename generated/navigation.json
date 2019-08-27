@@ -148,6 +148,15 @@
         {
           "title": "Instrumentation",
           "url": "guide/store-devtools/config"
+        },
+        {
+          "title": "Recipes",
+          "children": [
+            {
+              "title": "Exclude from Production",
+              "url": "guide/store-devtools/recipes/exclude"
+            }
+          ]
         }
       ]
     },
@@ -481,12 +490,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.6946e2e",
+    "build": "sha.303f9fe",
     "version": "8.2.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.2.1-local+sha.6946e2e",
+    "full": "8.2.1-local+sha.303f9fe",
     "branch": "master",
-    "commitSHA": "6946e2eb97c32440eb3923fac031b6b639069a8b"
+    "commitSHA": "303f9fee9cbd94c83302be9199ed8d1120f4f365"
   }
 }
