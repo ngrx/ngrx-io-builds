@@ -483,19 +483,19 @@
     }
   ],
   "__versionInfo": {
-    "raw": "8.2.0",
+    "raw": "8.3.0",
     "major": 8,
-    "minor": 2,
+    "minor": 3,
     "patch": 1,
     "prerelease": [
       "local"
     ],
-    "build": "sha.4025f6c",
-    "version": "8.2.1-local",
+    "build": "sha.9d9bac6",
+    "version": "8.3.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.2.1-local+sha.4025f6c",
+    "full": "8.3.1-local+sha.9d9bac6",
     "branch": "master",
-    "commitSHA": "4025f6c4c8b7a47fe8c01aff312849b4241a8ada"
+    "commitSHA": "9d9bac6f0a6218fdaa15e1c7c7a2e3de0cc0bd16"
   }
 }
