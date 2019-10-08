@@ -507,6 +507,14 @@
     "path": "api/store-devtools",
     "items": [
       {
+        "name": "devtoolsfeatureoptions",
+        "title": "DevToolsFeatureOptions",
+        "path": "api/store-devtools/DevToolsFeatureOptions",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "liftedstate",
         "title": "LiftedState",
         "path": "api/store-devtools/LiftedState",
