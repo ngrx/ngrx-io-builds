@@ -133,6 +133,9 @@
     <loc>https://ngrx.io/guide/schematics/reducer</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/schematics/selector</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/schematics/store</loc>
   </url>
   <url>
