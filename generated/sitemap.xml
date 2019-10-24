@@ -379,6 +379,9 @@
     <loc>https://ngrx.io/api/store/StoreConfig</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/On</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/on</loc>
   </url>
   <url>

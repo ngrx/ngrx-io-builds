@@ -238,6 +238,14 @@
       },
       {
         "name": "on",
+        "title": "On",
+        "path": "api/store/On",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "on",
         "title": "on",
         "path": "api/store/on",
         "docType": "function",
