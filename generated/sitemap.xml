@@ -115,6 +115,9 @@
     <loc>https://ngrx.io/guide/schematics/container</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/schematics/data</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/schematics/effect</loc>
   </url>
   <url>
