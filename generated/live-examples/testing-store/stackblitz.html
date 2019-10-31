@@ -1,7 +1,7 @@
 <html lang="en"><head></head><body>
-    <form id="mainForm" method="post" action="https://run.stackblitz.com/api/angular/v1" target="_self"><input type="hidden" name="files[src/app/actions/auth.actions.ts]" value="import { createAction } from '@ngrx/store';
+    <form id="mainForm" method="post" action="https://run.stackblitz.com/api/angular/v1" target="_self"><input type="hidden" name="files[src/app/actions/auth.actions.ts]" value="import { createAction, props } from '@ngrx/store';
 
-export const login = createAction('[Auth] Login');
+export const login = createAction('[Auth] Login', props<{ username: string }>());
 export const logout = createAction('[Auth] Logout');
 
 
@@ -16,89 +16,24 @@ export { AuthActions };
 /*
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
-*/"><input type="hidden" name="files[src/app/auth-guard.service.spec.ts]" value="import { TestBed } from '@angular/core/testing';
-import { Store, MemoizedSelector } from '@ngrx/store';
-import { provideMockStore, MockStore } from '@ngrx/store/testing';
-import { cold } from 'jasmine-marbles';
-import { AuthGuard } from './auth-guard.service';
-import * as fromAuth from './reducers';
-
-describe('Auth Guard', () => {
-  let guard: AuthGuard;
-  let store: MockStore<fromAuth.State>;
-  let loggedIn: MemoizedSelector<fromAuth.State, boolean>;
-
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      providers: [AuthGuard, provideMockStore()],
-    });
-
-    store = TestBed.get<Store>(Store);
-    guard = TestBed.get<AuthGuard>(AuthGuard);
-
-    loggedIn = store.overrideSelector(fromAuth.getLoggedIn, false);
-  });
-
-  it('should return false if the user state is not logged in', () => {
-    const expected = cold('(a|)', { a: false });
-
-    expect(guard.canActivate()).toBeObservable(expected);
-  });
-
-  it('should return true if the user state is logged in', () => {
-    const expected = cold('(a|)', { a: true });
-
-    loggedIn.setResult(true);
-
-    expect(guard.canActivate()).toBeObservable(expected);
-  });
-});
-
-
-/*
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://github.com/ngrx/platform
-*/"><input type="hidden" name="files[src/app/auth-guard.service.ts]" value="import { Injectable } from '@angular/core';
-import { CanActivate } from '@angular/router';
-import { Store, select } from '@ngrx/store';
-import { take } from 'rxjs/operators';
-import * as fromAuth from './reducers';
-
-@Injectable({
-  providedIn: 'root',
-})
-export class AuthGuard implements CanActivate {
-  constructor(private store: Store<fromAuth.State>) {}
-
-  canActivate() {
-    return this.store.pipe(
-      select(fromAuth.getLoggedIn),
-      take(1)
-    );
-  }
-}
-
-/*
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://github.com/ngrx/platform
 */"><input type="hidden" name="files[src/app/reducers/auth.reducer.ts]" value="import { createReducer, on } from '@ngrx/store';
 import { AuthActions } from '../actions';
 
 export interface State {
-  loggedIn: boolean;
+  username: string;
 }
 
 export const initialState: State = {
-  loggedIn: false,
+  username: ''
 };
 
 export const reducer = createReducer<State>(
   initialState,
-  on(AuthActions.login, (): State => ({ loggedIn: true })),
-  on(AuthActions.logout, (): State => ({ loggedIn: false }))
+  on(AuthActions.login, ({ username }): State => ({ username })),
+  on(AuthActions.logout, (): State => ({ username: initialState.username })),
 );
 
-export const getLoggedIn = (state: State) => state.loggedIn;
+export const getUsername = (state: State) => state.username;
 
 
 /*
@@ -107,8 +42,6 @@ can be found in the LICENSE file at https://github.com/ngrx/platform
 */"><input type="hidden" name="files[src/app/reducers/index.ts]" value="import {
   createSelector,
   createFeatureSelector,
-  Action,
-  combineReducers,
 } from '@ngrx/store';
 import * as fromAuth from './auth.reducer';
 
@@ -127,10 +60,72 @@ export const selectAuthStatusState = createSelector(
   (state: AuthState) => state.status
 );
 
-export const getLoggedIn = createSelector(
+export const getUsername = createSelector(
   selectAuthStatusState,
-  fromAuth.getLoggedIn
+  fromAuth.getUsername
 );
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/user-greeting.component.spec.ts]" value="import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { By } from '@angular/platform-browser';
+import { Store, MemoizedSelector } from '@ngrx/store';
+import { provideMockStore, MockStore } from '@ngrx/store/testing';
+import { UserGreetingComponent } from './user-greeting.component';
+import * as fromAuth from './reducers';
+
+describe('User Greeting Component', () => {
+  let fixture: ComponentFixture<UserGreetingComponent>;
+  let mockStore: MockStore<fromAuth.State>;
+  let mockUsernameSelector: MemoizedSelector<fromAuth.State, string>;
+  const queryDivText = () =>
+    fixture.debugElement.queryAll(By.css('div'))[0].nativeElement.textContent;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      providers: [provideMockStore()],
+      declarations: [UserGreetingComponent],
+    });
+
+    fixture = TestBed.createComponent(UserGreetingComponent);
+    mockStore = TestBed.get(Store);
+    mockUsernameSelector = mockStore.overrideSelector(fromAuth.getUsername, 'John');
+    fixture.detectChanges();
+  });
+
+  it('should greet John when the username is John', () => {
+    expect(queryDivText()).toBe('Greetings, John!');
+  });
+
+  it('should greet Brandon when the username is Brandon', () => {
+    mockUsernameSelector.setResult('Brandon');
+    mockStore.refreshState();
+    fixture.detectChanges();
+    expect(queryDivText()).toBe('Greetings, Brandon!');
+  });
+});
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/user-greeting.component.ts]" value="import { Component } from '@angular/core';
+import { select, Store } from '@ngrx/store';
+import * as fromAuth from './reducers';
+
+@Component({
+  selector: 'user-greeting',
+  template: `
+    <div>Greetings, {{ username$ | async }}!</div>
+  `,
+})
+export class UserGreetingComponent {
+  username$ = this.store.pipe(select(fromAuth.getUsername));
+
+  constructor(private store: Store<fromAuth.State>) {}
+}
 
 
 /*
@@ -294,7 +289,7 @@ import 'zone.js/dist/zone'; // Included with Angular CLI.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
 */"><input type="hidden" name="files[src/test-files.ts]" value="// Import spec files individually for Stackblitz
-import './app/auth-guard.service.spec';
+import './app/user-greeting.component.spec';
 
 
 /*
