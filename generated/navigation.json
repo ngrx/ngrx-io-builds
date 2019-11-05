@@ -21,10 +21,6 @@
       "title": "Events"
     },
     {
-      "url": "https://github.com/ngrx/platform",
-      "title": "GitHub"
-    },
-    {
       "url": "https://opencollective.com/ngrx",
       "title": "Sponsor"
     }
@@ -490,12 +486,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.8a8dc83",
+    "build": "sha.fcb01e2",
     "version": "8.4.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.4.1-local+sha.8a8dc83",
+    "full": "8.4.1-local+sha.fcb01e2",
     "branch": "master",
-    "commitSHA": "8a8dc8370dfe562a4a2346aaeca9061f66eb0807"
+    "commitSHA": "fcb01e28df8b8d392ca0d1aa5bf5e164320ac9fc"
   }
 }
