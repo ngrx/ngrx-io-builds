@@ -486,12 +486,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.f70600f",
+    "build": "sha.50d1c74",
     "version": "8.4.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.4.1-local+sha.f70600f",
+    "full": "8.4.1-local+sha.50d1c74",
     "branch": "master",
-    "commitSHA": "f70600f5caa12694f48b519c051c449fe57bc556"
+    "commitSHA": "50d1c748ece131a51e3d07d125279a5e40bfbe76"
   }
 }
