@@ -704,6 +704,14 @@
         "docType": "const",
         "stability": "stable",
         "securityRisk": false
+      },
+      {
+        "name": "rooteffectsinit",
+        "title": "rootEffectsInit",
+        "path": "api/effects/rootEffectsInit",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
       }
     ]
   },
