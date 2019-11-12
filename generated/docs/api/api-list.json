@@ -602,6 +602,14 @@
         "securityRisk": false
       },
       {
+        "name": "createeffectmetadata",
+        "title": "CreateEffectMetadata",
+        "path": "api/effects/CreateEffectMetadata",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "effect",
         "title": "Effect",
         "path": "api/effects/Effect",

@@ -457,6 +457,9 @@
     <loc>https://ngrx.io/api/effects/EffectsMetadata</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/effects/CreateEffectMetadata</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/effects/Actions</loc>
   </url>
   <url>
