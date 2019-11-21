@@ -634,6 +634,14 @@
         "securityRisk": false
       },
       {
+        "name": "effectsfeaturemodule",
+        "title": "EffectsFeatureModule",
+        "path": "api/effects/EffectsFeatureModule",
+        "docType": "ngmodule",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "effectsmetadata",
         "title": "EffectsMetadata",
         "path": "api/effects/EffectsMetadata",
@@ -654,6 +662,14 @@
         "title": "EffectSources",
         "path": "api/effects/EffectSources",
         "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "effectsrootmodule",
+        "title": "EffectsRootModule",
+        "path": "api/effects/EffectsRootModule",
+        "docType": "ngmodule",
         "stability": "stable",
         "securityRisk": false
       },
