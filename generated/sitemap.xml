@@ -586,6 +586,21 @@
     <loc>https://ngrx.io/api/router-store/RouterRequestPayload</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/router-store/routerCancelAction</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/router-store/routerErrorAction</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/router-store/routerNavigatedAction</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/router-store/routerNavigationAction</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/router-store/routerRequestAction</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/router-store/routerReducer</loc>
   </url>
   <url>

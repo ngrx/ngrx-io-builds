@@ -960,6 +960,14 @@
       },
       {
         "name": "routercancelaction",
+        "title": "routerCancelAction",
+        "path": "api/router-store/routerCancelAction",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routercancelaction",
         "title": "RouterCancelAction",
         "path": "api/router-store/RouterCancelAction",
         "docType": "type-alias",
@@ -976,6 +984,14 @@
       },
       {
         "name": "routererroraction",
+        "title": "routerErrorAction",
+        "path": "api/router-store/routerErrorAction",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routererroraction",
         "title": "RouterErrorAction",
         "path": "api/router-store/RouterErrorAction",
         "docType": "type-alias",
@@ -987,6 +1003,14 @@
         "title": "RouterErrorPayload",
         "path": "api/router-store/RouterErrorPayload",
         "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routernavigatedaction",
+        "title": "routerNavigatedAction",
+        "path": "api/router-store/routerNavigatedAction",
+        "docType": "const",
         "stability": "stable",
         "securityRisk": false
       },
@@ -1015,6 +1039,14 @@
         "securityRisk": false
       },
       {
+        "name": "routernavigationaction",
+        "title": "routerNavigationAction",
+        "path": "api/router-store/routerNavigationAction",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "routernavigationpayload",
         "title": "RouterNavigationPayload",
         "path": "api/router-store/RouterNavigationPayload",
@@ -1035,6 +1067,14 @@
         "title": "RouterReducerState",
         "path": "api/router-store/RouterReducerState",
         "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "routerrequestaction",
+        "title": "routerRequestAction",
+        "path": "api/router-store/routerRequestAction",
+        "docType": "const",
         "stability": "stable",
         "securityRisk": false
       },
