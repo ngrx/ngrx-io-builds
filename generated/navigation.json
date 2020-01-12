@@ -495,12 +495,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.2620fbb",
+    "build": "sha.fe2b190",
     "version": "8.6.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.6.1-local+sha.2620fbb",
+    "full": "8.6.1-local+sha.fe2b190",
     "branch": "master",
-    "commitSHA": "2620fbba2ce3621f9aff3ecbdba57a46dd1f4392"
+    "commitSHA": "fe2b19006d69145cbe93dadc99a5d0255bfe0b2f"
   }
 }
