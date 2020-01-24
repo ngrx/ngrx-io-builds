@@ -425,6 +425,11 @@
           "url": "https://blog.ngrx.io",
           "title": "Blog",
           "tooltip": "NgRx Blog"
+        },
+        {
+          "url": "presskit",
+          "title": "Press Kit",
+          "tooltip": "Press Kit"
         }
       ]
     },
@@ -495,12 +500,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.e8fe9fd",
+    "build": "sha.9ac1165",
     "version": "8.6.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.6.1-local+sha.e8fe9fd",
+    "full": "8.6.1-local+sha.9ac1165",
     "branch": "master",
-    "commitSHA": "e8fe9fdc6f8603de949f8dc50701fe21a762f13f"
+    "commitSHA": "9ac116531447ab404537ce6a2a8c0be731065c63"
   }
 }
