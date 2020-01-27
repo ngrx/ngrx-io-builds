@@ -634,6 +634,22 @@
         "securityRisk": false
       },
       {
+        "name": "effects_error_handler",
+        "title": "EFFECTS_ERROR_HANDLER",
+        "path": "api/effects/EFFECTS_ERROR_HANDLER",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "effectserrorhandler",
+        "title": "EffectsErrorHandler",
+        "path": "api/effects/EffectsErrorHandler",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "effectsfeaturemodule",
         "title": "EffectsFeatureModule",
         "path": "api/effects/EffectsFeatureModule",
