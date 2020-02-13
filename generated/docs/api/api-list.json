@@ -610,6 +610,14 @@
         "securityRisk": false
       },
       {
+        "name": "defaulteffectserrorhandler",
+        "title": "defaultEffectsErrorHandler",
+        "path": "api/effects/defaultEffectsErrorHandler",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "effect",
         "title": "Effect",
         "path": "api/effects/Effect",
