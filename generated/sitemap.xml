@@ -670,15 +670,6 @@
     <loc>https://ngrx.io/api/data</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/data/EntityDataModule</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/data/EntityDataModuleWithoutEffects</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/data/EntityDataModuleConfig</loc>
-  </url>
-  <url>
     <loc>https://ngrx.io/api/data/EntityActionFactory</loc>
   </url>
   <url>
@@ -698,12 +689,6 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/data/EntityActionPayload</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/data/ChangeSet</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/data/ChangeSetOperation</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/data/EntityCacheAction</loc>
@@ -739,6 +724,9 @@
     <loc>https://ngrx.io/api/data/SaveEntitiesSuccess</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/data/ChangeSetOperation</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/data/ChangeSetAdd</loc>
   </url>
   <url>
@@ -752,6 +740,9 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/data/ChangeSetItem</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/data/ChangeSet</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/data/ChangeSetItemFactory</loc>
@@ -1061,5 +1052,14 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/data/toUpdateFactory</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/data/EntityDataModuleConfig</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/data/EntityDataModuleWithoutEffects</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/data/EntityDataModule</loc>
   </url>
 </urlset>
