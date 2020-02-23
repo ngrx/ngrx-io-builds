@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1582478588590,
+  "timestamp": 1582482045111,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -854,7 +854,7 @@
     "/generated/docs/api/store/testing/MockStoreConfig.json": "82b6aafb883cd34d2402d44dac2a468a434f8ee9",
     "/generated/docs/api/store/testing/provideMockStore.json": "30cff823989f4250ed2f1831ba6ca484a7761916",
     "/generated/docs/api/store/union.json": "65892563d51ac3ab6149b064d7c2d589abb92402",
-    "/generated/docs/app/search-data.json": "cbe3ece3a017e2b28a879eee140750d444c1e23b",
+    "/generated/docs/app/search-data.json": "66b3bfd914e414a01d162c964dfd54a85f4a1d53",
     "/generated/docs/contributing.json": "ca77ca651fb852fa739e5c0ea1be92b6996fc75f",
     "/generated/docs/docs.json": "c6dde5bc3c08aa61c1c195bc4820a4a05a1901af",
     "/generated/docs/events.json": "151d0fd62b78e64518987b3f887bbb3ab0b7c251",
@@ -872,7 +872,7 @@
     "/generated/docs/guide/data/entity-metadata.json": "ace709c483fcbc8da661b419b9c62ce11bb64147",
     "/generated/docs/guide/data/entity-reducer.json": "3c6306704872d31c1be3252fd626a96e526185a5",
     "/generated/docs/guide/data/entity-services.json": "62ea53c8bc8151305372139f5c757a0e97d2a3f6",
-    "/generated/docs/guide/data/extension-points.json": "fb6e573f93d778d516250712d628e5c3fbfbd8cc",
+    "/generated/docs/guide/data/extension-points.json": "7803ed6b1ca46819fc535d6469fe0a0f8909fed9",
     "/generated/docs/guide/data/faq.json": "5a3a5473ff1c799e20212c64e8874787883e5f40",
     "/generated/docs/guide/data/install.json": "b909913976829980a885fb03610fb4f6815c3446",
     "/generated/docs/guide/data/limitations.json": "bd53b1e2f4028f81d1bb640af17b27070708e2d4",
@@ -989,7 +989,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "5aeeb78cc7aa47a300292bdb04ce3cb960fb2da9",
+    "/generated/navigation.json": "efe50ca87fc0ad4943f2078ff39800a3531b6107",
     "/generated/resources.json": "f3c64fe4ed10cfcb0e9c8296c805c66fab3c6bba",
     "/index.html": "8c073afc26a6b54f137dbd021ee73c79ca4c5c4a",
     "/live-example-live-example-module.d2d4a17483f674b6fcba.js": "c7d1dc4766c358254b60d6e0b84688064cc8e1f8",
