@@ -523,6 +523,14 @@
         "securityRisk": false
       },
       {
+        "name": "initial_options",
+        "title": "INITIAL_OPTIONS",
+        "path": "api/store-devtools/INITIAL_OPTIONS",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "liftedstate",
         "title": "LiftedState",
         "path": "api/store-devtools/LiftedState",

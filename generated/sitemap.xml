@@ -442,6 +442,9 @@
     <loc>https://ngrx.io/api/store-devtools/DevToolsFeatureOptions</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store-devtools/INITIAL_OPTIONS</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/effects</loc>
   </url>
   <url>
