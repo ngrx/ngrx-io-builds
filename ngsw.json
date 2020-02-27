@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1582811461222,
+  "timestamp": 1582813312715,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -738,7 +738,7 @@
     "/generated/docs/api/entity.json": "b8eb9bbafc58ab5e431b8d85f37249f884292827",
     "/generated/docs/api/entity/Comparer.json": "b7552f07c9acbaaab50b655517d83d06a211b006",
     "/generated/docs/api/entity/Dictionary.json": "68d99f0cecbb6b312a7edddb77ef34996418c214",
-    "/generated/docs/api/entity/EntityAdapter.json": "09b17423092f7ffbb2b10cee0712a8b5bafdb0ee",
+    "/generated/docs/api/entity/EntityAdapter.json": "eaec3a97480385d1d030e224a8942c7d6fefc96c",
     "/generated/docs/api/entity/EntityMap.json": "d50a1f8a138a77c94b66386539f20e70b5b62fe8",
     "/generated/docs/api/entity/EntityState.json": "4ce0b44380df9615fb1651c094f6f2514d23c593",
     "/generated/docs/api/entity/IdSelector.json": "4bff5c8bdc2f39f4f85feed31f5a88f187133176",
@@ -857,7 +857,7 @@
     "/generated/docs/api/store/testing/MockStoreConfig.json": "09cc14d14b5de3493a51b248b26a7dcb4f358178",
     "/generated/docs/api/store/testing/provideMockStore.json": "a2dcb20d11518fc85f3885463e1e5374e6a1fce7",
     "/generated/docs/api/store/union.json": "46298d56316ba077ac60c0ad8ca66ec43e106803",
-    "/generated/docs/app/search-data.json": "742b02a14b10dba0502a0fa05c115f8c254dc2f4",
+    "/generated/docs/app/search-data.json": "b2bbd345af88ba9c89812ef08c17a52e367846b7",
     "/generated/docs/contributing.json": "ca77ca651fb852fa739e5c0ea1be92b6996fc75f",
     "/generated/docs/docs.json": "c6dde5bc3c08aa61c1c195bc4820a4a05a1901af",
     "/generated/docs/events.json": "151d0fd62b78e64518987b3f887bbb3ab0b7c251",
@@ -886,7 +886,7 @@
     "/generated/docs/guide/effects/operators.json": "0cef6eb9adae3011d95d78b893c81080dba18409",
     "/generated/docs/guide/effects/testing.json": "8d5bdf4c620a6864b715077b30863ed9d89b6b45",
     "/generated/docs/guide/entity.json": "3f0c4235298d30096e8433ce2a987df5d142e538",
-    "/generated/docs/guide/entity/adapter.json": "c0b0367d62c20e67c2297cf2b190d2b146e7a2ae",
+    "/generated/docs/guide/entity/adapter.json": "311d16d890eb79c0253e0dffcb326cbfd49e842d",
     "/generated/docs/guide/entity/install.json": "bae719c87c222949ae0dc9af27c4331d19587964",
     "/generated/docs/guide/entity/interfaces.json": "aa67102b3c22333af3b7a637daec9df4f6d8e339",
     "/generated/docs/guide/entity/recipes/additional-state-properties.json": "1f2528f79ecf511c8a7bce76da2bd15725f1891b",
@@ -993,7 +993,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "c2e52207516e4ecad56e41a9f9c0a7f9049464a2",
+    "/generated/navigation.json": "c9e2a2dfaa5e0a061012f3433fcad5c7c71e1a45",
     "/generated/resources.json": "f3c64fe4ed10cfcb0e9c8296c805c66fab3c6bba",
     "/index.html": "8c073afc26a6b54f137dbd021ee73c79ca4c5c4a",
     "/live-example-live-example-module.d2d4a17483f674b6fcba.js": "c7d1dc4766c358254b60d6e0b84688064cc8e1f8",
