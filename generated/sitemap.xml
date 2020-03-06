@@ -490,6 +490,9 @@
     <loc>https://ngrx.io/api/effects/EffectSources</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/effects/EffectsRunner</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/effects/EffectNotification</loc>
   </url>
   <url>

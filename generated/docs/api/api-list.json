@@ -706,6 +706,14 @@
         "securityRisk": false
       },
       {
+        "name": "effectsrunner",
+        "title": "EffectsRunner",
+        "path": "api/effects/EffectsRunner",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "geteffectsmetadata",
         "title": "getEffectsMetadata",
         "path": "api/effects/getEffectsMetadata",
