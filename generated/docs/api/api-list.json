@@ -776,6 +776,14 @@
         "docType": "const",
         "stability": "stable",
         "securityRisk": false
+      },
+      {
+        "name": "user_provided_effects",
+        "title": "USER_PROVIDED_EFFECTS",
+        "path": "api/effects/USER_PROVIDED_EFFECTS",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
       }
     ]
   },

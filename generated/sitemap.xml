@@ -523,6 +523,9 @@
     <loc>https://ngrx.io/api/effects/OnInitEffects</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/effects/USER_PROVIDED_EFFECTS</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/effects/testing</loc>
   </url>
   <url>
