@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1586173416680,
+  "timestamp": 1586275469827,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -36,7 +36,7 @@
         "/resource-resource-list-module.e3b2d8e75a79e17e168f.js",
         "/runtime.27e91ed89eaba1b9413c.js",
         "/search-file-not-found-search-module.a4582a79bc5bc9825b48.js",
-        "/styles.c9854f1b46766b112c51.css",
+        "/styles.31ae42dfd21384ec1919.css",
         "/toc-toc-module.bb9dfe50071ad8b85c2c.js"
       ],
       "patterns": [
@@ -448,6 +448,7 @@
         "/generated/docs/api/store/testing/provideMockStore.json",
         "/generated/docs/api/store/union.json",
         "/generated/docs/guide/component.json",
+        "/generated/docs/guide/component/install.json",
         "/generated/docs/guide/component/let.json",
         "/generated/docs/guide/component/push.json",
         "/generated/docs/guide/data.json",
@@ -535,7 +536,7 @@
   "hashTable": {
     "/announcement-bar-announcement-bar-module.58644928f746f72c468b.js": "127bbfc49fb1e43bde0a3fda783ec11dd1f9c6ec",
     "/api-api-list-module.07b912a225c0dd320045.js": "43f9f43bd3abdc631f2e42991154992c2481cb66",
-    "/app/search/search-worker.js": "a76b578674e2f3182e9fe0470b2325d90978abde",
+    "/app/search/search-worker.js": "160908018a85a00cc26c7a49f878985ee6f7b389",
     "/assets-js-prettify-js.8ecd784719488b53d3fa.js": "5ec508b9b765f9bae3f2dadab40946396ef2841c",
     "/assets/images/badge.svg": "c5d6dfe936ff6157c254ada9be7590ad53a67e73",
     "/assets/images/banner.svg": "fc89864d0beacb917b8e82b4ee169edc304c039b",
@@ -863,14 +864,15 @@
     "/generated/docs/api/store/testing/MockStoreConfig.json": "804be05e47577830cf39e61f61b604b3201b70d4",
     "/generated/docs/api/store/testing/provideMockStore.json": "8227ea5ce6fc42f5e57cf5516f01cf9a757b0b33",
     "/generated/docs/api/store/union.json": "617a3bb8d36af1211da6d71a157f30ba79711263",
-    "/generated/docs/app/search-data.json": "7ecfb540e6fdecbbcde6325b631135d65ac712a7",
+    "/generated/docs/app/search-data.json": "84231a6b6aea97c74c65497ef842e94d7d84fc1f",
     "/generated/docs/contributing.json": "ca77ca651fb852fa739e5c0ea1be92b6996fc75f",
     "/generated/docs/docs.json": "7ecf3e82aee33fa46506db6a19ae8d63144403f2",
     "/generated/docs/events.json": "151d0fd62b78e64518987b3f887bbb3ab0b7c251",
     "/generated/docs/file-not-found.json": "318660e94b919be1e8d96e2973810a54d3d4a9b6",
-    "/generated/docs/guide/component.json": "3049bd8ccd630fca330b7ad2cfd2926cea5769bd",
-    "/generated/docs/guide/component/let.json": "1e45f632e1bd61c4427e96e3eed2143008d36a95",
-    "/generated/docs/guide/component/push.json": "0fb57aa49b021532936ead153fa2774cefbe1d04",
+    "/generated/docs/guide/component.json": "8f8db435a8c0cc69551386edde0d695f0e11d322",
+    "/generated/docs/guide/component/install.json": "cdde4241508fab90cc15aac26be2a5592f4235f7",
+    "/generated/docs/guide/component/let.json": "156c5dba8f8d8a992a8c6323ae9788e09cfde5df",
+    "/generated/docs/guide/component/push.json": "bd476d9a1e7eeba0fbfa5ca1d30210615a90e588",
     "/generated/docs/guide/data.json": "ae7267cc9dc13732e3cabdebeace03241498df55",
     "/generated/docs/guide/data/architecture-overview.json": "25aa48cf5be94aa909a364cbf0f4d79cce00b75b",
     "/generated/docs/guide/data/architecture.json": "ac7a02308056d84779a4b3fce1ca8db8b30eb9e1",
@@ -1001,9 +1003,9 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "82071ad6f0fdf69e36171ea18b35560b0f33b1e3",
+    "/generated/navigation.json": "b21f8095c258e1aefb4019ca00894a719a355586",
     "/generated/resources.json": "f3c64fe4ed10cfcb0e9c8296c805c66fab3c6bba",
-    "/index.html": "8c073afc26a6b54f137dbd021ee73c79ca4c5c4a",
+    "/index.html": "555e978e0ddde84adb657f954b1dbfaa2e9f8550",
     "/live-example-live-example-module.d2d4a17483f674b6fcba.js": "c7d1dc4766c358254b60d6e0b84688064cc8e1f8",
     "/main.688accedae2ef4c1a40a.js": "62661ea9c205f893c6b7943d6689793572842c6c",
     "/ngrx-code-block-module.b0d5c869503e9db0cb0f.js": "a03c7e44def60eb1616ca7ea87e051286d4d8774",
@@ -1014,7 +1016,7 @@
     "/resource-resource-list-module.e3b2d8e75a79e17e168f.js": "e24bd1965e2f77d0093319ccf2d78d963ce532a9",
     "/runtime.27e91ed89eaba1b9413c.js": "9a63599cc25bdead702d75b96125ca3bfb6a6032",
     "/search-file-not-found-search-module.a4582a79bc5bc9825b48.js": "82e5b3925f4a31666cc9730f26282f026ffa881b",
-    "/styles.c9854f1b46766b112c51.css": "91380947190a8cd8210149d4c28ca1db90630f90",
+    "/styles.31ae42dfd21384ec1919.css": "b6fa543544491dd7e2e5d7cc6ec62795e4231ac5",
     "/toc-toc-module.bb9dfe50071ad8b85c2c.js": "21403610c287fa3afc0162e90f249970b8f28daa"
   },
   "navigationUrls": [

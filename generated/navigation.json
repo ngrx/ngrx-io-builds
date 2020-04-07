@@ -321,6 +321,18 @@
         {
           "title": "Overview",
           "url": "guide/component"
+        },
+        {
+          "title": "Installation",
+          "url": "guide/component/install"
+        },
+        {
+          "title": "Let Directive",
+          "url": "guide/component/let"
+        },
+        {
+          "title": "Push Pipe",
+          "url": "guide/component/push"
         }
       ]
     },
@@ -512,12 +524,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.e97863d",
+    "build": "sha.80975fa",
     "version": "9.0.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "9.0.1-local+sha.e97863d",
+    "full": "9.0.1-local+sha.80975fa",
     "branch": "master",
-    "commitSHA": "e97863dd8e29f4a55411758885a4cc8b53055ec5"
+    "commitSHA": "80975fa9579114ad0e8c139a736a39cfedacd67c"
   }
 }
