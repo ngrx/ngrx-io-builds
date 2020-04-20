@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1586791161601,
+  "timestamp": 1587387378701,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -864,7 +864,7 @@
     "/generated/docs/api/store/testing/MockStoreConfig.json": "817bf71de479da440f104735e74718ea46445998",
     "/generated/docs/api/store/testing/provideMockStore.json": "58701cab0dfdd26c67378d63e14fe5aff111b0b2",
     "/generated/docs/api/store/union.json": "295b7b248055a71a52d13225cac05ee737080acf",
-    "/generated/docs/app/search-data.json": "e729b9dbf26ee0225af08a83f979b43df404b4f1",
+    "/generated/docs/app/search-data.json": "0ac3fefedb860b80c1131b93a521362b72896080",
     "/generated/docs/contributing.json": "ca77ca651fb852fa739e5c0ea1be92b6996fc75f",
     "/generated/docs/docs.json": "7ecf3e82aee33fa46506db6a19ae8d63144403f2",
     "/generated/docs/events.json": "151d0fd62b78e64518987b3f887bbb3ab0b7c251",
@@ -885,7 +885,7 @@
     "/generated/docs/guide/data/entity-metadata.json": "a66a138faec634f0bcfa1e04b070774d474c95ee",
     "/generated/docs/guide/data/entity-reducer.json": "3c6306704872d31c1be3252fd626a96e526185a5",
     "/generated/docs/guide/data/entity-services.json": "6701f1c8becf539516a78acd7187869944a1b4c9",
-    "/generated/docs/guide/data/extension-points.json": "7803ed6b1ca46819fc535d6469fe0a0f8909fed9",
+    "/generated/docs/guide/data/extension-points.json": "71ad584a9928f1fe5ce1ae4ab9518b852d053624",
     "/generated/docs/guide/data/faq.json": "5a3a5473ff1c799e20212c64e8874787883e5f40",
     "/generated/docs/guide/data/install.json": "b909913976829980a885fb03610fb4f6815c3446",
     "/generated/docs/guide/data/limitations.json": "bd53b1e2f4028f81d1bb640af17b27070708e2d4",
@@ -896,7 +896,7 @@
     "/generated/docs/guide/effects/operators.json": "0cef6eb9adae3011d95d78b893c81080dba18409",
     "/generated/docs/guide/effects/testing.json": "8d5bdf4c620a6864b715077b30863ed9d89b6b45",
     "/generated/docs/guide/entity.json": "3f0c4235298d30096e8433ce2a987df5d142e538",
-    "/generated/docs/guide/entity/adapter.json": "4140e941daf9e91e4dce62b16623629776b5ad98",
+    "/generated/docs/guide/entity/adapter.json": "4d57c592060cafd56629c56002a3b2670f25822f",
     "/generated/docs/guide/entity/install.json": "bae719c87c222949ae0dc9af27c4331d19587964",
     "/generated/docs/guide/entity/interfaces.json": "aa67102b3c22333af3b7a637daec9df4f6d8e339",
     "/generated/docs/guide/entity/recipes/additional-state-properties.json": "1f2528f79ecf511c8a7bce76da2bd15725f1891b",
@@ -1003,7 +1003,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "a0dbbe73eac7a1e39ac84ce76a4e65b8908ffda7",
+    "/generated/navigation.json": "48f7f75eb87d99a104d92bf6399ce52745eb63f4",
     "/generated/resources.json": "f3c64fe4ed10cfcb0e9c8296c805c66fab3c6bba",
     "/index.html": "555e978e0ddde84adb657f954b1dbfaa2e9f8550",
     "/live-example-live-example-module.d2d4a17483f674b6fcba.js": "c7d1dc4766c358254b60d6e0b84688064cc8e1f8",
