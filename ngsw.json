@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1588607487117,
+  "timestamp": 1588608021856,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -864,7 +864,7 @@
     "/generated/docs/api/store/testing/MockStoreConfig.json": "817bf71de479da440f104735e74718ea46445998",
     "/generated/docs/api/store/testing/provideMockStore.json": "58701cab0dfdd26c67378d63e14fe5aff111b0b2",
     "/generated/docs/api/store/union.json": "295b7b248055a71a52d13225cac05ee737080acf",
-    "/generated/docs/app/search-data.json": "2ea19ce4ea930b74c6e9f80fee1066cb045ac322",
+    "/generated/docs/app/search-data.json": "c96ab3561ace2391c25ec954916c0f26e5934b22",
     "/generated/docs/contributing.json": "ca77ca651fb852fa739e5c0ea1be92b6996fc75f",
     "/generated/docs/docs.json": "7ecf3e82aee33fa46506db6a19ae8d63144403f2",
     "/generated/docs/events.json": "151d0fd62b78e64518987b3f887bbb3ab0b7c251",
@@ -910,7 +910,7 @@
     "/generated/docs/guide/router-store/configuration.json": "d02f6212d4cfc8d37f40ef272471fcacd37f6e29",
     "/generated/docs/guide/router-store/install.json": "8a95c7dcb119d082b13ad0d8895b59f9a403484f",
     "/generated/docs/guide/router-store/selectors.json": "5d4fe7dbbc3ba024e31ffe6b129de3d8f896cf0a",
-    "/generated/docs/guide/schematics.json": "5263ddd02318c12951a564619e7a5ed2154e173e",
+    "/generated/docs/guide/schematics.json": "6a6c21aa404a77f72879bd999b24de5d4e931de7",
     "/generated/docs/guide/schematics/action.json": "c5a3d27dd2b983abe82628e49cb3a4103a5a388d",
     "/generated/docs/guide/schematics/container.json": "4d9ddfe529f93fea36c365bee08d504abafe4f98",
     "/generated/docs/guide/schematics/data.json": "0361a7160dc52abe85c7a276a84bcb8cc185eb63",
@@ -1003,7 +1003,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "50311b9aff30fdafda7f485ad46f9a100885ddca",
+    "/generated/navigation.json": "be869fcebc2d5c4d709863174446730016fddbd8",
     "/generated/resources.json": "f3c64fe4ed10cfcb0e9c8296c805c66fab3c6bba",
     "/index.html": "555e978e0ddde84adb657f954b1dbfaa2e9f8550",
     "/live-example-live-example-module.d2d4a17483f674b6fcba.js": "c7d1dc4766c358254b60d6e0b84688064cc8e1f8",
