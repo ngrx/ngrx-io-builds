@@ -517,19 +517,19 @@
     }
   ],
   "__versionInfo": {
-    "raw": "9.1.1",
+    "raw": "9.1.2",
     "major": 9,
     "minor": 1,
-    "patch": 2,
+    "patch": 3,
     "prerelease": [
       "local"
     ],
-    "build": "sha.5255fd1",
-    "version": "9.1.2-local",
+    "build": "sha.52125b7",
+    "version": "9.1.3-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "9.1.2-local+sha.5255fd1",
+    "full": "9.1.3-local+sha.52125b7",
     "branch": "master",
-    "commitSHA": "5255fd1810b677a545129a0f6e43d18348b5ff22"
+    "commitSHA": "52125b755c4f6130c6eb24888fc9ba0ef2a70cba"
   }
 }
