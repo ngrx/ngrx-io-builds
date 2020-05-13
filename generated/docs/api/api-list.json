@@ -189,6 +189,14 @@
         "securityRisk": false
       },
       {
+        "name": "isngrxmockenvironment",
+        "title": "isNgrxMockEnvironment",
+        "path": "api/store/isNgrxMockEnvironment",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "memoizedprojection",
         "title": "MemoizedProjection",
         "path": "api/store/MemoizedProjection",
@@ -353,6 +361,14 @@
         "title": "SelectorWithProps",
         "path": "api/store/SelectorWithProps",
         "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "setngrxmockenvironment",
+        "title": "setNgrxMockEnvironment",
+        "path": "api/store/setNgrxMockEnvironment",
+        "docType": "function",
         "stability": "stable",
         "securityRisk": false
       },

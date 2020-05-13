@@ -307,6 +307,12 @@
     <loc>https://ngrx.io/api/store/INIT</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/setNgrxMockEnvironment</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/store/isNgrxMockEnvironment</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/ReducerManager</loc>
   </url>
   <url>
