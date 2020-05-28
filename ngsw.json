@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1590698895996,
+  "timestamp": 1590703439589,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -787,7 +787,7 @@
     "/generated/docs/api/router-store/StateKeyOrSelector.json": "500a457e70f9ac698f466777c390c73982830f51",
     "/generated/docs/api/router-store/StoreRouterConfig.json": "52b9d450d50cf95b7583ac81187ed147ce26c3ef",
     "/generated/docs/api/router-store/StoreRouterConnectingModule.json": "94754cc4fee04c98db90391a7241d69e22937e80",
-    "/generated/docs/api/router-store/getSelectors.json": "bcb0d2c4cee9677fadf32a29a9dc02aa94fd8c05",
+    "/generated/docs/api/router-store/getSelectors.json": "2f8e9bbd56c0302c490066a6a18010b1e7020999",
     "/generated/docs/api/router-store/routerCancelAction.json": "0f5d9fc5a2e40e619aa5928d90f1b72a6694ce10",
     "/generated/docs/api/router-store/routerErrorAction.json": "1a39024baa3a923edde84f8df5289f647c988f33",
     "/generated/docs/api/router-store/routerNavigatedAction.json": "47a1014e93de081b5578c8a715ec5ae7ab42e58a",
@@ -869,7 +869,7 @@
     "/generated/docs/api/store/testing/MockStoreConfig.json": "aff65e7330bf8be82279971f3cbffe8e74c2e1d0",
     "/generated/docs/api/store/testing/provideMockStore.json": "5c20cd37640ad7af44ad556779230601c050790e",
     "/generated/docs/api/store/union.json": "2e46b8a7f2d18ecba41775d0a120bfb654324976",
-    "/generated/docs/app/search-data.json": "b390ed7a2e202182967471e46890b810cd1891f3",
+    "/generated/docs/app/search-data.json": "b7a057fc1ca9985e353d45412422d260dd8f42d9",
     "/generated/docs/contributing.json": "ca77ca651fb852fa739e5c0ea1be92b6996fc75f",
     "/generated/docs/docs.json": "7185141342932fb537e08ccc434709ba323cb75c",
     "/generated/docs/events.json": "151d0fd62b78e64518987b3f887bbb3ab0b7c251",
@@ -915,7 +915,7 @@
     "/generated/docs/guide/router-store/actions.json": "02e86076f74e5e1909f1a69450348fe2648f9ee2",
     "/generated/docs/guide/router-store/configuration.json": "d02f6212d4cfc8d37f40ef272471fcacd37f6e29",
     "/generated/docs/guide/router-store/install.json": "8a95c7dcb119d082b13ad0d8895b59f9a403484f",
-    "/generated/docs/guide/router-store/selectors.json": "5d4fe7dbbc3ba024e31ffe6b129de3d8f896cf0a",
+    "/generated/docs/guide/router-store/selectors.json": "119f4b6603d4fb8c7473c1873e9e318f9e8449cc",
     "/generated/docs/guide/schematics.json": "6a6c21aa404a77f72879bd999b24de5d4e931de7",
     "/generated/docs/guide/schematics/action.json": "c9d9ed0e87a092e4e1d55d001d3e74514b82c4c6",
     "/generated/docs/guide/schematics/container.json": "4d9ddfe529f93fea36c365bee08d504abafe4f98",
@@ -1009,7 +1009,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "f84823c04e633a0fc44b18370cf7697ee9dc2f90",
+    "/generated/navigation.json": "1644abf9e0f3716f7b371a8e41b10c2bafaaed7b",
     "/generated/resources.json": "f3c64fe4ed10cfcb0e9c8296c805c66fab3c6bba",
     "/index.html": "555e978e0ddde84adb657f954b1dbfaa2e9f8550",
     "/live-example-live-example-module.d2d4a17483f674b6fcba.js": "c7d1dc4766c358254b60d6e0b84688064cc8e1f8",
