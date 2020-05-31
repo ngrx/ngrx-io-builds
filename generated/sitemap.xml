@@ -1051,9 +1051,6 @@
     <loc>https://ngrx.io/api/data/DefaultPluralizer</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/data/getUuid</loc>
-  </url>
-  <url>
     <loc>https://ngrx.io/api/data/getGuid</loc>
   </url>
   <url>

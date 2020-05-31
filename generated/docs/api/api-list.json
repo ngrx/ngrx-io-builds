@@ -1024,17 +1024,17 @@
       },
       {
         "name": "routercancelaction",
-        "title": "routerCancelAction",
-        "path": "api/router-store/routerCancelAction",
-        "docType": "const",
+        "title": "RouterCancelAction",
+        "path": "api/router-store/RouterCancelAction",
+        "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
       },
       {
         "name": "routercancelaction",
-        "title": "RouterCancelAction",
-        "path": "api/router-store/RouterCancelAction",
-        "docType": "type-alias",
+        "title": "routerCancelAction",
+        "path": "api/router-store/routerCancelAction",
+        "docType": "const",
         "stability": "stable",
         "securityRisk": false
       },
@@ -1048,17 +1048,17 @@
       },
       {
         "name": "routererroraction",
-        "title": "routerErrorAction",
-        "path": "api/router-store/routerErrorAction",
-        "docType": "const",
+        "title": "RouterErrorAction",
+        "path": "api/router-store/RouterErrorAction",
+        "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
       },
       {
         "name": "routererroraction",
-        "title": "RouterErrorAction",
-        "path": "api/router-store/RouterErrorAction",
-        "docType": "type-alias",
+        "title": "routerErrorAction",
+        "path": "api/router-store/routerErrorAction",
+        "docType": "const",
         "stability": "stable",
         "securityRisk": false
       },
@@ -1072,17 +1072,17 @@
       },
       {
         "name": "routernavigatedaction",
-        "title": "routerNavigatedAction",
-        "path": "api/router-store/routerNavigatedAction",
-        "docType": "const",
+        "title": "RouterNavigatedAction",
+        "path": "api/router-store/RouterNavigatedAction",
+        "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
       },
       {
         "name": "routernavigatedaction",
-        "title": "RouterNavigatedAction",
-        "path": "api/router-store/RouterNavigatedAction",
-        "docType": "type-alias",
+        "title": "routerNavigatedAction",
+        "path": "api/router-store/routerNavigatedAction",
+        "docType": "const",
         "stability": "stable",
         "securityRisk": false
       },
@@ -1136,17 +1136,17 @@
       },
       {
         "name": "routerrequestaction",
-        "title": "routerRequestAction",
-        "path": "api/router-store/routerRequestAction",
-        "docType": "const",
+        "title": "RouterRequestAction",
+        "path": "api/router-store/RouterRequestAction",
+        "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
       },
       {
         "name": "routerrequestaction",
-        "title": "RouterRequestAction",
-        "path": "api/router-store/RouterRequestAction",
-        "docType": "type-alias",
+        "title": "routerRequestAction",
+        "path": "api/router-store/routerRequestAction",
+        "docType": "const",
         "stability": "stable",
         "securityRisk": false
       },
@@ -1247,17 +1247,17 @@
       },
       {
         "name": "changesetitemfactory",
-        "title": "changeSetItemFactory",
-        "path": "api/data/changeSetItemFactory",
-        "docType": "const",
+        "title": "ChangeSetItemFactory",
+        "path": "api/data/ChangeSetItemFactory",
+        "docType": "class",
         "stability": "stable",
         "securityRisk": false
       },
       {
         "name": "changesetitemfactory",
-        "title": "ChangeSetItemFactory",
-        "path": "api/data/ChangeSetItemFactory",
-        "docType": "class",
+        "title": "changeSetItemFactory",
+        "path": "api/data/changeSetItemFactory",
+        "docType": "const",
         "stability": "stable",
         "securityRisk": false
       },
@@ -1993,14 +1993,6 @@
         "name": "getguidcomb",
         "title": "getGuidComb",
         "path": "api/data/getGuidComb",
-        "docType": "function",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
-        "name": "getuuid",
-        "title": "getUuid",
-        "path": "api/data/getUuid",
         "docType": "function",
         "stability": "stable",
         "securityRisk": false
