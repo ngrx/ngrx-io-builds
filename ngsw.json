@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1592070608292,
+  "timestamp": 1592234986924,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -1008,7 +1008,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "5fbd5f00a79576e3e2b0e05f188379f8aa7f065d",
+    "/generated/navigation.json": "eb3fc4061579752597bbfe26d7d0d1b7c1708c6c",
     "/generated/resources.json": "f3c64fe4ed10cfcb0e9c8296c805c66fab3c6bba",
     "/index.html": "cf989384a8fd6813793a51a26eaa416e4d22061e",
     "/live-example-live-example-module.59d8efe666ccd454df43.js": "f45fc00722a448602992e56c27694c65f7faf0b2",
