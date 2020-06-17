@@ -533,12 +533,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.71286671",
+    "build": "sha.e3b178d0",
     "version": "9.2.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "9.2.1-local+sha.71286671",
+    "full": "9.2.1-local+sha.e3b178d0",
     "branch": "master",
-    "commitSHA": "71286671e08767d862295d506de9ce59a2e1eaa0"
+    "commitSHA": "e3b178d007ca401604aff451d74c5b223228b9cd"
   }
 }
