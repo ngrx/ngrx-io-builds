@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1594385214343,
+  "timestamp": 1594389140669,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -847,7 +847,7 @@
     "/generated/docs/api/store/compose.json": "5a114f123fa6ff056b3c024b3c9b08ffea8b1b53",
     "/generated/docs/api/store/createAction.json": "d06302ed31ad2addfd6120d57995d670aa218b71",
     "/generated/docs/api/store/createFeatureSelector.json": "060cd0d5f569c0d1a332f5ab3cb1fa693958a135",
-    "/generated/docs/api/store/createReducer.json": "213a00740af9b6f932e5b0b4ea558d4e6a4a906e",
+    "/generated/docs/api/store/createReducer.json": "51b6d4fe233da223f7b3247e52bb063092ed3a0f",
     "/generated/docs/api/store/createReducerFactory.json": "71b435b8d9d71325753f724825e17f03915aeee1",
     "/generated/docs/api/store/createSelector.json": "961a610d7ce9fa6ae090567855d8225d02965ed1",
     "/generated/docs/api/store/createSelectorFactory.json": "6a7847c8e05bbd9512bc25149048baa4a7bbdc3f",
@@ -868,7 +868,7 @@
     "/generated/docs/api/store/testing/MockStoreConfig.json": "8f9ac5ae894d3504efaf9071a1df0e56150954a6",
     "/generated/docs/api/store/testing/provideMockStore.json": "1e7f47889fc32fe7c49e7aedf15aa727f4d56daa",
     "/generated/docs/api/store/union.json": "01e1e80bb5f03da238c781cb86dd7062f411d4e6",
-    "/generated/docs/app/search-data.json": "126d81c56d9cd74030e02718cd7f2798c84c1882",
+    "/generated/docs/app/search-data.json": "ef4428309359fa12dab9eaf21f3776a897cfb92f",
     "/generated/docs/contributing.json": "ca77ca651fb852fa739e5c0ea1be92b6996fc75f",
     "/generated/docs/docs.json": "0516edc66999e0869d925e6e13f8db89d40c941b",
     "/generated/docs/events.json": "151d0fd62b78e64518987b3f887bbb3ab0b7c251",
@@ -1008,7 +1008,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "0757cc94ba3ac5dcbf9540932a0985cf172ef45a",
+    "/generated/navigation.json": "b941a846a975fdc1b8fa627f8ca1424656d30bb4",
     "/generated/resources.json": "f3c64fe4ed10cfcb0e9c8296c805c66fab3c6bba",
     "/index.html": "cf989384a8fd6813793a51a26eaa416e4d22061e",
     "/live-example-live-example-module.59d8efe666ccd454df43.js": "f45fc00722a448602992e56c27694c65f7faf0b2",
