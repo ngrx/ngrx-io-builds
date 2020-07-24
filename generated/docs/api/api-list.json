@@ -864,6 +864,14 @@
         "securityRisk": false
       },
       {
+        "name": "entitymapone",
+        "title": "EntityMapOne",
+        "path": "api/entity/EntityMapOne",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "entitystate",
         "title": "EntityState",
         "path": "api/entity/EntityState",

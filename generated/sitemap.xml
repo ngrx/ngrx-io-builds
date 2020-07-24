@@ -571,6 +571,9 @@
     <loc>https://ngrx.io/api/entity/EntityMap</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/entity/EntityMapOne</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/entity/Predicate</loc>
   </url>
   <url>
