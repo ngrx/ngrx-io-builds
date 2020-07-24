@@ -548,12 +548,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.b144ed98",
+    "build": "sha.bb309e00",
     "version": "10.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "10.0.0-local+sha.b144ed98",
+    "full": "10.0.0-local+sha.bb309e00",
     "branch": "master",
-    "commitSHA": "b144ed987812ea2017b30b604b53957e9497ea86"
+    "commitSHA": "bb309e00b6e302aef48f5d54d7aa975ccfd398f5"
   }
 }
