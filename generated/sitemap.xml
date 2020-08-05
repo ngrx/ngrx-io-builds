@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://ngrx.io/guide/component-store/comparison</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/guide/component-store/effect</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/component-store</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/guide/component-store/initialization</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/guide/component-store/install</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/guide/component-store/read</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/guide/component-store/write</loc>
   </url>
   <url>
     <loc>https://ngrx.io/guide/component</loc>

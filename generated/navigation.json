@@ -295,6 +295,35 @@
             {
               "title": "Overview",
               "url": "guide/component-store"
+            },
+            {
+              "title": "Installation",
+              "url": "guide/component-store/install"
+            },
+            {
+              "title": "Architecture",
+              "children": [
+                {
+                  "title": "Initialization",
+                  "url": "guide/component-store/initialization"
+                },
+                {
+                  "title": "Read",
+                  "url": "guide/component-store/read"
+                },
+                {
+                  "title": "Write",
+                  "url": "guide/component-store/write"
+                },
+                {
+                  "title": "Effects",
+                  "url": "guide/component-store/effect"
+                }
+              ]
+            },
+            {
+              "title": "ComponentStore vs Store",
+              "url": "guide/component-store/comparison"
             }
           ]
         }
@@ -552,12 +581,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.5ed2fb8b",
+    "build": "sha.63b8e14b",
     "version": "10.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "10.0.0-local+sha.5ed2fb8b",
+    "full": "10.0.0-local+sha.63b8e14b",
     "branch": "master",
-    "commitSHA": "5ed2fb8ba2b16e678982d5205194b1dafbfee5a1"
+    "commitSHA": "63b8e14ba279bdbebd392c6161a3296b9a43b8e5"
   }
 }
