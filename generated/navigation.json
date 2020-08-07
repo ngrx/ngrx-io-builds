@@ -574,6 +574,11 @@
     }
   ],
   "__versionInfo": {
+    "options": {
+      "loose": false,
+      "includePrerelease": false
+    },
+    "loose": false,
     "raw": "10.0.0-rc.0",
     "major": 10,
     "minor": 0,
@@ -581,12 +586,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.e48f9103",
+    "build": "sha.31c1f15e",
     "version": "10.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "10.0.0-local+sha.e48f9103",
+    "full": "10.0.0-local+sha.31c1f15e",
     "branch": "master",
-    "commitSHA": "e48f91038a0e09d0bb346e539034fc1ef6d82279"
+    "commitSHA": "31c1f15eef07ecb17cf9e0b753823cb2d42d4087"
   }
 }

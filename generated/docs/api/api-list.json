@@ -2262,5 +2262,36 @@
         "securityRisk": false
       }
     ]
+  },
+  {
+    "name": "component-store",
+    "title": "component-store",
+    "path": "api/component-store",
+    "items": [
+      {
+        "name": "componentstore",
+        "title": "ComponentStore",
+        "path": "api/component-store/ComponentStore",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "initialstatetoken",
+        "title": "initialStateToken",
+        "path": "api/component-store/initialStateToken",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "selectconfig",
+        "title": "SelectConfig",
+        "path": "api/component-store/SelectConfig",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      }
+    ]
   }
 ]

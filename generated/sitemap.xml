@@ -442,10 +442,10 @@
     <loc>https://ngrx.io/api/store/testing</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/store/testing/MockStoreConfig</loc>
+    <loc>https://ngrx.io/api/store/testing/provideMockStore</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/store/testing/provideMockStore</loc>
+    <loc>https://ngrx.io/api/store/testing/MockStoreConfig</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/store/testing/MockReducerManager</loc>
@@ -1112,5 +1112,17 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/data/EntityDataModule</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/component-store</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/component-store/SelectConfig</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/component-store/initialStateToken</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/component-store/ComponentStore</loc>
   </url>
 </urlset>
