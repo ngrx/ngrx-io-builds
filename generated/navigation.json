@@ -72,6 +72,10 @@
           "title": "@ngrx/store",
           "children": [
             {
+              "title": "Why use Store?",
+              "url": "guide/store/why"
+            },
+            {
               "title": "Getting Started",
               "url": "guide/store"
             },
@@ -586,12 +590,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.0152a1e6",
+    "build": "sha.b1cd2465",
     "version": "10.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "10.0.0-local+sha.0152a1e6",
+    "full": "10.0.0-local+sha.b1cd2465",
     "branch": "master",
-    "commitSHA": "0152a1e6ee5b8b3187bc3b4b30dadf74b07ceff3"
+    "commitSHA": "b1cd2465fb2b27257511734fa9de864ee8cdc8b9"
   }
 }
