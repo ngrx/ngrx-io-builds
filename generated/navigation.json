@@ -557,6 +557,10 @@
   ],
   "docVersions": [
     {
+      "title": "v9",
+      "url": "https://v9.ngrx.io"
+    },
+    {
       "title": "v8",
       "url": "https://v8.ngrx.io"
     },
@@ -583,19 +587,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "10.0.0-rc.0",
+    "raw": "10.0.0",
     "major": 10,
     "minor": 0,
-    "patch": 0,
+    "patch": 1,
     "prerelease": [
       "local"
     ],
-    "build": "sha.dc85688f",
-    "version": "10.0.0-local",
+    "build": "sha.0a8dc2df",
+    "version": "10.0.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "10.0.0-local+sha.dc85688f",
+    "full": "10.0.1-local+sha.0a8dc2df",
     "branch": "master",
-    "commitSHA": "dc85688fc8a92e2edf2180414fcbc4b686050452"
+    "commitSHA": "0a8dc2dfaad5a3e351d5464b6cd79c26bd6b00ef"
   }
 }
