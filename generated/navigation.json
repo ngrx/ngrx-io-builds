@@ -523,6 +523,11 @@
           "tooltip": "Stack Overflow: where the community answers your technical NgRx questions."
         },
         {
+          "url": "https://discord.gg/gCEj4zC",
+          "title": "Discord Server",
+          "tooltip": "NgRx Community Discord Server - chat with other members of the community."
+        },
+        {
           "url": "https://gitter.im/ngrx/platform",
           "title": "Gitter",
           "tooltip": "Chat about NgRx with other members of the community."
@@ -551,6 +556,11 @@
           "url": "contributing",
           "title": "Contribute",
           "tooltip": "Contribute to NgRx"
+        },
+        {
+          "url": "https://ngrx.threadless.com/",
+          "title": "Swag Store",
+          "tooltip": "Get NgRx-branded swag"
         }
       ]
     }
@@ -594,12 +604,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.1931f739",
+    "build": "sha.e5423310",
     "version": "10.0.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "10.0.1-local+sha.1931f739",
+    "full": "10.0.1-local+sha.e5423310",
     "branch": "master",
-    "commitSHA": "1931f7399c0dd13f7e1c7a4c9cb0ab7127a97b64"
+    "commitSHA": "e5423310e6dc6c42c876640cd9aa2eb49749e0be"
   }
 }
