@@ -604,12 +604,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.7761ca33",
+    "build": "sha.36f4596c",
     "version": "10.0.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "10.0.1-local+sha.7761ca33",
+    "full": "10.0.1-local+sha.36f4596c",
     "branch": "master",
-    "commitSHA": "7761ca33f51f198fe7e723c1243e3a2d30bcdcda"
+    "commitSHA": "36f4596c37f3641dab25c1c7680e9ef18416792c"
   }
 }
