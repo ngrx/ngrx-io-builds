@@ -1,0 +1,832 @@
+<html lang="en"><head></head><body>
+    <form id="mainForm" method="post" action="https://run.stackblitz.com/api/angular/v1" target="_self"><input type="hidden" name="files[src/app/app.component.ts]" value="import { Component, VERSION } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  template: `
+    <paginator
+      [length]=&quot;100&quot;
+      [pageSize]=&quot;10&quot;
+      [pageSizeOptions]=&quot;[5, 10, 25, 100]&quot;
+      (page)=&quot;log($event)&quot;
+    >
+    </paginator>
+  `,
+})
+export class AppComponent {
+  log(obj: unknown) {
+    console.log(obj);
+  }
+}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/app.module.ts]" value="import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
+import { MatTooltipModule } from '@angular/material/tooltip';
+
+import { AppComponent } from './app.component';
+import { PaginatorComponent } from './paginator.component';
+
+@NgModule({
+  imports: [
+    BrowserAnimationsModule,
+    MatNativeDateModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    MatTooltipModule,
+  ],
+  declarations: [AppComponent, PaginatorComponent],
+  bootstrap: [AppComponent],
+})
+export class AppModule {}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/paginator.component.ts]" value="import {
+  Component,
+  Input,
+  ChangeDetectionStrategy,
+  Output,
+  EventEmitter,
+  ViewEncapsulation,
+} from '@angular/core';
+import { ComponentStore } from '@ngrx/component-store';
+import { filter, tap, withLatestFrom, map, pairwise } from 'rxjs/operators';
+
+export interface PaginatorState {
+  /** The current page index. */
+  pageIndex: number;
+  /** The current page size */
+  pageSize: number;
+  /** The current total number of items being paged */
+  length: number;
+  /** The set of provided page size options to display to the user. */
+  pageSizeOptions: ReadonlySet<number>;
+}
+
+/**
+ * Change event object that is emitted when the user selects a
+ * different page size or navigates to another page.
+ */
+export interface PageEvent
+  extends Pick<PaginatorState, 'pageIndex' | 'pageSize' | 'length'> {
+  /**
+   * Index of the page that was selected previously.
+   */
+  previousPageIndex?: number;
+}
+
+@Component({
+  selector: 'paginator',
+  templateUrl: 'paginator.html',
+  host: {
+    'class': 'mat-paginator',
+  },
+  styleUrls: ['./paginator.scss'],
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  providers: [ComponentStore],
+})
+export class PaginatorComponent {
+  @Input() set pageIndex(value: string | number) {
+    this.setPageIndex(value);
+  }
+
+  @Input() set length(value: string | number) {
+    this.componentStore.setState((state) => ({
+      ...state,
+      length: Number(value) || 0,
+    }));
+  }
+
+  @Input() set pageSize(value: string | number) {
+    this.componentStore.setState((state) => ({
+      ...state,
+      pageSize: Number(value) || 0,
+    }));
+  }
+
+  @Input() set pageSizeOptions(value: readonly number[]) {
+    this.componentStore.setState((state) => {
+      // Making sure that the pageSize is included and sorted
+      const pageSizeOptions = new Set<number>(
+        [...value, state.pageSize].sort((a, b) => a - b)
+      );
+      return { ...state, pageSizeOptions };
+    });
+  }
+
+  private readonly pageIndexChanges$ = this.componentStore.state$.pipe(
+    // map instead of select, so that non-distinct value could go through
+    map((state) => state.pageIndex),
+    pairwise()
+  );
+
+  @Output() readonly page = this.componentStore.select(
+    // first Observable 👇
+    this.pageIndexChanges$,
+    // second Observable 👇
+    this.componentStore.select((state) => [state.pageSize, state.length]),
+    // Now combining the results from both of these Observables into a PageEvent object
+    ([previousPageIndex, pageIndex], [pageSize, length]) => ({
+      pageIndex,
+      previousPageIndex,
+      pageSize,
+      length,
+    }),
+    // debounce, so that we let the state &quot;settle&quot; before emitting a value
+    { debounce: true }
+  );
+
+  // *********** Updaters *********** //
+
+  readonly setPageIndex = this.componentStore.updater(
+    (state, value: string | number) => ({
+      ...state,
+      pageIndex: Number(value) || 0,
+    })
+  );
+
+  readonly changePageSize = this.componentStore.updater(
+    (state, newPageSize: number) => {
+      const startIndex = state.pageIndex * state.pageSize;
+      return {
+        ...state,
+        pageSize: newPageSize,
+        pageIndex: Math.floor(startIndex / newPageSize),
+      };
+    }
+  );
+
+  // *********** Selectors *********** //
+
+  readonly hasPreviousPage$ = this.componentStore.select(
+    ({ pageIndex, pageSize }) => pageIndex >= 1 &amp;&amp; pageSize != 0
+  );
+
+  readonly numberOfPages$ = this.componentStore.select(
+    ({ pageSize, length }) => {
+      if (!pageSize) return 0;
+      return Math.ceil(length / pageSize);
+    }
+  );
+
+  readonly hasNextPage$ = this.componentStore.select(
+    this.componentStore.state$,
+    this.numberOfPages$,
+    ({ pageIndex, pageSize }, numberOfPages) => {
+      const maxPageIndex = numberOfPages - 1;
+      return pageIndex < maxPageIndex &amp;&amp; pageSize != 0;
+    }
+  );
+
+  readonly rangeLabel$ = this.componentStore.select(
+    ({ pageIndex, pageSize, length }) => {
+      if (length == 0 || pageSize == 0) {
+        return `0 of ${length}`;
+      }
+      length = Math.max(length, 0);
+
+      const startIndex = pageIndex * pageSize;
+
+      // If the start index exceeds the list length, do not try and fix the end index to the end.
+      const endIndex =
+        startIndex < length
+          ? Math.min(startIndex + pageSize, length)
+          : startIndex + pageSize;
+
+      return `${startIndex + 1} – ${endIndex} of ${length}`;
+    }
+  );
+
+  // ViewModel of Paginator component
+  readonly vm$ = this.componentStore.select(
+    this.componentStore.state$,
+    this.hasPreviousPage$,
+    this.hasNextPage$,
+    this.rangeLabel$,
+    (state, hasPreviousPage, hasNextPage, rangeLabel) => ({
+      pageSize: state.pageSize,
+      pageSizeOptions: Array.from(state.pageSizeOptions),
+      pageIndex: state.pageIndex,
+      hasPreviousPage,
+      hasNextPage,
+      rangeLabel,
+    })
+  );
+
+  // *********** Effects *********** //
+
+  readonly lastPage = this.componentStore.effect((trigger$) => {
+    return trigger$.pipe(
+      withLatestFrom(this.numberOfPages$),
+      tap(([, numberOfPages]) => {
+        this.setPageIndex(numberOfPages - 1);
+      })
+    );
+  });
+
+  constructor(private readonly componentStore: ComponentStore<PaginatorState>) {
+    // set defaults
+    this.componentStore.setState({
+      pageIndex: 0,
+      pageSize: 50,
+      length: 0,
+      pageSizeOptions: new Set<number>([50]),
+    });
+  }
+}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/environments/environment.prod.ts]" value="export const environment = {
+  production: true
+};
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/environments/environment.ts]" value="// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+
+export const environment = {
+  production: false
+};
+
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/main.ts]" value="import './polyfills';
+
+import { enableProdMode } from '@angular/core';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+
+import { AppModule } from './app/app.module';
+
+platformBrowserDynamic()
+  .bootstrapModule(AppModule)
+  .then((ref) => {
+    // Ensure Angular destroys itself on hot reloads.
+    if (window['ngRef']) {
+      window['ngRef'].destroy();
+    }
+    window['ngRef'] = ref;
+
+    // Otherwise, log the boot error
+  })
+  .catch((err) => console.error(err));
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/polyfills.ts]" value="/**
+ * This file includes polyfills needed by Angular and is loaded before the app.
+ * You can add your own extra polyfills to this file.
+ *
+ * This file is divided into 2 sections:
+ *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.
+ *   2. Application imports. Files imported after ZoneJS that should be loaded before your main
+ *      file.
+ *
+ * The current setup is for so-called &quot;evergreen&quot; browsers; the last versions of browsers that
+ * automatically update themselves. This includes Safari >= 10, Chrome >= 55 (including Opera),
+ * Edge >= 13 on the desktop, and iOS 10 and Chrome on mobile.
+ *
+ * Learn more in https://angular.io/guide/browser-support
+ */
+
+/***************************************************************************************************
+ * BROWSER POLYFILLS
+ */
+
+/** IE10 and IE11 requires the following for NgClass support on SVG elements */
+// import 'classlist.js';  // Run `npm install --save classlist.js`.
+
+/**
+ * Web Animations `@angular/platform-browser/animations`
+ * Only required if AnimationBuilder is used within the application and using IE/Edge or Safari.
+ * Standard animation support in Angular DOES NOT require any polyfills (as of Angular 6.0).
+ */
+// import 'web-animations-js';  // Run `npm install --save web-animations-js`.
+
+/**
+ * By default, zone.js will patch all possible macroTask and DomEvents
+ * user can disable parts of macroTask/DomEvents patch by setting following flags
+ * because those flags need to be set before `zone.js` being loaded, and webpack
+ * will put import in the top of bundle, so user need to create a separate file
+ * in this directory (for example: zone-flags.ts), and put the following flags
+ * into that file, and then add the following code before importing zone.js.
+ * import './zone-flags';
+ *
+ * The flags allowed in zone-flags.ts are listed here.
+ *
+ * The following flags will work for all browsers.
+ *
+ * (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame
+ * (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick
+ * (window as any).__zone_symbol__UNPATCHED_EVENTS = ['scroll', 'mousemove']; // disable patch specified eventNames
+ *
+ *  in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js
+ *  with the following flag, it will bypass `zone.js` patch for IE/Edge
+ *
+ *  (window as any).__Zone_enable_cross_context_check = true;
+ *
+ */
+
+/***************************************************************************************************
+ * Zone JS is required by default for Angular itself.
+ */
+import 'zone.js/dist/zone';  // Included with Angular CLI.
+
+
+/***************************************************************************************************
+ * APPLICATION IMPORTS
+ */
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/styles.css]" value="/* Master Styles */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/paginator.scss]" value="@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+/* Add application styles &amp; imports to this file! */
+
+
+$mat-paginator-padding: 0 8px;
+$mat-paginator-page-size-margin-right: 8px;
+
+$mat-paginator-items-per-page-label-margin: 0 4px;
+$mat-paginator-selector-margin: 6px 4px 0 4px;
+$mat-paginator-selector-trigger-width: 56px;
+$mat-paginator-selector-trigger-outline-width: 64px;
+$mat-paginator-selector-trigger-fill-width: 64px;
+
+$mat-paginator-range-label-margin: 0 32px 0 24px;
+$mat-paginator-button-icon-size: 28px;
+
+.mat-paginator {
+  display: block;
+}
+
+// Note: this wrapper element is only used to get the flexbox vertical centering to work
+// with the `min-height` on IE11. It can be removed if we drop support for IE.
+.mat-paginator-outer-container {
+  display: flex;
+}
+
+.mat-paginator-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: $mat-paginator-padding;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+}
+
+.mat-paginator-page-size {
+  display: flex;
+  align-items: baseline;
+  margin-right: $mat-paginator-page-size-margin-right;
+
+  [dir='rtl'] &amp; {
+    margin-right: 0;
+    margin-left: $mat-paginator-page-size-margin-right;
+  }
+}
+
+.mat-paginator-page-size-label {
+  margin: $mat-paginator-items-per-page-label-margin;
+}
+
+.mat-paginator-page-size-select {
+  margin: $mat-paginator-selector-margin;
+  width: $mat-paginator-selector-trigger-width;
+
+  &amp;.mat-form-field-appearance-outline {
+    width: $mat-paginator-selector-trigger-outline-width;
+  }
+
+  &amp;.mat-form-field-appearance-fill {
+    width: $mat-paginator-selector-trigger-fill-width;
+  }
+}
+
+.mat-paginator-range-label {
+  margin: $mat-paginator-range-label-margin;
+}
+
+.mat-paginator-range-actions {
+  display: flex;
+  align-items: center;
+}
+
+.mat-paginator-icon {
+  width: $mat-paginator-button-icon-size;
+  fill: currentColor;
+
+  [dir='rtl'] &amp; {
+    transform: rotate(180deg);
+  }
+}
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/styles.scss]" value="@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+/* Add application styles &amp; imports to this file! */
+
+
+$mat-paginator-padding: 0 8px;
+$mat-paginator-page-size-margin-right: 8px;
+
+$mat-paginator-items-per-page-label-margin: 0 4px;
+$mat-paginator-selector-margin: 6px 4px 0 4px;
+$mat-paginator-selector-trigger-width: 56px;
+$mat-paginator-selector-trigger-outline-width: 64px;
+$mat-paginator-selector-trigger-fill-width: 64px;
+
+$mat-paginator-range-label-margin: 0 32px 0 24px;
+$mat-paginator-button-icon-size: 28px;
+
+.mat-paginator {
+  display: block;
+}
+
+// Note: this wrapper element is only used to get the flexbox vertical centering to work
+// with the `min-height` on IE11. It can be removed if we drop support for IE.
+.mat-paginator-outer-container {
+  display: flex;
+}
+
+.mat-paginator-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: $mat-paginator-padding;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+}
+
+.mat-paginator-page-size {
+  display: flex;
+  align-items: baseline;
+  margin-right: $mat-paginator-page-size-margin-right;
+
+  [dir='rtl'] &amp; {
+    margin-right: 0;
+    margin-left: $mat-paginator-page-size-margin-right;
+  }
+}
+
+.mat-paginator-page-size-label {
+  margin: $mat-paginator-items-per-page-label-margin;
+}
+
+.mat-paginator-page-size-select {
+  margin: $mat-paginator-selector-margin;
+  width: $mat-paginator-selector-trigger-width;
+
+  &amp;.mat-form-field-appearance-outline {
+    width: $mat-paginator-selector-trigger-outline-width;
+  }
+
+  &amp;.mat-form-field-appearance-fill {
+    width: $mat-paginator-selector-trigger-fill-width;
+  }
+}
+
+.mat-paginator-range-label {
+  margin: $mat-paginator-range-label-margin;
+}
+
+.mat-paginator-range-actions {
+  display: flex;
+  align-items: center;
+}
+
+.mat-paginator-icon {
+  width: $mat-paginator-button-icon-size;
+  fill: currentColor;
+
+  [dir='rtl'] &amp; {
+    transform: rotate(180deg);
+  }
+}
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/paginator.html]" value="<div class=&quot;mat-paginator-outer-container&quot; *ngIf=&quot;vm$ | async as vm&quot;>
+  <div class=&quot;mat-paginator-container&quot;>
+    <div class=&quot;mat-paginator-page-size&quot;>
+      <div class=&quot;mat-paginator-page-size-label&quot;>
+        Items per page
+      </div>
+
+      <mat-form-field
+        *ngIf=&quot;vm.pageSizeOptions.length > 1&quot;
+        class=&quot;mat-paginator-page-size-select&quot;>
+        <mat-select
+          [value]=&quot;vm.pageSize&quot;
+          (selectionChange)=&quot;changePageSize($any($event).value)&quot;>
+          <mat-option *ngFor=&quot;let pageSizeOption of vm.pageSizeOptions&quot; [value]=&quot;pageSizeOption&quot;>
+            {{pageSizeOption}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <div
+        class=&quot;mat-paginator-page-size-value&quot;
+        *ngIf=&quot;vm.pageSizeOptions.length <= 1&quot;>{{vm.pageSize}}</div>
+    </div>
+
+    <div class=&quot;mat-paginator-range-actions&quot;>
+      <div class=&quot;mat-paginator-range-label&quot;>
+        {{vm.rangeLabel}}
+      </div>
+
+      <button mat-icon-button type=&quot;button&quot;
+              class=&quot;mat-paginator-navigation-first&quot;
+              (click)=&quot;setPageIndex(0)&quot;
+              matTooltip=&quot;First page&quot;
+              [matTooltipDisabled]=&quot;!vm.hasPreviousPage&quot;
+              [matTooltipPosition]=&quot;'above'&quot;
+              [disabled]=&quot;!vm.hasPreviousPage&quot;>
+        <svg class=&quot;mat-paginator-icon&quot; viewBox=&quot;0 0 24 24&quot; focusable=&quot;false&quot;>
+          <path d=&quot;M18.41 16.59L13.82 12l4.59-4.59L17 6l-6 6 6 6zM6 6h2v12H6z&quot;/>
+        </svg>
+      </button>
+      <button mat-icon-button type=&quot;button&quot;
+              class=&quot;mat-paginator-navigation-previous&quot;
+              (click)=&quot;setPageIndex(vm.pageIndex - 1)&quot;
+              [attr.aria-label]=&quot;'Previous Page'&quot;
+              [matTooltip]=&quot;'Previous Page'&quot;
+              [matTooltipDisabled]=&quot;!vm.hasPreviousPage&quot;
+              [matTooltipPosition]=&quot;'above'&quot;
+              [disabled]=&quot;!vm.hasPreviousPage&quot;>
+        <svg class=&quot;mat-paginator-icon&quot; viewBox=&quot;0 0 24 24&quot; focusable=&quot;false&quot;>
+          <path d=&quot;M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z&quot;/>
+        </svg>
+      </button>
+      <button mat-icon-button type=&quot;button&quot;
+              class=&quot;mat-paginator-navigation-next&quot;
+              (click)=&quot;setPageIndex(vm.pageIndex + 1)&quot;
+              [attr.aria-label]=&quot;'Next Page'&quot;
+              [matTooltip]=&quot;'Next Page'&quot;
+              [matTooltipDisabled]=&quot;!vm.hasNextPage&quot;
+              [matTooltipPosition]=&quot;'above'&quot;
+              [disabled]=&quot;!vm.hasNextPage&quot;>
+        <svg class=&quot;mat-paginator-icon&quot; viewBox=&quot;0 0 24 24&quot; focusable=&quot;false&quot;>
+          <path d=&quot;M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z&quot;/>
+        </svg>
+      </button>
+      <button mat-icon-button type=&quot;button&quot;
+              class=&quot;mat-paginator-navigation-last&quot;
+              (click)=&quot;lastPage()&quot;
+              [attr.aria-label]=&quot;'Last Page'&quot;
+              [matTooltip]=&quot;'Last Page'&quot;
+              [matTooltipDisabled]=&quot;!vm.hasNextPage&quot;
+              [matTooltipPosition]=&quot;'above'&quot;
+              [disabled]=&quot;!vm.hasNextPage&quot;>
+        <svg class=&quot;mat-paginator-icon&quot; viewBox=&quot;0 0 24 24&quot; focusable=&quot;false&quot;>
+          <path d=&quot;M5.59 7.41L10.18 12l-4.59 4.59L7 18l6-6-6-6zM16 6h2v12h-2z&quot;/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- 
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+-->"><input type="hidden" name="files[src/index.html]" value="<!doctype html>
+<html lang=&quot;en&quot;>
+<head>
+  <meta charset=&quot;utf-8&quot;>
+  <title>Paginator ComponentStore Example</title>
+  <base href=&quot;/&quot;>
+  <meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;>
+  <link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;favicon.ico&quot;>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
+
+
+<!-- 
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+-->"><input type="hidden" name="files[angular.json]" value="{
+  &quot;$schema&quot;: &quot;./node_modules/@angular/cli/lib/config/schema.json&quot;,
+  &quot;version&quot;: 1,
+  &quot;newProjectRoot&quot;: &quot;projects&quot;,
+  &quot;projects&quot;: {
+    &quot;ngrx.io-example&quot;: {
+      &quot;root&quot;: &quot;&quot;,
+      &quot;projectType&quot;: &quot;application&quot;,
+      &quot;schematics&quot;: {},
+      &quot;root&quot;: &quot;&quot;,
+      &quot;sourceRoot&quot;: &quot;src&quot;,
+      &quot;prefix&quot;: &quot;app&quot;,
+      &quot;architect&quot;: {
+        &quot;build&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:browser&quot;,
+          &quot;options&quot;: {
+            &quot;outputPath&quot;: &quot;dist&quot;,
+            &quot;index&quot;: &quot;src/index.html&quot;,
+            &quot;main&quot;: &quot;src/main.ts&quot;,
+            &quot;polyfills&quot;: &quot;src/polyfills.ts&quot;,
+            &quot;tsConfig&quot;: &quot;tsconfig.app.json&quot;,
+            &quot;aot&quot;: true,
+            &quot;assets&quot;: [
+              &quot;src/favicon.ico&quot;,
+              &quot;src/assets&quot;
+            ],
+            &quot;styles&quot;: [
+              &quot;src/styles.css&quot;
+            ],
+            &quot;scripts&quot;: []
+          },
+          &quot;configurations&quot;: {
+            &quot;production&quot;: {
+              &quot;fileReplacements&quot;: [
+                {
+                  &quot;replace&quot;: &quot;src/environments/environment.ts&quot;,
+                  &quot;with&quot;: &quot;src/environments/environment.prod.ts&quot;
+                }
+              ],
+              &quot;optimization&quot;: true,
+              &quot;outputHashing&quot;: &quot;all&quot;,
+              &quot;sourceMap&quot;: false,
+              &quot;extractCss&quot;: true,
+              &quot;namedChunks&quot;: false,
+              &quot;extractLicenses&quot;: true,
+              &quot;vendorChunk&quot;: false,
+              &quot;buildOptimizer&quot;: true,
+              &quot;budgets&quot;: [
+                {
+                  &quot;type&quot;: &quot;initial&quot;,
+                  &quot;maximumWarning&quot;: &quot;2mb&quot;,
+                  &quot;maximumError&quot;: &quot;5mb&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;anyComponentStyle&quot;,
+                  &quot;maximumWarning&quot;: &quot;6kb&quot;,
+                  &quot;maximumError&quot;: &quot;10kb&quot;
+                }
+              ]
+            }
+          }
+        },
+        &quot;serve&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:dev-server&quot;,
+          &quot;options&quot;: {
+            &quot;browserTarget&quot;: &quot;ngrx.io-example:build&quot;
+          },
+          &quot;configurations&quot;: {
+            &quot;production&quot;: {
+              &quot;browserTarget&quot;: &quot;ngrx.io-example:build:production&quot;
+            }
+          }
+        },
+        &quot;extract-i18n&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:extract-i18n&quot;,
+          &quot;options&quot;: {
+            &quot;browserTarget&quot;: &quot;ngrx.io-example:build&quot;
+          }
+        },
+        &quot;test&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:karma&quot;,
+          &quot;options&quot;: {
+            &quot;main&quot;: &quot;src/test.ts&quot;,
+            &quot;polyfills&quot;: &quot;src/polyfills.ts&quot;,
+            &quot;tsConfig&quot;: &quot;tsconfig.spec.json&quot;,
+            &quot;karmaConfig&quot;: &quot;karma.conf.js&quot;,
+            &quot;assets&quot;: [
+              &quot;src/favicon.ico&quot;,
+              &quot;src/assets&quot;
+            ],
+            &quot;styles&quot;: [
+              &quot;src/styles.css&quot;
+            ],
+            &quot;scripts&quot;: []
+          }
+        },
+        &quot;lint&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:tslint&quot;,
+          &quot;options&quot;: {
+            &quot;tsConfig&quot;: [
+              &quot;tsconfig.app.json&quot;,
+              &quot;tsconfig.spec.json&quot;,
+              &quot;e2e/tsconfig.json&quot;
+            ],
+            &quot;exclude&quot;: [
+              &quot;**/node_modules/**&quot;
+            ]
+          }
+        },
+        &quot;e2e&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:protractor&quot;,
+          &quot;options&quot;: {
+            &quot;protractorConfig&quot;: &quot;e2e/protractor.conf.js&quot;,
+            &quot;devServerTarget&quot;: &quot;ngrx.io-example:serve&quot;
+          },
+          &quot;configurations&quot;: {
+            &quot;production&quot;: {
+              &quot;devServerTarget&quot;: &quot;ngrx.io-example:serve:production&quot;
+            }
+          }
+        }
+      }
+    }},
+  &quot;defaultProject&quot;: &quot;dummy&quot;
+}
+"><input type="hidden" name="files[src/tsconfig.base.json]" value="/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  &quot;compileOnSave&quot;: false,
+  &quot;compilerOptions&quot;: {
+    &quot;baseUrl&quot;: &quot;./&quot;,
+    &quot;outDir&quot;: &quot;./dist/out-tsc&quot;,
+    &quot;sourceMap&quot;: true,
+    &quot;declaration&quot;: false,
+    &quot;downlevelIteration&quot;: true,
+    &quot;experimentalDecorators&quot;: true,
+    &quot;moduleResolution&quot;: &quot;node&quot;,
+    &quot;importHelpers&quot;: true,
+    &quot;target&quot;: &quot;es2015&quot;,
+    &quot;module&quot;: &quot;es2020&quot;,
+    &quot;lib&quot;: [
+      &quot;es2018&quot;,
+      &quot;dom&quot;
+    ]
+  }
+}
+"><input type="hidden" name="files[tsconfig.base.json]" value="/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  &quot;compileOnSave&quot;: false,
+  &quot;compilerOptions&quot;: {
+    &quot;baseUrl&quot;: &quot;./&quot;,
+    &quot;outDir&quot;: &quot;./dist/out-tsc&quot;,
+    &quot;sourceMap&quot;: true,
+    &quot;declaration&quot;: false,
+    &quot;downlevelIteration&quot;: true,
+    &quot;experimentalDecorators&quot;: true,
+    &quot;moduleResolution&quot;: &quot;node&quot;,
+    &quot;importHelpers&quot;: true,
+    &quot;target&quot;: &quot;es2015&quot;,
+    &quot;module&quot;: &quot;es2020&quot;,
+    &quot;lib&quot;: [
+      &quot;es2018&quot;,
+      &quot;dom&quot;
+    ]
+  }
+}
+"><input type="hidden" name="tags[0]" value="angular"><input type="hidden" name="tags[1]" value="example"><input type="hidden" name="description" value="NgRx Example - ComponentStore - PaginatorComponent providing ComponentStore"><input type="hidden" name="dependencies" value="{&quot;@angular/animations&quot;:&quot;~10.0.9&quot;,&quot;@angular/cdk&quot;:&quot;~10.1.2&quot;,&quot;@angular/common&quot;:&quot;~10.0.9&quot;,&quot;@angular/compiler&quot;:&quot;~10.0.9&quot;,&quot;@angular/core&quot;:&quot;~10.0.9&quot;,&quot;@angular/forms&quot;:&quot;~10.0.9&quot;,&quot;@angular/material&quot;:&quot;~10.1.2&quot;,&quot;@angular/platform-browser&quot;:&quot;~10.0.9&quot;,&quot;@angular/platform-browser-dynamic&quot;:&quot;~10.0.9&quot;,&quot;@angular/router&quot;:&quot;~10.0.9&quot;,&quot;@ngrx/component-store&quot;:&quot;^10.0.0&quot;,&quot;@ngrx/effects&quot;:&quot;^10.0.0&quot;,&quot;@ngrx/entity&quot;:&quot;^10.0.0&quot;,&quot;@ngrx/router-store&quot;:&quot;^10.0.0&quot;,&quot;@ngrx/store&quot;:&quot;^10.0.0&quot;,&quot;rxjs&quot;:&quot;~6.5.5&quot;,&quot;tslib&quot;:&quot;^2.0.0&quot;,&quot;zone.js&quot;:&quot;~0.10.3&quot;,&quot;jasmine-core&quot;:&quot;~3.5.0&quot;}"></form>
+    <script>
+      var embedded = 'ctl=1';
+      var isEmbedded = window.location.search.indexOf(embedded) > -1;
+
+      if (isEmbedded) {
+        var form = document.getElementById('mainForm');
+        var action = form.action;
+        var actionHasParams = action.indexOf('?') > -1;
+        var symbol = actionHasParams ? '&' : '?'
+        form.action = form.action + symbol + embedded;
+      }
+      document.getElementById("mainForm").submit();
+    </script>
+    </body></html>

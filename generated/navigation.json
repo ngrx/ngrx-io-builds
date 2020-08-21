@@ -328,6 +328,10 @@
             {
               "title": "ComponentStore vs Store",
               "url": "guide/component-store/comparison"
+            },
+            {
+              "title": "Usage",
+              "url": "guide/component-store/usage"
             }
           ]
         }
@@ -604,12 +608,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.36f4596c",
+    "build": "sha.0287aa1f",
     "version": "10.0.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "10.0.1-local+sha.36f4596c",
+    "full": "10.0.1-local+sha.0287aa1f",
     "branch": "master",
-    "commitSHA": "36f4596c37f3641dab25c1c7680e9ef18416792c"
+    "commitSHA": "0287aa1ff5bfa52c089528ee1c98482263167434"
   }
 }
