@@ -608,12 +608,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.0287aa1f",
+    "build": "sha.2a840493",
     "version": "10.0.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "10.0.1-local+sha.0287aa1f",
+    "full": "10.0.1-local+sha.2a840493",
     "branch": "master",
-    "commitSHA": "0287aa1ff5bfa52c089528ee1c98482263167434"
+    "commitSHA": "2a8404939970701bcb10ab2fa15a29b6e8800732"
   }
 }
