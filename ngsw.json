@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1599583914525,
+  "timestamp": 1599990550805,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -911,7 +911,7 @@
     "/generated/docs/api/store/testing/MockStoreConfig.json": "8ebe0b648da61bd3b0bd56f2be71debcb88a0b6a",
     "/generated/docs/api/store/testing/provideMockStore.json": "7a129e9595a7092c0073dee23f37b0cfb36c2897",
     "/generated/docs/api/store/union.json": "a5af993f443aba24821e4da8e57d46f9c8be371b",
-    "/generated/docs/app/search-data.json": "960e7d2b3d7b0a2863db1c423dcee80db31fe74e",
+    "/generated/docs/app/search-data.json": "0aa1697c3e9b927a93d1a7928545b4602548da02",
     "/generated/docs/contributing.json": "7a8373695a8354ecd72c06b829e8595fa16e4daa",
     "/generated/docs/docs.json": "cf473bb754220faa09daa57ff66728d1574de5c4",
     "/generated/docs/events.json": "151d0fd62b78e64518987b3f887bbb3ab0b7c251",
@@ -990,7 +990,7 @@
     "/generated/docs/guide/store/recipes/downgrade.json": "f4419a82b57c144cfcb03bf36d70d9d56654c11b",
     "/generated/docs/guide/store/recipes/injecting.json": "803202d5bb53f49141194f4934300670d306e624",
     "/generated/docs/guide/store/reducers.json": "ac8ef4db759da4114c92090aad7c5779885d6887",
-    "/generated/docs/guide/store/selectors.json": "e840acc574b3222c80a18989a1f8d82dbd8c98ba",
+    "/generated/docs/guide/store/selectors.json": "c408f1534d4f307cf72e84083a653f4ef08b4afa",
     "/generated/docs/guide/store/testing.json": "71b5f1280a7c9f7b3076fcd278fde1e1dbe0b586",
     "/generated/docs/guide/store/why.json": "0ab160e3cbb22cfba0dca0dae7e104cb0577b8ef",
     "/generated/docs/guide/style-guide.json": "a8ff118846d92ced9a0b4f497c64a7ae3a3257a1",
@@ -1063,7 +1063,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "cb9a3677d7e0034a9c60a8634c493c818e39b547",
+    "/generated/navigation.json": "fc4e0af326fc066d4a8ba54d85e2491bb3955ce7",
     "/generated/resources.json": "d5b36bfb3008a5b9e27bd4b73e4aa113a7743ede",
     "/index.html": "ba1212527b97df7f222f7dd9b48d9c271b06d188",
     "/live-example-live-example-module.c744ffe5e6e2089080c3.js": "db5a9d82943520c2686c82f5e5cb899170a08eeb",
