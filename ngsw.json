@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1600235497692,
+  "timestamp": 1600810524451,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -945,7 +945,7 @@
     "/generated/docs/guide/data/install.json": "1e3b10ee742c5016e8e6916f11d0974a52e01fa6",
     "/generated/docs/guide/data/limitations.json": "bd53b1e2f4028f81d1bb640af17b27070708e2d4",
     "/generated/docs/guide/data/save-entities.json": "441ff8cceb7060ba2c620be6c88363ce4fe78573",
-    "/generated/docs/guide/effects.json": "71a2ccd1e95df44b9d506343b1c0073fc833a85e",
+    "/generated/docs/guide/effects.json": "ba6e80fde659bdbd20a8647fea6a82c5843f75b3",
     "/generated/docs/guide/effects/install.json": "b99505a06abebf9e33464d4efa530fc6e5d0e135",
     "/generated/docs/guide/effects/lifecycle.json": "7f186b28bfde056abe238359242a80c9190d9d98",
     "/generated/docs/guide/effects/operators.json": "0cef6eb9adae3011d95d78b893c81080dba18409",
@@ -1063,7 +1063,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "9227d35401e6b9f71d4cf57a90c7808d24c8780c",
+    "/generated/navigation.json": "e5492c22ebff89e7e9bdbddf3bb088c12f88b0ca",
     "/generated/resources.json": "d5b36bfb3008a5b9e27bd4b73e4aa113a7743ede",
     "/index.html": "1a38cb1febfd987fc57fb9eb00b8f90d787d656a",
     "/live-example-live-example-module.c744ffe5e6e2089080c3.js": "db5a9d82943520c2686c82f5e5cb899170a08eeb",
