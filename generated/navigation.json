@@ -80,6 +80,10 @@
               "url": "guide/store"
             },
             {
+              "title": "Walkthrough",
+              "url": "guide/store/walkthrough"
+            },
+            {
               "title": "Installation",
               "url": "guide/store/install"
             },
@@ -601,19 +605,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "10.0.0",
+    "raw": "10.0.1",
     "major": 10,
     "minor": 0,
-    "patch": 1,
+    "patch": 2,
     "prerelease": [
       "local"
     ],
-    "build": "sha.b06084af",
-    "version": "10.0.1-local",
+    "build": "sha.01ad2cd5",
+    "version": "10.0.2-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "10.0.1-local+sha.b06084af",
+    "full": "10.0.2-local+sha.01ad2cd5",
     "branch": "master",
-    "commitSHA": "b06084afe02baf09ce897c3239e11a43ea75e941"
+    "commitSHA": "01ad2cd569dab97b6656ff786777e75e4f4cddbe"
   }
 }

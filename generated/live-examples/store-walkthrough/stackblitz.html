@@ -1,0 +1,632 @@
+<html lang="en"><head></head><body>
+    <form id="mainForm" method="post" action="https://run.stackblitz.com/api/angular/v1" target="_self"><input type="hidden" name="files[src/app/app.component.ts]" value="import { Component } from '@angular/core';
+import { Store, select } from '@ngrx/store';
+
+import { selectBookCollection, selectBooks } from './state/books.selectors';
+import {
+  retrievedBookList,
+  addBook,
+  removeBook,
+} from './state/books.actions';
+import { GoogleBooksService } from './book-list/books.service';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+})
+export class AppComponent {
+  books$ = this.store.pipe(select(selectBooks));
+  bookCollection$ = this.store.pipe(select(selectBookCollection));
+
+  onAdd(bookId) {
+    this.store.dispatch(addBook({ bookId }));
+  }
+
+  onRemove(bookId) {
+    this.store.dispatch(removeBook({ bookId }));
+  }
+
+  constructor(
+    private booksService: GoogleBooksService,
+    private store: Store
+  ) {}
+
+  ngOnInit() {
+    this.booksService
+      .getBooks()
+      .subscribe((Book) => this.store.dispatch(retrievedBookList({ Book })));
+  }
+}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/app.module.ts]" value="import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+
+import { booksReducer } from './state/books.reducer';
+import { collectionReducer } from './state/collection.reducer';
+import { StoreModule } from '@ngrx/store';
+
+import { AppComponent } from './app.component';
+import { BookListComponent } from './book-list/book-list.component';
+import { BookCollectionComponent } from './book-collection/book-collection.component';
+
+@NgModule({
+  imports: [
+    BrowserModule,
+    StoreModule.forRoot({ books: booksReducer, collection: collectionReducer }),
+    HttpClientModule,
+  ],
+  declarations: [AppComponent, BookListComponent, BookCollectionComponent],
+  bootstrap: [AppComponent],
+})
+export class AppModule {}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/book-collection/book-collection.component.ts]" value="import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Book } from '../book-list/books.model';
+
+@Component({
+  selector: 'app-book-collection',
+  templateUrl: './book-collection.component.html',
+  styleUrls: ['./book-collection.component.css'],
+})
+export class BookCollectionComponent {
+  @Input() books: Array<Book>;
+  @Output() remove = new EventEmitter();
+}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/book-list/book-list.component.ts]" value="import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Book } from './books.model';
+
+@Component({
+  selector: 'app-book-list',
+  templateUrl: './book-list.component.html',
+  styleUrls: ['./book-list.component.css'],
+})
+export class BookListComponent {
+  @Input() books: Array<Book>;
+  @Output() add = new EventEmitter();
+}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/book-list/books.model.ts]" value="export interface Book {
+    id: string;
+    volumeInfo: {
+      title: string;
+      authors: Array<string>;
+    };
+}
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/book-list/books.service.ts]" value="import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+
+import { of, Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+import { Book } from './books.model';
+
+@Injectable({ providedIn: 'root' })
+export class GoogleBooksService {
+  constructor(private http: HttpClient) {}
+
+  getBooks(): Observable<Array<Book>> {
+    return this.http
+      .get<{ items: Book[] }>(
+        'https://www.googleapis.com/books/v1/volumes?maxResults=5&amp;orderBy=relevance&amp;q=oliver%20sacks'
+      )
+      .pipe(map((books) => books.items || []));
+  }
+}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/state/app.state.ts]" value="import { Book } from '../book-list/books.model';
+
+export interface AppState {
+  books: ReadonlyArray<Book>;
+  collection: ReadonlyArray<string>;
+}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/state/books.actions.ts]" value="import { createAction, props } from '@ngrx/store';
+
+export const addBook = createAction(
+  '[Book List] Add Book',
+  props<{ bookId }>()
+);
+
+export const removeBook = createAction(
+  '[Book Collection] Remove Book',
+  props<{ bookId }>()
+);
+
+export const retrievedBookList = createAction(
+  '[Book List/API] Retrieve Books Success',
+  props<{ Book }>()
+);
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/state/books.reducer.ts]" value="import { createReducer, on, Action } from '@ngrx/store';
+
+import { retrievedBookList } from './books.actions';
+import { Book } from '../book-list/books.model';
+
+export const initialState: ReadonlyArray<Book> = [];
+
+export const booksReducer = createReducer(
+  initialState,
+  on(retrievedBookList, (state, { Book }) => [...Book])
+);
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/state/books.selectors.ts]" value="import { createSelector, createFeatureSelector } from &quot;@ngrx/store&quot;;
+import { AppState } from &quot;./app.state&quot;;
+import { Book } from &quot;../book-list/books.model&quot;;
+
+export const selectBooks = createSelector(
+  (state: AppState) => state.books,
+  (books: Array<Book>) => books
+);
+
+export const selectCollectionState = createFeatureSelector<
+  AppState,
+  ReadonlyArray<string>
+>(&quot;collection&quot;);
+
+export const selectBookCollection = createSelector(
+  selectBooks,
+  selectCollectionState,
+  (books: Array<Book>, collection: Array<string>) => {
+    return collection.map((id) => books.find((book) => book.id === id));
+  }
+);
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/state/collection.reducer.ts]" value="import { createReducer, on, Action } from '@ngrx/store';
+import { addBook, removeBook } from './books.actions';
+
+export const initialState: ReadonlyArray<string> = [];
+
+export const collectionReducer = createReducer(
+  initialState,
+  on(removeBook, (state, { bookId }) => state.filter((id) => id !== bookId)),
+  on(addBook, (state, { bookId }) => {
+    if (state.indexOf(bookId) > -1) return state;
+
+    return [...state, bookId];
+  })
+);
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/environments/environment.prod.ts]" value="export const environment = {
+  production: true
+};
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/environments/environment.ts]" value="// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+
+export const environment = {
+  production: false
+};
+
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/main.ts]" value="import './polyfills';
+
+import { enableProdMode } from '@angular/core';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+
+import { AppModule } from './app/app.module';
+
+platformBrowserDynamic()
+  .bootstrapModule(AppModule)
+  .then((ref) => {
+    // Ensure Angular destroys itself on hot reloads.
+    if (window['ngRef']) {
+      window['ngRef'].destroy();
+    }
+    window['ngRef'] = ref;
+
+    // Otherwise, log the boot error
+  })
+  .catch((err) => console.error(err));
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/polyfills.ts]" value="/**
+ * This file includes polyfills needed by Angular and is loaded before the app.
+ * You can add your own extra polyfills to this file.
+ *
+ * This file is divided into 2 sections:
+ *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.
+ *   2. Application imports. Files imported after ZoneJS that should be loaded before your main
+ *      file.
+ *
+ * The current setup is for so-called &quot;evergreen&quot; browsers; the last versions of browsers that
+ * automatically update themselves. This includes Safari >= 10, Chrome >= 55 (including Opera),
+ * Edge >= 13 on the desktop, and iOS 10 and Chrome on mobile.
+ *
+ * Learn more in https://angular.io/guide/browser-support
+ */
+
+/***************************************************************************************************
+ * BROWSER POLYFILLS
+ */
+
+/** IE10 and IE11 requires the following for NgClass support on SVG elements */
+// import 'classlist.js';  // Run `npm install --save classlist.js`.
+
+/**
+ * Web Animations `@angular/platform-browser/animations`
+ * Only required if AnimationBuilder is used within the application and using IE/Edge or Safari.
+ * Standard animation support in Angular DOES NOT require any polyfills (as of Angular 6.0).
+ */
+// import 'web-animations-js';  // Run `npm install --save web-animations-js`.
+
+/**
+ * By default, zone.js will patch all possible macroTask and DomEvents
+ * user can disable parts of macroTask/DomEvents patch by setting following flags
+ * because those flags need to be set before `zone.js` being loaded, and webpack
+ * will put import in the top of bundle, so user need to create a separate file
+ * in this directory (for example: zone-flags.ts), and put the following flags
+ * into that file, and then add the following code before importing zone.js.
+ * import './zone-flags';
+ *
+ * The flags allowed in zone-flags.ts are listed here.
+ *
+ * The following flags will work for all browsers.
+ *
+ * (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame
+ * (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick
+ * (window as any).__zone_symbol__UNPATCHED_EVENTS = ['scroll', 'mousemove']; // disable patch specified eventNames
+ *
+ *  in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js
+ *  with the following flag, it will bypass `zone.js` patch for IE/Edge
+ *
+ *  (window as any).__Zone_enable_cross_context_check = true;
+ *
+ */
+
+/***************************************************************************************************
+ * Zone JS is required by default for Angular itself.
+ */
+import 'zone.js/dist/zone';  // Included with Angular CLI.
+
+
+/***************************************************************************************************
+ * APPLICATION IMPORTS
+ */
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/book-collection/book-collection.component.css]" value="div {
+  padding: 10px;
+}
+span {
+  margin: 0 10px 0 2px;
+}
+p {
+  display: inline-block;
+  font-style: italic;
+  margin: 0 0 5px;
+}
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/book-list/book-list.component.css]" value="div {
+  padding: 10px;
+}
+span {
+  margin: 0 10px 0 2px;
+}
+p {
+  display: inline-block;
+  font-style: italic;
+  margin: 0;
+}
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/styles.css]" value="/* Master Styles */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/app.component.html]" value="<h1>Oliver Sacks Books Collection</h1>
+
+<h2>Books</h2>
+<app-book-list class=&quot;book-list&quot; [books]=&quot;books$ | async&quot; (add)=&quot;onAdd($event)&quot;></app-book-list>
+
+<h2>My Collection</h2>
+<app-book-collection class=&quot;book-collection&quot; [books]=&quot;bookCollection$ | async&quot; (remove)=&quot;onRemove($event)&quot;>
+</app-book-collection>
+
+
+<!-- 
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+-->"><input type="hidden" name="files[src/app/book-collection/book-collection.component.html]" value="<div 
+  class=&quot;book-item&quot;
+  *ngFor=&quot;let book of books&quot;
+>
+  <p>{{book.volumeInfo.title}}</p><span> by {{book.volumeInfo.authors}}</span>
+  <button
+    (click)=&quot;remove.emit(book.id)&quot;
+    data-test=&quot;remove-button&quot;
+  >Remove from Collection</button>
+</div>
+
+
+<!-- 
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+-->"><input type="hidden" name="files[src/app/book-list/book-list.component.html]" value="<div
+  class=&quot;book-item&quot;
+  *ngFor=&quot;let book of books&quot;
+>
+  <p>{{book.volumeInfo.title}}</p><span> by {{book.volumeInfo.authors}}</span>
+  <button
+    (click)=&quot;add.emit(book.id)&quot;
+    data-test=&quot;add-button&quot;
+  >Add to Collection</button>
+</div>
+
+<!-- 
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+-->"><input type="hidden" name="files[src/index.html]" value="<!doctype html>
+<html lang=&quot;en&quot;>
+<head>
+  <meta charset=&quot;utf-8&quot;>
+  <title>NgRx Tutorial</title>
+  <base href=&quot;/&quot;>
+
+  <meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
+
+<!-- 
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+-->"><input type="hidden" name="files[angular.json]" value="{
+  &quot;$schema&quot;: &quot;./node_modules/@angular/cli/lib/config/schema.json&quot;,
+  &quot;version&quot;: 1,
+  &quot;newProjectRoot&quot;: &quot;projects&quot;,
+  &quot;projects&quot;: {
+    &quot;ngrx.io-example&quot;: {
+      &quot;root&quot;: &quot;&quot;,
+      &quot;projectType&quot;: &quot;application&quot;,
+      &quot;schematics&quot;: {},
+      &quot;root&quot;: &quot;&quot;,
+      &quot;sourceRoot&quot;: &quot;src&quot;,
+      &quot;prefix&quot;: &quot;app&quot;,
+      &quot;architect&quot;: {
+        &quot;build&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:browser&quot;,
+          &quot;options&quot;: {
+            &quot;outputPath&quot;: &quot;dist&quot;,
+            &quot;index&quot;: &quot;src/index.html&quot;,
+            &quot;main&quot;: &quot;src/main.ts&quot;,
+            &quot;polyfills&quot;: &quot;src/polyfills.ts&quot;,
+            &quot;tsConfig&quot;: &quot;tsconfig.app.json&quot;,
+            &quot;aot&quot;: true,
+            &quot;assets&quot;: [
+              &quot;src/favicon.ico&quot;,
+              &quot;src/assets&quot;
+            ],
+            &quot;styles&quot;: [
+              &quot;src/styles.css&quot;
+            ],
+            &quot;scripts&quot;: []
+          },
+          &quot;configurations&quot;: {
+            &quot;production&quot;: {
+              &quot;fileReplacements&quot;: [
+                {
+                  &quot;replace&quot;: &quot;src/environments/environment.ts&quot;,
+                  &quot;with&quot;: &quot;src/environments/environment.prod.ts&quot;
+                }
+              ],
+              &quot;optimization&quot;: true,
+              &quot;outputHashing&quot;: &quot;all&quot;,
+              &quot;sourceMap&quot;: false,
+              &quot;extractCss&quot;: true,
+              &quot;namedChunks&quot;: false,
+              &quot;extractLicenses&quot;: true,
+              &quot;vendorChunk&quot;: false,
+              &quot;buildOptimizer&quot;: true,
+              &quot;budgets&quot;: [
+                {
+                  &quot;type&quot;: &quot;initial&quot;,
+                  &quot;maximumWarning&quot;: &quot;2mb&quot;,
+                  &quot;maximumError&quot;: &quot;5mb&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;anyComponentStyle&quot;,
+                  &quot;maximumWarning&quot;: &quot;6kb&quot;,
+                  &quot;maximumError&quot;: &quot;10kb&quot;
+                }
+              ]
+            }
+          }
+        },
+        &quot;serve&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:dev-server&quot;,
+          &quot;options&quot;: {
+            &quot;browserTarget&quot;: &quot;ngrx.io-example:build&quot;
+          },
+          &quot;configurations&quot;: {
+            &quot;production&quot;: {
+              &quot;browserTarget&quot;: &quot;ngrx.io-example:build:production&quot;
+            }
+          }
+        },
+        &quot;extract-i18n&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:extract-i18n&quot;,
+          &quot;options&quot;: {
+            &quot;browserTarget&quot;: &quot;ngrx.io-example:build&quot;
+          }
+        },
+        &quot;test&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:karma&quot;,
+          &quot;options&quot;: {
+            &quot;main&quot;: &quot;src/test.ts&quot;,
+            &quot;polyfills&quot;: &quot;src/polyfills.ts&quot;,
+            &quot;tsConfig&quot;: &quot;tsconfig.spec.json&quot;,
+            &quot;karmaConfig&quot;: &quot;karma.conf.js&quot;,
+            &quot;assets&quot;: [
+              &quot;src/favicon.ico&quot;,
+              &quot;src/assets&quot;
+            ],
+            &quot;styles&quot;: [
+              &quot;src/styles.css&quot;
+            ],
+            &quot;scripts&quot;: []
+          }
+        },
+        &quot;lint&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:tslint&quot;,
+          &quot;options&quot;: {
+            &quot;tsConfig&quot;: [
+              &quot;tsconfig.app.json&quot;,
+              &quot;tsconfig.spec.json&quot;,
+              &quot;e2e/tsconfig.json&quot;
+            ],
+            &quot;exclude&quot;: [
+              &quot;**/node_modules/**&quot;
+            ]
+          }
+        },
+        &quot;e2e&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:protractor&quot;,
+          &quot;options&quot;: {
+            &quot;protractorConfig&quot;: &quot;e2e/protractor.conf.js&quot;,
+            &quot;devServerTarget&quot;: &quot;ngrx.io-example:serve&quot;
+          },
+          &quot;configurations&quot;: {
+            &quot;production&quot;: {
+              &quot;devServerTarget&quot;: &quot;ngrx.io-example:serve:production&quot;
+            }
+          }
+        }
+      }
+    }},
+  &quot;defaultProject&quot;: &quot;dummy&quot;
+}
+"><input type="hidden" name="files[src/tsconfig.base.json]" value="/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  &quot;compileOnSave&quot;: false,
+  &quot;compilerOptions&quot;: {
+    &quot;baseUrl&quot;: &quot;./&quot;,
+    &quot;outDir&quot;: &quot;./dist/out-tsc&quot;,
+    &quot;sourceMap&quot;: true,
+    &quot;declaration&quot;: false,
+    &quot;downlevelIteration&quot;: true,
+    &quot;experimentalDecorators&quot;: true,
+    &quot;moduleResolution&quot;: &quot;node&quot;,
+    &quot;importHelpers&quot;: true,
+    &quot;target&quot;: &quot;es2015&quot;,
+    &quot;module&quot;: &quot;es2020&quot;,
+    &quot;lib&quot;: [
+      &quot;es2018&quot;,
+      &quot;dom&quot;
+    ]
+  }
+}
+"><input type="hidden" name="files[tsconfig.base.json]" value="/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  &quot;compileOnSave&quot;: false,
+  &quot;compilerOptions&quot;: {
+    &quot;baseUrl&quot;: &quot;./&quot;,
+    &quot;outDir&quot;: &quot;./dist/out-tsc&quot;,
+    &quot;sourceMap&quot;: true,
+    &quot;declaration&quot;: false,
+    &quot;downlevelIteration&quot;: true,
+    &quot;experimentalDecorators&quot;: true,
+    &quot;moduleResolution&quot;: &quot;node&quot;,
+    &quot;importHelpers&quot;: true,
+    &quot;target&quot;: &quot;es2015&quot;,
+    &quot;module&quot;: &quot;es2020&quot;,
+    &quot;lib&quot;: [
+      &quot;es2018&quot;,
+      &quot;dom&quot;
+    ]
+  }
+}
+"><input type="hidden" name="tags[0]" value="angular"><input type="hidden" name="tags[1]" value="example"><input type="hidden" name="description" value="NgRx Example - Tutorial"><input type="hidden" name="dependencies" value="{&quot;@angular/animations&quot;:&quot;~10.0.9&quot;,&quot;@angular/cdk&quot;:&quot;~10.1.2&quot;,&quot;@angular/common&quot;:&quot;~10.0.9&quot;,&quot;@angular/compiler&quot;:&quot;~10.0.9&quot;,&quot;@angular/core&quot;:&quot;~10.0.9&quot;,&quot;@angular/forms&quot;:&quot;~10.0.9&quot;,&quot;@angular/material&quot;:&quot;~10.1.2&quot;,&quot;@angular/platform-browser&quot;:&quot;~10.0.9&quot;,&quot;@angular/platform-browser-dynamic&quot;:&quot;~10.0.9&quot;,&quot;@angular/router&quot;:&quot;~10.0.9&quot;,&quot;@ngrx/component-store&quot;:&quot;^10.0.0&quot;,&quot;@ngrx/effects&quot;:&quot;^10.0.0&quot;,&quot;@ngrx/entity&quot;:&quot;^10.0.0&quot;,&quot;@ngrx/router-store&quot;:&quot;^10.0.0&quot;,&quot;@ngrx/store&quot;:&quot;^10.0.0&quot;,&quot;rxjs&quot;:&quot;~6.5.5&quot;,&quot;tslib&quot;:&quot;^2.0.0&quot;,&quot;zone.js&quot;:&quot;~0.10.3&quot;,&quot;jasmine-core&quot;:&quot;~3.5.0&quot;}"></form>
+    <script>
+      var embedded = 'ctl=1';
+      var isEmbedded = window.location.search.indexOf(embedded) > -1;
+
+      if (isEmbedded) {
+        var form = document.getElementById('mainForm');
+        var action = form.action;
+        var actionHasParams = action.indexOf('?') > -1;
+        var symbol = actionHasParams ? '&' : '?'
+        form.action = form.action + symbol + embedded;
+      }
+      document.getElementById("mainForm").submit();
+    </script>
+    </body></html>

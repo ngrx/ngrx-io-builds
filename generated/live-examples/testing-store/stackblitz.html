@@ -19,6 +19,440 @@ export { AuthActions };
 /*
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/app.component.spec.ts]" value="import { MemoizedSelector } from '@ngrx/store';
+import { provideMockStore, MockStore } from '@ngrx/store/testing';
+import { TestBed, ComponentFixture } from '@angular/core/testing';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+
+import { AppState } from './state/app.state';
+import { AppComponent } from './app.component';
+import {
+  addBook,
+  removeBook,
+  retrievedBookList,
+} from './state/books.actions';
+import { BookListComponent } from './book-list/book-list.component';
+import { BookCollectionComponent } from './book-collection/book-collection.component';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { By } from '@angular/platform-browser';
+import {
+  selectBooks,
+  selectCollectionIds,
+  selectBookCollection,
+} from './state/books.selectors';
+
+describe('AppComponent', () => {
+  let fixture: ComponentFixture<AppComponent>;
+  let component: AppComponent;
+  let store: MockStore<AppState>;
+  let mockBookCollectionSelector;
+  let mockBooksSelector;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      providers: [provideMockStore()],
+      imports: [HttpClientTestingModule],
+      declarations: [BookListComponent, BookCollectionComponent, AppComponent],
+      schemas: [CUSTOM_ELEMENTS_SCHEMA],
+    });
+
+    store = TestBed.inject(MockStore);
+    fixture = TestBed.createComponent(AppComponent);
+    component = fixture.componentInstance;
+
+    mockBooksSelector = store.overrideSelector(selectBooks, [
+      {
+        id: 'firstId',
+        volumeInfo: {
+          title: 'First Title',
+          authors: ['First Author'],
+        },
+      },
+      {
+        id: 'secondId',
+        volumeInfo: {
+          title: 'Second Title',
+          authors: ['Second Author'],
+        },
+      },
+      {
+        id: 'thirdId',
+        volumeInfo: {
+          title: 'Third Title',
+          authors: ['Third Author'],
+        },
+      },
+      {
+        id: 'fourthId',
+        volumeInfo: {
+          title: 'Fourth Title',
+          authors: ['Fourth Author'],
+        },
+      },
+    ]);
+
+    mockBookCollectionSelector = store.overrideSelector(selectBookCollection, [
+      {
+        id: 'thirdId',
+        volumeInfo: {
+          title: 'Third Title',
+          authors: ['Third Author'],
+        },
+      },
+    ]);
+
+    fixture.detectChanges();
+    spyOn(store, 'dispatch').and.callFake(() => {});
+  });
+
+  it('add method should dispatch add action', () => {
+    component.onAdd('firstId');
+    expect(store.dispatch).toHaveBeenCalledWith(
+      addBook({ bookId: 'firstId' })
+    );
+  });
+
+  it('remove method should dispatch remove action', () => {
+    component.onRemove('thirdId');
+    expect(store.dispatch).toHaveBeenCalledWith(
+      removeBook({ bookId: 'thirdId' })
+    );
+  });
+
+  it('should render a book list and a book collection', () => {
+    expect(
+      fixture.debugElement.queryAll(By.css('.book-list .book-item')).length
+    ).toBe(4);
+    expect(
+      fixture.debugElement.queryAll(By.css('.book-collection .book-item'))
+        .length
+    ).toBe(1);
+  });
+
+  it('should update the UI when the store changes', () => {
+    mockBooksSelector.setResult([
+      {
+        id: 'firstId',
+        volumeInfo: {
+          title: 'First Title',
+          authors: ['First Author'],
+        },
+      },
+      {
+        id: 'secondId',
+        volumeInfo: {
+          title: 'Second Title',
+          authors: ['Second Author'],
+        },
+      },
+      {
+        id: 'thirdId',
+        volumeInfo: {
+          title: 'Third Title',
+          authors: ['Third Author'],
+        },
+      },
+    ]);
+
+    mockBookCollectionSelector.setResult([
+      {
+        id: 'firstId',
+        volumeInfo: {
+          title: 'First Title',
+          authors: ['First Author'],
+        },
+      },
+      {
+        id: 'secondId',
+        volumeInfo: {
+          title: 'Second Title',
+          authors: ['Second Author'],
+        },
+      },
+    ]);
+
+    store.refreshState();
+    fixture.detectChanges();
+
+    expect(
+      fixture.debugElement.queryAll(By.css('.book-list .book-item')).length
+    ).toBe(3);
+
+    expect(
+      fixture.debugElement.queryAll(By.css('.book-collection .book-item'))
+        .length
+    ).toBe(2);
+  });
+});
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/app.component.ts]" value="import { Component } from '@angular/core';
+import { Store, select } from '@ngrx/store';
+
+import { selectBookCollection, selectBooks } from './state/books.selectors';
+import {
+  retrievedBookList,
+  addBook,
+  removeBook,
+} from './state/books.actions';
+import { GoogleBooksService } from './book-list/books.service';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+})
+export class AppComponent {
+  books$ = this.store.pipe(select(selectBooks));
+  bookCollection$ = this.store.pipe(select(selectBookCollection));
+
+  onAdd(bookId) {
+    this.store.dispatch(addBook({ bookId }));
+  }
+
+  onRemove(bookId) {
+    this.store.dispatch(removeBook({ bookId }));
+  }
+
+  constructor(
+    private booksService: GoogleBooksService,
+    private store: Store
+  ) {}
+
+  ngOnInit() {
+    this.booksService
+      .getBooks()
+      .subscribe((Book) => this.store.dispatch(retrievedBookList({ Book })));
+  }
+}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/app.module.ts]" value="import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+
+import { booksReducer } from './state/books.reducer';
+import { collectionReducer } from './state/collection.reducer';
+import { StoreModule } from '@ngrx/store';
+
+import { AppComponent } from './app.component';
+import { BookListComponent } from './book-list/book-list.component';
+import { BookCollectionComponent } from './book-collection/book-collection.component';
+
+@NgModule({
+  imports: [
+    BrowserModule,
+    StoreModule.forRoot({ books: booksReducer, collection: collectionReducer }),
+    HttpClientModule,
+  ],
+  declarations: [AppComponent, BookListComponent, BookCollectionComponent],
+  bootstrap: [AppComponent],
+})
+export class AppModule {}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/book-collection/book-collection.component.ts]" value="import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Book } from '../book-list/books.model';
+
+@Component({
+  selector: 'app-book-collection',
+  templateUrl: './book-collection.component.html',
+  styleUrls: ['./book-collection.component.css'],
+})
+export class BookCollectionComponent {
+  @Input() books: Array<Book>;
+  @Output() remove = new EventEmitter();
+}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/book-list/book-list.component.ts]" value="import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Book } from './books.model';
+
+@Component({
+  selector: 'app-book-list',
+  templateUrl: './book-list.component.html',
+  styleUrls: ['./book-list.component.css'],
+})
+export class BookListComponent {
+  @Input() books: Array<Book>;
+  @Output() add = new EventEmitter();
+}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/book-list/books.model.ts]" value="export interface Book {
+    id: string;
+    volumeInfo: {
+      title: string;
+      authors: Array<string>;
+    };
+  }
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/book-list/books.service.ts]" value="import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+
+import { of, Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+import { Book } from './books.model';
+
+@Injectable({ providedIn: 'root' })
+export class GoogleBooksService {
+  constructor(private http: HttpClient) {}
+
+  getBooks(): Observable<Array<Book>> {
+    return this.http
+      .get<{ items: Book[] }>(
+        'https://www.googleapis.com/books/v1/volumes?maxResults=5&amp;orderBy=relevance&amp;q=oliver%20sacks'
+      )
+      .pipe(map((books) => books.items || []));
+  }
+}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/integration.spec.ts]" value="import {
+  TestBed,
+  async,
+  ComponentFixture,
+  fakeAsync,
+  tick,
+} from '@angular/core/testing';
+import { By } from '@angular/platform-browser';
+import { of } from 'rxjs';
+import { StoreModule } from '@ngrx/store';
+import {
+  HttpClientTestingModule,
+  HttpTestingController,
+} from '@angular/common/http/testing';
+
+import { BookListComponent } from './book-list/book-list.component';
+import { GoogleBooksService } from './book-list/books.service';
+import { BookCollectionComponent } from './book-collection/book-collection.component';
+import { AppComponent } from './app.component';
+import { collectionReducer } from './state/collection.reducer';
+import { booksReducer } from './state/books.reducer';
+
+describe('AppComponent Integration Test', () => {
+  let component: AppComponent;
+  let fixture: ComponentFixture<AppComponent>;
+  let booksService: GoogleBooksService;
+  let httpMock: HttpTestingController;
+
+  beforeEach(async((done) => {
+    TestBed.configureTestingModule({
+      declarations: [AppComponent, BookListComponent, BookCollectionComponent],
+      imports: [
+        HttpClientTestingModule,
+        StoreModule.forRoot({
+          books: booksReducer,
+          collection: collectionReducer,
+        }),
+      ],
+      providers: [GoogleBooksService],
+    }).compileComponents();
+
+    booksService = TestBed.get(GoogleBooksService);
+    httpMock = TestBed.get(HttpTestingController);
+
+    fixture = TestBed.createComponent(AppComponent);
+    component = fixture.debugElement.componentInstance;
+
+    fixture.detectChanges();
+
+    const req = httpMock.expectOne(
+      'https://www.googleapis.com/books/v1/volumes?maxResults=5&amp;orderBy=relevance&amp;q=oliver%20sacks'
+    );
+    req.flush({
+      items: [
+        {
+          id: 'firstId',
+          volumeInfo: {
+            title: 'First Title',
+            authors: ['First Author'],
+          },
+        },
+        {
+          id: 'secondId',
+          volumeInfo: {
+            title: 'Second Title',
+            authors: ['Second Author'],
+          },
+        },
+      ],
+    });
+
+    fixture.detectChanges();
+  }));
+
+  afterEach(() => {
+    httpMock.verify();
+  });
+
+  it('should create the component', () => {
+    expect(component).toBeTruthy();
+  });
+
+  describe('buttons should work as expected', () => {
+    it('should add to collection when add button is clicked and remove from collection when remove button is clicked', () => {
+      const addButton = getBookList()[1].query(
+        By.css('[data-test=add-button]')
+      );
+
+      click(addButton);
+
+      expect(getBookTitle(getCollection()[0])).toBe('Second Title');
+
+      const removeButton = getCollection()[0].query(
+        By.css('[data-test=remove-button]')
+      );
+
+      click(removeButton);
+
+      expect(getCollection().length).toBe(0);
+    });
+  });
+
+  function getCollection() {
+    return fixture.debugElement.queryAll(By.css('.book-collection .book-item'));
+  }
+
+  function getBookList() {
+    return fixture.debugElement.queryAll(By.css('.book-list .book-item'));
+  }
+
+  function getBookTitle(element) {
+    return element.query(By.css('p')).nativeElement.textContent;
+  }
+
+  function click(element) {
+    const el: HTMLElement = element.nativeElement;
+    el.click();
+    fixture.detectChanges();
+  }
+});
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
 */"><input type="hidden" name="files[src/app/reducers/auth.reducer.ts]" value="import { createReducer, on } from '@ngrx/store';
 import { AuthActions } from '../actions';
 
@@ -63,6 +497,237 @@ export const selectAuthStatusState = createSelector(
 export const getUsername = createSelector(
   selectAuthStatusState,
   fromAuth.getUsername
+);
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/state/app.state.ts]" value="import { Book } from '../book-list/books.model';
+
+export interface AppState {
+  books: ReadonlyArray<Book>;
+  collection: ReadonlyArray<string>;
+}
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/state/books.actions.ts]" value="import { createAction, props } from '@ngrx/store';
+
+export const addBook = createAction(
+  '[Book List] Add Book',
+  props<{ bookId }>()
+);
+
+export const removeBook = createAction(
+  '[Book Collection] Remove Book',
+  props<{ bookId }>()
+);
+
+export const retrievedBookList = createAction(
+  '[Book List/API] Retrieve Books Success',
+  props<{ Book }>()
+);
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/state/books.reducer.spec.ts]" value="import * as fromReducer from './books.reducer';
+import { retrievedBookList } from './books.actions';
+import { Book } from '../book-list/books.model';
+
+describe('BooksReducer', () => {
+  describe('unknown action', () => {
+    it('should return the default state', () => {
+      const { initialState } = fromReducer;
+      const action = {
+        type: 'Unknown',
+      };
+      const state = fromReducer.booksReducer(initialState, action);
+
+      expect(state).toBe(initialState);
+    });
+  });
+
+  describe('retrievedBookList action', () => {
+    it('should retrieve all books and update the state in an immutable way', () => {
+      const { initialState } = fromReducer;
+      const newState: Array<Book> = [
+        {
+          id: 'firstId',
+          volumeInfo: {
+            title: 'First Title',
+            authors: ['First Author'],
+          },
+        },
+      ];
+      const action = retrievedBookList({ Book: newState });
+      const state = fromReducer.booksReducer(initialState, action);
+
+      expect(state).toEqual(newState);
+      expect(state).not.toBe(newState);
+    });
+  });
+});
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/state/books.reducer.ts]" value="import { createReducer, on, Action } from '@ngrx/store';
+
+import { retrievedBookList } from './books.actions';
+import { Book } from '../book-list/books.model';
+
+export const initialState: ReadonlyArray<Book> = [];
+
+export const booksReducer = createReducer(
+  initialState,
+  on(retrievedBookList, (state, { Book }) => [...Book])
+);
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/state/books.selectors.spec.ts]" value="import { selectBooks, selectBookCollection } from &quot;./books.selectors&quot;;
+import { AppState } from &quot;./app.state&quot;;
+
+describe(&quot;Selectors&quot;, () => {
+  const initialState: AppState = {
+    books: [
+      {
+        id: &quot;firstId&quot;,
+        volumeInfo: {
+          title: &quot;First Title&quot;,
+          authors: [&quot;First Author&quot;],
+        },
+      },
+      {
+        id: &quot;secondId&quot;,
+        volumeInfo: {
+          title: &quot;Second Title&quot;,
+          authors: [&quot;Second Author&quot;],
+        },
+      },
+    ],
+    collection: [&quot;firstId&quot;],
+  };
+
+  it(&quot;should select the book list&quot;, () => {
+    const result = selectBooks.projector(initialState.books);
+    expect(result.length).toEqual(2);
+    expect(result[1].id).toEqual(&quot;secondId&quot;);
+  });
+
+  it(&quot;should select the book collection&quot;, () => {
+    const result = selectBookCollection.projector(
+      initialState.books,
+      initialState.collection
+    );
+    expect(result.length).toEqual(1);
+    expect(result[0].id).toEqual(&quot;firstId&quot;);
+  });
+});
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/state/books.selectors.ts]" value="import { createSelector, createFeatureSelector } from &quot;@ngrx/store&quot;;
+import { AppState } from &quot;./app.state&quot;;
+import { Book } from &quot;../book-list/books.model&quot;;
+
+export const selectBooks = createSelector(
+  (state: AppState) => state.books,
+  (books: Array<Book>) => books
+);
+
+export const selectCollectionState = createFeatureSelector<
+  AppState,
+  ReadonlyArray<string>
+>(&quot;collection&quot;);
+
+export const selectBookCollection = createSelector(
+  selectBooks,
+  selectCollectionState,
+  (books: Array<Book>, collection: Array<string>) => {
+    return collection.map((id) => books.find((book) => book.id === id));
+  }
+);
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/state/collection.reducer.spec.ts]" value="import * as fromReducer from './collection.reducer';
+import { addBook, removeBook } from './books.actions';
+
+describe('CollectionReducer', () => {
+  describe('unknown action', () => {
+    it('should return the previous state', () => {
+      const { initialState } = fromReducer;
+      const action = {
+        type: 'Unknown',
+      };
+      const state = fromReducer.collectionReducer(initialState, action);
+
+      expect(state).toBe(initialState);
+    });
+  });
+
+  describe('add action', () => {
+    it('should add an item from the book list and update the state in an immutable way', () => {
+      const initialState: Array<string> = ['firstId', 'secondId'];
+
+      const action = addBook({ bookId: 'thirdId' });
+      const state = fromReducer.collectionReducer(initialState, action);
+
+      expect(state[2]).toBe('thirdId');
+    });
+
+    it('should not add a bookId to collection when that bookId is already in the collection', () => {
+      const initialState: Array<string> = ['firstId', 'secondId'];
+
+      const action = addBook({ bookId: 'secondId' });
+      const state = fromReducer.collectionReducer(initialState, action);
+
+      expect(state[2]).toEqual(undefined);
+      expect(state[1]).toBe('secondId');
+    });
+  });
+
+  describe('remove action', () => {
+    it('should remove the selected book from the collection update the state in an immutable way', () => {
+      const initialState: Array<string> = ['firstId', 'secondId'];
+      const action = removeBook({ bookId: 'secondId' });
+      const state = fromReducer.collectionReducer(initialState, action);
+
+      expect(state[1]).toEqual(undefined);
+    });
+  });
+});
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/state/collection.reducer.ts]" value="import { createReducer, on, Action } from '@ngrx/store';
+import { addBook, removeBook } from './books.actions';
+
+export const initialState: ReadonlyArray<string> = [];
+
+export const collectionReducer = createReducer(
+  initialState,
+  on(removeBook, (state, { bookId }) => state.filter((id) => id !== bookId)),
+  on(addBook, (state, { bookId }) => {
+    if (state.indexOf(bookId) > -1) return state;
+
+    return [...state, bookId];
+  })
 );
 
 
@@ -161,19 +826,27 @@ export const environment = {
 /*
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
-*/"><input type="hidden" name="files[src/main.ts]" value="import './testing/global-jasmine';
+*/"><input type="hidden" name="files[src/global-jasmine.ts]" value="import jasmineRequire from 'jasmine-core/lib/jasmine-core/jasmine.js';
+window.jasmineRequire = jasmineRequire;
+
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/main.ts]" value="import './global-jasmine';
 import 'jasmine-core/lib/jasmine-core/jasmine-html.js';
 import 'jasmine-core/lib/jasmine-core/boot.js';
 
-declare var jasmine;
-
 import './polyfills';
 
+// This file is required by karma.conf.js and loads recursively all the .spec and framework files
 import 'zone.js/dist/async-test';
 import 'zone.js/dist/fake-async-test';
 import 'zone.js/dist/long-stack-trace-zone';
 import 'zone.js/dist/proxy.js';
 import 'zone.js/dist/sync-test';
+
+// Requires 'zone.js/dist/proxy.js' and 'zone.js/dist/sync-test';
 import 'zone.js/dist/jasmine-patch';
 
 import { getTestBed } from '@angular/core/testing';
@@ -182,25 +855,24 @@ import {
   platformBrowserDynamicTesting,
 } from '@angular/platform-browser-dynamic/testing';
 
-// Spec files to include in the StackBlitz tests
-import './test-files.ts';
+import './app/state/books.reducer.spec.ts';
+import './app/state/collection.reducer.spec.ts';
+import './app/state/books.selectors.spec.ts';
+import './app/app.component.spec.ts';
+import './app/integration.spec.ts';
 
-//
-
+jasmine.getEnv().configure({ random: false });
 bootstrap();
 
-//
-
 function bootstrap() {
-  if (window['jasmineRef']) {
+  if (window.jasmineRef) {
     location.reload();
     return;
   } else {
-    window.onload(undefined);
-    window['jasmineRef'] = jasmine.getEnv();
+    window.onload();
+    window.jasmineRef = jasmine.getEnv();
   }
 
-  // First, initialize the Angular testing environment.
   getTestBed().initTestEnvironment(
     BrowserDynamicTestingModule,
     platformBrowserDynamicTesting()
@@ -294,6 +966,36 @@ window['jasmineRequire'] = jasmineRequire;
 /*
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/book-collection/book-collection.component.css]" value="div {
+  padding: 10px;
+}
+span {
+  margin: 0 10px 0 2px;
+}
+p {
+  display: inline-block;
+  font-style: italic;
+  margin: 0 0 5px;
+}
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+*/"><input type="hidden" name="files[src/app/book-list/book-list.component.css]" value="div {
+  padding: 10px;
+}
+span {
+  margin: 0 10px 0 2px;
+}
+p {
+  display: inline-block;
+  font-style: italic;
+  margin: 0;
+}
+
+/*
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
 */"><input type="hidden" name="files[src/styles.css]" value="/* Master Styles */
 * {
   font-family: Arial, Helvetica, sans-serif;
@@ -303,16 +1005,64 @@ can be found in the LICENSE file at https://github.com/ngrx/platform
 /*
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
-*/"><input type="hidden" name="files[src/index.html]" value="<html>
+*/"><input type="hidden" name="files[src/app/app.component.html]" value="<h1>Oliver Sacks Books Collection</h1>
+
+<h2>Books</h2>
+<app-book-list
+  class=&quot;book-list&quot;
+  [books]=&quot;books$ | async&quot;
+  (add) = &quot;onAdd($event)&quot;
+></app-book-list>
+
+<h2>My Collection</h2>
+<app-book-collection
+  class=&quot;book-collection&quot;
+  [books]=&quot;bookCollection$ | async&quot;
+  (remove) = &quot;onRemove($event)&quot;
+></app-book-collection>
+
+
+
+<!-- 
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+-->"><input type="hidden" name="files[src/app/book-collection/book-collection.component.html]" value="<div 
+  class=&quot;book-item&quot;
+  *ngFor=&quot;let book of books&quot;
+>
+  <p>{{book.volumeInfo.title}}</p><span> by {{book.volumeInfo.authors}}</span>
+  <button
+    (click)=&quot;remove.emit(book.id)&quot;
+    data-test=&quot;remove-button&quot;
+  >Remove from Collection</button>
+</div>
+
+
+<!-- 
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+-->"><input type="hidden" name="files[src/app/book-list/book-list.component.html]" value="<div
+  class=&quot;book-item&quot;
+  *ngFor=&quot;let book of books&quot;
+>
+  <p>{{book.volumeInfo.title}}</p><span> by {{book.volumeInfo.authors}}</span>
+  <button
+    (click)=&quot;add.emit(book.id)&quot;
+    data-test=&quot;add-button&quot;
+  >Add to Collection</button>
+</div>
+
+<!-- 
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+-->"><input type="hidden" name="files[src/index.html]" value="<html>
   <head>
     <title>Angular App</title>
-    <link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.99.0/jasmine.css&quot;>
   </head>
   <body>
   <!-- Intentionally empty -->
   </body>
 </html>
-
 
 <!-- 
 Use of this source code is governed by an MIT-style license that
