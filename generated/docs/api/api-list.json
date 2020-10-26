@@ -245,6 +245,14 @@
         "securityRisk": false
       },
       {
+        "name": "notallowedcheck",
+        "title": "NotAllowedCheck",
+        "path": "api/store/NotAllowedCheck",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "on",
         "title": "On",
         "path": "api/store/On",
@@ -257,6 +265,14 @@
         "title": "on",
         "path": "api/store/on",
         "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "props",
+        "title": "Props",
+        "path": "api/store/Props",
+        "docType": "interface",
         "stability": "stable",
         "securityRisk": false
       },

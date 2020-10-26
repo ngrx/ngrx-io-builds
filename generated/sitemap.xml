@@ -298,6 +298,12 @@
     <loc>https://ngrx.io/api/store/MetaReducer</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/NotAllowedCheck</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/store/Props</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/Selector</loc>
   </url>
   <url>
