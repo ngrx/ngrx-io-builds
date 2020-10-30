@@ -612,12 +612,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.e02d0d48",
+    "build": "sha.207da445",
     "version": "10.0.2-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "10.0.2-local+sha.e02d0d48",
+    "full": "10.0.2-local+sha.207da445",
     "branch": "master",
-    "commitSHA": "e02d0d48c71f2eb0b47f596fd4c2c730c5567138"
+    "commitSHA": "207da445ffb899352b8b34b06a1357dc17973d28"
   }
 }
