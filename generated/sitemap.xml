@@ -1135,7 +1135,7 @@
     <loc>https://ngrx.io/api/component-store/SelectConfig</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/component-store/initialStateToken</loc>
+    <loc>https://ngrx.io/api/component-store/INITIAL_STATE_TOKEN</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/component-store/ComponentStore</loc>

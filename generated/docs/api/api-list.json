@@ -2293,9 +2293,9 @@
         "securityRisk": false
       },
       {
-        "name": "initialstatetoken",
-        "title": "initialStateToken",
-        "path": "api/component-store/initialStateToken",
+        "name": "initial_state_token",
+        "title": "INITIAL_STATE_TOKEN",
+        "path": "api/component-store/INITIAL_STATE_TOKEN",
         "docType": "const",
         "stability": "stable",
         "securityRisk": false
