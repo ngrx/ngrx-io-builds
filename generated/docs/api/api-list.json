@@ -2307,6 +2307,14 @@
         "docType": "interface",
         "stability": "stable",
         "securityRisk": false
+      },
+      {
+        "name": "tapresponse",
+        "title": "tapResponse",
+        "path": "api/component-store/tapResponse",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
       }
     ]
   }
