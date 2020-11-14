@@ -1,1 +1,1 @@
-c47114c6 feat(effects): add support for provideMockActions outside of the TestBed (#2762)
+63a26d8d docs(store): add API documentation for combineReducers (#2733)
