@@ -492,6 +492,14 @@
     "path": "api/store/testing",
     "items": [
       {
+        "name": "getmockstore",
+        "title": "getMockStore",
+        "path": "api/store/testing/getMockStore",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "mockreducermanager",
         "title": "MockReducerManager",
         "path": "api/store/testing/MockReducerManager",
