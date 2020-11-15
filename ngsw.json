@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1605322455135,
+  "timestamp": 1605460283109,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -794,7 +794,7 @@
     "/generated/docs/api/entity.json": "2e49fc9bbc4a9bd63d8da46140f753140026172e",
     "/generated/docs/api/entity/Comparer.json": "44cb1a8f8eaca9d3a10f248b8d12a0587953543e",
     "/generated/docs/api/entity/Dictionary.json": "25a2030460e68b4f3dc94f4a90d3c0620b8a5591",
-    "/generated/docs/api/entity/EntityAdapter.json": "7e50dd1fadf07c5654e059ab9113eeaab0e798b1",
+    "/generated/docs/api/entity/EntityAdapter.json": "dd8f3169813ec5e70c718fde38b72c3431181b7f",
     "/generated/docs/api/entity/EntityMap.json": "2edc3ec9cf4e726b14ddfa6393872afcf2aae009",
     "/generated/docs/api/entity/EntityMapOne.json": "9b4ee5222487a6f5f74dfd62cc55090bd6830a0a",
     "/generated/docs/api/entity/EntityState.json": "3658cc0125f02494561b6cb375d500ffc1b42649",
@@ -1071,7 +1071,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "91ea76909cbe8c74ffb781e3f0b85459958db44f",
+    "/generated/navigation.json": "6c4cfb6497a9621e7b6e7cbdc3322ac939281d00",
     "/generated/resources.json": "7c2efb311b4035ca0099e35266863b149c5b2003",
     "/index.html": "26c616094292c37dd4e42cd5add843ce4dece0fd",
     "/live-example-live-example-module.c744ffe5e6e2089080c3.js": "db5a9d82943520c2686c82f5e5cb899170a08eeb",
