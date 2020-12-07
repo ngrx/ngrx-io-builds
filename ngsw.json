@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1606569701412,
+  "timestamp": 1607350391864,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -771,7 +771,7 @@
     "/generated/docs/api/effects/Effect.json": "8c354d3f1b12c73e380edbdc1a0f43710a47b36d",
     "/generated/docs/api/effects/EffectConfig.json": "b7385746fbcbb9534c7edc101430aac549869080",
     "/generated/docs/api/effects/EffectNotification.json": "ebfff9e9ab709c011c1caf5f30a9823b6ef93b47",
-    "/generated/docs/api/effects/EffectSources.json": "33660f0997da1ece43805e4dfafda9015a85ddd1",
+    "/generated/docs/api/effects/EffectSources.json": "99d4ae2d43bdb6bb5a692577b5250f83cea8d157",
     "/generated/docs/api/effects/EffectsErrorHandler.json": "25e6d59125b6598ae87da899fba01c92c7139d10",
     "/generated/docs/api/effects/EffectsFeatureModule.json": "f33e26b2c7ed76fe743344d96d96ba9682ae1adf",
     "/generated/docs/api/effects/EffectsMetadata.json": "f8a5cf38d31ee1a983eaeee74ccc4c217ce71840",
@@ -783,7 +783,7 @@
     "/generated/docs/api/effects/OnRunEffects.json": "cec40d978f9686d28fc295b149463a9c5b33c7cf",
     "/generated/docs/api/effects/ROOT_EFFECTS_INIT.json": "063178bddcb5978966faf58ad009beec24696daa",
     "/generated/docs/api/effects/USER_PROVIDED_EFFECTS.json": "2801375899b3cfa09032945c709f19f1b9396eb9",
-    "/generated/docs/api/effects/act.json": "92d619f052d0fcd0b37ff4973bf07267f5036648",
+    "/generated/docs/api/effects/act.json": "10c3c3fa29b1d5a4381e178856729d5ac9e32c34",
     "/generated/docs/api/effects/createEffect.json": "21fa567115fc6882380f079932a069e57424ffa9",
     "/generated/docs/api/effects/defaultEffectsErrorHandler.json": "6e8a4bca55e43ed763527db4f7ba3111db6c710b",
     "/generated/docs/api/effects/getEffectsMetadata.json": "081884364f131da2ef0f6b2455d032ab9f3f1e9c",
@@ -1073,7 +1073,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "6a08a34f029e12038d8736c1fb64e2d034c4cf9b",
+    "/generated/navigation.json": "67f4db4bd228e45e80daa7d0d99fbd1ca3054c3a",
     "/generated/resources.json": "4185b127f58903c3c6aaea595a3a6d04295cb633",
     "/index.html": "26c616094292c37dd4e42cd5add843ce4dece0fd",
     "/live-example-live-example-module.c744ffe5e6e2089080c3.js": "db5a9d82943520c2686c82f5e5cb899170a08eeb",
