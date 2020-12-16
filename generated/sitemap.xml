@@ -445,6 +445,9 @@
     <loc>https://ngrx.io/api/store/StoreConfig</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/FeatureSlice</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/On</loc>
   </url>
   <url>
