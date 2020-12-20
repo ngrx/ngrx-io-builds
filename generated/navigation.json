@@ -464,6 +464,10 @@
       "title": "Migrations",
       "children": [
         {
+          "title": "V11",
+          "url": "guide/migration/v11"
+        },
+        {
           "title": "V10",
           "url": "guide/migration/v10"
         },
@@ -605,19 +609,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "10.0.1",
-    "major": 10,
+    "raw": "11.0.0-beta.0",
+    "major": 11,
     "minor": 0,
-    "patch": 2,
+    "patch": 0,
     "prerelease": [
       "local"
     ],
-    "build": "sha.3ebf6694",
-    "version": "10.0.2-local",
+    "build": "sha.14328916",
+    "version": "11.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "10.0.2-local+sha.3ebf6694",
+    "full": "11.0.0-local+sha.14328916",
     "branch": "master",
-    "commitSHA": "3ebf669448491a989fa51ecfec810f28be140246"
+    "commitSHA": "143289164b1e94bafe9570c4002a009a04ab659c"
   }
 }
