@@ -2317,10 +2317,26 @@
         "securityRisk": false
       },
       {
+        "name": "projector",
+        "title": "Projector",
+        "path": "api/component-store/Projector",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "selectconfig",
         "title": "SelectConfig",
         "path": "api/component-store/SelectConfig",
         "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "selectorresults",
+        "title": "SelectorResults",
+        "path": "api/component-store/SelectorResults",
+        "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
       },
