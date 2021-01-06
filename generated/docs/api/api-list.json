@@ -165,14 +165,6 @@
         "securityRisk": false
       },
       {
-        "name": "featureslice",
-        "title": "FeatureSlice",
-        "path": "api/store/FeatureSlice",
-        "docType": "interface",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
         "name": "init",
         "title": "INIT",
         "path": "api/store/INIT",
