@@ -670,7 +670,7 @@
         "title": "Effect",
         "path": "api/effects/Effect",
         "docType": "function",
-        "stability": "stable",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
