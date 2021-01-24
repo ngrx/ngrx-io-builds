@@ -21,6 +21,14 @@
         "securityRisk": false
       },
       {
+        "name": "actioncreatorprops",
+        "title": "ActionCreatorProps",
+        "path": "api/store/ActionCreatorProps",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "actionreducer",
         "title": "ActionReducer",
         "path": "api/store/ActionReducer",
@@ -262,25 +270,9 @@
       },
       {
         "name": "on",
-        "title": "On",
-        "path": "api/store/On",
-        "docType": "interface",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
-        "name": "on",
         "title": "on",
         "path": "api/store/on",
         "docType": "function",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
-        "name": "props",
-        "title": "Props",
-        "path": "api/store/Props",
-        "docType": "interface",
         "stability": "stable",
         "securityRisk": false
       },
@@ -321,6 +313,14 @@
         "title": "ReducerObservable",
         "path": "api/store/ReducerObservable",
         "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "reducertypes",
+        "title": "ReducerTypes",
+        "path": "api/store/ReducerTypes",
+        "docType": "interface",
         "stability": "stable",
         "securityRisk": false
       },

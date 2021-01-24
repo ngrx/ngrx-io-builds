@@ -304,7 +304,7 @@
     <loc>https://ngrx.io/api/store/NotAllowedCheck</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/store/Props</loc>
+    <loc>https://ngrx.io/api/store/ActionCreatorProps</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/store/Selector</loc>
@@ -451,7 +451,7 @@
     <loc>https://ngrx.io/api/store/FeatureSlice</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/store/On</loc>
+    <loc>https://ngrx.io/api/store/ReducerTypes</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/store/on</loc>
