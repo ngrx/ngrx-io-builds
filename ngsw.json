@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1611507196903,
+  "timestamp": 1611519093871,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -833,7 +833,7 @@
     "/generated/docs/api/router-store/RouterReducerState.json": "15690ecd3672489a4e0629019710264644d9394f",
     "/generated/docs/api/router-store/RouterRequestAction.json": "312e96a8200ed7068cef37abe0bfb5008c8eae1a",
     "/generated/docs/api/router-store/RouterRequestPayload.json": "eaad0b23026b00b82b6003d5d5e2cc9bb204ac6a",
-    "/generated/docs/api/router-store/RouterState.json": "7f492165f870abefb74a46a49c29983aad6bb25b",
+    "/generated/docs/api/router-store/RouterState.json": "9465c2024c6a831b30a7c62357cd821a8fef8e32",
     "/generated/docs/api/router-store/RouterStateSerializer.json": "4fba9d27b341936b99e0cb90dadb9bbbaea7d7fc",
     "/generated/docs/api/router-store/SerializedRouterStateSnapshot.json": "04f74e3ea664cdf1eff9e7bfcd54a67f6d45d563",
     "/generated/docs/api/router-store/StateKeyOrSelector.json": "98c4a5fb70986dc16176ed8416d4ec322647d0c7",
@@ -844,7 +844,7 @@
     "/generated/docs/api/router-store/routerErrorAction.json": "769b9952ba99c87df031c1c82b2e12bd88cf48a9",
     "/generated/docs/api/router-store/routerNavigatedAction.json": "9b740fd8283f1503e0537ccd308bd31b4c754b82",
     "/generated/docs/api/router-store/routerNavigationAction.json": "bbfc3315c7c28c257576be6a97b2484fe03b2352",
-    "/generated/docs/api/router-store/routerReducer.json": "01fb37609ef070bfe12115514addd5ba2a5123ad",
+    "/generated/docs/api/router-store/routerReducer.json": "24304ee6b85a3b0d913d04e1d24ef0e0a9cf29ab",
     "/generated/docs/api/router-store/routerRequestAction.json": "de86a1ddac9f493f11ee0f7e88feceb5963b8420",
     "/generated/docs/api/store-devtools.json": "f34ef1829bb8c785a20d6a2efe4da0e713119dff",
     "/generated/docs/api/store-devtools/DevToolsFeatureOptions.json": "b1907b508cccffe12362b44745ac67b6f95c6f2a",
@@ -925,7 +925,7 @@
     "/generated/docs/api/store/testing/getMockStore.json": "ce1b5d285add5fea1fd1857e0bc8f67b551f1021",
     "/generated/docs/api/store/testing/provideMockStore.json": "c9d87d21ab711dbea9d628c9f2f51fc843edd6db",
     "/generated/docs/api/store/union.json": "f2592f766060b14c1a9df4ed0fbfdf5b607dd59a",
-    "/generated/docs/app/search-data.json": "73d19e6910a31aea1ccfdc7d3ee9733dc1846418",
+    "/generated/docs/app/search-data.json": "f1cea6a44932df95ce3ce9a5076f21eb47ba32a3",
     "/generated/docs/contributing.json": "7a8373695a8354ecd72c06b829e8595fa16e4daa",
     "/generated/docs/docs.json": "60673bd75d2a9d4f8b9d67cb958542a2093bb579",
     "/generated/docs/events.json": "151d0fd62b78e64518987b3f887bbb3ab0b7c251",
@@ -1079,7 +1079,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "4cec19a0e8da7548c2a3ddd766459726f21db236",
+    "/generated/navigation.json": "5b123b56d7b7f59d2acf48a5d409793291685d7d",
     "/generated/resources.json": "854966f5d07664c1c5ddc38c6e3254a1a8cee887",
     "/index.html": "46cad1607e760f529d13efdb1a963f2895c956da",
     "/live-example-live-example-module.359a8834b3c4c60ff10d.js": "f00785c7b8359324b7d673c56704342bcc0557f9",
