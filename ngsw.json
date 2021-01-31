@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1612037610696,
+  "timestamp": 1612056619831,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -694,7 +694,7 @@
     "/generated/docs/api/data/EntityCollectionReducerRegistry.json": "3de30e1c933c3c97e4d9a978c1d40d08d97ca2b0",
     "/generated/docs/api/data/EntityCollectionReducers.json": "d4089fd6a88b63bea6a84aea78613ed4172d7f58",
     "/generated/docs/api/data/EntityCollectionService.json": "21c8a3b5c96a085ccfefb0444aa20aeecbd77a05",
-    "/generated/docs/api/data/EntityCollectionServiceBase.json": "98ce1ec46cf859f91139788529825b144bf62d74",
+    "/generated/docs/api/data/EntityCollectionServiceBase.json": "d566577f8fec4ae054c23c35a5e600758090bba5",
     "/generated/docs/api/data/EntityCollectionServiceElements.json": "2a3f617c1956dc15b5ff0a16bed1ca4a71aa9954",
     "/generated/docs/api/data/EntityCollectionServiceElementsFactory.json": "102b041afffbc38321c11f9c4e7dc48f0f635a91",
     "/generated/docs/api/data/EntityCollectionServiceFactory.json": "590bcb138a4524492fd87c854fc5a8916936e7f1",
@@ -1079,7 +1079,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "f7dde1efb5d07e457afe5c6b17a82a9fb16c004f",
+    "/generated/navigation.json": "a935d51e9ff24e620da2506f9278f9031650ce46",
     "/generated/resources.json": "854966f5d07664c1c5ddc38c6e3254a1a8cee887",
     "/index.html": "46cad1607e760f529d13efdb1a963f2895c956da",
     "/live-example-live-example-module.359a8834b3c4c60ff10d.js": "f00785c7b8359324b7d673c56704342bcc0557f9",
