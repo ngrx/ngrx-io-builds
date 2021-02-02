@@ -650,6 +650,14 @@
         "securityRisk": false
       },
       {
+        "name": "concatlatestfrom",
+        "title": "concatLatestFrom",
+        "path": "api/effects/concatLatestFrom",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "createeffect",
         "title": "createEffect",
         "path": "api/effects/createEffect",
