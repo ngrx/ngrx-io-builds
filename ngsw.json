@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1612899424976,
+  "timestamp": 1613094138277,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -30,7 +30,7 @@
         "/expandable-section-expandable-section-module.77a3f5573f7d5f31d9da.js",
         "/index.html",
         "/live-example-live-example-module.359a8834b3c4c60ff10d.js",
-        "/main.684a16f7951522be94c0.js",
+        "/main.c8b61d28f908f1884651.js",
         "/ngrx-code-block-module.9d2e4098f5fcbee35359.js",
         "/ngrx-mff-module.f0a7dc6c77879c010240.js",
         "/ngrx-store-animation-module.bdb92be716c218f8c806.js",
@@ -1081,11 +1081,11 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "86e2eb1fb45ed7de62dc90fcc0f56b4a1dd8e3fc",
+    "/generated/navigation.json": "738a939bcd3e85c00109ab0dda2dd298d478d100",
     "/generated/resources.json": "854966f5d07664c1c5ddc38c6e3254a1a8cee887",
-    "/index.html": "03f703b0410b7eb4a314789b61d65d26a0b4c1a4",
+    "/index.html": "a9899a0faf09641a1b522d617bf3f2dda836ca52",
     "/live-example-live-example-module.359a8834b3c4c60ff10d.js": "f00785c7b8359324b7d673c56704342bcc0557f9",
-    "/main.684a16f7951522be94c0.js": "be4db7ad0c319b6a6c2480af78d34c922be1d51d",
+    "/main.c8b61d28f908f1884651.js": "c50a8fc1fb0174fc88b294a4e1ffbece99911a0b",
     "/ngrx-code-block-module.9d2e4098f5fcbee35359.js": "f47d3ac630d09ce0aabb1af6958c3ba8946724c7",
     "/ngrx-mff-module.f0a7dc6c77879c010240.js": "22c7f5c3aaecad74b5c123d0d3ce2718f1a34697",
     "/ngrx-store-animation-module.bdb92be716c218f8c806.js": "fd3e6e58b1aeda0588e037b002bc3391f5f5ea04",
