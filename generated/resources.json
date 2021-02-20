@@ -113,6 +113,12 @@
             "desc": "Spartacus is a lean, Angular-based JavaScript storefront for SAP Commerce Cloud that communicates exclusively through the Commerce REST API.",
             "url": "https://github.com/SAP/cloud-commerce-spartacus-storefront",
             "rev": true
+          },
+          "todomvc-app": {
+            "title": "TodoMVC app",
+            "desc": "The TodoMVC app using NgRx",
+            "url": "https://github.com/bbaia/todomvc-angular-ngrx",
+            "rev": true
           }
         }
       },
