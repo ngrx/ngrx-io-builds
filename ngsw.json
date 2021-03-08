@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1615245211795,
+  "timestamp": 1615245419998,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -40,7 +40,7 @@
         "/resource-resource-list-module.e61f5829e4bf6d2aaaed.js",
         "/runtime.bb0e14e665c91e3c28f4.js",
         "/search-file-not-found-search-module.30ba0a30f1fe52d97bf2.js",
-        "/styles.b32b7e14763ac342063a.css",
+        "/styles.d2d4e67161a471d05f22.css",
         "/toc-toc-module.e140f0668019913f3780.js"
       ],
       "patterns": [
@@ -1081,9 +1081,9 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "788e3bddc78590940bfc45c90d26162c28655693",
+    "/generated/navigation.json": "23030a88ac657f82c2ff34f1126f812473178440",
     "/generated/resources.json": "ea598c0e33e819b627bcea60ec31be55347fa13e",
-    "/index.html": "f51a1d34e528be147a4ed91303b66ed6c521e981",
+    "/index.html": "f3cddc0a079c82e8fd7531ba94e70b93d635184d",
     "/live-example-live-example-module.359a8834b3c4c60ff10d.js": "f00785c7b8359324b7d673c56704342bcc0557f9",
     "/main.c8b61d28f908f1884651.js": "c50a8fc1fb0174fc88b294a4e1ffbece99911a0b",
     "/ngrx-code-block-module.9d2e4098f5fcbee35359.js": "f47d3ac630d09ce0aabb1af6958c3ba8946724c7",
@@ -1095,7 +1095,7 @@
     "/resource-resource-list-module.e61f5829e4bf6d2aaaed.js": "2950b6a3d827f87016d8e70bd2a50b08c1613c46",
     "/runtime.bb0e14e665c91e3c28f4.js": "9f63b7e6d3c726ae67304ac552a5b1829c36a918",
     "/search-file-not-found-search-module.30ba0a30f1fe52d97bf2.js": "85721ae450d80c2a3010e25fa9d2f530f5642536",
-    "/styles.b32b7e14763ac342063a.css": "46e22b157ba783c5f129954cd9174f8af8bd3a15",
+    "/styles.d2d4e67161a471d05f22.css": "da9c58f7e3eb38d1449fbfd0eefcb73716e1be80",
     "/toc-toc-module.e140f0668019913f3780.js": "cba419c3fab1e2cf3c51ffb6537a23934da9d0fa"
   },
   "navigationUrls": [
