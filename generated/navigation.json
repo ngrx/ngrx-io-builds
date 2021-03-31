@@ -613,19 +613,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "11.0.1",
+    "raw": "11.1.0",
     "major": 11,
-    "minor": 0,
-    "patch": 2,
+    "minor": 1,
+    "patch": 1,
     "prerelease": [
       "local"
     ],
-    "build": "sha.987cfeed",
-    "version": "11.0.2-local",
+    "build": "sha.0519f6b0",
+    "version": "11.1.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "11.0.2-local+sha.987cfeed",
+    "full": "11.1.1-local+sha.0519f6b0",
     "branch": "master",
-    "commitSHA": "987cfeed7deae977f4ccdf94cc9a475ccce781af"
+    "commitSHA": "0519f6b0e191a43b491beb8706f2f00308809e12"
   }
 }
