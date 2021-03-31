@@ -69,6 +69,14 @@
         "securityRisk": false
       },
       {
+        "name": "active_runtime_checks",
+        "title": "ACTIVE_RUNTIME_CHECKS",
+        "path": "api/store/ACTIVE_RUNTIME_CHECKS",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "combinereducers",
         "title": "combineReducers",
         "path": "api/store/combineReducers",

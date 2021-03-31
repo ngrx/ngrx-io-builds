@@ -433,6 +433,9 @@
     <loc>https://ngrx.io/api/store/USER_RUNTIME_CHECKS</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/ACTIVE_RUNTIME_CHECKS</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/StoreModule</loc>
   </url>
   <url>
