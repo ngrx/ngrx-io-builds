@@ -189,6 +189,14 @@
         "securityRisk": false
       },
       {
+        "name": "functionwithparameterstype",
+        "title": "FunctionWithParametersType",
+        "path": "api/store/FunctionWithParametersType",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "init",
         "title": "INIT",
         "path": "api/store/INIT",
