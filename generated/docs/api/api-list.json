@@ -249,7 +249,7 @@
         "title": "MemoizedSelectorWithProps",
         "path": "api/store/MemoizedSelectorWithProps",
         "docType": "interface",
-        "stability": "stable",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -401,7 +401,7 @@
         "title": "SelectorWithProps",
         "path": "api/store/SelectorWithProps",
         "docType": "type-alias",
-        "stability": "stable",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
