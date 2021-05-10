@@ -624,12 +624,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.df760f8c",
+    "build": "sha.5259890d",
     "version": "12.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "12.0.0-local+sha.df760f8c",
+    "full": "12.0.0-local+sha.5259890d",
     "branch": "master",
-    "commitSHA": "df760f8c13276d0f0617560b52a5a40fc74a4bf7"
+    "commitSHA": "5259890db43b6b0d824fa5788af52188499402d5"
   }
 }
