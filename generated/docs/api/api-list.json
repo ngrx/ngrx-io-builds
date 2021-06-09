@@ -181,6 +181,14 @@
         "securityRisk": false
       },
       {
+        "name": "featureconfig",
+        "title": "FeatureConfig",
+        "path": "api/store/FeatureConfig",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "featureslice",
         "title": "FeatureSlice",
         "path": "api/store/FeatureSlice",

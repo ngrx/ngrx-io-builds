@@ -352,6 +352,9 @@
     <loc>https://ngrx.io/api/store/INIT</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/FeatureConfig</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/setNgrxMockEnvironment</loc>
   </url>
   <url>
