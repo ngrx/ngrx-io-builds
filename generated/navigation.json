@@ -628,12 +628,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.b3e2b103",
+    "build": "sha.adb297fc",
     "version": "12.1.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "12.1.1-local+sha.b3e2b103",
+    "full": "12.1.1-local+sha.adb297fc",
     "branch": "master",
-    "commitSHA": "b3e2b103582f0e6e533f25091614a7ea02409e0c"
+    "commitSHA": "adb297fc06fb5850250ed7766652b8df7e1b49d9"
   }
 }

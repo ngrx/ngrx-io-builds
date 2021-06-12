@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1623336333558,
+  "timestamp": 1623508971729,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -1089,9 +1089,9 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "22d886aace95f30d4c17473afb62dfc6f2799c46",
+    "/generated/navigation.json": "d2a6ef8906427b087096d18ffef3b3beb0804c0e",
     "/generated/resources.json": "ed0fe515693bbd871034ebeca5dbd1ec21ff7575",
-    "/index.html": "a376584016760e9e2902952ae505c3a5108605b1",
+    "/index.html": "b4dac55b3525c733072c5a39bbbd460573719b5f",
     "/live-example-live-example-module.ad0422ea02f97b4d8331.js": "ce1052aff2e2ed0bdb5ef2adc3d6982e8e497fa0",
     "/main.6717b9be1d30bb66969b.js": "e2069131ec4d31462e27a31d0dedc349e59f47bd",
     "/ngrx-code-block-module.a2d2db01572719590c0d.js": "b7863ce0784ea03e5dbacf34ce9041cfb59ce7aa",
