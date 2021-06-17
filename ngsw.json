@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1623938894330,
+  "timestamp": 1623967245617,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,6 @@
       },
       "urls": [
         "/app/search/search-worker.js",
-        "/assets/images/favicons/favicon.ico",
         "/assets/js/custom-elements.min.js",
         "/assets/js/lunr.min.js",
         "/assets/js/native-shim.js",
@@ -143,6 +142,7 @@
         "/assets/images/favicons/favicon-194x194.png",
         "/assets/images/favicons/favicon-32x32.png",
         "/assets/images/favicons/favicon-96x96.png",
+        "/assets/images/favicons/favicon.ico",
         "/generated/ie-polyfills.min.js"
       ],
       "patterns": []
@@ -1082,7 +1082,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "616c6a933458f99a232b4bd8bb034e1795efc093",
+    "/generated/navigation.json": "d83a9d6d04cfc9c6aa4f6687a4f8cae385b05f56",
     "/generated/resources.json": "ed0fe515693bbd871034ebeca5dbd1ec21ff7575",
     "/index.html": "d80371f29cbccd76f81d03fc801d0686e5b9a1c5",
     "/main.c244e591f0ae18a924d5.js": "0018229ba77e46da82406db4569ad1860f3938f1",
