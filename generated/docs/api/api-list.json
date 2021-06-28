@@ -101,6 +101,14 @@
         "securityRisk": false
       },
       {
+        "name": "createfeature",
+        "title": "createFeature",
+        "path": "api/store/createFeature",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "createfeatureselector",
         "title": "createFeatureSelector",
         "path": "api/store/createFeatureSelector",
