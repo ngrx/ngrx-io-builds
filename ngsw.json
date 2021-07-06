@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1625587995402,
+  "timestamp": 1625606212529,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,6 @@
       },
       "urls": [
         "/app/search/search-worker.js",
-        "/assets/images/favicons/favicon.ico",
         "/assets/js/custom-elements.min.js",
         "/assets/js/lunr.min.js",
         "/assets/js/native-shim.js",
@@ -143,6 +142,7 @@
         "/assets/images/favicons/favicon-194x194.png",
         "/assets/images/favicons/favicon-32x32.png",
         "/assets/images/favicons/favicon-96x96.png",
+        "/assets/images/favicons/favicon.ico",
         "/generated/ie-polyfills.min.js"
       ],
       "patterns": []
@@ -157,19 +157,6 @@
       "urls": [
         "/generated/announcements.json",
         "/generated/contributors.json",
-        "/generated/docs/about.json",
-        "/generated/docs/api.json",
-        "/generated/docs/api/api-list.json",
-        "/generated/docs/app/search-data.json",
-        "/generated/docs/contributing.json",
-        "/generated/docs/docs.json",
-        "/generated/docs/events.json",
-        "/generated/docs/file-not-found.json",
-        "/generated/docs/index.json",
-        "/generated/docs/license.json",
-        "/generated/docs/presskit.json",
-        "/generated/docs/resources.json",
-        "/generated/docs/test.json",
         "/generated/events.json",
         "/generated/navigation.json",
         "/generated/resources.json"
@@ -184,6 +171,9 @@
         "ignoreVary": true
       },
       "urls": [
+        "/generated/docs/about.json",
+        "/generated/docs/api.json",
+        "/generated/docs/api/api-list.json",
         "/generated/docs/api/component-store.json",
         "/generated/docs/api/component-store/ComponentStore.json",
         "/generated/docs/api/component-store/INITIAL_STATE_TOKEN.json",
@@ -484,6 +474,11 @@
         "/generated/docs/api/store/testing/getMockStore.json",
         "/generated/docs/api/store/testing/provideMockStore.json",
         "/generated/docs/api/store/union.json",
+        "/generated/docs/app/search-data.json",
+        "/generated/docs/contributing.json",
+        "/generated/docs/docs.json",
+        "/generated/docs/events.json",
+        "/generated/docs/file-not-found.json",
         "/generated/docs/guide/component-store.json",
         "/generated/docs/guide/component-store/comparison.json",
         "/generated/docs/guide/component-store/effect.json",
@@ -565,6 +560,11 @@
         "/generated/docs/guide/store/walkthrough.json",
         "/generated/docs/guide/store/why.json",
         "/generated/docs/guide/style-guide.json",
+        "/generated/docs/index.json",
+        "/generated/docs/license.json",
+        "/generated/docs/presskit.json",
+        "/generated/docs/resources.json",
+        "/generated/docs/test.json",
         "/generated/images/bios/_no-one.jpg",
         "/generated/images/bios/alexo.jpg",
         "/generated/images/bios/brandonroberts.jpg",
@@ -1084,7 +1084,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "eb2837bb4623ad83d81d125fdd7440db2e2554be",
+    "/generated/navigation.json": "8a730b21e5278787d8b24d00c58d72b6f6fdaf12",
     "/generated/resources.json": "ed0fe515693bbd871034ebeca5dbd1ec21ff7575",
     "/index.html": "bc7b86b4a55be97d346f6a95455216f96a42568e",
     "/main.c244e591f0ae18a924d5.js": "0018229ba77e46da82406db4569ad1860f3938f1",
