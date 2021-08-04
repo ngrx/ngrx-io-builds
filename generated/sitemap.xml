@@ -763,6 +763,9 @@
     <loc>https://ngrx.io/api/router-store/getSelectors</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/router-store/createRouterSelector</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/data</loc>
   </url>
   <url>
