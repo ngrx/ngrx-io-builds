@@ -1113,7 +1113,7 @@
       {
         "name": "routercancelaction",
         "title": "RouterCancelAction",
-        "path": "api/router-store/RouterCancelAction",
+        "path": "api/router-store/RouterCancelAction-0",
         "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
@@ -1121,7 +1121,7 @@
       {
         "name": "routercancelaction",
         "title": "routerCancelAction",
-        "path": "api/router-store/routerCancelAction",
+        "path": "api/router-store/routerCancelAction-1",
         "docType": "const",
         "stability": "stable",
         "securityRisk": false
@@ -1137,7 +1137,7 @@
       {
         "name": "routererroraction",
         "title": "RouterErrorAction",
-        "path": "api/router-store/RouterErrorAction",
+        "path": "api/router-store/RouterErrorAction-0",
         "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
@@ -1145,7 +1145,7 @@
       {
         "name": "routererroraction",
         "title": "routerErrorAction",
-        "path": "api/router-store/routerErrorAction",
+        "path": "api/router-store/routerErrorAction-1",
         "docType": "const",
         "stability": "stable",
         "securityRisk": false
@@ -1161,7 +1161,7 @@
       {
         "name": "routernavigatedaction",
         "title": "RouterNavigatedAction",
-        "path": "api/router-store/RouterNavigatedAction",
+        "path": "api/router-store/RouterNavigatedAction-0",
         "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
@@ -1169,7 +1169,7 @@
       {
         "name": "routernavigatedaction",
         "title": "routerNavigatedAction",
-        "path": "api/router-store/routerNavigatedAction",
+        "path": "api/router-store/routerNavigatedAction-1",
         "docType": "const",
         "stability": "stable",
         "securityRisk": false
@@ -1185,7 +1185,7 @@
       {
         "name": "routernavigationaction",
         "title": "RouterNavigationAction",
-        "path": "api/router-store/RouterNavigationAction",
+        "path": "api/router-store/RouterNavigationAction-0",
         "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
@@ -1193,7 +1193,7 @@
       {
         "name": "routernavigationaction",
         "title": "routerNavigationAction",
-        "path": "api/router-store/routerNavigationAction",
+        "path": "api/router-store/routerNavigationAction-1",
         "docType": "const",
         "stability": "stable",
         "securityRisk": false
@@ -1225,7 +1225,7 @@
       {
         "name": "routerrequestaction",
         "title": "RouterRequestAction",
-        "path": "api/router-store/RouterRequestAction",
+        "path": "api/router-store/RouterRequestAction-0",
         "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
@@ -1233,7 +1233,7 @@
       {
         "name": "routerrequestaction",
         "title": "routerRequestAction",
-        "path": "api/router-store/routerRequestAction",
+        "path": "api/router-store/routerRequestAction-1",
         "docType": "const",
         "stability": "stable",
         "securityRisk": false
@@ -1336,7 +1336,7 @@
       {
         "name": "changesetitemfactory",
         "title": "ChangeSetItemFactory",
-        "path": "api/data/ChangeSetItemFactory",
+        "path": "api/data/ChangeSetItemFactory-0",
         "docType": "class",
         "stability": "stable",
         "securityRisk": false
@@ -1344,7 +1344,7 @@
       {
         "name": "changesetitemfactory",
         "title": "changeSetItemFactory",
-        "path": "api/data/changeSetItemFactory",
+        "path": "api/data/changeSetItemFactory-1",
         "docType": "const",
         "stability": "stable",
         "securityRisk": false
