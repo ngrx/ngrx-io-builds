@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1628708910966,
+  "timestamp": 1628872314539,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -1024,7 +1024,7 @@
     "/generated/docs/guide/store/metareducers.json": "d3cc81db37cfcebe807284783a1c936f83c90865",
     "/generated/docs/guide/store/recipes/downgrade.json": "649c089f4780b349ae0ef26905afe467c5bd57f3",
     "/generated/docs/guide/store/recipes/injecting.json": "47f0485df1388e34bd9b9d6fba812a8baa363361",
-    "/generated/docs/guide/store/reducers.json": "fdcd7db1974bcd8dccd547ac51041d0a909de7e4",
+    "/generated/docs/guide/store/reducers.json": "a9bcc4155e6532aff175b82b637d57173a5de814",
     "/generated/docs/guide/store/selectors.json": "ae27ef1362ed24313e7aee5a62d85ac5a597ecb5",
     "/generated/docs/guide/store/testing.json": "52f512bcf0e42b301cb4e9c3faaa6b0b9e67d583",
     "/generated/docs/guide/store/walkthrough.json": "147e457f237838c8130324ec8f888d8f6f00b768",
@@ -1100,7 +1100,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "2f1975a8232480747d76a95729fc03969eff8e03",
+    "/generated/navigation.json": "c8b37ec07c09b4e5533770477b8f14e0b8fb1cff",
     "/generated/resources.json": "ed0fe515693bbd871034ebeca5dbd1ec21ff7575",
     "/index.html": "31e54a70d5adaf4ef32878086c94ffafa7d819b1",
     "/main.c244e591f0ae18a924d5.js": "0018229ba77e46da82406db4569ad1860f3938f1",
