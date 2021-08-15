@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1628872314539,
+  "timestamp": 1629044366337,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,6 @@
       },
       "urls": [
         "/app/search/search-worker.js",
-        "/assets/images/favicons/favicon.ico",
         "/assets/js/custom-elements.min.js",
         "/assets/js/lunr.min.js",
         "/assets/js/native-shim.js",
@@ -143,6 +142,7 @@
         "/assets/images/favicons/favicon-194x194.png",
         "/assets/images/favicons/favicon-32x32.png",
         "/assets/images/favicons/favicon-96x96.png",
+        "/assets/images/favicons/favicon.ico",
         "/generated/ie-polyfills.min.js"
       ],
       "patterns": []
@@ -157,6 +157,19 @@
       "urls": [
         "/generated/announcements.json",
         "/generated/contributors.json",
+        "/generated/docs/about.json",
+        "/generated/docs/api.json",
+        "/generated/docs/api/api-list.json",
+        "/generated/docs/app/search-data.json",
+        "/generated/docs/contributing.json",
+        "/generated/docs/docs.json",
+        "/generated/docs/events.json",
+        "/generated/docs/file-not-found.json",
+        "/generated/docs/index.json",
+        "/generated/docs/license.json",
+        "/generated/docs/presskit.json",
+        "/generated/docs/resources.json",
+        "/generated/docs/test.json",
         "/generated/events.json",
         "/generated/navigation.json",
         "/generated/resources.json"
@@ -171,9 +184,6 @@
         "ignoreVary": true
       },
       "urls": [
-        "/generated/docs/about.json",
-        "/generated/docs/api.json",
-        "/generated/docs/api/api-list.json",
         "/generated/docs/api/component-store.json",
         "/generated/docs/api/component-store/ComponentStore.json",
         "/generated/docs/api/component-store/INITIAL_STATE_TOKEN.json",
@@ -481,11 +491,6 @@
         "/generated/docs/api/store/testing/getMockStore.json",
         "/generated/docs/api/store/testing/provideMockStore.json",
         "/generated/docs/api/store/union.json",
-        "/generated/docs/app/search-data.json",
-        "/generated/docs/contributing.json",
-        "/generated/docs/docs.json",
-        "/generated/docs/events.json",
-        "/generated/docs/file-not-found.json",
         "/generated/docs/guide/component-store.json",
         "/generated/docs/guide/component-store/comparison.json",
         "/generated/docs/guide/component-store/effect.json",
@@ -567,11 +572,6 @@
         "/generated/docs/guide/store/walkthrough.json",
         "/generated/docs/guide/store/why.json",
         "/generated/docs/guide/style-guide.json",
-        "/generated/docs/index.json",
-        "/generated/docs/license.json",
-        "/generated/docs/presskit.json",
-        "/generated/docs/resources.json",
-        "/generated/docs/test.json",
         "/generated/images/bios/_no-one.jpg",
         "/generated/images/bios/alexo.jpg",
         "/generated/images/bios/brandonroberts.jpg",
@@ -950,7 +950,7 @@
     "/generated/docs/events.json": "151d0fd62b78e64518987b3f887bbb3ab0b7c251",
     "/generated/docs/file-not-found.json": "318660e94b919be1e8d96e2973810a54d3d4a9b6",
     "/generated/docs/guide/component-store.json": "8ed8e2d40ce398dfc5f1c5b6ffbe7dacde6b12fb",
-    "/generated/docs/guide/component-store/comparison.json": "c291288d3cfec29b0290af47872ed9b855979f0d",
+    "/generated/docs/guide/component-store/comparison.json": "562116c304bd7e1203c0fc3d3ccba3ff2af1fd31",
     "/generated/docs/guide/component-store/effect.json": "8ee431ab8779ad60d31ff654445eefe6eda63ac1",
     "/generated/docs/guide/component-store/initialization.json": "454c60ac62ed28c9b0889d1358cbec55d968e31a",
     "/generated/docs/guide/component-store/install.json": "dab03d759f8642174be44e0ffaa993f6e51f3ac3",
@@ -1100,7 +1100,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "c8b37ec07c09b4e5533770477b8f14e0b8fb1cff",
+    "/generated/navigation.json": "6926e8c04eba96978777f55dfc51c57926e00def",
     "/generated/resources.json": "ed0fe515693bbd871034ebeca5dbd1ec21ff7575",
     "/index.html": "31e54a70d5adaf4ef32878086c94ffafa7d819b1",
     "/main.c244e591f0ae18a924d5.js": "0018229ba77e46da82406db4569ad1860f3938f1",
