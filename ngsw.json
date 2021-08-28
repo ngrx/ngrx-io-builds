@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1629946187713,
+  "timestamp": 1630179024585,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,6 @@
       },
       "urls": [
         "/app/search/search-worker.js",
-        "/assets/images/favicons/favicon.ico",
         "/assets/js/custom-elements.min.js",
         "/assets/js/lunr.min.js",
         "/assets/js/native-shim.js",
@@ -143,6 +142,7 @@
         "/assets/images/favicons/favicon-194x194.png",
         "/assets/images/favicons/favicon-32x32.png",
         "/assets/images/favicons/favicon-96x96.png",
+        "/assets/images/favicons/favicon.ico",
         "/generated/ie-polyfills.min.js"
       ],
       "patterns": []
@@ -990,7 +990,7 @@
     "/generated/docs/guide/entity/recipes/additional-state-properties.json": "b77b6f2b7ceb1c52245609451ad95bc1ca15cf82",
     "/generated/docs/guide/migration/v10.json": "2e4f112d700b3678ed7bdc1d214336369ac07cd2",
     "/generated/docs/guide/migration/v11.json": "a818140d32b7255c0f2437599a770cdf34707ab9",
-    "/generated/docs/guide/migration/v12.json": "72f07d567a607b4c906b8e570ba0ebd89542e30c",
+    "/generated/docs/guide/migration/v12.json": "0b7ac2792637fd8b3735f7a85c58ec6060c51c57",
     "/generated/docs/guide/migration/v4.json": "9c9de2986c42ac4485b37da2f54494c6e2304dc2",
     "/generated/docs/guide/migration/v7.json": "a8836dca11c36fb46c27e23b0d8d8b8693c2d035",
     "/generated/docs/guide/migration/v8.json": "d23988b45f4f6120843607f4ef6fddbde791c7e0",
@@ -1100,7 +1100,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "c1750364055866c9483bfb85f99914fafe85a9aa",
+    "/generated/navigation.json": "8f2eb57544e53b47b44cacf6e1dbb700f1980ae0",
     "/generated/resources.json": "ed0fe515693bbd871034ebeca5dbd1ec21ff7575",
     "/index.html": "c8c3b3bd8f2d2d1030aeb430fc4ccce61c456bec",
     "/main.c244e591f0ae18a924d5.js": "0018229ba77e46da82406db4569ad1860f3938f1",
