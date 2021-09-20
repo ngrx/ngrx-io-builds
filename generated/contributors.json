@@ -7,7 +7,7 @@
     "bio": "Rob is a Developer Programs Engineer for Angular at Google. He's the Angular team's resident reactive programming geek and founder of NgRx.",
     "group": "Core"
   },
-  "brandon": {
+  "brandonroberts": {
     "name": "Brandon Roberts",
     "picture": "brandonroberts.jpg",
     "twitter": "brandontroberts",
@@ -15,7 +15,7 @@
     "bio": "Brandon is member of the Angular Team working on documentation and development. He is also a former GDE",
     "group": "Core"
   },
-  "mike": {
+  "MikeRyanDev": {
     "name": "Mike Ryan",
     "picture": "mikeryan.jpg",
     "twitter": "mikeryandev",
@@ -23,7 +23,7 @@
     "bio": "Software engineer at Synapse building user interfaces for industrial Internet of Things applications. He is a Google Developer Expert and a core team member of NgRx, an open source organization building high quality reactive libraries for Angular. ",
     "group": "Core"
   },
-  "victor": {
+  "vsavkin": {
     "name": "Victor Savkin",
     "picture": "victor.png",
     "twitter": "vsavkin",
@@ -47,7 +47,7 @@
     "bio": "John Papa is a dedicated father and husband, a Principal Developer Advocate with Microsoft, and an alumnus of the Google Developer Expert, Microsoft RD, and MVP programs.",
     "group": "Core"
   },
-  "tim": {
+  "timdeschryver": {
     "name": "Tim Deschryver",
     "picture": "timd.jpg",
     "twitter": "tim_deschryver",
@@ -55,7 +55,7 @@
     "bio": "Tim is an NgRx team member, and a writer for Angular in Depth.",
     "group": "Core"
   },
-  "wes": {
+  "wesleygrimes": {
     "name": "Wes Grimes",
     "picture": "wesgrimes.jpg",
     "twitter": "wesgrimes",
@@ -63,7 +63,7 @@
     "bio": "Wes is a software engineer in the insurance industry, and writer for Angular in Depth and Ultimate Courses.",
     "group": "Core"
   },
-  "alex": {
+  "alex-okrushko": {
     "name": "Alex Okrushko",
     "picture": "alexo.jpg",
     "twitter": "alexokrushko",
@@ -71,7 +71,7 @@
     "bio": "Alex is a software engineer at Google, and writer for Angular in Depth.",
     "group": "Core"
   },
-  "marko": {
+  "markostanimirovic": {
     "name": "Marko Stanimirović",
     "picture": "markos.jpg",
     "twitter": "markostdev",
