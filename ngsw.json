@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1632243487479,
+  "timestamp": 1632395444352,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,6 @@
       },
       "urls": [
         "/app/search/search-worker.js",
-        "/assets/images/favicons/favicon.ico",
         "/assets/js/custom-elements.min.js",
         "/assets/js/lunr.min.js",
         "/assets/js/native-shim.js",
@@ -144,6 +143,7 @@
         "/assets/images/favicons/favicon-194x194.png",
         "/assets/images/favicons/favicon-32x32.png",
         "/assets/images/favicons/favicon-96x96.png",
+        "/assets/images/favicons/favicon.ico",
         "/generated/ie-polyfills.min.js"
       ],
       "patterns": []
@@ -1102,9 +1102,9 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "67ec155c0df1355e37e80ab5301890d7c292dbfb",
-    "/generated/resources.json": "ed0fe515693bbd871034ebeca5dbd1ec21ff7575",
-    "/index.html": "b9dcfac4420994636d889fb6ad85f8ede1f3e4c6",
+    "/generated/navigation.json": "8c0735e4168ee57b82c6dec30a7c031f6d73a9f0",
+    "/generated/resources.json": "21710c003201c6f1bf86eb27585611d20161d1bf",
+    "/index.html": "d836cefca91fd3d7f92efaee2b4c5b7bc203d972",
     "/main.54dedfa36ffca8ffeec6.js": "4c2d167681e1256cc7515d420025466e0f8e01db",
     "/polyfills-es5.5430562df024071a53ca.js": "3782943023a3256dfdcd7bea5c956f0d257b826b",
     "/polyfills.35bd78028d4fdb6db2c9.js": "8f18742e066faa7c13f380accf2c5937222b089e",
