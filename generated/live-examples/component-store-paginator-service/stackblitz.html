@@ -121,7 +121,7 @@ Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
 */"><input type="hidden" name="files[src/app/paginator.store.ts]" value="import { Injectable } from '@angular/core';
 import { ComponentStore } from '@ngrx/component-store';
-import { filter, tap, map, withLatestFrom, pairwise } from 'rxjs/operators';
+import { filter, tap, map, withLatestFrom, pairwise, skip } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 
 export interface PaginatorState {
@@ -265,6 +265,9 @@ export class PaginatorStore extends ComponentStore<PaginatorState> {
     }),
     // debounce, so that we let the state &quot;settle&quot;
     { debounce: true }
+  ).pipe(
+    // Skip the emission of the initial state values
+    skip(1)
   );
 
   readonly nextPage = this.effect((trigger$) => {

@@ -621,19 +621,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "12.4.0",
+    "raw": "12.5.0",
     "major": 12,
-    "minor": 4,
+    "minor": 5,
     "patch": 1,
     "prerelease": [
       "local"
     ],
-    "build": "sha.605fd02e",
-    "version": "12.4.1-local",
+    "build": "sha.ece03e95",
+    "version": "12.5.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "12.4.1-local+sha.605fd02e",
+    "full": "12.5.1-local+sha.ece03e95",
     "branch": "master",
-    "commitSHA": "605fd02efa232a5c63856c3ff2798f63fd9b4ce4"
+    "commitSHA": "ece03e951094cfaa26e999c2346bb7587295e665"
   }
 }
