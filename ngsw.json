@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1634412083354,
+  "timestamp": 1634416670598,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -849,7 +849,7 @@
     "/generated/docs/api/router-store/SerializedRouterStateSnapshot.json": "05eb1707622023f01bcc460124a994f57e871859",
     "/generated/docs/api/router-store/StateKeyOrSelector.json": "fd47955862d0127b5f63211095edb3f00335c64b",
     "/generated/docs/api/router-store/StoreRouterConfig.json": "7e5327ec8c4cd458137d244706bcd63480ed95f9",
-    "/generated/docs/api/router-store/StoreRouterConnectingModule.json": "6a788b450d3c45bf69604774063bbc245c4d6815",
+    "/generated/docs/api/router-store/StoreRouterConnectingModule.json": "7b99ee08d8028091b9a42147fe5e02637be51f6c",
     "/generated/docs/api/router-store/createRouterSelector.json": "b9baddb8bd49d302a574f1544042f0f0f8cda51f",
     "/generated/docs/api/router-store/getSelectors.json": "ca4785dad0b231336f4fea270d519079332528ee",
     "/generated/docs/api/router-store/routerCancelAction-1.json": "54567f553387602cee7f6a7607255026149b7d05",
@@ -1102,7 +1102,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "f4ada0508dcc989e7a9a77c1125bb6ef167b43bb",
+    "/generated/navigation.json": "b9dd932f3c144ade528e7baa33d17cd003fe9f19",
     "/generated/resources.json": "21710c003201c6f1bf86eb27585611d20161d1bf",
     "/index.html": "5e376d46a18e06b4eb55ee0df47001bad919fa41",
     "/main.6e8e4b0d63095d386574.js": "c3f8eea3d6531ae5024dcaf8fcad518d72d25067",
