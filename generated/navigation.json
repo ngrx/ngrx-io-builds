@@ -539,7 +539,7 @@
           "tooltip": "Stack Overflow: where the community answers your technical NgRx questions."
         },
         {
-          "url": "https://discord.gg/gCEj4zC",
+          "url": "https://discord.com/invite/ngrx",
           "title": "Discord Server",
           "tooltip": "NgRx Community Discord Server - chat with other members of the community."
         },
@@ -628,12 +628,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.a6fe92df",
+    "build": "sha.34647ebf",
     "version": "12.5.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "12.5.1-local+sha.a6fe92df",
+    "full": "12.5.1-local+sha.34647ebf",
     "branch": "master",
-    "commitSHA": "a6fe92df3134b7a589a2e95abe0aea183b411f03"
+    "commitSHA": "34647ebff768ee335b832f79bc2ba88d227f4516"
   }
 }
