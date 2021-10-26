@@ -18,11 +18,11 @@ export class AppComponent {
   books$ = this.store.select(selectBooks);
   bookCollection$ = this.store.select(selectBookCollection);
 
-  onAdd(bookId) {
+  onAdd(bookId: string) {
     this.store.dispatch(addBook({ bookId }));
   }
 
-  onRemove(bookId) {
+  onRemove(bookId: string) {
     this.store.dispatch(removeBook({ bookId }));
   }
 
@@ -79,7 +79,7 @@ import { Book } from '../book-list/books.model';
 })
 export class BookCollectionComponent {
   @Input() books: Array<Book>;
-  @Output() remove = new EventEmitter();
+  @Output() remove = new EventEmitter<string>();
 }
 
 
@@ -96,7 +96,7 @@ import { Book } from './books.model';
 })
 export class BookListComponent {
   @Input() books: Array<Book>;
-  @Output() add = new EventEmitter();
+  @Output() add = new EventEmitter<string>();
 }
 
 
