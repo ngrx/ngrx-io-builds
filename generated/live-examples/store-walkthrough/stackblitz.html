@@ -78,7 +78,7 @@ import { Book } from '../book-list/books.model';
   styleUrls: ['./book-collection.component.css'],
 })
 export class BookCollectionComponent {
-  @Input() books: Array<Book>;
+  @Input() books: ReadonlyArray<Book> = [];
   @Output() remove = new EventEmitter<string>();
 }
 
@@ -95,7 +95,7 @@ import { Book } from './books.model';
   styleUrls: ['./book-list.component.css'],
 })
 export class BookListComponent {
-  @Input() books: Array<Book>;
+  @Input() books: ReadonlyArray<Book> = [];
   @Output() add = new EventEmitter<string>();
 }
 
@@ -187,23 +187,19 @@ export const booksReducer = createReducer(
 /*
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
-*/"><input type="hidden" name="files[src/app/state/books.selectors.ts]" value="import { createSelector, createFeatureSelector } from &quot;@ngrx/store&quot;;
-import { AppState } from &quot;./app.state&quot;;
-import { Book } from &quot;../book-list/books.model&quot;;
+*/"><input type="hidden" name="files[src/app/state/books.selectors.ts]" value="import { createSelector, createFeatureSelector } from '@ngrx/store';
+import { Book } from '../book-list/books.model';
 
-export const selectBooks = createSelector(
-  (state: AppState) => state.books,
-  (books: Array<Book>) => books
-);
+export const selectBooks = createFeatureSelector<ReadonlyArray<Book>>('books');
 
 export const selectCollectionState = createFeatureSelector<
   ReadonlyArray<string>
->(&quot;collection&quot;);
+>('collection');
 
 export const selectBookCollection = createSelector(
   selectBooks,
   selectCollectionState,
-  (books: Array<Book>, collection: Array<string>) => {
+  (books, collection) => {
     return collection.map((id) => books.find((book) => book.id === id));
   }
 );
