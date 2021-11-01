@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1635779549753,
+  "timestamp": 1635782128297,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,6 +12,7 @@
       },
       "urls": [
         "/app/search/search-worker.js",
+        "/assets/images/favicons/favicon.ico",
         "/assets/js/custom-elements.min.js",
         "/assets/js/lunr.min.js",
         "/assets/js/native-shim.js",
@@ -143,7 +144,6 @@
         "/assets/images/favicons/favicon-194x194.png",
         "/assets/images/favicons/favicon-32x32.png",
         "/assets/images/favicons/favicon-96x96.png",
-        "/assets/images/favicons/favicon.ico",
         "/generated/ie-polyfills.min.js"
       ],
       "patterns": []
@@ -158,6 +158,19 @@
       "urls": [
         "/generated/announcements.json",
         "/generated/contributors.json",
+        "/generated/docs/about.json",
+        "/generated/docs/api.json",
+        "/generated/docs/api/api-list.json",
+        "/generated/docs/app/search-data.json",
+        "/generated/docs/contributing.json",
+        "/generated/docs/docs.json",
+        "/generated/docs/events.json",
+        "/generated/docs/file-not-found.json",
+        "/generated/docs/index.json",
+        "/generated/docs/license.json",
+        "/generated/docs/presskit.json",
+        "/generated/docs/resources.json",
+        "/generated/docs/test.json",
         "/generated/events.json",
         "/generated/navigation.json",
         "/generated/resources.json"
@@ -172,9 +185,6 @@
         "ignoreVary": true
       },
       "urls": [
-        "/generated/docs/about.json",
-        "/generated/docs/api.json",
-        "/generated/docs/api/api-list.json",
         "/generated/docs/api/component-store.json",
         "/generated/docs/api/component-store/ComponentStore.json",
         "/generated/docs/api/component-store/INITIAL_STATE_TOKEN.json",
@@ -482,11 +492,6 @@
         "/generated/docs/api/store/testing/getMockStore.json",
         "/generated/docs/api/store/testing/provideMockStore.json",
         "/generated/docs/api/store/union.json",
-        "/generated/docs/app/search-data.json",
-        "/generated/docs/contributing.json",
-        "/generated/docs/docs.json",
-        "/generated/docs/events.json",
-        "/generated/docs/file-not-found.json",
         "/generated/docs/guide/component-store.json",
         "/generated/docs/guide/component-store/comparison.json",
         "/generated/docs/guide/component-store/effect.json",
@@ -569,11 +574,6 @@
         "/generated/docs/guide/store/walkthrough.json",
         "/generated/docs/guide/store/why.json",
         "/generated/docs/guide/style-guide.json",
-        "/generated/docs/index.json",
-        "/generated/docs/license.json",
-        "/generated/docs/presskit.json",
-        "/generated/docs/resources.json",
-        "/generated/docs/test.json",
         "/generated/images/bios/_no-one.jpg",
         "/generated/images/bios/alexo.jpg",
         "/generated/images/bios/brandonroberts.jpg",
@@ -993,7 +993,7 @@
     "/generated/docs/guide/entity/recipes/additional-state-properties.json": "b77b6f2b7ceb1c52245609451ad95bc1ca15cf82",
     "/generated/docs/guide/eslint-plugin.json": "1c44124b2190f75c8bfa1c564ab05fd50f891f81",
     "/generated/docs/guide/migration/v10.json": "2e4f112d700b3678ed7bdc1d214336369ac07cd2",
-    "/generated/docs/guide/migration/v11.json": "a818140d32b7255c0f2437599a770cdf34707ab9",
+    "/generated/docs/guide/migration/v11.json": "5250d5009d6719fe2b5a3f7c9ebf25264deb39df",
     "/generated/docs/guide/migration/v12.json": "0b7ac2792637fd8b3735f7a85c58ec6060c51c57",
     "/generated/docs/guide/migration/v4.json": "9c9de2986c42ac4485b37da2f54494c6e2304dc2",
     "/generated/docs/guide/migration/v7.json": "a8836dca11c36fb46c27e23b0d8d8b8693c2d035",
@@ -1104,7 +1104,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "5ed5ed3034d2b98c5ee5219df8f5949dac415a29",
+    "/generated/navigation.json": "951cb459dab8a32b5cf28441c4eceaf52a4e1e1c",
     "/generated/resources.json": "21710c003201c6f1bf86eb27585611d20161d1bf",
     "/index.html": "92d077789a9202576935e224ac92ae6e032cbd84",
     "/main.6e8e4b0d63095d386574.js": "c3f8eea3d6531ae5024dcaf8fcad518d72d25067",
