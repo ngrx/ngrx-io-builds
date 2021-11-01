@@ -118,6 +118,9 @@
     <loc>https://ngrx.io/guide/entity/recipes/additional-state-properties</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/eslint-plugin</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/migration/v10</loc>
   </url>
   <url>

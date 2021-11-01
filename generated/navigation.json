@@ -457,6 +457,10 @@
         {
           "title": "Nightly Builds",
           "url": "guide/nightlies"
+        },
+        {
+          "title": "ESLint NgRx Plugin",
+          "url": "guide/eslint-plugin"
         }
       ]
     },
@@ -628,12 +632,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.78539648",
+    "build": "sha.8cc930b8",
     "version": "12.5.2-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "12.5.2-local+sha.78539648",
+    "full": "12.5.2-local+sha.8cc930b8",
     "branch": "master",
-    "commitSHA": "785396485fecd1a5f14ac07ec5c257e36b633572"
+    "commitSHA": "8cc930b89145e8ba06e57ce585ae52ea4be984e0"
   }
 }
