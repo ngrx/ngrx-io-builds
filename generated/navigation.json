@@ -110,6 +110,10 @@
                 {
                   "title": "Meta-Reducers",
                   "url": "guide/store/metareducers"
+                },
+                {
+                  "title": "Feature Creators",
+                  "url": "guide/store/feature-creators"
                 }
               ]
             },
@@ -632,12 +636,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.5974913f",
+    "build": "sha.2b534955",
     "version": "12.5.2-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "12.5.2-local+sha.5974913f",
+    "full": "12.5.2-local+sha.2b534955",
     "branch": "master",
-    "commitSHA": "5974913fb628a63f048c7b58ccd1afca7b0d3ab2"
+    "commitSHA": "2b534955b23956e75fc32b2c16b077e546b5fa74"
   }
 }
