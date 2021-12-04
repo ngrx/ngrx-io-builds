@@ -2397,5 +2397,36 @@
         "securityRisk": false
       }
     ]
+  },
+  {
+    "name": "component",
+    "title": "component",
+    "path": "api/component",
+    "items": [
+      {
+        "name": "letdirective",
+        "title": "LetDirective",
+        "path": "api/component/LetDirective",
+        "docType": "directive",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "pushpipe",
+        "title": "PushPipe",
+        "path": "api/component/PushPipe",
+        "docType": "pipe",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "reactivecomponentmodule",
+        "title": "ReactiveComponentModule",
+        "path": "api/component/ReactiveComponentModule",
+        "docType": "ngmodule",
+        "stability": "stable",
+        "securityRisk": false
+      }
+    ]
   }
 ]
