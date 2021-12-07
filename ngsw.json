@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1638817667252,
+  "timestamp": 1638883750996,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -950,9 +950,9 @@
     "/generated/docs/api/store/setNgrxMockEnvironment.json": "52eb8362759db7de95ccae35e18261e4f91e427a",
     "/generated/docs/api/store/testing.json": "8b03ec2d5a88ae1e5ba08bd6efa2be132754aed3",
     "/generated/docs/api/store/testing/MockReducerManager.json": "0304b7ecbed7e9f4e69d2b00d8515b728e9c9d73",
-    "/generated/docs/api/store/testing/MockSelector.json": "83b1fbeea8082473119bc4313e03b422c8e90d7e",
+    "/generated/docs/api/store/testing/MockSelector.json": "247fc41225c0851a2cae75fbda396932578f42f0",
     "/generated/docs/api/store/testing/MockState.json": "41348b31fdb430a18403efe97a92defd02616a34",
-    "/generated/docs/api/store/testing/MockStore.json": "1ebd93fc72d866c55c8c8eb8220e111c19d3e5a0",
+    "/generated/docs/api/store/testing/MockStore.json": "ea098f3841ede6ff8fb7a06f47b86f2ec372df1e",
     "/generated/docs/api/store/testing/MockStoreConfig.json": "323d36725b11bcaa4d3bc159f9cacecca5912d8c",
     "/generated/docs/api/store/testing/getMockStore.json": "f8c553f25f357b36d95b2586d6dfe44c79b5b15b",
     "/generated/docs/api/store/testing/provideMockStore.json": "af780b8ee95cc2a046a4592173f59e4b346ac4f7",
@@ -1042,7 +1042,7 @@
     "/generated/docs/guide/store/recipes/injecting.json": "47f0485df1388e34bd9b9d6fba812a8baa363361",
     "/generated/docs/guide/store/reducers.json": "e697e0db14054db0646ba81b7422aa5b56f08a3e",
     "/generated/docs/guide/store/selectors.json": "ae27ef1362ed24313e7aee5a62d85ac5a597ecb5",
-    "/generated/docs/guide/store/testing.json": "96375a716c44130d312759432afa17b1ff7e344c",
+    "/generated/docs/guide/store/testing.json": "48219cc1c20242bdf2009fdf41e1cdeb00897967",
     "/generated/docs/guide/store/walkthrough.json": "26e68efa462aa00997dde8b96a7b938d620a2b3e",
     "/generated/docs/guide/store/why.json": "6d6ed0349fe705fbf7cd48afef972b6abbe994e0",
     "/generated/docs/guide/style-guide.json": "a8ff118846d92ced9a0b4f497c64a7ae3a3257a1",
@@ -1115,7 +1115,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "2affcb9c91f29b029a5d10cc9993c4855449022c",
+    "/generated/navigation.json": "6ad6d972c932a830119124e01a3b2bede8b51500",
     "/generated/resources.json": "21710c003201c6f1bf86eb27585611d20161d1bf",
     "/index.html": "f04f7a6871355b9483e87a814242fe412e96034a",
     "/main.64b7b03f91056e14.js": "6c4c34f13ff6982a96cac22d208ad3db54fee0a5",
