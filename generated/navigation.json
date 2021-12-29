@@ -571,6 +571,11 @@
       "title": "Community",
       "children": [
         {
+          "url": "https://github.com/ngrx/platform/blob/master/CODE_OF_CONDUCT.md",
+          "title": "Code of Conduct",
+          "tooltip": "Code of Conduct"
+        },
+        {
           "url": "https://twitter.com/ngrx_io",
           "title": "Twitter",
           "tooltip": "Twitter"
@@ -644,12 +649,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.b26e8065",
+    "build": "sha.c24963f9",
     "version": "13.0.3-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "13.0.3-local+sha.b26e8065",
+    "full": "13.0.3-local+sha.c24963f9",
     "branch": "master",
-    "commitSHA": "b26e8065e8b90636f72c769d270e0c06cd737df8"
+    "commitSHA": "c24963f95843a9560548f7dd33a8a696f98e46e3"
   }
 }
