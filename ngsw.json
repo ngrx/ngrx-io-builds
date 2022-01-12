@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1642012062211,
+  "timestamp": 1642012735082,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -23,7 +23,7 @@
         "/default-node_modules_angular_cdk_fesm2015_portal_mjs.870156d46c611526.js",
         "/default-src_app_custom-elements_code_code_component_ts-src_app_custom-elements_code_code_module_ts.55899555eaa58fe7.js",
         "/index.html",
-        "/main.1baa095078e8210e.js",
+        "/main.d6bea520a0f8fa79.js",
         "/polyfills.1462ae7e2a00a402.js",
         "/pwa-manifest.json",
         "/runtime.1d3da671957d1dbc.js",
@@ -1115,10 +1115,10 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "dac2e2fe8fbaa9e6d8bd5baf4cc97a95135b19e6",
+    "/generated/navigation.json": "3617cd16817db472375e4b453c2b03aa13059f26",
     "/generated/resources.json": "21710c003201c6f1bf86eb27585611d20161d1bf",
-    "/index.html": "3cecea4bd34934d7680c0b61a0623ca1f0f0dc21",
-    "/main.1baa095078e8210e.js": "c379288f0b9a0afebdc52f252edd683a4651db45",
+    "/index.html": "6b9a5b4a4ab69a6d08c28eb6a82d5653a0586eb5",
+    "/main.d6bea520a0f8fa79.js": "10af4f023567cb8eab8cfe7781d666a1a0450ed6",
     "/polyfills.1462ae7e2a00a402.js": "40df377a5a044c4768da4e7d88b0e5139c52710c",
     "/pwa-manifest.json": "e8dd89f82dd3e09355923767325f6997aa0728bc",
     "/runtime.1d3da671957d1dbc.js": "bd7c5edbf87368e5c8424ef63b997bd24c59abb1",
