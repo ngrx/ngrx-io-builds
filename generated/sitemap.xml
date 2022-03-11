@@ -523,6 +523,9 @@
     <loc>https://ngrx.io/api/store-devtools/StoreDevtools</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store-devtools/REDUX_DEVTOOLS_EXTENSION</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store-devtools/StoreDevtoolsConfig</loc>
   </url>
   <url>

@@ -627,6 +627,14 @@
         "securityRisk": false
       },
       {
+        "name": "redux_devtools_extension",
+        "title": "REDUX_DEVTOOLS_EXTENSION",
+        "path": "api/store-devtools/REDUX_DEVTOOLS_EXTENSION",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "storedevtools",
         "title": "StoreDevtools",
         "path": "api/store-devtools/StoreDevtools",
