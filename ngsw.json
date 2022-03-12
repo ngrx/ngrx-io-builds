@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1647103481977,
+  "timestamp": 1647127528943,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -43,7 +43,7 @@
         "/src_app_custom-elements_search_file-not-found-search_module_ts.dd9eea1628549a30.js",
         "/src_app_custom-elements_toc_toc_module_ts.df7a77049858cfa3.js",
         "/src_assets_js_prettify_js.0f20c9c16597fdaf.js",
-        "/styles.5978dadc2655b1e1.css"
+        "/styles.c01af6ec44f9801a.css"
       ],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
@@ -794,7 +794,7 @@
     "/generated/docs/api/effects/Actions.json": "0809c2d75eb13d9acb3820c6d0770bf821c48601",
     "/generated/docs/api/effects/CreateEffectMetadata.json": "daafee6e579d4c577a61359ed3f36fb558591dbd",
     "/generated/docs/api/effects/EFFECTS_ERROR_HANDLER.json": "6a8ea1a0595e7de8ef5404668eacf4e5bc72dcad",
-    "/generated/docs/api/effects/Effect.json": "bfb2623f6e401c32ec3b7a38813ba753a2e85ccb",
+    "/generated/docs/api/effects/Effect.json": "b066a315fdae37df9a2a8ae0c89033227f23c70b",
     "/generated/docs/api/effects/EffectConfig.json": "4d0843dfdf60547cda458ffae589d8cf8e8622e9",
     "/generated/docs/api/effects/EffectNotification.json": "ec9d97a1883edbd43f7d571fc629b5b43ef8ecd8",
     "/generated/docs/api/effects/EffectSources.json": "8784f096a346f6a91f00ea15a2673926181d3526",
@@ -924,7 +924,7 @@
     "/generated/docs/api/store/SelectorWithProps.json": "2a3398898ee05cb3d1ec844a7c19b9265acb6761",
     "/generated/docs/api/store/State.json": "c4dd31fd71dcbe1dcc20269d117d8e2f98b7d307",
     "/generated/docs/api/store/StateObservable.json": "5c141ad827f920e7649f39ff5d0567add6f5192c",
-    "/generated/docs/api/store/Store.json": "a15351f9ebb90e1bbde141c291307f3ed68a3b37",
+    "/generated/docs/api/store/Store.json": "d419b22ac0cbf0511dfac8ce20e0347dcc7d3e22",
     "/generated/docs/api/store/StoreConfig.json": "365da6e5a3dd26373336fc9c5a0ed5931271223a",
     "/generated/docs/api/store/StoreFeatureModule.json": "4ff4aa9f0479e4326b46388476a7d16bbd46787f",
     "/generated/docs/api/store/StoreModule.json": "25095d89a1012f8f8240643c79efe3ef88c710e8",
@@ -939,8 +939,8 @@
     "/generated/docs/api/store/createFeatureSelector.json": "2c86566ad85d8d37bb7abaa29e6c71a6be235c96",
     "/generated/docs/api/store/createReducer.json": "bda9ef69138774d493822d1c25903323ce9fa770",
     "/generated/docs/api/store/createReducerFactory.json": "0251a36cd7d7ded3d994d48783dba103052ebabd",
-    "/generated/docs/api/store/createSelector.json": "cbafc02d5a181d774b6dfc43f61a17d3b50bf5c8",
-    "/generated/docs/api/store/createSelectorFactory.json": "61ec0d0737511368bc0714bd983a90f44dff4145",
+    "/generated/docs/api/store/createSelector.json": "c5864cf764a972b6aed92d10959a00b7edee78ad",
+    "/generated/docs/api/store/createSelectorFactory.json": "7c0e79ac99ba3a1b725bf404386b82380160ed93",
     "/generated/docs/api/store/defaultMemoize.json": "ac997ce72025c833b8a9dad10b426d60f8dda361",
     "/generated/docs/api/store/defaultStateFn.json": "a6d6039d711235a837eb9bec97972658f56628de",
     "/generated/docs/api/store/isNgrxMockEnvironment.json": "abb4110a89954f649d18900c860ba1537afc0cfd",
@@ -948,7 +948,7 @@
     "/generated/docs/api/store/props.json": "345c008fddc029be4fee1a2eda74d68f73d4a563",
     "/generated/docs/api/store/reduceState.json": "c3c21e2ed2805bcac4655a5ddbf6be1ff813c9a7",
     "/generated/docs/api/store/resultMemoize.json": "638d6e00d96cc549c47b4d599f8ec7d94cc59010",
-    "/generated/docs/api/store/select.json": "03727a40fc220dc2fd811457206f8853c03d6de5",
+    "/generated/docs/api/store/select.json": "06e9d344f131bd5cfe310a14392cbc1a12995d7f",
     "/generated/docs/api/store/setNgrxMockEnvironment.json": "972742cf9819f69b76e8bbb9093e377be2b25176",
     "/generated/docs/api/store/testing.json": "7a5a2c67726baa6fb06ffc6c41b28d98e6763a04",
     "/generated/docs/api/store/testing/MockReducerManager.json": "83ee6cd5aa73553387b975751f186859e87ffbf3",
@@ -1117,9 +1117,9 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "b1402943cc7cba3bb197a229956f66565e15e868",
+    "/generated/navigation.json": "5e3c476478c311a30e9600973ad7beb207830cfb",
     "/generated/resources.json": "21710c003201c6f1bf86eb27585611d20161d1bf",
-    "/index.html": "551f09c0d2ddc8ccae8c297eb257ded615e3f1bc",
+    "/index.html": "64a5f2161094af33e7d1c37f1d40861a87b77499",
     "/main.781a1ab204751f56.js": "709bef81feff4eb2ca8b18689b008202fb4cb5e9",
     "/polyfills.1462ae7e2a00a402.js": "40df377a5a044c4768da4e7d88b0e5139c52710c",
     "/pwa-manifest.json": "e8dd89f82dd3e09355923767325f6997aa0728bc",
@@ -1140,7 +1140,7 @@
     "/src_app_custom-elements_search_file-not-found-search_module_ts.dd9eea1628549a30.js": "dad82bc10d52126c33734d1cfc716f9dd6dbf987",
     "/src_app_custom-elements_toc_toc_module_ts.df7a77049858cfa3.js": "9e1625d9c0f22747a765ef30683d7398b9f8d596",
     "/src_assets_js_prettify_js.0f20c9c16597fdaf.js": "09e4170fd93fc36f6175afdf7fa02f69f2b7b692",
-    "/styles.5978dadc2655b1e1.css": "620077dd0999f526e58f012e0abb7543738911ef"
+    "/styles.c01af6ec44f9801a.css": "13406c9af0cdd068f95c1c0f11085f184d439da3"
   },
   "navigationUrls": [
     {
