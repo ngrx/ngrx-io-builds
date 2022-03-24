@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1647128251985,
+  "timestamp": 1648134581322,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -959,7 +959,7 @@
     "/generated/docs/api/store/testing/getMockStore.json": "1a26580b4d1400d894b1bfbb02fefc9a2a369a16",
     "/generated/docs/api/store/testing/provideMockStore.json": "d26ec17e3d0bf4079986e4df3a69dbdc846c3562",
     "/generated/docs/api/store/union.json": "b4d39a72cb103cfc69a509ee2d89a60c5f63d625",
-    "/generated/docs/app/search-data.json": "d7775fc2ace089f6f64f7533eeacb98b4f2cbdb7",
+    "/generated/docs/app/search-data.json": "0fafcf4abfcd1cf4245d38ce781cd61de6a095fb",
     "/generated/docs/contributing.json": "7a8373695a8354ecd72c06b829e8595fa16e4daa",
     "/generated/docs/docs.json": "60673bd75d2a9d4f8b9d67cb958542a2093bb579",
     "/generated/docs/events.json": "151d0fd62b78e64518987b3f887bbb3ab0b7c251",
@@ -1042,7 +1042,7 @@
     "/generated/docs/guide/store/metareducers.json": "d3cc81db37cfcebe807284783a1c936f83c90865",
     "/generated/docs/guide/store/recipes/downgrade.json": "649c089f4780b349ae0ef26905afe467c5bd57f3",
     "/generated/docs/guide/store/recipes/injecting.json": "47f0485df1388e34bd9b9d6fba812a8baa363361",
-    "/generated/docs/guide/store/reducers.json": "e697e0db14054db0646ba81b7422aa5b56f08a3e",
+    "/generated/docs/guide/store/reducers.json": "c6ffe2dcc86eae22bb36bd2bfa69d79fd68bf13e",
     "/generated/docs/guide/store/selectors.json": "ae27ef1362ed24313e7aee5a62d85ac5a597ecb5",
     "/generated/docs/guide/store/testing.json": "6c87f5d3e397697fdd258ec3402c9ebdac134910",
     "/generated/docs/guide/store/walkthrough.json": "26e68efa462aa00997dde8b96a7b938d620a2b3e",
@@ -1117,7 +1117,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "6747d4fa1532be318a22f4f7fa0320d74e610478",
+    "/generated/navigation.json": "2e38395e2ca6623555d65b9190ee9359daa22c8d",
     "/generated/resources.json": "21710c003201c6f1bf86eb27585611d20161d1bf",
     "/index.html": "64a5f2161094af33e7d1c37f1d40861a87b77499",
     "/main.781a1ab204751f56.js": "709bef81feff4eb2ca8b18689b008202fb4cb5e9",
