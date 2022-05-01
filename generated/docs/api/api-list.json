@@ -101,6 +101,14 @@
         "securityRisk": false
       },
       {
+        "name": "createactiongroup",
+        "title": "createActionGroup",
+        "path": "api/store/createActionGroup",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "createfeature",
         "title": "createFeature",
         "path": "api/store/createFeature",
@@ -176,6 +184,14 @@
         "name": "defaultstatefn",
         "title": "defaultStateFn",
         "path": "api/store/defaultStateFn",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "emptyprops",
+        "title": "emptyProps",
+        "path": "api/store/emptyProps",
         "docType": "function",
         "stability": "stable",
         "securityRisk": false

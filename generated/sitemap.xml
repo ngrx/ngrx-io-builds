@@ -430,6 +430,12 @@
     <loc>https://ngrx.io/api/store/union</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/createActionGroup</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/store/emptyProps</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/Store</loc>
   </url>
   <url>
