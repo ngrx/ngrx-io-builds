@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1651953686559,
+  "timestamp": 1652270497970,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -993,7 +993,7 @@
     "/generated/docs/api/store/testing/getMockStore.json": "906b301906fdd622d2a57ad9bff58742ccdf0b73",
     "/generated/docs/api/store/testing/provideMockStore.json": "5a210657169ac2db56906e96006ff004ac686036",
     "/generated/docs/api/store/union.json": "b8a59bcba4ae9d9eb4fb836119fc5bac247d3151",
-    "/generated/docs/app/search-data.json": "4f0db5c4b2e5fb43bc21e757e628428998e0a693",
+    "/generated/docs/app/search-data.json": "b4f55ee256fa8ff7e873a79c88f2a3dfbf95eb46",
     "/generated/docs/contributing.json": "7a8373695a8354ecd72c06b829e8595fa16e4daa",
     "/generated/docs/docs.json": "bd50cf9816c14037422e3ff7aac29f01b6d759fc",
     "/generated/docs/events.json": "151d0fd62b78e64518987b3f887bbb3ab0b7c251",
@@ -1112,7 +1112,7 @@
     "/generated/docs/guide/store/walkthrough.json": "26e68efa462aa00997dde8b96a7b938d620a2b3e",
     "/generated/docs/guide/store/why.json": "6d6ed0349fe705fbf7cd48afef972b6abbe994e0",
     "/generated/docs/guide/style-guide.json": "a8ff118846d92ced9a0b4f497c64a7ae3a3257a1",
-    "/generated/docs/index.json": "e788fc49835fd45cdc18a8c77c9cae16c7697018",
+    "/generated/docs/index.json": "6acf050ea61662a135174362ed9ed6b94daa01ec",
     "/generated/docs/license.json": "46a35a4c0d065016921bb77162ad287c5df962bf",
     "/generated/docs/presskit.json": "2b2d691a950ae8136d7fab3e2461e736eeabd2b3",
     "/generated/docs/resources.json": "837bf4601c3276108766b99700641ce11ddfdc78",
@@ -1181,7 +1181,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "27f11c10db5a1a0760a00024a9de31d0bb487f90",
+    "/generated/navigation.json": "cf850be758f1c8a6d6e4af76b4364fef90ed0574",
     "/generated/resources.json": "ce6b4fa48ee66013a2c0d3a2007e7449a8c70c60",
     "/index.html": "339d8402ca00fe930ccd488df0fabbb1b3ae2eea",
     "/main.be08489497018020.js": "5109970bedaea3d159014e02e7933b9955b0408e",
