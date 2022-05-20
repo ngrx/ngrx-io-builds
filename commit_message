@@ -1,1 +1,1 @@
-6452e240 feat(component): add error as value to LetDirective's context (#3380)
+3318b5dc refactor(effects): use ObservableNotification instead of Notification, to support RxJS 8 (#3407)
