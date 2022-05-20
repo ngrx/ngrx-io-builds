@@ -1,1 +1,1 @@
-0ffed022 feat(component-store): add OnStoreInit and OnStateInit lifecycle hooks (#3368)
+6452e240 feat(component): add error as value to LetDirective's context (#3380)
