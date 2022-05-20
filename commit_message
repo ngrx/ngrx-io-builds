@@ -1,1 +1,1 @@
-345ee53b feat(component): add suspense template input to LetDirective (#3377)
+0ffed022 feat(component-store): add OnStoreInit and OnStateInit lifecycle hooks (#3368)

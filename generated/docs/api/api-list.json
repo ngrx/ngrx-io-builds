@@ -2389,10 +2389,34 @@
         "securityRisk": false
       },
       {
+        "name": "onstateinit",
+        "title": "OnStateInit",
+        "path": "api/component-store/OnStateInit",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "onstoreinit",
+        "title": "OnStoreInit",
+        "path": "api/component-store/OnStoreInit",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "projector",
         "title": "Projector",
         "path": "api/component-store/Projector",
         "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "providecomponentstore",
+        "title": "provideComponentStore",
+        "path": "api/component-store/provideComponentStore",
+        "docType": "function",
         "stability": "stable",
         "securityRisk": false
       },

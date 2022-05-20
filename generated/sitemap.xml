@@ -1288,6 +1288,15 @@
     <loc>https://ngrx.io/api/component-store/tapResponse</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/component-store/provideComponentStore</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/component-store/OnStoreInit</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/component-store/OnStateInit</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/component</loc>
   </url>
   <url>
