@@ -258,6 +258,10 @@
               ]
             },
             {
+              "title": "Lifecycle",
+              "url": "guide/component-store/lifecycle"
+            },
+            {
               "title": "ComponentStore vs Store",
               "url": "guide/component-store/comparison"
             },
@@ -667,12 +671,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.70056a86",
+    "build": "sha.2cc6d44f",
     "version": "14.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "14.0.0-local+sha.70056a86",
+    "full": "14.0.0-local+sha.2cc6d44f",
     "branch": "master",
-    "commitSHA": "70056a8673d69465f311bfcf56dd00f71a03a151"
+    "commitSHA": "2cc6d44fabb92f2f9cfa16b990efd8c539b16a3e"
   }
 }

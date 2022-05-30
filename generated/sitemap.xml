@@ -16,6 +16,9 @@
     <loc>https://ngrx.io/guide/component-store/install</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/component-store/lifecycle</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/component-store/read</loc>
   </url>
   <url>
@@ -1273,6 +1276,15 @@
     <loc>https://ngrx.io/api/component-store</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/component-store/provideComponentStore</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/component-store/OnStateInit</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/component-store/OnStoreInit</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/component-store/SelectConfig</loc>
   </url>
   <url>
@@ -1289,15 +1301,6 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/component-store/tapResponse</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/component-store/provideComponentStore</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/component-store/OnStoreInit</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/component-store/OnStateInit</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/component</loc>
