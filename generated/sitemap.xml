@@ -859,7 +859,7 @@
     <loc>https://ngrx.io/api/router-store/BaseRouterStoreState</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/router-store/DefaultRouterStateSerializer</loc>
+    <loc>https://ngrx.io/api/router-store/FullRouterStateSerializer</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/router-store/SerializedRouterStateSnapshot</loc>

@@ -1031,9 +1031,9 @@
         "securityRisk": false
       },
       {
-        "name": "defaultrouterstateserializer",
-        "title": "DefaultRouterStateSerializer",
-        "path": "api/router-store/DefaultRouterStateSerializer",
+        "name": "fullrouterstateserializer",
+        "title": "FullRouterStateSerializer",
+        "path": "api/router-store/FullRouterStateSerializer",
         "docType": "class",
         "stability": "stable",
         "securityRisk": false

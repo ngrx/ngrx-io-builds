@@ -1,1 +1,1 @@
-5abf8287 feat(schematics): use schematicCollections instead of defaultCollection (#3441)
+d443f50a refactor(router-store): change name for full router state serializer (#3430)
