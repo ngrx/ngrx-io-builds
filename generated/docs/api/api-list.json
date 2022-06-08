@@ -2488,7 +2488,7 @@
         "title": "ReactiveComponentModule",
         "path": "api/component/ReactiveComponentModule",
         "docType": "ngmodule",
-        "stability": "stable",
+        "stability": "deprecated",
         "securityRisk": false
       }
     ]
