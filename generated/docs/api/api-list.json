@@ -2460,6 +2460,22 @@
         "securityRisk": false
       },
       {
+        "name": "letmodule",
+        "title": "LetModule",
+        "path": "api/component/LetModule",
+        "docType": "ngmodule",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "pushmodule",
+        "title": "PushModule",
+        "path": "api/component/PushModule",
+        "docType": "ngmodule",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "pushpipe",
         "title": "PushPipe",
         "path": "api/component/PushPipe",
