@@ -622,6 +622,10 @@
   ],
   "docVersions": [
     {
+      "title": "v13",
+      "url": "https://v13.ngrx.io"
+    },
+    {
       "title": "v12",
       "url": "https://v12.ngrx.io"
     },
@@ -664,19 +668,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "14.0.0-rc.0",
+    "raw": "14.0.0",
     "major": 14,
     "minor": 0,
-    "patch": 0,
+    "patch": 1,
     "prerelease": [
       "local"
     ],
-    "build": "sha.7028adb7",
-    "version": "14.0.0-local",
+    "build": "sha.790718a5",
+    "version": "14.0.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "14.0.0-local+sha.7028adb7",
+    "full": "14.0.1-local+sha.790718a5",
     "branch": "master",
-    "commitSHA": "7028adb757bbab5309408ae7eac85d483870979c"
+    "commitSHA": "790718a5d50a0a49889fa652f0fce52d129104c8"
   }
 }
