@@ -1,1 +1,1 @@
-6714ef6f refactor(example-app): enable strict mode to data-example-app (#3454)
+7028adb7 fix(component): do not exclude falsy types from LetDirective's input type (#3460)
