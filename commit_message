@@ -1,1 +1,1 @@
-f9ba513b fix(component-store): import operators from rxjs/operators (#3465)
+8ff1daa7 ci: update docker image (#3467)
