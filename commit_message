@@ -1,1 +1,1 @@
-8ff1daa7 ci: update docker image (#3467)
+011cbcc1 fix(schematics): create schematicCollections if not exists (#3470)
