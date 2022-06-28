@@ -1,1 +1,1 @@
-011cbcc1 fix(schematics): create schematicCollections if not exists (#3470)
+e6dedd65 fix(component-store): allow void callbacks in effect (#3466)
