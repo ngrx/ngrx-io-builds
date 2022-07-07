@@ -1,1 +1,1 @@
-c0f7caf0 build: update examples to stable Angular v14 and NgRx v14 (#3477)
+3addd896 refactor(component): rename ResetRenderEvent to SuspenseRenderEvent (#3476)
