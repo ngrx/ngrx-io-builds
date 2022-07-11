@@ -1,1 +1,1 @@
-3addd896 refactor(component): rename ResetRenderEvent to SuspenseRenderEvent (#3476)
+8219b1da fix(eslint-plugin): fix configuration guide link (#3480)
