@@ -1,1 +1,1 @@
-9d2bda78 fix(component-store): effect handles generics that extend upon a type (#3485)
+446eef30 chore: remove angular-metadata.tsconfig (#3484)
