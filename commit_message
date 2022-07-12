@@ -1,1 +1,1 @@
-8219b1da fix(eslint-plugin): fix configuration guide link (#3480)
+9d2bda78 fix(component-store): effect handles generics that extend upon a type (#3485)
