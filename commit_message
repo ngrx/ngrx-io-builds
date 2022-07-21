@@ -1,1 +1,1 @@
-bdb86344 docs: add ngrx-traits to the list of libraries (#3489)
+398fbed0 fix(store): improve error for forbidden characters in createActionGroup (#3496)
