@@ -1,1 +1,1 @@
-398fbed0 fix(store): improve error for forbidden characters in createActionGroup (#3496)
+bb9071c2 perf(component): do not schedule render for synchronous events (#3487)
