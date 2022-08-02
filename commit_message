@@ -1,1 +1,1 @@
-bb9071c2 perf(component): do not schedule render for synchronous events (#3487)
+3fcd8af8 feat(component): replace markDirty with custom TickScheduler (#3488)
