@@ -1,1 +1,1 @@
-72c896bc docs: add missing imports in the injecting.md file (#3510)
+d97e75a8 refactor(component): use RenderScheduler as a service (#3493)
