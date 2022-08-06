@@ -2490,6 +2490,14 @@
         "docType": "ngmodule",
         "stability": "deprecated",
         "securityRisk": false
+      },
+      {
+        "name": "renderscheduler",
+        "title": "RenderScheduler",
+        "path": "api/component/RenderScheduler",
+        "docType": "class",
+        "stability": "stable",
+        "securityRisk": false
       }
     ]
   }

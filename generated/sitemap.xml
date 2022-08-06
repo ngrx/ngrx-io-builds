@@ -1306,6 +1306,9 @@
     <loc>https://ngrx.io/api/component</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/component/RenderScheduler</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/component/LetDirective</loc>
   </url>
   <url>

@@ -1,1 +1,1 @@
-d97e75a8 refactor(component): use RenderScheduler as a service (#3493)
+46429192 feat(component): add RenderScheduler to the public API (#3516)
