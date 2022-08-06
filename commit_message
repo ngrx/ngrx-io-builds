@@ -1,1 +1,1 @@
-46429192 feat(component): add RenderScheduler to the public API (#3516)
+faf446f4 fix(eslint-plugin): allow sequential dispatches in a different block context (#3515)
