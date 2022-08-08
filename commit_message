@@ -1,1 +1,1 @@
-faf446f4 fix(eslint-plugin): allow sequential dispatches in a different block context (#3515)
+71d4d4b7 fix(eslint-plugin): Remove the md suffix from the docsUrl path (#3518)
