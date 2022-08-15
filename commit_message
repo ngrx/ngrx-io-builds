@@ -1,1 +1,1 @@
-4da9a677 refactor(example-app): remove occurrence of deprecated entryComponents (#3531)
+1a906fd6 fix(component-store): make synchronous updater errors catchable (#3490)
