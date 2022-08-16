@@ -1,1 +1,1 @@
-1a906fd6 fix(component-store): make synchronous updater errors catchable (#3490)
+551c8ebc feat(component-store): handle errors in next callback (#3533)
