@@ -1,1 +1,1 @@
-551c8ebc feat(component-store): handle errors in next callback (#3533)
+53636e47 fix(component-store): move isInitialized check to queueScheduler context on state update (#3492)
