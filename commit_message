@@ -1,1 +1,1 @@
-53636e47 fix(component-store): move isInitialized check to queueScheduler context on state update (#3492)
+aad6b17c chore: release 14.2.0

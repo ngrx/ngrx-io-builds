@@ -668,19 +668,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "14.1.0",
+    "raw": "14.2.0",
     "major": 14,
-    "minor": 1,
+    "minor": 2,
     "patch": 1,
     "prerelease": [
       "local"
     ],
-    "build": "sha.53636e47",
-    "version": "14.1.1-local",
+    "build": "sha.aad6b17c",
+    "version": "14.2.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "14.1.1-local+sha.53636e47",
+    "full": "14.2.1-local+sha.aad6b17c",
     "branch": "master",
-    "commitSHA": "53636e472bb6da2801f8e7826ffde990d72f56d9"
+    "commitSHA": "aad6b17cf3c3ac687f21228e9157c56f4fe8120a"
   }
 }
