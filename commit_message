@@ -1,1 +1,1 @@
-aad6b17c chore: release 14.2.0
+63df014d update ng add command with --no-minimal param instead --minimal false (#3544)
