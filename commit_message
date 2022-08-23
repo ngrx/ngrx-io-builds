@@ -1,1 +1,1 @@
-63df014d update ng add command with --no-minimal param instead --minimal false (#3544)
+5639c1eb feat(store): add provideStore and provideState functions for standalone APIs (#3539)

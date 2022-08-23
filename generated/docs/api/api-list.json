@@ -197,9 +197,25 @@
         "securityRisk": false
       },
       {
+        "name": "environmentproviders",
+        "title": "EnvironmentProviders",
+        "path": "api/store/EnvironmentProviders",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "feature_reducers",
         "title": "FEATURE_REDUCERS",
         "path": "api/store/FEATURE_REDUCERS",
+        "docType": "const",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "feature_state_provider",
+        "title": "FEATURE_STATE_PROVIDER",
+        "path": "api/store/FEATURE_STATE_PROVIDER",
         "docType": "const",
         "stability": "stable",
         "securityRisk": false
@@ -333,6 +349,22 @@
         "securityRisk": false
       },
       {
+        "name": "providestate",
+        "title": "provideState",
+        "path": "api/store/provideState",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "providestore",
+        "title": "provideStore",
+        "path": "api/store/provideStore",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "reducer_factory",
         "title": "REDUCER_FACTORY",
         "path": "api/store/REDUCER_FACTORY",
@@ -385,6 +417,14 @@
         "title": "resultMemoize",
         "path": "api/store/resultMemoize",
         "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "root_store_provider",
+        "title": "ROOT_STORE_PROVIDER",
+        "path": "api/store/ROOT_STORE_PROVIDER",
+        "docType": "const",
         "stability": "stable",
         "securityRisk": false
       },

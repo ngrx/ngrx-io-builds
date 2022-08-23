@@ -427,6 +427,9 @@
     <loc>https://ngrx.io/api/store/FunctionWithParametersType</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/EnvironmentProviders</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/createAction</loc>
   </url>
   <url>
@@ -559,6 +562,12 @@
     <loc>https://ngrx.io/api/store/ACTIVE_RUNTIME_CHECKS</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store/FEATURE_STATE_PROVIDER</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/store/ROOT_STORE_PROVIDER</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/store/StoreModule</loc>
   </url>
   <url>
@@ -575,6 +584,12 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/store/FeatureSlice</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/store/provideStore</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/store/provideState</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/store/ReducerTypes</loc>
