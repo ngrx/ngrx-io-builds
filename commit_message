@@ -1,1 +1,1 @@
-6b0db4e4 feat(store-devtools): add provideStoreDevtools function (#3537)
+db35bfef feat(effects): add provideEffects function (#3524)

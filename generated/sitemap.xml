@@ -700,6 +700,12 @@
     <loc>https://ngrx.io/api/effects/EffectSources</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/effects/ROOT_EFFECTS_INIT</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/effects/rootEffectsInit</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/effects/EffectsRunner</loc>
   </url>
   <url>
@@ -707,12 +713,6 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/effects/EffectsFeatureModule</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/effects/ROOT_EFFECTS_INIT</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/effects/rootEffectsInit</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/effects/EffectsRootModule</loc>
@@ -737,6 +737,9 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/effects/concatLatestFrom</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/effects/provideEffects</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/effects/testing</loc>

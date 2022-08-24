@@ -922,6 +922,14 @@
         "securityRisk": false
       },
       {
+        "name": "provideeffects",
+        "title": "provideEffects",
+        "path": "api/effects/provideEffects",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "root_effects_init",
         "title": "ROOT_EFFECTS_INIT",
         "path": "api/effects/ROOT_EFFECTS_INIT",
