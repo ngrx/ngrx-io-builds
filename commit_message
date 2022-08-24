@@ -1,1 +1,1 @@
-5639c1eb feat(store): add provideStore and provideState functions for standalone APIs (#3539)
+511b7cf8 feat(router-store): add provideRouterStore function (#3532)

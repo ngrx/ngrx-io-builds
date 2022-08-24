@@ -847,10 +847,10 @@
     <loc>https://ngrx.io/api/router-store/RouterReducerState</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/router-store/StateKeyOrSelector</loc>
+    <loc>https://ngrx.io/api/router-store/StoreRouterConnectingModule</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/router-store/StoreRouterConnectingModule</loc>
+    <loc>https://ngrx.io/api/router-store/StateKeyOrSelector</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/router-store/StoreRouterConfig</loc>
@@ -893,6 +893,9 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/router-store/createRouterSelector</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/router-store/provideRouterStore</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/data</loc>

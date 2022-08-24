@@ -1119,6 +1119,14 @@
         "securityRisk": false
       },
       {
+        "name": "providerouterstore",
+        "title": "provideRouterStore",
+        "path": "api/router-store/provideRouterStore",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "router_cancel",
         "title": "ROUTER_CANCEL",
         "path": "api/router-store/ROUTER_CANCEL",
