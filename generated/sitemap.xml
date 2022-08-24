@@ -655,6 +655,9 @@
     <loc>https://ngrx.io/api/store-devtools/INITIAL_OPTIONS</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/store-devtools/provideStoreDevtools</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/effects</loc>
   </url>
   <url>

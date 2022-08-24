@@ -675,6 +675,14 @@
         "securityRisk": false
       },
       {
+        "name": "providestoredevtools",
+        "title": "provideStoreDevtools",
+        "path": "api/store-devtools/provideStoreDevtools",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "recompute",
         "title": "RECOMPUTE",
         "path": "api/store-devtools/RECOMPUTE",
