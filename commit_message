@@ -1,1 +1,1 @@
-9768551f docs(store): add docs for createActionGroup api (#3530)
+a28175cf fix(eslint-plugin): avoid-mapping-selectors don't report on ThisExpression (#3546)
