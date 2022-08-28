@@ -304,6 +304,9 @@
     <loc>https://ngrx.io/guide/store-devtools/recipes/exclude</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/store/action-groups</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/store/actions</loc>
   </url>
   <url>

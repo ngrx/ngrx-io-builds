@@ -114,6 +114,10 @@
                 {
                   "title": "Feature Creators",
                   "url": "guide/store/feature-creators"
+                },
+                {
+                  "title": "Action Groups",
+                  "url": "guide/store/action-groups"
                 }
               ]
             },
@@ -675,12 +679,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.0200e0b7",
+    "build": "sha.9768551f",
     "version": "14.3.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "14.3.1-local+sha.0200e0b7",
+    "full": "14.3.1-local+sha.9768551f",
     "branch": "master",
-    "commitSHA": "0200e0b7be5d5388328302bfd55dae0759d36152"
+    "commitSHA": "9768551fdb93912f20e6586ba1a1900f63ac950f"
   }
 }
