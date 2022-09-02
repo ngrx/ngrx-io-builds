@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1661875533036,
+  "timestamp": 1662141070927,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -690,7 +690,7 @@
     "/default-node_modules_angular_cdk_fesm2020_portal_mjs.91bbc4cc556b6209.js": "3103bc84067d237370ec7d95de1dc4fcf3ed7a23",
     "/default-src_app_custom-elements_code_code_component_ts-src_app_custom-elements_code_code_module_ts.aa065667d9ea18a8.js": "fd805c2270c716a949969dd807d500c92225eede",
     "/generated/announcements.json": "5a8df18598804801c4a68d477f9526126edc075e",
-    "/generated/contributors.json": "76f8578e24b6847fe20d028ee3f49674d374256c",
+    "/generated/contributors.json": "9f66f56ae0cd7c5355fd470b650d5c990a75a95e",
     "/generated/docs/about.json": "24efe5be107bb764cad358f02802825e85b9dc72",
     "/generated/docs/api.json": "d0666b39f2dd96c2a868e8e117f03001ee1b0a0e",
     "/generated/docs/api/api-list.json": "1de70bb0c0aaf600dbc081c6b5049b2c925ffc23",
@@ -1213,7 +1213,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "687d8f7e7b8ac28613bbbcf4d261d9a74f55a528",
+    "/generated/navigation.json": "dfaddb11d5301b6edf78fe66013451a98306d293",
     "/generated/resources.json": "b13d442b68124008109f59a52a978dd03fd22318",
     "/index.html": "28372377b29321ba423473d385bb76fff0cd66ff",
     "/main.da52f88c29c1ec99.js": "52587a97645d64b597d35c4a3c2b5584c4822f6a",
