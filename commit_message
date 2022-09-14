@@ -1,1 +1,1 @@
-aa46bbc1 chore: add "affected packages" dropdown to issue templates (#3570)
+4b0c6de5 fix(eslint-plugin): avoid-combining-selectors with arrays should warn (#3566)
