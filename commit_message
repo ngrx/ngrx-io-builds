@@ -1,1 +1,1 @@
-2c0f630c docs(router-store): add routerReducer to provideRouterStore examples (#3575)
+02431b4d fix(component-store): use asapScheduler to schedule lifecycle hooks check (#3580)
