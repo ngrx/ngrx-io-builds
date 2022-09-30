@@ -1,1 +1,1 @@
-da401c36 chore(prettier): update prettier (#3588)
+0a4d2ddb fix(component): replace animationFrameScheduler with requestAnimationFrame (#3592)
