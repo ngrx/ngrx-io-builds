@@ -1,1 +1,1 @@
-0a4d2ddb fix(component): replace animationFrameScheduler with requestAnimationFrame (#3592)
+8eb40012 fix(router-store): set undefined for unserializable route title (#3593)
