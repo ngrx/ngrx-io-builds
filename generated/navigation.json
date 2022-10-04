@@ -9,6 +9,10 @@
       "title": "Docs"
     },
     {
+      "url": "enterprise-support",
+      "title": "Enterprise Support"
+    },
+    {
       "url": "https://blog.ngrx.io",
       "title": "Blog"
     },
@@ -36,6 +40,10 @@
         {
           "url": "docs",
           "title": "Docs"
+        },
+        {
+          "url": "enterprise-support",
+          "title": "Enterprise Support"
         },
         {
           "url": "https://blog.ngrx.io",
@@ -540,6 +548,11 @@
       "url": "contributing",
       "title": "Contributing",
       "tooltip": "Contributing"
+    },
+    {
+      "url": "enterprise-support",
+      "title": "Enterprise Support",
+      "tooltip": "Enterprise Support"
     }
   ],
   "Footer": [
@@ -679,12 +692,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.57552182",
+    "build": "sha.bc7ac97e",
     "version": "14.3.2-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "14.3.2-local+sha.57552182",
+    "full": "14.3.2-local+sha.bc7ac97e",
     "branch": "master",
-    "commitSHA": "57552182fcbed0c6bae1e31fb4dd6721efbfab1b"
+    "commitSHA": "bc7ac97ecce12f15cf8d614030f77e23064fbef6"
   }
 }
