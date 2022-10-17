@@ -1,1 +1,1 @@
-899afe71 feat(effects): change the signature of provideEffect (#3587)
+49c6cf38 feat(component): add migration for replacing ReactiveComponentModule (#3506)
