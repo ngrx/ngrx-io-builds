@@ -433,9 +433,6 @@
     <loc>https://ngrx.io/api/store/FunctionWithParametersType</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/store/EnvironmentProviders</loc>
-  </url>
-  <url>
     <loc>https://ngrx.io/api/store/createAction</loc>
   </url>
   <url>

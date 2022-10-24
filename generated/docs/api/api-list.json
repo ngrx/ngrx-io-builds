@@ -197,14 +197,6 @@
         "securityRisk": false
       },
       {
-        "name": "environmentproviders",
-        "title": "EnvironmentProviders",
-        "path": "api/store/EnvironmentProviders",
-        "docType": "type-alias",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
         "name": "feature_reducers",
         "title": "FEATURE_REDUCERS",
         "path": "api/store/FEATURE_REDUCERS",
