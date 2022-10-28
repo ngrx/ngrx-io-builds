@@ -1,1 +1,1 @@
-24c086f9 test: refactor standalone e2e (#3590)
+e5177aa2 feat(store): make reducers arg of StoreModule.forRoot optional (#3632)
