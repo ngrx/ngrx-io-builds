@@ -1,1 +1,1 @@
-96c5bdd7 feat(effects): remove @Effect decorator (#3634)
+f8d0241b feat(component-store): Add SelectorObject to `select` (#3629)
