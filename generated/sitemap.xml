@@ -670,9 +670,6 @@
     <loc>https://ngrx.io/api/effects/EffectConfig</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/effects/Effect</loc>
-  </url>
-  <url>
     <loc>https://ngrx.io/api/effects/getEffectsMetadata</loc>
   </url>
   <url>

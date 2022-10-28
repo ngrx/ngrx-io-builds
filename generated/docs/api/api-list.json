@@ -778,14 +778,6 @@
         "securityRisk": false
       },
       {
-        "name": "effect",
-        "title": "Effect",
-        "path": "api/effects/Effect",
-        "docType": "function",
-        "stability": "deprecated",
-        "securityRisk": false
-      },
-      {
         "name": "effectconfig",
         "title": "EffectConfig",
         "path": "api/effects/EffectConfig",
