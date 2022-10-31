@@ -148,12 +148,6 @@
     <loc>https://ngrx.io/guide/eslint-plugin/rules/no-dispatch-in-effects</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/guide/eslint-plugin/rules/no-effect-decorator-and-creator</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/guide/eslint-plugin/rules/no-effect-decorator</loc>
-  </url>
-  <url>
     <loc>https://ngrx.io/guide/eslint-plugin/rules/no-effects-in-providers</loc>
   </url>
   <url>
