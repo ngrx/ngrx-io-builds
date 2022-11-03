@@ -1,1 +1,1 @@
-351459f2 feat(store): strict projector for selectors with props (#3640)
+4bdf345a feat(component): remove ReactiveComponentModule (#3643)

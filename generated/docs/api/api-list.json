@@ -2532,14 +2532,6 @@
         "securityRisk": false
       },
       {
-        "name": "reactivecomponentmodule",
-        "title": "ReactiveComponentModule",
-        "path": "api/component/ReactiveComponentModule",
-        "docType": "ngmodule",
-        "stability": "deprecated",
-        "securityRisk": false
-      },
-      {
         "name": "renderscheduler",
         "title": "RenderScheduler",
         "path": "api/component/RenderScheduler",

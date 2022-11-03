@@ -1338,7 +1338,4 @@
   <url>
     <loc>https://ngrx.io/api/component/PushModule</loc>
   </url>
-  <url>
-    <loc>https://ngrx.io/api/component/ReactiveComponentModule</loc>
-  </url>
 </urlset>
