@@ -1,1 +1,1 @@
-4f61b63a feat(schematics): replace environments usage with isDevMode (#3645)
+0eaa5362 feat(effects): forRoot and forFeature accept spreaded array (#3638)
