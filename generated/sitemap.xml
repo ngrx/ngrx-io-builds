@@ -1294,6 +1294,12 @@
     <loc>https://ngrx.io/api/data/EntityDataModule</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/data/provideEntityData</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/data/provideEntityDataWithoutEffects</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/component-store</loc>
   </url>
   <url>

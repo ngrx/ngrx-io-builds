@@ -2334,6 +2334,22 @@
         "securityRisk": false
       },
       {
+        "name": "provideentitydata",
+        "title": "provideEntityData",
+        "path": "api/data/provideEntityData",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "provideentitydatawithouteffects",
+        "title": "provideEntityDataWithoutEffects",
+        "path": "api/data/provideEntityDataWithoutEffects",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "queryparams",
         "title": "QueryParams",
         "path": "api/data/QueryParams",
