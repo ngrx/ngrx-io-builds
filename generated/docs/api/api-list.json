@@ -2342,14 +2342,6 @@
         "securityRisk": false
       },
       {
-        "name": "provideentitydatawithouteffects",
-        "title": "provideEntityDataWithoutEffects",
-        "path": "api/data/provideEntityDataWithoutEffects",
-        "docType": "function",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
         "name": "queryparams",
         "title": "QueryParams",
         "path": "api/data/QueryParams",
@@ -2426,6 +2418,14 @@
         "title": "UpdateResponseData",
         "path": "api/data/UpdateResponseData",
         "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "witheffects",
+        "title": "withEffects",
+        "path": "api/data/withEffects",
+        "docType": "function",
         "stability": "stable",
         "securityRisk": false
       }
