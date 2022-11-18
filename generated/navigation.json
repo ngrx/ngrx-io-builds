@@ -689,19 +689,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "15.0.0-beta.0",
+    "raw": "15.0.0-beta.1",
     "major": 15,
     "minor": 0,
     "patch": 0,
     "prerelease": [
       "local"
     ],
-    "build": "sha.ca60f629",
+    "build": "sha.5cfd6712",
     "version": "15.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "15.0.0-local+sha.ca60f629",
+    "full": "15.0.0-local+sha.5cfd6712",
     "branch": "master",
-    "commitSHA": "ca60f629f0b2cd28a2b3a262a276735b6053c0d1"
+    "commitSHA": "5cfd67123ad011458d83f4c08535f5bfdd09881b"
   }
 }
