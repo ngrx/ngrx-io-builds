@@ -1,1 +1,1 @@
-5cfd6712 chore: release 15.0.0-beta.1
+b3b21e69 feat(component): remove $ prefix from LetViewContext property names (#3670)
