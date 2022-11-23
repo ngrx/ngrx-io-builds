@@ -696,12 +696,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.bdd44714",
+    "build": "sha.ec59c4ba",
     "version": "15.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "15.0.0-local+sha.bdd44714",
+    "full": "15.0.0-local+sha.ec59c4ba",
     "branch": "master",
-    "commitSHA": "bdd447142f29e66ca273b59e5c692d37fb1ac104"
+    "commitSHA": "ec59c4ba91630a4713764cefc32412854526b33e"
   }
 }
