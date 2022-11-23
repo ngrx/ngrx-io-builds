@@ -1,1 +1,1 @@
-ec59c4ba feat(component): clear `LetDirective` view when replaced observable is in suspense state (#3671)
+852d40e8 chore: release 15.0.0-rc.0
