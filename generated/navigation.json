@@ -696,12 +696,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.852d40e8",
+    "build": "sha.187802a0",
     "version": "15.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "15.0.0-local+sha.852d40e8",
+    "full": "15.0.0-local+sha.187802a0",
     "branch": "master",
-    "commitSHA": "852d40e835dc66499a830a01aecb80d95fdc1ddf"
+    "commitSHA": "187802a06505e2307ea518a0e171610fb41c2d8f"
   }
 }
