@@ -3,11 +3,7 @@
 import { Store } from '@ngrx/store';
 
 import { selectBookCollection, selectBooks } from './state/books.selectors';
-import {
-  retrievedBookList,
-  addBook,
-  removeBook,
-} from './state/books.actions';
+import { BooksActions, BooksApiActions } from './state/books.actions';
 import { GoogleBooksService } from './book-list/books.service';
 
 @Component({
@@ -19,22 +15,21 @@ export class AppComponent {
   bookCollection$ = this.store.select(selectBookCollection);
 
   onAdd(bookId: string) {
-    this.store.dispatch(addBook({ bookId }));
+    this.store.dispatch(BooksActions.addBook({ bookId }));
   }
 
   onRemove(bookId: string) {
-    this.store.dispatch(removeBook({ bookId }));
+    this.store.dispatch(BooksActions.removeBook({ bookId }));
   }
 
-  constructor(
-    private booksService: GoogleBooksService,
-    private store: Store
-  ) {}
+  constructor(private booksService: GoogleBooksService, private store: Store) {}
 
   ngOnInit() {
     this.booksService
       .getBooks()
-      .subscribe((books) => this.store.dispatch(retrievedBookList({ books })));
+      .subscribe((books) =>
+        this.store.dispatch(BooksApiActions.retrievedBookList({ books }))
+      );
   }
 }
 
@@ -149,23 +144,23 @@ export interface AppState {
 /*
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
-*/"><input type="hidden" name="project[files][src/app/state/books.actions.ts]" value="import { createAction, props } from '@ngrx/store';
+*/"><input type="hidden" name="project[files][src/app/state/books.actions.ts]" value="import { createActionGroup, props } from '@ngrx/store';
 import { Book } from '../book-list/books.model';
 
-export const addBook = createAction(
-  '[Book List] Add Book',
-  props<{ bookId: string }>()
-);
+export const BooksActions = createActionGroup({
+  source: 'Books',
+  events: {
+    'Add Book': props<{ bookId: string }>(),
+    'Remove Book': props<{ bookId: string }>(),
+  },
+});
 
-export const removeBook = createAction(
-  '[Book Collection] Remove Book',
-  props<{ bookId: string }>()
-);
-
-export const retrievedBookList = createAction(
-  '[Book List/API] Retrieve Books Success',
-  props<{ books: ReadonlyArray<Book> }>()
-);
+export const BooksApiActions = createActionGroup({
+  source: 'Books API',
+  events: {
+    'Retrieved Book List': props<{ books: ReadonlyArray<Book> }>(),
+  },
+});
 
 
 /*
@@ -173,14 +168,14 @@ Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
 */"><input type="hidden" name="project[files][src/app/state/books.reducer.ts]" value="import { createReducer, on } from '@ngrx/store';
 
-import { retrievedBookList } from './books.actions';
+import { BooksApiActions } from './books.actions';
 import { Book } from '../book-list/books.model';
 
 export const initialState: ReadonlyArray<Book> = [];
 
 export const booksReducer = createReducer(
   initialState,
-  on(retrievedBookList, (state, { books }) => books)
+  on(BooksApiActions.retrievedBookList, (_state, { books }) => books)
 );
 
 
@@ -209,14 +204,16 @@ export const selectBookCollection = createSelector(
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
 */"><input type="hidden" name="project[files][src/app/state/collection.reducer.ts]" value="import { createReducer, on } from '@ngrx/store';
-import { addBook, removeBook } from './books.actions';
+import { BooksActions } from './books.actions';
 
 export const initialState: ReadonlyArray<string> = [];
 
 export const collectionReducer = createReducer(
   initialState,
-  on(removeBook, (state, { bookId }) => state.filter((id) => id !== bookId)),
-  on(addBook, (state, { bookId }) => {
+  on(BooksActions.removeBook, (state, { bookId }) =>
+    state.filter((id) => id !== bookId)
+  ),
+  on(BooksActions.addBook, (state, { bookId }) => {
     if (state.indexOf(bookId) > -1) return state;
 
     return [...state, bookId];
