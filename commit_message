@@ -1,1 +1,1 @@
-7194403c docs(data): improve DefaultDataServiceConfig.trailingSlashEndpoints (#3690)
+9cfc1038 fix(schematics): disable package json peer dep updates during build (#3692)
