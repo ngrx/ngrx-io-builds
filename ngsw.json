@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1669909971327,
+  "timestamp": 1669952834127,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -919,7 +919,7 @@
     "/generated/docs/api/router-store/StoreRouterConfig.json": "b1ec5394922edb6099753da42488a9a7076a118d",
     "/generated/docs/api/router-store/StoreRouterConnectingModule.json": "b77b45396d06edf51405ab55b0a3e75ee62fab0f",
     "/generated/docs/api/router-store/createRouterSelector.json": "002e2048ea69335a8219b3c43355e0cbbdfe1115",
-    "/generated/docs/api/router-store/getSelectors.json": "8a201885b7e355c807c3c89091a01732fcacfc99",
+    "/generated/docs/api/router-store/getSelectors.json": "bf8cd5cc6bec5ef58ad627770ecd0ec9e9aecacc",
     "/generated/docs/api/router-store/provideRouterStore.json": "17497b8bea87b2a126ef8ea750e61283987f0a6b",
     "/generated/docs/api/router-store/routerCancelAction-1.json": "1cbc966feb59a34fa7d3e4f46bf3e3e60779563c",
     "/generated/docs/api/router-store/routerErrorAction-1.json": "4ebef86e4fa60bc3766cc4bc8892675cf9ff19d4",
@@ -1113,7 +1113,7 @@
     "/generated/docs/guide/router-store/actions.json": "02e86076f74e5e1909f1a69450348fe2648f9ee2",
     "/generated/docs/guide/router-store/configuration.json": "199bd51fb86ac295502d55ed864c6a41c3b8aaf4",
     "/generated/docs/guide/router-store/install.json": "e75b64eb37c48f5ec6729081878322c2e5e7e91e",
-    "/generated/docs/guide/router-store/selectors.json": "f561e99528cffba983d3db5944e03ddf87f41aa5",
+    "/generated/docs/guide/router-store/selectors.json": "970cb62b6290e97dee8aaaf82a77a3b32d5a6021",
     "/generated/docs/guide/schematics.json": "6a6c21aa404a77f72879bd999b24de5d4e931de7",
     "/generated/docs/guide/schematics/action.json": "db3063335b995b35929645a06b9b8e6ba8d38b8a",
     "/generated/docs/guide/schematics/container.json": "d461a14836a248014b4737b6e7e05b165d95065f",
@@ -1214,7 +1214,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "0052e167812a1dc5b5b181748b7635a2e496d8db",
+    "/generated/navigation.json": "e82a9d6e9b904ee630db538ebc26a71f5918336b",
     "/generated/resources.json": "b13d442b68124008109f59a52a978dd03fd22318",
     "/index.html": "c9d6930c266bd368375725806eaca94b168ede35",
     "/main.22c5fcd11b6714ab.js": "e155999aeb8a90696ef8d217cb2991d7ed4ab167",
