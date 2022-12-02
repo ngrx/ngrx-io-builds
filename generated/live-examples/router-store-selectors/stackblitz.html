@@ -285,26 +285,11 @@ import {
   platformBrowserDynamicTesting,
 } from '@angular/platform-browser-dynamic/testing';
 
-declare const require: {
-  context(
-    path: string,
-    deep?: boolean,
-    filter?: RegExp
-  ): {
-    keys(): string[];
-    <T>(id: string): T;
-  };
-};
-
 // First, initialize the Angular testing environment.
 getTestBed().initTestEnvironment(
   BrowserDynamicTestingModule,
   platformBrowserDynamicTesting()
 );
-// Then we find all the tests.
-const context = require.context('./', true, /\.spec\.ts$/);
-// And load the modules.
-context.keys().map(context);
 
 
 /*
@@ -506,47 +491,48 @@ can be found in the LICENSE file at https://github.com/ngrx/platform
   },
   &quot;private&quot;: true,
   &quot;dependencies&quot;: {
-    &quot;@angular/animations&quot;: &quot;14.0.4&quot;,
-    &quot;@angular/cdk&quot;: &quot;14.0.4&quot;,
-    &quot;@angular/common&quot;: &quot;14.0.4&quot;,
-    &quot;@angular/compiler&quot;: &quot;14.0.4&quot;,
-    &quot;@angular/core&quot;: &quot;14.0.4&quot;,
-    &quot;@angular/forms&quot;: &quot;14.0.4&quot;,
-    &quot;@angular/material&quot;: &quot;14.0.4&quot;,
-    &quot;@angular/platform-browser&quot;: &quot;14.0.4&quot;,
-    &quot;@angular/platform-browser-dynamic&quot;: &quot;14.0.4&quot;,
-    &quot;@angular/router&quot;: &quot;14.0.4&quot;,
-    &quot;@ngrx/component-store&quot;: &quot;^14.0.1&quot;,
-    &quot;@ngrx/effects&quot;: &quot;^14.0.1&quot;,
-    &quot;@ngrx/entity&quot;: &quot;^14.0.1&quot;,
-    &quot;@ngrx/router-store&quot;: &quot;^14.0.1&quot;,
-    &quot;@ngrx/store&quot;: &quot;^14.0.1&quot;,
+    &quot;@angular/animations&quot;: &quot;15.0.1&quot;,
+    &quot;@angular/cdk&quot;: &quot;15.0.0&quot;,
+    &quot;@angular/common&quot;: &quot;15.0.1&quot;,
+    &quot;@angular/compiler&quot;: &quot;15.0.1&quot;,
+    &quot;@angular/core&quot;: &quot;15.0.1&quot;,
+    &quot;@angular/forms&quot;: &quot;15.0.1&quot;,
+    &quot;@angular/material&quot;: &quot;15.0.0&quot;,
+    &quot;@angular/platform-browser&quot;: &quot;15.0.1&quot;,
+    &quot;@angular/platform-browser-dynamic&quot;: &quot;15.0.1&quot;,
+    &quot;@angular/router&quot;: &quot;15.0.1&quot;,
+    &quot;@ngrx/component-store&quot;: &quot;15.0.0&quot;,
+    &quot;@ngrx/effects&quot;: &quot;15.0.0&quot;,
+    &quot;@ngrx/entity&quot;: &quot;15.0.0&quot;,
+    &quot;@ngrx/router-store&quot;: &quot;15.0.0&quot;,
+    &quot;@ngrx/store&quot;: &quot;15.0.0&quot;,
     &quot;rxjs&quot;: &quot;~7.5.0&quot;,
-    &quot;tslib&quot;: &quot;^2.0.0&quot;,
-    &quot;zone.js&quot;: &quot;~0.11.4&quot;
+    &quot;tslib&quot;: &quot;^2.3.0&quot;,
+    &quot;zone.js&quot;: &quot;~0.12.0&quot;
   },
   &quot;devDependencies&quot;: {
-    &quot;@angular-devkit/build-angular&quot;: &quot;14.0.4&quot;,
-    &quot;@angular/cli&quot;: &quot;14.0.4&quot;,
-    &quot;@angular/compiler-cli&quot;: &quot;14.0.4&quot;,
-    &quot;@angular/language-service&quot;: &quot;14.0.4&quot;,
-    &quot;@ngrx/schematics&quot;: &quot;^14.0.1&quot;,
-    &quot;@ngrx/store-devtools&quot;: &quot;^14.0.1&quot;,
+    &quot;@angular-devkit/build-angular&quot;: &quot;15.0.1&quot;,
+    &quot;@angular/cli&quot;: &quot;15.0.1&quot;,
+    &quot;@angular/compiler-cli&quot;: &quot;15.0.1&quot;,
+    &quot;@angular/language-service&quot;: &quot;15.0.1&quot;,
+    &quot;@ngrx/schematics&quot;: &quot;15.0.0&quot;,
+    &quot;@ngrx/store-devtools&quot;: &quot;15.0.0&quot;,
     &quot;@types/jasminewd2&quot;: &quot;~2.0.3&quot;,
     &quot;jasmine-core&quot;: &quot;~4.1.0&quot;,
     &quot;jasmine-marbles&quot;: &quot;^0.9.1&quot;,
     &quot;jasmine-spec-reporter&quot;: &quot;~5.0.0&quot;,
-    &quot;karma&quot;: &quot;~6.3.2&quot;,
+    &quot;karma&quot;: &quot;~6.4.0&quot;,
     &quot;karma-chrome-launcher&quot;: &quot;~3.1.0&quot;,
     &quot;karma-coverage-istanbul-reporter&quot;: &quot;~3.0.2&quot;,
-    &quot;karma-jasmine&quot;: &quot;~4.0.0&quot;,
-    &quot;karma-jasmine-html-reporter&quot;: &quot;^1.7.0&quot;,
+    &quot;karma-jasmine&quot;: &quot;~5.1.0&quot;,
+    &quot;karma-jasmine-html-reporter&quot;: &quot;^2.0.0&quot;,
     &quot;protractor&quot;: &quot;~7.0.0&quot;,
     &quot;ts-node&quot;: &quot;~8.3.0&quot;,
     &quot;tslint&quot;: &quot;~6.1.0&quot;,
-    &quot;typescript&quot;: &quot;4.7.2&quot;
+    &quot;typescript&quot;: &quot;4.8.2&quot;
   }
-}"><input type="hidden" name="project[files][tsconfig.app.json]" value="/* To learn more about this file see: https://angular.io/config/tsconfig. */
+}
+"><input type="hidden" name="project[files][tsconfig.app.json]" value="/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   &quot;extends&quot;: &quot;./tsconfig.json&quot;,
   &quot;compilerOptions&quot;: {
@@ -573,10 +559,11 @@ can be found in the LICENSE file at https://github.com/ngrx/platform
     &quot;experimentalDecorators&quot;: true,
     &quot;moduleResolution&quot;: &quot;node&quot;,
     &quot;importHelpers&quot;: true,
-    &quot;target&quot;: &quot;es2020&quot;,
-    &quot;module&quot;: &quot;es2020&quot;,
+    &quot;useDefineForClassFields&quot;: false,
+    &quot;target&quot;: &quot;es2022&quot;,
+    &quot;module&quot;: &quot;es2022&quot;,
     &quot;lib&quot;: [
-      &quot;es2018&quot;,
+      &quot;es2022&quot;,
       &quot;dom&quot;
     ]
   }
