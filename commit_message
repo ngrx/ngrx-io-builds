@@ -1,1 +1,1 @@
-10f1146e docs: add usage of standalone APIs to packages (#3696)
+5c87ddaa feat(store): support using`createSelector` with selectors dictionary (#3703)
