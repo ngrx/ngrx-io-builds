@@ -1,1 +1,1 @@
-5c87ddaa feat(store): support using`createSelector` with selectors dictionary (#3703)
+e75fa1a2 fix(store): support using `createActionGroup` with props typed as unions (#3713)
