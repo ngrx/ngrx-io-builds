@@ -1,1 +1,1 @@
-e75fa1a2 fix(store): support using `createActionGroup` with props typed as unions (#3713)
+f0ae9151 fix(eslint-plugin): remove @angular-devkit/schematics dependency (#3710)
