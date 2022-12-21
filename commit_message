@@ -1,1 +1,1 @@
-a137b59d fix(data): revert throwError usages with factory for RxJS 6 compatibility
+74d37446 chore: release 15.1.0
