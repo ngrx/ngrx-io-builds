@@ -1,1 +1,1 @@
-ccf4cbdf docs(store): fix typo for createSelectorFactory docs (#3726)
+d7d001b8 docs(store): update createFeatureSelector to non-deprecated signature (#3725)
