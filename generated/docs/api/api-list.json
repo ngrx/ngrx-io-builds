@@ -984,6 +984,14 @@
         "securityRisk": false
       },
       {
+        "name": "dictionarynum",
+        "title": "DictionaryNum",
+        "path": "api/entity/DictionaryNum",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "entityadapter",
         "title": "EntityAdapter",
         "path": "api/entity/EntityAdapter",

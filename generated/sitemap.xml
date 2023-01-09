@@ -751,16 +751,16 @@
     <loc>https://ngrx.io/api/entity/createEntityAdapter</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/entity/Comparer</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/entity/Dictionary</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/entity/EntityState</loc>
+    <loc>https://ngrx.io/api/entity/DictionaryNum</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/entity/EntityAdapter</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/entity/Update</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/entity/EntityMap</loc>
@@ -769,13 +769,16 @@
     <loc>https://ngrx.io/api/entity/EntityMapOne</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/entity/Predicate</loc>
+    <loc>https://ngrx.io/api/entity/EntityState</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/entity/IdSelector</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/entity/Comparer</loc>
+    <loc>https://ngrx.io/api/entity/Predicate</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/entity/Update</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/router-store</loc>
