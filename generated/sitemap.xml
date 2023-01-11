@@ -895,6 +895,9 @@
     <loc>https://ngrx.io/api/router-store/MinimalRouterStateSerializer</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/router-store/getRouterSelectors</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/router-store/getSelectors</loc>
   </url>
   <url>

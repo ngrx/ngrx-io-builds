@@ -1087,11 +1087,19 @@
         "securityRisk": false
       },
       {
+        "name": "getrouterselectors",
+        "title": "getRouterSelectors",
+        "path": "api/router-store/getRouterSelectors",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "getselectors",
         "title": "getSelectors",
         "path": "api/router-store/getSelectors",
-        "docType": "function",
-        "stability": "stable",
+        "docType": "const",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
