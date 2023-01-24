@@ -1,1 +1,1 @@
-a785331e feat(router-store): add migration for getRouterSelectors (#3753)
+a1701894 docs(store): make walkthrough example compatible with strict mode (#3720)

@@ -195,7 +195,7 @@ export const selectBookCollection = createSelector(
   selectBooks,
   selectCollectionState,
   (books, collection) => {
-    return collection.map((id) => books.find((book) => book.id === id));
+    return collection.map((id) => books.find((book) => book.id === id)!);
   }
 );
 
@@ -396,10 +396,10 @@ can be found in the LICENSE file at https://github.com/ngrx/platform
 */"><input type="hidden" name="project[files][src/app/app.component.html]" value="<h1>Oliver Sacks Books Collection</h1>
 
 <h2>Books</h2>
-<app-book-list class=&quot;book-list&quot; [books]=&quot;books$ | async&quot; (add)=&quot;onAdd($event)&quot;></app-book-list>
+<app-book-list class=&quot;book-list&quot; [books]=&quot;(books$ | async)!&quot; (add)=&quot;onAdd($event)&quot;></app-book-list>
 
 <h2>My Collection</h2>
-<app-book-collection class=&quot;book-collection&quot; [books]=&quot;bookCollection$ | async&quot; (remove)=&quot;onRemove($event)&quot;>
+<app-book-collection class=&quot;book-collection&quot; [books]=&quot;(bookCollection$ | async)!&quot; (remove)=&quot;onRemove($event)&quot;>
 </app-book-collection>
 
 
