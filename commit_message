@@ -1,1 +1,1 @@
-ccb3b932 feat(store): deprecate createFeature signature with root state (#3756)
+a785331e feat(router-store): add migration for getRouterSelectors (#3753)
