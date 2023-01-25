@@ -685,6 +685,9 @@
     <loc>https://ngrx.io/api/effects/CreateEffectMetadata</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/effects/FunctionalEffect</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/effects/Actions</loc>
   </url>
   <url>
