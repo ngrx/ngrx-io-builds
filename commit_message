@@ -1,1 +1,1 @@
-dd76c639 feat(effects): add ability to create functional effects (#3669)
+b3c5931c feat(store): add createFeature migration (#3759)
