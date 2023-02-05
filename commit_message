@@ -1,1 +1,1 @@
-898c0987 docs(component-store): typo fix in effect example (#3765)
+f4714c37 fix(store): support using factory selectors as extra selectors (#3767)
