@@ -700,12 +700,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.f4714c37",
+    "build": "sha.d46d8707",
     "version": "15.2.2-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "15.2.2-local+sha.f4714c37",
+    "full": "15.2.2-local+sha.d46d8707",
     "branch": "master",
-    "commitSHA": "f4714c37ab5622cb04945d9525ba0a64be8ae35a"
+    "commitSHA": "d46d8707dfa33ee13dab0d1109a915fc006df94d"
   }
 }
