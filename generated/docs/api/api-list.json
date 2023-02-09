@@ -2370,7 +2370,7 @@
         "title": "QueryParams",
         "path": "api/data/QueryParams",
         "docType": "interface",
-        "stability": "stable",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
