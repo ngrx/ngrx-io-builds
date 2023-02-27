@@ -1,1 +1,1 @@
-6219fec0 docs(effects): use `exhaustMap` for `loadMovies$` example (#3779)
+9b3647ff feat(store): use createFeature in feature schematics (#3776)
