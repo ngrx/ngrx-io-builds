@@ -580,11 +580,19 @@
     "path": "api/store/testing",
     "items": [
       {
+        "name": "createmockstore",
+        "title": "createMockStore",
+        "path": "api/store/testing/createMockStore",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "getmockstore",
         "title": "getMockStore",
         "path": "api/store/testing/getMockStore",
-        "docType": "function",
-        "stability": "stable",
+        "docType": "const",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {

@@ -1,1 +1,1 @@
-9b3647ff feat(store): use createFeature in feature schematics (#3776)
+6d615b3a feat(store): rename getMockStore to createMockStore (#3789)

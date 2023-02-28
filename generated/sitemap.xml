@@ -607,10 +607,13 @@
     <loc>https://ngrx.io/api/store/testing/provideMockStore</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/store/testing/getMockStore</loc>
+    <loc>https://ngrx.io/api/store/testing/createMockStore</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/store/testing/MockStoreConfig</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/store/testing/getMockStore</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/store/testing/MockReducerManager</loc>
