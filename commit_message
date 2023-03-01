@@ -1,1 +1,1 @@
-6d615b3a feat(store): rename getMockStore to createMockStore (#3789)
+b58f9a33 fix(eslint-plugin): ignore select name within createFeature (#3788)
