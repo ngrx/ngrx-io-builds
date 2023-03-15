@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1677796119612,
+  "timestamp": 1678921978219,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -732,9 +732,9 @@
     "/generated/docs/api/data/CollectionSelectors.json": "d77ea91a4ec0fb604f4bdbedf16da33be20fa429",
     "/generated/docs/api/data/CorrelationIdGenerator.json": "a639d6513a39114b34c5887443cdd44ba904cc0a",
     "/generated/docs/api/data/DataServiceError.json": "c29d70a9705880f04d0ef4281ef5ee4873e4d199",
-    "/generated/docs/api/data/DefaultDataService.json": "5a90e43777b57cc2687fee8592c5179ffe92ceaa",
+    "/generated/docs/api/data/DefaultDataService.json": "8dfd07ddfe42b7568622ecdd4ef24cc7928b0bd5",
     "/generated/docs/api/data/DefaultDataServiceConfig.json": "94f44f33847da15f107a8b58449177037d7aeafd",
-    "/generated/docs/api/data/DefaultDataServiceFactory.json": "9abac0f7caaa0fc02806df449e6260d6b88a557f",
+    "/generated/docs/api/data/DefaultDataServiceFactory.json": "dfb0a280a03f604903d1407c414e7fc6dd694b60",
     "/generated/docs/api/data/DefaultHttpUrlGenerator.json": "ae3cead9dbf3428009d5520ca9b9340e1616df73",
     "/generated/docs/api/data/DefaultLogger.json": "d655285e4431803dd580a4a5760a65d19c8c8b06",
     "/generated/docs/api/data/DefaultPersistenceResultHandler.json": "e5de41757894ef3d3c0bf5b75a3a4f6c57bb7e86",
@@ -1222,9 +1222,9 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "771f14b0d7471e9293be7ecaeecaa77445474e84",
+    "/generated/navigation.json": "9cdb710237bc3f1891f7a21a0c53cb8468daa499",
     "/generated/resources.json": "b13d442b68124008109f59a52a978dd03fd22318",
-    "/index.html": "65a76c261cc280d93409a51c12da82bb458f8006",
+    "/index.html": "169b5afd4426fb626f78e8fcb8702a23f01cd836",
     "/main.b13f2357143c0b7f.js": "e01912690b5325e1f9727677701cad994a846b69",
     "/polyfills.92f55ea7c07ca684.js": "836616d10ebc757c9bfcce7e9743b75c4c4686d9",
     "/pwa-manifest.json": "e8dd89f82dd3e09355923767325f6997aa0728bc",
