@@ -1,1 +1,1 @@
-cbdf524f fix(data): correctly handle HttpOptions when provided (#3795)
+bbd44e61 docs(store): add example of createFeature extraSelectors (#3787)
