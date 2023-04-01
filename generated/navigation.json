@@ -700,12 +700,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.9f8dc7e3",
+    "build": "sha.4afac00b",
     "version": "15.4.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "15.4.1-local+sha.9f8dc7e3",
+    "full": "15.4.1-local+sha.4afac00b",
     "branch": "master",
-    "commitSHA": "9f8dc7e3c3277756a58b1bc60e451ea3b7f28313"
+    "commitSHA": "4afac00b887281a6562aa565127352c0b165a4a2"
   }
 }
