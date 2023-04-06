@@ -502,6 +502,10 @@
       "title": "Migrations",
       "children": [
         {
+          "title": "V16",
+          "url": "guide/migration/v16"
+        },
+        {
           "title": "V15",
           "url": "guide/migration/v15"
         },
@@ -693,19 +697,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "15.4.0",
-    "major": 15,
-    "minor": 4,
-    "patch": 1,
+    "raw": "16.0.0-beta.0",
+    "major": 16,
+    "minor": 0,
+    "patch": 0,
     "prerelease": [
       "local"
     ],
-    "build": "sha.e50126dd",
-    "version": "15.4.1-local",
+    "build": "sha.d7e03dfd",
+    "version": "16.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "15.4.1-local+sha.e50126dd",
+    "full": "16.0.0-local+sha.d7e03dfd",
     "branch": "master",
-    "commitSHA": "e50126ddf14b8feaf6077c1e958a223773b23f44"
+    "commitSHA": "d7e03dfdb969dfda64a2ea4e3f48877eebecaef6"
   }
 }
