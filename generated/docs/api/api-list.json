@@ -588,14 +588,6 @@
         "securityRisk": false
       },
       {
-        "name": "getmockstore",
-        "title": "getMockStore",
-        "path": "api/store/testing/getMockStore",
-        "docType": "const",
-        "stability": "deprecated",
-        "securityRisk": false
-      },
-      {
         "name": "mockreducermanager",
         "title": "MockReducerManager",
         "path": "api/store/testing/MockReducerManager",

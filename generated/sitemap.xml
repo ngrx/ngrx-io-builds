@@ -616,9 +616,6 @@
     <loc>https://ngrx.io/api/store/testing/MockStoreConfig</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/store/testing/getMockStore</loc>
-  </url>
-  <url>
     <loc>https://ngrx.io/api/store/testing/MockReducerManager</loc>
   </url>
   <url>

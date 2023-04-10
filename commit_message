@@ -1,1 +1,1 @@
-bafd1219 feat(store): use strict projectors for createFeature selectors (#3799)
+8d0ed8e3 feat(store): remove getMockStore in favor of createMockStore (#3835)
