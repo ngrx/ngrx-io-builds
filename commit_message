@@ -1,1 +1,1 @@
-d7e03dfd feat: update to Angular v16.0.0-next.6 release (#3831)
+bafd1219 feat(store): use strict projectors for createFeature selectors (#3799)
