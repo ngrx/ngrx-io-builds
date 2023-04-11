@@ -704,12 +704,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.0ea2933d",
+    "build": "sha.193e2326",
     "version": "16.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "16.0.0-local+sha.0ea2933d",
+    "full": "16.0.0-local+sha.193e2326",
     "branch": "master",
-    "commitSHA": "0ea2933d9af5f7c0ea82e2ae1e73d5388fa82728"
+    "commitSHA": "193e23264437b170a46591a7403246fff476e9df"
   }
 }
