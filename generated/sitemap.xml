@@ -913,6 +913,21 @@
     <loc>https://ngrx.io/api/router-store/provideRouterStore</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/router-store/data-persistence</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/router-store/data-persistence/fetch</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/router-store/data-persistence/navigation</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/router-store/data-persistence/optimisticUpdate</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/router-store/data-persistence/pessimisticUpdate</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/data</loc>
   </url>
   <url>

@@ -1393,6 +1393,45 @@
     ]
   },
   {
+    "name": "router-store/data-persistence",
+    "title": "router-store/data-persistence",
+    "path": "api/router-store/data-persistence",
+    "items": [
+      {
+        "name": "fetch",
+        "title": "fetch",
+        "path": "api/router-store/data-persistence/fetch",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "navigation",
+        "title": "navigation",
+        "path": "api/router-store/data-persistence/navigation",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "optimisticupdate",
+        "title": "optimisticUpdate",
+        "path": "api/router-store/data-persistence/optimisticUpdate",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "pessimisticupdate",
+        "title": "pessimisticUpdate",
+        "path": "api/router-store/data-persistence/pessimisticUpdate",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      }
+    ]
+  },
+  {
     "name": "data",
     "title": "data",
     "path": "api/data",
