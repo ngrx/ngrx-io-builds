@@ -1,1 +1,1 @@
-351a75e5 feat(router-store): remove deprecated getSelectors method (#3816)
+fd8f347a feat(store): remove deprecated createFeature method (#3825)
