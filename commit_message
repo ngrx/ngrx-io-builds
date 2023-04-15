@@ -1,1 +1,1 @@
-fd8f347a feat(store): remove deprecated createFeature method (#3825)
+dc784473 fix(store): correctly infer action group events defined as empty object (#3833)
