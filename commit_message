@@ -1,1 +1,1 @@
-8f67bc0e refactor(example-app): use functional route guards (#3849)
+351a75e5 feat(router-store): remove deprecated getSelectors method (#3816)

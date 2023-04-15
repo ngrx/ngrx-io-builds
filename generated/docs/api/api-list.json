@@ -1103,14 +1103,6 @@
         "securityRisk": false
       },
       {
-        "name": "getselectors",
-        "title": "getSelectors",
-        "path": "api/router-store/getSelectors",
-        "docType": "const",
-        "stability": "deprecated",
-        "securityRisk": false
-      },
-      {
         "name": "minimalactivatedroutesnapshot",
         "title": "MinimalActivatedRouteSnapshot",
         "path": "api/router-store/MinimalActivatedRouteSnapshot",
