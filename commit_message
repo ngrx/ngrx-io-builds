@@ -1,1 +1,1 @@
-dc784473 fix(store): correctly infer action group events defined as empty object (#3833)
+34dd28c7 feat(effects): accept ObservableInput as concatLatestFrom argument (#3838)
