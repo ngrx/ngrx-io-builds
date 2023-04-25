@@ -1,1 +1,1 @@
-0df3419a fix(store-devtools): correctly import state when feature is set to true (#3855)
+999dcb6b feat(store): add selectSignal method for interop with Angular Signals (#3856)
