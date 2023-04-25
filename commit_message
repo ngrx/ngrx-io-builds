@@ -1,1 +1,1 @@
-999dcb6b feat(store): add selectSignal method for interop with Angular Signals (#3856)
+73eb55cd feat: convert entity and router selectors interfaces to types (#3853)
