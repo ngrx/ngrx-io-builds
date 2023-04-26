@@ -1,1 +1,1 @@
-482fa5dd feat(store): preserve the event name case with createActionGroup (#3832)
+e37c57b5 feat(store): remove forbidden chars and empty str checks from createActionGroup (#3857)
