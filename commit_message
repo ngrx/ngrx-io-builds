@@ -1,1 +1,1 @@
-16d92acf chore(store): fix selectSignal API docs (#3860)
+195d5acc feat(component-store): add selectSignal method for interop with Angular Signals (#3861)
