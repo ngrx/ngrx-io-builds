@@ -1,1 +1,1 @@
-07ba3fa2 feat(component-store): add selectSignal signature that combines provided signals (#3863)
+93ee1dbc fix(data): make non-optimistic add command entity partial (#3859)
