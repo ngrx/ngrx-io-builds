@@ -1,1 +1,1 @@
-755295f4 docs(effects): add missing import to the functional effects example  (#3867)
+0a13c4d8 feat(store): add selectSignal options
