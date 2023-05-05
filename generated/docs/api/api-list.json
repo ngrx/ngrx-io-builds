@@ -2583,7 +2583,7 @@
         "title": "LetModule",
         "path": "api/component/LetModule",
         "docType": "ngmodule",
-        "stability": "stable",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -2591,7 +2591,7 @@
         "title": "PushModule",
         "path": "api/component/PushModule",
         "docType": "ngmodule",
-        "stability": "stable",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
