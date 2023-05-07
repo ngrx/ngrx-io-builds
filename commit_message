@@ -1,1 +1,1 @@
-5f07edaf feat(component): add migration for LetModule and PushModule (#3872)
+7aec84d1 feat(store): add support of standalone API for ng add store (#3874)
