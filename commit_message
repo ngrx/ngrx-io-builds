@@ -1,1 +1,1 @@
-8cb5795a fix(store): move Angular Signal interop into State service (#3879)
+58508e38 feat: add ng add support for standalone config to NgRx packages (#3881)
