@@ -1,1 +1,1 @@
-0aa15825 refactor(component-store): use stateSubject$ for converting to state signal (#3877)
+8cb5795a fix(store): move Angular Signal interop into State service (#3879)
