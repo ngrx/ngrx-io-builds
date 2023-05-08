@@ -1,1 +1,1 @@
-7aec84d1 feat(store): add support of standalone API for ng add store (#3874)
+0aa15825 refactor(component-store): use stateSubject$ for converting to state signal (#3877)
