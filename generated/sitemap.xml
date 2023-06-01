@@ -121,6 +121,9 @@
     <loc>https://ngrx.io/guide/entity/recipes/additional-state-properties</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/entity/recipes/entity-adapter-with-feature-creator</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/eslint-plugin</loc>
   </url>
   <url>
