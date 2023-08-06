@@ -25,7 +25,7 @@
       "title": "Events"
     },
     {
-      "url": "https://opencollective.com/ngrx",
+      "url": "https://github.com/sponsors/ngrx",
       "title": "Sponsor"
     }
   ],
@@ -62,7 +62,7 @@
           "title": "GitHub"
         },
         {
-          "url": "https://opencollective.com/ngrx",
+          "url": "https://github.com/sponsors/ngrx",
           "title": "Sponsor"
         }
       ]
@@ -577,7 +577,7 @@
           "tooltip": "NgRx Team"
         },
         {
-          "url": "https://opencollective.com/ngrx",
+          "url": "https://github.com/sponsors/ngrx",
           "title": "Sponsor",
           "tooltip": "Sponsor NgRx Development"
         },
@@ -712,12 +712,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.19ebb0af",
+    "build": "sha.2c154f60",
     "version": "16.1.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "16.1.1-local+sha.19ebb0af",
+    "full": "16.1.1-local+sha.2c154f60",
     "branch": "master",
-    "commitSHA": "19ebb0af11ae62a05d50ac4dca9540e5af46906c"
+    "commitSHA": "2c154f6014527e2d67baada5c34f11c89f229419"
   }
 }
