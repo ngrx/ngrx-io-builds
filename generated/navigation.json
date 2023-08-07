@@ -705,19 +705,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "16.1.0",
+    "raw": "16.2.0",
     "major": 16,
-    "minor": 1,
+    "minor": 2,
     "patch": 1,
     "prerelease": [
       "local"
     ],
-    "build": "sha.46aa2df9",
-    "version": "16.1.1-local",
+    "build": "sha.26f58de4",
+    "version": "16.2.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "16.1.1-local+sha.46aa2df9",
+    "full": "16.2.1-local+sha.26f58de4",
     "branch": "master",
-    "commitSHA": "46aa2df95565e3a31871261c4319f7c153ac6401"
+    "commitSHA": "26f58de4942b93ac4bd0b3e5f7de76fb73e8e00f"
   }
 }
