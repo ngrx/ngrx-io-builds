@@ -712,12 +712,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.3a564121",
+    "build": "sha.f1940058",
     "version": "16.2.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "16.2.1-local+sha.3a564121",
+    "full": "16.2.1-local+sha.f1940058",
     "branch": "master",
-    "commitSHA": "3a56412107fe61228cc9ec818ebed2638fc5a3af"
+    "commitSHA": "f19400582002c8dffe1a2af96cf638099922b82c"
   }
 }
