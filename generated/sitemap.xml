@@ -130,6 +130,9 @@
     <loc>https://ngrx.io/guide/eslint-plugin/install</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/eslint-plugin/rules/avoid-combining-component-store-selectors</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/eslint-plugin/rules/avoid-combining-selectors</loc>
   </url>
   <url>
