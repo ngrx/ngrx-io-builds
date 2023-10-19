@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1697654020504,
+  "timestamp": 1697710257728,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -46,7 +46,7 @@
         "/src_app_custom-elements_search_file-not-found-search_module_ts.670644a880636e56.js",
         "/src_app_custom-elements_toc_toc_module_ts.4dd834983acdaf30.js",
         "/src_assets_js_prettify_js.1dfc6df3edb27ca2.js",
-        "/styles.86bcae1536f14412.css"
+        "/styles.dfc49df9f6a729e3.css"
       ],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
@@ -1243,9 +1243,9 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "473314b8eb4c0a7bd18b4317e023b928ea8b0ea1",
+    "/generated/navigation.json": "2d550d38a304c6b4ea9b0d31d414816206514f22",
     "/generated/resources.json": "b13d442b68124008109f59a52a978dd03fd22318",
-    "/index.html": "11d1e19629283f1372612649d1e9d2683cd00229",
+    "/index.html": "42694d4519a0b37e9068423d476a36f31d396e52",
     "/light-theme.css": "db75e286e5103a564d172b10088df24a176b3bab",
     "/main.07878bad1aea5f05.js": "a442af8740d0c38730b56315492fe32360af5c3e",
     "/polyfills.ce8d62f1c5c03c1a.js": "9dbd3563677ed07f7ce07b7d3172b6d000c91be9",
@@ -1268,7 +1268,7 @@
     "/src_app_custom-elements_search_file-not-found-search_module_ts.670644a880636e56.js": "c98ad76dc556fffee038b89a7be09363f4454564",
     "/src_app_custom-elements_toc_toc_module_ts.4dd834983acdaf30.js": "595be17b2fbabdccdf6d9c3dc708d65ea52be92e",
     "/src_assets_js_prettify_js.1dfc6df3edb27ca2.js": "0f75506fd1ae246ef9b0ad752417dff1b985f39e",
-    "/styles.86bcae1536f14412.css": "49520a6897eeff74e32decb305dbc1a0ca14eca2"
+    "/styles.dfc49df9f6a729e3.css": "c85eaf3ecd5cb2d42a45fc07b7ed15b423739b53"
   },
   "navigationUrls": [
     {
