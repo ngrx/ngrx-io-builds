@@ -2587,14 +2587,6 @@
         "securityRisk": false
       },
       {
-        "name": "pushmodule",
-        "title": "PushModule",
-        "path": "api/component/PushModule",
-        "docType": "ngmodule",
-        "stability": "deprecated",
-        "securityRisk": false
-      },
-      {
         "name": "pushpipe",
         "title": "PushPipe",
         "path": "api/component/PushPipe",
