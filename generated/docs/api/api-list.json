@@ -2579,14 +2579,6 @@
         "securityRisk": false
       },
       {
-        "name": "letmodule",
-        "title": "LetModule",
-        "path": "api/component/LetModule",
-        "docType": "ngmodule",
-        "stability": "deprecated",
-        "securityRisk": false
-      },
-      {
         "name": "pushpipe",
         "title": "PushPipe",
         "path": "api/component/PushPipe",

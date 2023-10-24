@@ -1372,9 +1372,6 @@
     <loc>https://ngrx.io/api/component/LetDirective</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/component/LetModule</loc>
-  </url>
-  <url>
     <loc>https://ngrx.io/api/component/PushPipe</loc>
   </url>
 </urlset>
