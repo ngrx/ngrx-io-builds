@@ -712,12 +712,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.ba838209",
+    "build": "sha.37247117",
     "version": "17.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "17.0.0-local+sha.ba838209",
+    "full": "17.0.0-local+sha.37247117",
     "branch": "master",
-    "commitSHA": "ba838209364fc28e8de32154a336b53ebdb4cf65"
+    "commitSHA": "3724711744f2d6613331070a4f84df185f9c444d"
   }
 }
