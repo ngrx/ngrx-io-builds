@@ -1336,6 +1336,9 @@
     <loc>https://ngrx.io/api/component-store</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/component-store/tapResponse</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/component-store/provideComponentStore</loc>
   </url>
   <url>
@@ -1358,9 +1361,6 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/component-store/ComponentStore</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/component-store/tapResponse</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/component</loc>
