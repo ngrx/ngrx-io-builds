@@ -17,14 +17,6 @@
       "title": "Blog"
     },
     {
-      "url": "resources",
-      "title": "Resources"
-    },
-    {
-      "url": "events",
-      "title": "Events"
-    },
-    {
       "url": "https://github.com/sponsors/ngrx",
       "title": "Sponsor"
     }
@@ -48,14 +40,6 @@
         {
           "url": "https://blog.ngrx.io",
           "title": "Blog"
-        },
-        {
-          "url": "resources",
-          "title": "Resources"
-        },
-        {
-          "url": "events",
-          "title": "Events"
         },
         {
           "url": "https://github.com/ngrx/platform",
@@ -607,11 +591,6 @@
           "tooltip": "NgRx Community Discord Server - chat with other members of the community."
         },
         {
-          "url": "https://gitter.im/ngrx/platform",
-          "title": "Gitter",
-          "tooltip": "Chat about NgRx with other members of the community."
-        },
-        {
           "url": "https://github.com/ngrx/platform/issues/new/choose",
           "title": "Report Issues",
           "tooltip": "Post issues and suggestions on GitHub."
@@ -712,12 +691,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.050093f5",
+    "build": "sha.1c936454",
     "version": "17.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "17.0.0-local+sha.050093f5",
+    "full": "17.0.0-local+sha.1c936454",
     "branch": "master",
-    "commitSHA": "050093f525abc6057bca34d380ab42d78ffe52ec"
+    "commitSHA": "1c936454a77a9e1fc34a481c5dabbd8f38bf8656"
   }
 }
