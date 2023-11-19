@@ -131,6 +131,10 @@ Apache-2.0
 @firebase/util
 Apache-2.0
 
+@getpolaris.ai/sdk
+
+@getpolaris.ai/sdk-angular
+
 @webcomponents/custom-elements
 BSD-3-Clause
 # License
