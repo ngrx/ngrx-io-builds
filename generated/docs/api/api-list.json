@@ -2595,5 +2595,281 @@
         "securityRisk": false
       }
     ]
+  },
+  {
+    "name": "signals",
+    "title": "signals",
+    "path": "api/signals",
+    "items": [
+      {
+        "name": "getstate",
+        "title": "getState",
+        "path": "api/signals/getState",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "partialstateupdater",
+        "title": "PartialStateUpdater",
+        "path": "api/signals/PartialStateUpdater",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "patchstate",
+        "title": "patchState",
+        "path": "api/signals/patchState",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "signalstate",
+        "title": "signalState",
+        "path": "api/signals/signalState",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "signalstore",
+        "title": "signalStore",
+        "path": "api/signals/signalStore",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "signalstorefeature",
+        "title": "signalStoreFeature",
+        "path": "api/signals/signalStoreFeature-0",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "signalstorefeature",
+        "title": "SignalStoreFeature",
+        "path": "api/signals/SignalStoreFeature-1",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "type",
+        "title": "type",
+        "path": "api/signals/type",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "withcomputed",
+        "title": "withComputed",
+        "path": "api/signals/withComputed",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "withhooks",
+        "title": "withHooks",
+        "path": "api/signals/withHooks",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "withmethods",
+        "title": "withMethods",
+        "path": "api/signals/withMethods",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "withstate",
+        "title": "withState",
+        "path": "api/signals/withState",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      }
+    ]
+  },
+  {
+    "name": "signals/entities",
+    "title": "signals/entities",
+    "path": "api/signals/entities",
+    "items": [
+      {
+        "name": "addentities",
+        "title": "addEntities",
+        "path": "api/signals/entities/addEntities",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "addentity",
+        "title": "addEntity",
+        "path": "api/signals/entities/addEntity",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entityid",
+        "title": "EntityId",
+        "path": "api/signals/entities/EntityId",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitymap",
+        "title": "EntityMap",
+        "path": "api/signals/entities/EntityMap",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitystate",
+        "title": "EntityState",
+        "path": "api/signals/entities/EntityState",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "namedentitystate",
+        "title": "NamedEntityState",
+        "path": "api/signals/entities/NamedEntityState",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "removeallentities",
+        "title": "removeAllEntities",
+        "path": "api/signals/entities/removeAllEntities",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "removeentities",
+        "title": "removeEntities",
+        "path": "api/signals/entities/removeEntities",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "removeentity",
+        "title": "removeEntity",
+        "path": "api/signals/entities/removeEntity",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "setallentities",
+        "title": "setAllEntities",
+        "path": "api/signals/entities/setAllEntities",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "setentities",
+        "title": "setEntities",
+        "path": "api/signals/entities/setEntities",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "setentity",
+        "title": "setEntity",
+        "path": "api/signals/entities/setEntity",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "updateallentities",
+        "title": "updateAllEntities",
+        "path": "api/signals/entities/updateAllEntities",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "updateentities",
+        "title": "updateEntities",
+        "path": "api/signals/entities/updateEntities",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "updateentity",
+        "title": "updateEntity",
+        "path": "api/signals/entities/updateEntity",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "withentities",
+        "title": "withEntities",
+        "path": "api/signals/entities/withEntities",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      }
+    ]
+  },
+  {
+    "name": "signals/rxjs-interop",
+    "title": "signals/rxjs-interop",
+    "path": "api/signals/rxjs-interop",
+    "items": [
+      {
+        "name": "rxmethod",
+        "title": "rxMethod",
+        "path": "api/signals/rxjs-interop/rxMethod",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      }
+    ]
+  },
+  {
+    "name": "operators",
+    "title": "operators",
+    "path": "api/operators",
+    "items": [
+      {
+        "name": "concatlatestfrom",
+        "title": "concatLatestFrom",
+        "path": "api/operators/concatLatestFrom",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "tapresponse",
+        "title": "tapResponse",
+        "path": "api/operators/tapResponse",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      }
+    ]
   }
 ]
