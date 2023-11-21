@@ -270,6 +270,23 @@
               "url": "guide/component-store/usage"
             }
           ]
+        },
+        {
+          "title": "@ngrx/operators",
+          "children": [
+            {
+              "title": "Overview",
+              "url": "guide/operators"
+            },
+            {
+              "title": "Installation",
+              "url": "guide/operators/install"
+            },
+            {
+              "title": "Operators",
+              "url": "guide/operators/operators"
+            }
+          ]
         }
       ]
     },
@@ -699,12 +716,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.125bc422",
+    "build": "sha.9317b71a",
     "version": "17.0.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "17.0.1-local+sha.125bc422",
+    "full": "17.0.1-local+sha.9317b71a",
     "branch": "master",
-    "commitSHA": "125bc422e86eec0d04fd11c68cf65dd51cd0880b"
+    "commitSHA": "9317b71abf02e13342fa8fc4fa022e051ea2966b"
   }
 }

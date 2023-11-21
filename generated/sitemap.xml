@@ -256,6 +256,15 @@
     <loc>https://ngrx.io/guide/nightlies</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/operators</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/guide/operators/install</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/guide/operators/operators</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/router-store/actions</loc>
   </url>
   <url>
