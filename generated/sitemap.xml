@@ -313,6 +313,27 @@
     <loc>https://ngrx.io/guide/schematics/store</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/signals</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/guide/signals/install</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/guide/signals/rxjs-integration</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/guide/signals/signal-state</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/guide/signals/signal-store/custom-store-features</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/guide/signals/signal-store/entity-management</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/guide/signals/signal-store</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/store-devtools/config</loc>
   </url>
   <url>
