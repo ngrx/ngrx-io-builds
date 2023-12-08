@@ -334,6 +334,9 @@
     <loc>https://ngrx.io/guide/signals/signal-store</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/signals/signal-store/lifecycle-hooks</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/store-devtools/config</loc>
   </url>
   <url>

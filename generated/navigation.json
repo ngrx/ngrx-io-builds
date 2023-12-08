@@ -290,6 +290,10 @@
                   "url": "guide/signals/signal-store"
                 },
                 {
+                  "title": "Lifecycle Hooks",
+                  "url": "guide/signals/signal-store/lifecycle-hooks"
+                },
+                {
                   "title": "Custom Store Features",
                   "url": "guide/signals/signal-store/custom-store-features"
                 },
@@ -754,12 +758,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.a726cfb5",
+    "build": "sha.03151245",
     "version": "17.0.2-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "17.0.2-local+sha.a726cfb5",
+    "full": "17.0.2-local+sha.03151245",
     "branch": "master",
-    "commitSHA": "a726cfb57c509facae3c5cf5c953567cbc9ad45e"
+    "commitSHA": "03151245fa5188c865956223d5fce87b92272b7c"
   }
 }
