@@ -758,12 +758,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.91d0b146",
+    "build": "sha.53a27a60",
     "version": "17.0.2-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "17.0.2-local+sha.91d0b146",
+    "full": "17.0.2-local+sha.53a27a60",
     "branch": "master",
-    "commitSHA": "91d0b146991ad7926d1e63c39799f619abaeb06d"
+    "commitSHA": "53a27a60e6567d5849fc1bc3bd2b22dd1c6dc0d6"
   }
 }
