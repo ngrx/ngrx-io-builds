@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1704829991231,
+  "timestamp": 1705090039096,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -1036,7 +1036,7 @@
     "/generated/docs/api/signals/signalstorefeature.json": "633e8d2e4f0e6c6d31a3e7a376bd74668e150954",
     "/generated/docs/api/signals/type.json": "b30ac10c1fa67fe165df47cd63b390bf4822a3b6",
     "/generated/docs/api/signals/withComputed.json": "0d815a96dbbae9c18dee69b1d4d028a5cffdb184",
-    "/generated/docs/api/signals/withHooks.json": "4ded72b92e90305a7ab1865f0ee8e7ae827514c8",
+    "/generated/docs/api/signals/withHooks.json": "6f2ea666bba6c9ecf4e5f38a531b2bed1dc9a4c3",
     "/generated/docs/api/signals/withMethods.json": "91e4694bd023e24e221d28d6f02c244c9c6743a3",
     "/generated/docs/api/signals/withState.json": "d6fdad351ef15934355ec6fb0abefceb9564b916",
     "/generated/docs/api/store-devtools.json": "aa4b04d2c949f30475f8ccac75ab98b13f12661c",
@@ -1339,7 +1339,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "20f1d6e738eb023ab71b0853bc1375ce33336017",
+    "/generated/navigation.json": "d783b0c626855dd976d9fed85ac1fea99b3fb73a",
     "/generated/resources.json": "187bbb4f63bac415553db8bc033d822bb0b5a47e",
     "/index.html": "f67efacdded1695ede8779d700be2705a55126ff",
     "/light-theme.css": "99403319a34e1b531a46b045218e7d30f52a2b47",
