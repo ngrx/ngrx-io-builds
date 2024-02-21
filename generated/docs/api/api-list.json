@@ -2658,6 +2658,14 @@
         "securityRisk": false
       },
       {
+        "name": "statesignal",
+        "title": "StateSignal",
+        "path": "api/signals/StateSignal",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "type",
         "title": "type",
         "path": "api/signals/type",

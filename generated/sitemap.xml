@@ -1444,6 +1444,9 @@
     <loc>https://ngrx.io/api/signals/SignalStoreFeature</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/signals/StateSignal</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/signals/withComputed</loc>
   </url>
   <url>
