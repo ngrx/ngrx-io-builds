@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1708539206678,
+  "timestamp": 1708982129280,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -1136,7 +1136,7 @@
     "/generated/docs/api/store/testing/createMockStore.json": "58faf9b004a01ca42bbc70cb36e983ad8f0ccfc7",
     "/generated/docs/api/store/testing/provideMockStore.json": "a6835ee7fa6834577b756fdafc27fb898ec4f78c",
     "/generated/docs/api/store/union.json": "2a501a89f55ebac9800c878fe53b30986531b8de",
-    "/generated/docs/app/search-data.json": "9b304323dc7f5bd549bc8aa44f2364b3cdf1c02b",
+    "/generated/docs/app/search-data.json": "c04338e80216581625b2e39410ad2b6fb92ac169",
     "/generated/docs/contributing.json": "4c7957c3c81d4b50e5084c18375edeadc6095cc1",
     "/generated/docs/docs.json": "70f2e96f98c89284c124e2da590cc93fdc1fb4ec",
     "/generated/docs/enterprise-support.json": "90f869e6046ad7448c0ffc2beecf0f181a6c174b",
@@ -1280,7 +1280,7 @@
     "/generated/docs/presskit.json": "ba75d1ec000ecb5fe560d251abb437cd4ca75b36",
     "/generated/docs/resources.json": "837bf4601c3276108766b99700641ce11ddfdc78",
     "/generated/docs/test.json": "2569e4a4631628f7beb86c1077d8dd453efbf28e",
-    "/generated/docs/workshops.json": "9c08e0153e9e246d94fd669aa5e949615f088728",
+    "/generated/docs/workshops.json": "790f3c6283809516e9a4b7a70f1c80a962b8663d",
     "/generated/events.json": "c37230138e031988124d39aa47a1667bb29c6aae",
     "/generated/images/bios/_no-one.jpg": "de366daa5f7c46e8565f0cee3f425df2c5792d81",
     "/generated/images/bios/alex-okrushko.jpg": "455f61301ddf16556f6e3aaaf8ad67f9894a9cf0",
@@ -1345,7 +1345,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "49aca630fc5a0f65869dee137521bb147eef88af",
+    "/generated/navigation.json": "c0ca58af2e0b21a970a81c3c03a5405c2d28e9f5",
     "/generated/resources.json": "187bbb4f63bac415553db8bc033d822bb0b5a47e",
     "/index.html": "003500bdbc9cd4a4aaa16d7a8f04e2c59eaffa75",
     "/light-theme.css": "99403319a34e1b531a46b045218e7d30f52a2b47",
