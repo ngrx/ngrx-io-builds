@@ -2559,8 +2559,8 @@
         "name": "tapresponse",
         "title": "tapResponse",
         "path": "api/component-store/tapResponse",
-        "docType": "function",
-        "stability": "stable",
+        "docType": "const",
+        "stability": "deprecated",
         "securityRisk": false
       }
     ]
