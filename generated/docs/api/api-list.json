@@ -749,8 +749,8 @@
         "name": "concatlatestfrom",
         "title": "concatLatestFrom",
         "path": "api/effects/concatLatestFrom",
-        "docType": "function",
-        "stability": "stable",
+        "docType": "const",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
