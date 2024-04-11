@@ -755,19 +755,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "17.1.1",
+    "raw": "17.2.0",
     "major": 17,
-    "minor": 1,
-    "patch": 2,
+    "minor": 2,
+    "patch": 1,
     "prerelease": [
       "local"
     ],
-    "build": "sha.531c2dea",
-    "version": "17.1.2-local",
+    "build": "sha.db089a63",
+    "version": "17.2.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "17.1.2-local+sha.531c2dea",
+    "full": "17.2.1-local+sha.db089a63",
     "branch": "master",
-    "commitSHA": "531c2dea8775720caa6dc75232a9fd4863ab591c"
+    "commitSHA": "db089a636f4eaaa8c40a98cbf4cb6363d91bb614"
   }
 }
