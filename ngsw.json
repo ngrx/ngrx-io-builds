@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1712776516906,
+  "timestamp": 1712822910577,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -1012,7 +1012,7 @@
     "/generated/docs/api/router-store/routernavigationaction.json": "f79adbf9b9e414e002a6216a2f97ac27ebd41e3d",
     "/generated/docs/api/router-store/routerrequestaction.json": "491a245876d1240286d5259242e0ec8d5303d27c",
     "/generated/docs/api/signals.json": "2a31dd7e373132e4138e678388682b03b1ebe6b0",
-    "/generated/docs/api/signals/PartialStateUpdater.json": "6b52d2685451b4fa3b370c29dc72b6d654c6ffe9",
+    "/generated/docs/api/signals/PartialStateUpdater.json": "de2ba98391288972f7429876b4c320c2add09ce2",
     "/generated/docs/api/signals/SignalStoreFeature-1.json": "3bb47be74781844ce86a50ec936a7e29652afa8f",
     "/generated/docs/api/signals/StateSignal.json": "d568e41aa3601f0b777755803a7269e5e9ec7e05",
     "/generated/docs/api/signals/entities.json": "618d5301214b39055e9001b18555ced5b491bbad",
@@ -1033,7 +1033,7 @@
     "/generated/docs/api/signals/entities/updateEntity.json": "86de051b83f1942afcab1dd8a4d6b0a0a489f9c9",
     "/generated/docs/api/signals/entities/withEntities.json": "2e53c8e44bbca1862bd7b58cfed776e366b3541a",
     "/generated/docs/api/signals/getState.json": "f30a4386ffa467c1eb88d43c96cf73f25b6fa474",
-    "/generated/docs/api/signals/patchState.json": "3e06375908f9857bc8183bf5b3324fa890962e47",
+    "/generated/docs/api/signals/patchState.json": "3247e581a6e0cde471bf5bf9dd3a05fe9a57340a",
     "/generated/docs/api/signals/rxjs-interop.json": "b6d73be344c69cb7b7374450524f2b30a13d5ac1",
     "/generated/docs/api/signals/rxjs-interop/rxMethod.json": "42ece649e9e09d0fcb57dfbb3a24a344bd83011f",
     "/generated/docs/api/signals/signalState.json": "07151364d809e71581ec196cc0988d9570398f42",
@@ -1345,7 +1345,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "70bb3c138960d1564a9d746b105d6fbd4ff85ba7",
+    "/generated/navigation.json": "f885db501284ca85894dfd1a402b40130e14df88",
     "/generated/resources.json": "187bbb4f63bac415553db8bc033d822bb0b5a47e",
     "/index.html": "e19dbfc4fc5b5c54bfe68b5048c92242e8e68a23",
     "/light-theme.css": "af6e8fca0da10e9eed053318ea52c0434ddc7c53",
