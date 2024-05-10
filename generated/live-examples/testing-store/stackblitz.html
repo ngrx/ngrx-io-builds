@@ -182,7 +182,7 @@ describe('AppComponent', () => {
 /*
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
-*/"><input type="hidden" name="project[files][src/app/app.component.ts]" value="import { Component } from '@angular/core';
+*/"><input type="hidden" name="project[files][src/app/app.component.ts]" value="import { Component, OnInit } from '@angular/core';
 import { Store, select } from '@ngrx/store';
 
 import { selectBookCollection, selectBooks } from './state/books.selectors';
@@ -197,7 +197,7 @@ import { GoogleBooksService } from './book-list/books.service';
   selector: 'app-root',
   templateUrl: './app.component.html',
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   books$ = this.store.pipe(select(selectBooks));
   bookCollection$ = this.store.pipe(select(selectBookCollection));
 
@@ -300,7 +300,7 @@ can be found in the LICENSE file at https://github.com/ngrx/platform
 */"><input type="hidden" name="project[files][src/app/book-list/books.service.ts]" value="import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
-import { of, Observable } from 'rxjs';
+import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Book } from './books.model';
 
