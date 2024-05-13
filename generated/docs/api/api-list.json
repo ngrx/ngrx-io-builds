@@ -2871,6 +2871,14 @@
         "securityRisk": false
       },
       {
+        "name": "mapresponse",
+        "title": "mapResponse",
+        "path": "api/operators/mapResponse",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "tapresponse",
         "title": "tapResponse",
         "path": "api/operators/tapResponse",
