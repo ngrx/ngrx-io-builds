@@ -793,9 +793,6 @@
     <loc>https://ngrx.io/api/effects/provideEffects</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/effects/concatLatestFrom</loc>
-  </url>
-  <url>
     <loc>https://ngrx.io/api/effects/testing</loc>
   </url>
   <url>
@@ -1385,9 +1382,6 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/component-store/OnStoreInit</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/component-store/tapResponse</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/component-store/SelectConfig</loc>
