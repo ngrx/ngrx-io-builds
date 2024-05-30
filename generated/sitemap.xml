@@ -793,6 +793,9 @@
     <loc>https://ngrx.io/api/effects/provideEffects</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/effects/concatLatestFrom</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/effects/testing</loc>
   </url>
   <url>
