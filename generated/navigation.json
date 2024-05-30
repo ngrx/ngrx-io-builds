@@ -762,12 +762,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.920b2f5f",
+    "build": "sha.c79c8912",
     "version": "18.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "18.0.0-local+sha.920b2f5f",
+    "full": "18.0.0-local+sha.c79c8912",
     "branch": "master",
-    "commitSHA": "920b2f5f97a45049314b9d0e99a1fbfb7b5314d7"
+    "commitSHA": "c79c8912e522aa1b431a88102df7c4434439591a"
   }
 }
