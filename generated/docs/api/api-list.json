@@ -2586,6 +2586,14 @@
     "path": "api/signals",
     "items": [
       {
+        "name": "deepsignal",
+        "title": "DeepSignal",
+        "path": "api/signals/DeepSignal",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "getstate",
         "title": "getState",
         "path": "api/signals/getState",
