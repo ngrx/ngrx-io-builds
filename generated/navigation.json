@@ -553,6 +553,10 @@
       "title": "Migrations",
       "children": [
         {
+          "title": "V18",
+          "url": "guide/migration/v18"
+        },
+        {
           "title": "V17",
           "url": "guide/migration/v17"
         },
@@ -762,12 +766,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.c002466b",
+    "build": "sha.0e4e84ae",
     "version": "18.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "18.0.0-local+sha.c002466b",
+    "full": "18.0.0-local+sha.0e4e84ae",
     "branch": "master",
-    "commitSHA": "c002466b6b44d0f9c37283d77d76413f970aae72"
+    "commitSHA": "0e4e84aec7fbbc87608ada594bbaff07c4faef49"
   }
 }
