@@ -5,7 +5,7 @@
     "twitter": "robwormald",
     "website": "http://github.com/robwormald",
     "bio": "Rob is a Developer Programs Engineer for Angular at Google. He's the Angular team's resident reactive programming geek and founder of NgRx.",
-    "group": "Core"
+    "group": "Alumni"
   },
   "brandonroberts": {
     "name": "Brandon Roberts",
@@ -29,7 +29,7 @@
     "twitter": "victorsavkin",
     "website": "http://blog.nrwl.io",
     "bio": "Victor is co-founder of Nrwl. Victor developed Angular dependency injection, change detection, forms, and the router.",
-    "group": "Core"
+    "group": "Alumni"
   },
   "wardbell": {
     "name": "Ward Bell",
@@ -37,7 +37,7 @@
     "website": "https://github.com/wardbell",
     "twitter": "wardbell",
     "bio": "Ward is an all-around developer with JavaScript, Node.js®, and .net chops. He's a frequent conference speaker and podcaster, trainer, Google Developer Expert for Angular, Microsoft MVP, and PluralSight author. He is also president of IdeaBlade, an enterprise software consulting firm and the makers of breeze.js. He would like to get more sleep and spend more time in the mountains.",
-    "group": "Core"
+    "group": "Alumni"
   },
   "johnpapa": {
     "name": "John Papa",
@@ -45,7 +45,7 @@
     "website": "https://github.com/johnpapa",
     "twitter": "john_papa",
     "bio": "John Papa is a dedicated father and husband, a Principal Developer Advocate with Microsoft, and an alumnus of the Google Developer Expert, Microsoft RD, and MVP programs.",
-    "group": "Core"
+    "group": "Alumni"
   },
   "timdeschryver": {
     "name": "Tim Deschryver",
@@ -60,7 +60,7 @@
     "picture": "wesgrimes.jpg",
     "website": "https://github.com/wesleygrimes",
     "bio": "Wes is a software engineer in the insurance industry, and writer for Angular in Depth and Ultimate Courses.",
-    "group": "Core"
+    "group": "Alumni"
   },
   "alex-okrushko": {
     "name": "Alex Okrushko",
