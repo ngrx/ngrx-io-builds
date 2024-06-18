@@ -1513,6 +1513,9 @@
     <loc>https://ngrx.io/api/signals/entities/NamedEntityState</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/signals/entities/SelectEntityId</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/signals/entities/withEntities</loc>
   </url>
   <url>
