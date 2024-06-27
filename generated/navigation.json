@@ -763,19 +763,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "18.0.0",
+    "raw": "18.0.1",
     "major": 18,
     "minor": 0,
-    "patch": 1,
+    "patch": 2,
     "prerelease": [
       "local"
     ],
-    "build": "sha.e202ca3c",
-    "version": "18.0.1-local",
+    "build": "sha.50fca9aa",
+    "version": "18.0.2-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "18.0.1-local+sha.e202ca3c",
+    "full": "18.0.2-local+sha.50fca9aa",
     "branch": "master",
-    "commitSHA": "e202ca3c2a2fdfaa7d3772fcb2a599a862a4520b"
+    "commitSHA": "50fca9aa85ff4b8d2021fbe2a5adc25673172003"
   }
 }
