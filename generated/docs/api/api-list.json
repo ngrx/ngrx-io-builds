@@ -2721,6 +2721,14 @@
         "securityRisk": false
       },
       {
+        "name": "entityconfig",
+        "title": "entityConfig",
+        "path": "api/signals/entities/entityConfig",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "entityid",
         "title": "EntityId",
         "path": "api/signals/entities/EntityId",
