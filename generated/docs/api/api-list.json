@@ -2620,8 +2620,16 @@
       {
         "name": "signalstate",
         "title": "signalState",
-        "path": "api/signals/signalState",
+        "path": "api/signals/signalState-0",
         "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "signalstate",
+        "title": "SignalState",
+        "path": "api/signals/SignalState-1",
+        "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
       },
@@ -2650,9 +2658,9 @@
         "securityRisk": false
       },
       {
-        "name": "statesignal",
-        "title": "StateSignal",
-        "path": "api/signals/StateSignal",
+        "name": "statesource",
+        "title": "StateSource",
+        "path": "api/signals/StateSource",
         "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false

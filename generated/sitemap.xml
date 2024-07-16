@@ -1426,16 +1426,10 @@
     <loc>https://ngrx.io/api/signals/DeepSignal</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/signals/getState</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/signals/PartialStateUpdater</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/signals/patchState</loc>
-  </url>
-  <url>
     <loc>https://ngrx.io/api/signals/signalState</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/signals/SignalState</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/signals/signalStore</loc>
@@ -1450,7 +1444,16 @@
     <loc>https://ngrx.io/api/signals/SignalStoreFeature</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/signals/StateSignal</loc>
+    <loc>https://ngrx.io/api/signals/getState</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/signals/PartialStateUpdater</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/signals/patchState</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/signals/StateSource</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/signals/withComputed</loc>
