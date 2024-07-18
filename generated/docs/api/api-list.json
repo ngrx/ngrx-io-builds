@@ -2704,6 +2704,14 @@
         "docType": "function",
         "stability": "stable",
         "securityRisk": false
+      },
+      {
+        "name": "writablestatesource",
+        "title": "WritableStateSource",
+        "path": "api/signals/WritableStateSource",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
       }
     ]
   },
@@ -2725,6 +2733,14 @@
         "title": "addEntity",
         "path": "api/signals/entities/addEntity",
         "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "entitycomputed",
+        "title": "EntityComputed",
+        "path": "api/signals/entities/EntityComputed",
+        "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
       },
@@ -2756,6 +2772,14 @@
         "name": "entitystate",
         "title": "EntityState",
         "path": "api/signals/entities/EntityState",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "namedentitycomputed",
+        "title": "NamedEntityComputed",
+        "path": "api/signals/entities/NamedEntityComputed",
         "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
