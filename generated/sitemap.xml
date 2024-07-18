@@ -1507,9 +1507,6 @@
     <loc>https://ngrx.io/api/signals/entities/entityConfig</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/signals/entities/EntityComputed</loc>
-  </url>
-  <url>
     <loc>https://ngrx.io/api/signals/entities/EntityId</loc>
   </url>
   <url>
@@ -1517,9 +1514,6 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/signals/entities/EntityState</loc>
-  </url>
-  <url>
-    <loc>https://ngrx.io/api/signals/entities/NamedEntityComputed</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/signals/entities/NamedEntityState</loc>

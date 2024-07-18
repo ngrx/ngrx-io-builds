@@ -2729,14 +2729,6 @@
         "securityRisk": false
       },
       {
-        "name": "entitycomputed",
-        "title": "EntityComputed",
-        "path": "api/signals/entities/EntityComputed",
-        "docType": "type-alias",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
         "name": "entityconfig",
         "title": "entityConfig",
         "path": "api/signals/entities/entityConfig",
@@ -2764,14 +2756,6 @@
         "name": "entitystate",
         "title": "EntityState",
         "path": "api/signals/entities/EntityState",
-        "docType": "type-alias",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
-        "name": "namedentitycomputed",
-        "title": "NamedEntityComputed",
-        "path": "api/signals/entities/NamedEntityComputed",
         "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
