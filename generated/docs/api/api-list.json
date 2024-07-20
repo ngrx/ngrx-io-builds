@@ -2594,6 +2594,14 @@
         "securityRisk": false
       },
       {
+        "name": "emptyfeatureresult",
+        "title": "EmptyFeatureResult",
+        "path": "api/signals/EmptyFeatureResult",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "getstate",
         "title": "getState",
         "path": "api/signals/getState",
@@ -2614,6 +2622,14 @@
         "title": "patchState",
         "path": "api/signals/patchState",
         "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "prettify",
+        "title": "Prettify",
+        "path": "api/signals/Prettify",
+        "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
       },
@@ -2653,6 +2669,22 @@
         "name": "signalstorefeature",
         "title": "SignalStoreFeature",
         "path": "api/signals/SignalStoreFeature-1",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "signalstorefeatureresult",
+        "title": "SignalStoreFeatureResult",
+        "path": "api/signals/SignalStoreFeatureResult",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
+        "name": "statesignals",
+        "title": "StateSignals",
+        "path": "api/signals/StateSignals",
         "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false

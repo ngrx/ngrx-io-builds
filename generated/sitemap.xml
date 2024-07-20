@@ -1441,7 +1441,16 @@
     <loc>https://ngrx.io/api/signals/type</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/signals/EmptyFeatureResult</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/signals/SignalStoreFeature</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/signals/SignalStoreFeatureResult</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/signals/StateSignals</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/signals/getState</loc>
@@ -1457,6 +1466,9 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/signals/WritableStateSource</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/signals/Prettify</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/signals/withComputed</loc>
