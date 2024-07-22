@@ -349,6 +349,9 @@
     <loc>https://ngrx.io/guide/signals/signal-store/lifecycle-hooks</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/signals/signal-store/state-tracking</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/store-devtools/config</loc>
   </url>
   <url>
@@ -1463,6 +1466,9 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/signals/StateSource</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/signals/watchState</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/signals/WritableStateSource</loc>

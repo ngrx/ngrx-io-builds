@@ -2706,6 +2706,14 @@
         "securityRisk": false
       },
       {
+        "name": "watchstate",
+        "title": "watchState",
+        "path": "api/signals/watchState",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "withcomputed",
         "title": "withComputed",
         "path": "api/signals/withComputed",
