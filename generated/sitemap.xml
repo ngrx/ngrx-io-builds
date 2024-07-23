@@ -211,6 +211,9 @@
     <loc>https://ngrx.io/guide/eslint-plugin/rules/signal-state-no-arrays-at-root-level</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/eslint-plugin/rules/signal-store-feature-should-use-generic-type</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/eslint-plugin/rules/updater-explicit-return-type</loc>
   </url>
   <url>
