@@ -774,12 +774,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.810954ee",
+    "build": "sha.b58ea227",
     "version": "18.0.2-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "18.0.2-local+sha.810954ee",
+    "full": "18.0.2-local+sha.b58ea227",
     "branch": "master",
-    "commitSHA": "810954ee03a2023a8150cec9e00e0f6ba2aa6c22"
+    "commitSHA": "b58ea227abb527d849d852daa45123c2507921e4"
   }
 }
