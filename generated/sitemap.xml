@@ -352,6 +352,9 @@
     <loc>https://ngrx.io/guide/signals/signal-store/lifecycle-hooks</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/signals/signal-store/private-store-members</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/signals/signal-store/state-tracking</loc>
   </url>
   <url>
