@@ -690,6 +690,11 @@
           "tooltip": "Twitter"
         },
         {
+          "url": "https://www.linkedin.com/company/ngrx/",
+          "title": "LinkedIn",
+          "tooltip": "LinkedIn"
+        },
+        {
           "url": "https://github.com/ngrx/platform",
           "title": "GitHub",
           "tooltip": "GitHub"
@@ -778,12 +783,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.30436fb5",
+    "build": "sha.92c24765",
     "version": "18.0.2-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "18.0.2-local+sha.30436fb5",
+    "full": "18.0.2-local+sha.92c24765",
     "branch": "master",
-    "commitSHA": "30436fb56db1d225c29dfe771ae38412955516d7"
+    "commitSHA": "92c247651c9d0429caa1621b7e97423eac46025b"
   }
 }
