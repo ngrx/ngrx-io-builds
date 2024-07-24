@@ -2698,6 +2698,14 @@
         "securityRisk": false
       },
       {
+        "name": "statewatcher",
+        "title": "StateWatcher",
+        "path": "api/signals/StateWatcher",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "type",
         "title": "type",
         "path": "api/signals/type",

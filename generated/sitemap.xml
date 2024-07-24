@@ -1474,6 +1474,9 @@
     <loc>https://ngrx.io/api/signals/StateSource</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/signals/StateWatcher</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/signals/watchState</loc>
   </url>
   <url>
