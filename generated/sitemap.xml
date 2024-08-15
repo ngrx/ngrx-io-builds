@@ -199,6 +199,9 @@
     <loc>https://ngrx.io/guide/eslint-plugin/rules/prefer-one-generic-in-create-for-feature-selector</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/eslint-plugin/rules/prefer-protected-state</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/eslint-plugin/rules/prefer-selector-in-select</loc>
   </url>
   <url>
