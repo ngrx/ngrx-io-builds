@@ -3,11 +3,15 @@
 import { appInit } from './car/car.actions';
 import { selectCars } from './car/car.selectors';
 import { Store } from '@ngrx/store';
+import { RouterLink, RouterOutlet } from '@angular/router';
+import { AsyncPipe, NgFor, NgIf } from '@angular/common';
 
 @Component({
+  standalone: true,
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
+  imports: [RouterOutlet, NgIf, NgFor, AsyncPipe, RouterLink],
 })
 export class AppComponent implements OnInit {
   cars$ = this.store.select(selectCars);
@@ -31,33 +35,38 @@ export class AppComponent implements OnInit {
 /*
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
-*/"><input type="hidden" name="project[files][src/app/app.module.ts]" value="import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
-import { AppComponent } from './app.component';
-import { StoreModule } from '@ngrx/store';
+*/"><input type="hidden" name="project[files][src/app/app.config.ts]" value="import { ApplicationConfig } from '@angular/core';
+import { provideStore } from '@ngrx/store';
+import { provideStoreDevtools } from '@ngrx/store-devtools';
+import { provideRouterStore, routerReducer } from '@ngrx/router-store';
+import {
+  provideRouter,
+  withEnabledBlockingInitialNavigation,
+} from '@angular/router';
+import { isDevMode } from '@angular/core';
 import { reducer } from './car/car.reducer';
 import { CarComponent } from './car/car.component';
-import { RouterModule } from '@angular/router';
-import { StoreRouterConnectingModule, routerReducer } from '@ngrx/router-store';
 
-@NgModule({
-  imports: [
-    BrowserModule,
-    FormsModule,
-    StoreModule.forRoot({ cars: reducer, router: routerReducer }),
-    RouterModule.forRoot([
-      {
-        path: ':carId',
-        component: CarComponent,
-      },
-    ]),
-    StoreRouterConnectingModule.forRoot(),
+export const appConfig: ApplicationConfig = {
+  providers: [
+    provideStore({ cars: reducer, router: routerReducer }),
+    provideRouter(
+      [
+        {
+          path: ':carId',
+          component: CarComponent,
+        },
+      ],
+      withEnabledBlockingInitialNavigation()
+    ),
+    provideStoreDevtools({
+      maxAge: 25,
+      logOnly: !isDevMode(),
+      name: 'NgRx Standalone App',
+    }),
+    provideRouterStore(),
   ],
-  declarations: [AppComponent, CarComponent],
-  bootstrap: [AppComponent],
-})
-export class AppModule {}
+};
 
 
 /*
@@ -73,19 +82,21 @@ export const appInit = createAction('[App] Init', props<{ cars: Car[] }>());
 /*
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
-*/"><input type="hidden" name="project[files][src/app/car/car.component.ts]" value="import { Component } from '@angular/core';
+*/"><input type="hidden" name="project[files][src/app/car/car.component.ts]" value="import { Component, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { selectCar } from './car.selectors';
+import { AsyncPipe, JsonPipe } from '@angular/common';
 
 @Component({
+  standalone: true,
   selector: 'app-car',
   templateUrl: './car.component.html',
   styleUrls: ['./car.component.css'],
+  imports: [AsyncPipe, JsonPipe],
 })
 export class CarComponent {
+  private store = inject(Store);
   car$ = this.store.select(selectCar);
-
-  constructor(private store: Store) {}
 }
 
 
@@ -200,19 +211,11 @@ export const environment = {
 /*
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://github.com/ngrx/platform
-*/"><input type="hidden" name="project[files][src/main.ts]" value="import { enableProdMode } from '@angular/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+*/"><input type="hidden" name="project[files][src/main.ts]" value="import { bootstrapApplication } from '@angular/platform-browser';
+import { AppComponent } from './app/app.component';
+import { appConfig } from './app/app.config';
 
-import { AppModule } from './app/app.module';
-import { environment } from './environments/environment';
-
-if (environment.production) {
-  enableProdMode();
-}
-
-platformBrowserDynamic()
-  .bootstrapModule(AppModule)
-  .catch((err) => console.error(err));
+bootstrapApplication(AppComponent, appConfig);
 
 
 /*
