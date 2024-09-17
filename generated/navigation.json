@@ -308,6 +308,10 @@
                 {
                   "title": "Entity Management",
                   "url": "guide/signals/signal-store/entity-management"
+                },
+                {
+                  "title": "Testing",
+                  "url": "guide/signals/signal-store/testing"
                 }
               ]
             },
@@ -783,12 +787,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.51df3aee",
+    "build": "sha.1f7f7405",
     "version": "18.0.3-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "18.0.3-local+sha.51df3aee",
+    "full": "18.0.3-local+sha.1f7f7405",
     "branch": "master",
-    "commitSHA": "51df3aee0da3ce0b8b938b8e0fafaba415d88fb2"
+    "commitSHA": "1f7f7405f6c67ff2ef0a12368f5f5d2fac2a0ca8"
   }
 }

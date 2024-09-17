@@ -361,6 +361,9 @@
     <loc>https://ngrx.io/guide/signals/signal-store/state-tracking</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/signals/signal-store/testing</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/store-devtools/config</loc>
   </url>
   <url>
