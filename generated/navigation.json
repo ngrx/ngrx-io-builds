@@ -320,6 +320,10 @@
               "url": "guide/signals/signal-state"
             },
             {
+              "title": "DeepComputed",
+              "url": "guide/signals/deep-computed"
+            },
+            {
               "title": "RxJS Integration",
               "url": "guide/signals/rxjs-integration"
             },
@@ -787,12 +791,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.ffc1d875",
+    "build": "sha.269bd32b",
     "version": "18.0.3-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "18.0.3-local+sha.ffc1d875",
+    "full": "18.0.3-local+sha.269bd32b",
     "branch": "master",
-    "commitSHA": "ffc1d875cbed6abc0c636e226277a20133edb7cc"
+    "commitSHA": "269bd32bb7a924b3836dbcff82ca9ab1314bf414"
   }
 }

@@ -328,6 +328,9 @@
     <loc>https://ngrx.io/guide/schematics/store</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/signals/deep-computed</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/signals/faq</loc>
   </url>
   <url>
@@ -1436,6 +1439,9 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/signals</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/signals/deepComputed</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/signals/DeepSignal</loc>
