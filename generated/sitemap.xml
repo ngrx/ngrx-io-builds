@@ -1150,6 +1150,9 @@
     <loc>https://ngrx.io/api/data/HttpMethods</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/data/HttpOptions</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/data/RequestData</loc>
   </url>
   <url>

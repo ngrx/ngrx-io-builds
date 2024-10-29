@@ -2221,6 +2221,14 @@
         "securityRisk": false
       },
       {
+        "name": "httpoptions",
+        "title": "HttpOptions",
+        "path": "api/data/HttpOptions",
+        "docType": "interface",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "httpresourceurls",
         "title": "HttpResourceUrls",
         "path": "api/data/HttpResourceUrls",
