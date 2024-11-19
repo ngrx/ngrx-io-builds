@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1731949225456,
+  "timestamp": 1732033144869,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -1176,7 +1176,7 @@
     "/generated/docs/api/store/testing/createMockStore.json": "b5f7111f9d5602da6ce324c9e943aac65882c208",
     "/generated/docs/api/store/testing/provideMockStore.json": "b860ed76499ff51535ddf8cc870576118bc98242",
     "/generated/docs/api/store/union.json": "b18f2e767e18661ac036fa015ec0b17db8c94023",
-    "/generated/docs/app/search-data.json": "ad7b1e53027fcbbd6e91484d0f5f8bf3c68e8716",
+    "/generated/docs/app/search-data.json": "4f0453aebd79f37febb95a1333a40a4f3eb2c1b1",
     "/generated/docs/contributing.json": "4c7957c3c81d4b50e5084c18375edeadc6095cc1",
     "/generated/docs/docs.json": "70f2e96f98c89284c124e2da590cc93fdc1fb4ec",
     "/generated/docs/enterprise-support.json": "90f869e6046ad7448c0ffc2beecf0f181a6c174b",
@@ -1296,7 +1296,7 @@
     "/generated/docs/guide/signals/faq.json": "e3f22d4706cd52404aa55b5b1686288bad4102ff",
     "/generated/docs/guide/signals/install.json": "399f97b00cbe88724a22336913a155dbf168bc0d",
     "/generated/docs/guide/signals/rxjs-integration.json": "4a8c1f3dff2a67a6734c4bf859ed4e491e3a5a74",
-    "/generated/docs/guide/signals/signal-state.json": "789f0cca2e013b6e075885614b4ac8253ee8033c",
+    "/generated/docs/guide/signals/signal-state.json": "d6aded0de52092dfe8a67019c2f0b97ea00402dc",
     "/generated/docs/guide/signals/signal-store.json": "78c6044b56f4502395f0a9b1c9a51f5650097135",
     "/generated/docs/guide/signals/signal-store/custom-store-features.json": "2a5b2e9493fb2130fbaf5ec9c597c9b966852c8e",
     "/generated/docs/guide/signals/signal-store/entity-management.json": "f18cd4b9b13b0f7bbe8e19a77c7fc56026e501f8",
@@ -1395,7 +1395,7 @@
     "/generated/images/marketing/concept-icons/universal.svg": "69516bc8a226c9df3c564f7a4f0fec1b66e7711f",
     "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
     "/generated/images/marketing/home/ngrx-conf-badge.svg": "f6c369c9c05b4b4df3373a7fb31dd3f4e82c9a44",
-    "/generated/navigation.json": "48cf031444a4d30a45ec17f3a6d7221fcef7489e",
+    "/generated/navigation.json": "38f29e5906c97bb815b1e0e572fc836432d1a94b",
     "/generated/resources.json": "187bbb4f63bac415553db8bc033d822bb0b5a47e",
     "/index.html": "6f4718efa8fadd0dd8c79d71973b941b9b9894c7",
     "/light-theme.css": "af6e8fca0da10e9eed053318ea52c0434ddc7c53",
