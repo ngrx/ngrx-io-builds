@@ -569,6 +569,10 @@
       "title": "Migrations",
       "children": [
         {
+          "title": "V19",
+          "url": "guide/migration/v19"
+        },
+        {
           "title": "V18",
           "url": "guide/migration/v18"
         },
@@ -722,6 +726,10 @@
   ],
   "docVersions": [
     {
+      "title": "v18",
+      "url": "https://v18.ngrx.io"
+    },
+    {
       "title": "v17",
       "url": "https://v17.ngrx.io"
     },
@@ -784,19 +792,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "18.1.1",
-    "major": 18,
-    "minor": 1,
-    "patch": 2,
+    "raw": "19.0.0-beta.0",
+    "major": 19,
+    "minor": 0,
+    "patch": 0,
     "prerelease": [
       "local"
     ],
-    "build": "sha.698f0b7c",
-    "version": "18.1.2-local",
+    "build": "sha.b57e7071",
+    "version": "19.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "18.1.2-local+sha.698f0b7c",
+    "full": "19.0.0-local+sha.b57e7071",
     "branch": "master",
-    "commitSHA": "698f0b7cf8a2b6bb9dd0eb9bfb89be305fb879b6"
+    "commitSHA": "b57e7071c86ad1ac4fbfdd6b6f9b8b0d137a3aa4"
   }
 }
