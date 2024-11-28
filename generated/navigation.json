@@ -294,6 +294,10 @@
                   "url": "guide/signals/signal-store/lifecycle-hooks"
                 },
                 {
+                  "title": "Custom Store Properties",
+                  "url": "guide/signals/signal-store/custom-store-properties"
+                },
+                {
                   "title": "State Tracking",
                   "url": "guide/signals/signal-store/state-tracking"
                 },
@@ -799,12 +803,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.2528d399",
+    "build": "sha.e6260829",
     "version": "19.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "19.0.0-local+sha.2528d399",
+    "full": "19.0.0-local+sha.e6260829",
     "branch": "master",
-    "commitSHA": "2528d39994d6372033dc6f4b82138afb860e5bf9"
+    "commitSHA": "e62608293f337f62cbc45bf1dd67db5f4e803dbc"
   }
 }

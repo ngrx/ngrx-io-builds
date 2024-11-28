@@ -352,6 +352,9 @@
     <loc>https://ngrx.io/guide/signals/signal-store/custom-store-features</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/signals/signal-store/custom-store-properties</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/signals/signal-store/entity-management</loc>
   </url>
   <url>
@@ -1513,6 +1516,9 @@
     <loc>https://ngrx.io/api/signals/withMethods</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/signals/withProps</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/signals/withState</loc>
   </url>
   <url>
@@ -1555,19 +1561,19 @@
     <loc>https://ngrx.io/api/signals/entities/entityConfig</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/signals/entities/EntityComputed</loc>
-  </url>
-  <url>
     <loc>https://ngrx.io/api/signals/entities/EntityId</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/signals/entities/EntityMap</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/api/signals/entities/EntityProps</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/api/signals/entities/EntityState</loc>
   </url>
   <url>
-    <loc>https://ngrx.io/api/signals/entities/NamedEntityComputed</loc>
+    <loc>https://ngrx.io/api/signals/entities/NamedEntityProps</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/signals/entities/NamedEntityState</loc>

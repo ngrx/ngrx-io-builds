@@ -2762,6 +2762,14 @@
         "securityRisk": false
       },
       {
+        "name": "withprops",
+        "title": "withProps",
+        "path": "api/signals/withProps",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "withstate",
         "title": "withState",
         "path": "api/signals/withState",
@@ -2801,14 +2809,6 @@
         "securityRisk": false
       },
       {
-        "name": "entitycomputed",
-        "title": "EntityComputed",
-        "path": "api/signals/entities/EntityComputed",
-        "docType": "type-alias",
-        "stability": "stable",
-        "securityRisk": false
-      },
-      {
         "name": "entityconfig",
         "title": "entityConfig",
         "path": "api/signals/entities/entityConfig",
@@ -2833,6 +2833,14 @@
         "securityRisk": false
       },
       {
+        "name": "entityprops",
+        "title": "EntityProps",
+        "path": "api/signals/entities/EntityProps",
+        "docType": "type-alias",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "entitystate",
         "title": "EntityState",
         "path": "api/signals/entities/EntityState",
@@ -2841,9 +2849,9 @@
         "securityRisk": false
       },
       {
-        "name": "namedentitycomputed",
-        "title": "NamedEntityComputed",
-        "path": "api/signals/entities/NamedEntityComputed",
+        "name": "namedentityprops",
+        "title": "NamedEntityProps",
+        "path": "api/signals/entities/NamedEntityProps",
         "docType": "type-alias",
         "stability": "stable",
         "securityRisk": false
