@@ -2650,6 +2650,14 @@
         "securityRisk": false
       },
       {
+        "name": "signalmethod",
+        "title": "signalMethod",
+        "path": "api/signals/signalMethod",
+        "docType": "function",
+        "stability": "stable",
+        "securityRisk": false
+      },
+      {
         "name": "signalstate",
         "title": "signalState",
         "path": "api/signals/signalState-0",

@@ -346,6 +346,9 @@
     <loc>https://ngrx.io/guide/signals/rxjs-integration</loc>
   </url>
   <url>
+    <loc>https://ngrx.io/guide/signals/signal-method</loc>
+  </url>
+  <url>
     <loc>https://ngrx.io/guide/signals/signal-state</loc>
   </url>
   <url>
@@ -1454,6 +1457,9 @@
   </url>
   <url>
     <loc>https://ngrx.io/api/signals/DeepSignal</loc>
+  </url>
+  <url>
+    <loc>https://ngrx.io/api/signals/signalMethod</loc>
   </url>
   <url>
     <loc>https://ngrx.io/api/signals/signalState</loc>
