@@ -807,12 +807,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.bdd1d3e6",
+    "build": "sha.e2f35c87",
     "version": "19.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "19.0.0-local+sha.bdd1d3e6",
+    "full": "19.0.0-local+sha.e2f35c87",
     "branch": "master",
-    "commitSHA": "bdd1d3e6ede594c7a2626a58cbb7c9dca9f63435"
+    "commitSHA": "e2f35c877146635e44a2dd99d642980277b36620"
   }
 }
