@@ -800,19 +800,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "19.0.0-beta.0",
+    "raw": "19.0.0-rc.0",
     "major": 19,
     "minor": 0,
     "patch": 0,
     "prerelease": [
       "local"
     ],
-    "build": "sha.1b571c32",
+    "build": "sha.e8fe9088",
     "version": "19.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "19.0.0-local+sha.1b571c32",
+    "full": "19.0.0-local+sha.e8fe9088",
     "branch": "master",
-    "commitSHA": "1b571c32b20833d78bdd580f43a13a1d239936a2"
+    "commitSHA": "e8fe90880aedc2eb0877c3e2ffa3bc81a8f37acb"
   }
 }
