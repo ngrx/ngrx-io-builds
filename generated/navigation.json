@@ -1,10 +1,6 @@
 {
   "TopBar": [
     {
-      "url": "guide/store",
-      "title": "Getting Started"
-    },
-    {
       "url": "docs",
       "title": "Docs"
     },
@@ -25,10 +21,6 @@
     {
       "title": "About NgRx",
       "children": [
-        {
-          "url": "guide/store",
-          "title": "Getting Started"
-        },
         {
           "url": "docs",
           "title": "Docs"
@@ -807,12 +799,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.e8fe9088",
+    "build": "sha.5f9c104a",
     "version": "19.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "19.0.0-local+sha.e8fe9088",
+    "full": "19.0.0-local+sha.5f9c104a",
     "branch": "master",
-    "commitSHA": "e8fe90880aedc2eb0877c3e2ffa3bc81a8f37acb"
+    "commitSHA": "5f9c104a4ad827c1f6188685a6b18af630b30dc9"
   }
 }
