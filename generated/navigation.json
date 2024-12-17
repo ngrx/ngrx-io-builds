@@ -730,6 +730,10 @@
       "url": "https://v18.ngrx.io"
     },
     {
+      "title": "v18",
+      "url": "https://v18.ngrx.io"
+    },
+    {
       "title": "v17",
       "url": "https://v17.ngrx.io"
     },
@@ -792,19 +796,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "19.0.0-rc.0",
+    "raw": "19.0.0",
     "major": 19,
     "minor": 0,
-    "patch": 0,
+    "patch": 1,
     "prerelease": [
       "local"
     ],
-    "build": "sha.5f9c104a",
-    "version": "19.0.0-local",
+    "build": "sha.6a717f33",
+    "version": "19.0.1-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "19.0.0-local+sha.5f9c104a",
+    "full": "19.0.1-local+sha.6a717f33",
     "branch": "master",
-    "commitSHA": "5f9c104a4ad827c1f6188685a6b18af630b30dc9"
+    "commitSHA": "6a717f3322a678032a07c0813d776298cd9f56b8"
   }
 }
